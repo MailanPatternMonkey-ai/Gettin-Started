@@ -4,7 +4,7 @@ This repository is the public, source-controlled home for the individually revie
 
 ## Current release boundary
 
-The expanded publication contains 27 source artifacts selected for public, impersonal research use.
+The expanded publication contains 30 source artifacts selected for public, impersonal research use.
 
 ### Active orbit-quotient successor stack
 
@@ -36,11 +36,14 @@ The simulation package is deliberately status-labeled. Appendix B is frozen, but
 
 ### Abundance and Corner framework package
 
-- The Corner Set — dated 2026-07-22 and treated as the active unified reference. Its source explicitly replaces the earlier TOH, OMNIBUS v5.2, CTA-Core, Corner v3, metabolism layer, synthesis map, and Abundance Engine set.
+- The Abundance Engine v7.0 — the current Abundance successor reference architecture. Its complete text bundle includes the reference architecture, the normative v6→v7 supersession matrix, and the bundle manifest.
+- The Corner Set — dated 2026-07-22 and retained as the current Corner unified reference. Its source explicitly replaces the earlier TOH, OMNIBUS v5.2, CTA-Core, Corner v3, metabolism layer, synthesis map, and earlier Abundance set.
 - Start a Corner v1.0 — a CC0 draft field guide. Repository inclusion preserves its draft status.
-- The Abundance Engine v6 and The Corner Model — preserved CC0 precursors for provenance and historical comparison; neither is presented as the current governing framework.
+- The Abundance Engine v6 and The Corner Model — preserved CC0 precursors for provenance and historical comparison.
 
-These four files are readable text exports of native Google Docs retrieved on 2026-09-02. Their Drive identifiers, source URLs, modification times, and review statuses are recorded in `corpus/manifest.json`. The related short story remains off GitHub because this release is limited to core framework material.
+The v7.0 three-file bundle was identified by the user in the ChatGPT Civilization project and published from the matching local archive with archive and member hashes recorded in `corpus/manifest.json`. The four earlier framework files are readable text exports of native Google Docs retrieved on 2026-09-02.
+
+The v7.0 source manifest declares OMNIBUS v7.77, GQG v0.12, Hidden Quotient Core v1.6, and Operational Addendum v0.7 as its live external references. This repository separately preserves newer active successors; publication does not silently rewrite the v7.0 source declaration. The related short story remains off GitHub because this release is limited to core framework material.
 
 The wider Drive inventory is not silently published. Files involving private people, literary or personal material, or files whose public status remains uncertain stay off GitHub pending an explicit per-file decision.
 

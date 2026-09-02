@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "snapshot_date": "2026-09-02",
   "license": "CC0-1.0",
-  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, an explicitly status-labeled simulation protocol package, and a status-labeled CC0 Abundance/Corner framework package",
+  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, an explicitly status-labeled simulation protocol package, and a status-labeled CC0 Abundance/Corner framework package including the Abundance v7.0 successor bundle",
   "source": "Google Drive and user-supplied local attachments",
   "files": [
     {
@@ -220,7 +220,7 @@
       "source_size_bytes": 58621,
       "license": "CC0-1.0",
       "license_basis": "source declaration",
-      "review_status": "public-impersonal-active-unified-reference"
+      "review_status": "public-impersonal-current-corner-unified-reference"
     },
     {
       "path": "corpus/frameworks/corner/START_A_CORNER_v1.0_DRAFT.txt",
@@ -260,6 +260,60 @@
       "license": "CC0-1.0",
       "license_basis": "source declaration",
       "review_status": "public-impersonal-preserved-superseded-precursor"
+    },
+    {
+      "path": "corpus/frameworks/abundance/v7.0/THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_REFERENCE_ARCHITECTURE.md",
+      "title": "THE ABUNDANCE ENGINE — Open-Field Reference Architecture",
+      "version": "7.0",
+      "source_filename": "THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_REFERENCE_ARCHITECTURE.md",
+      "source_sha256": "6e620dc1b5feedbad0f182eece509c396667f8a37cf9a7bddd942d6a440f31d1",
+      "source_size_bytes": 52911,
+      "review_status": "public-impersonal-active-abundance-successor",
+      "source_origin": "user-identified ChatGPT Civilization project upload; local matching archive used for publication",
+      "source_bundle_filename": "THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_BUNDLE.zip",
+      "source_bundle_sha256": "77785dbad7cbc8070abac0289eb08da8dfc6669d62046999a597b681b86c3f38",
+      "source_bundle_size_bytes": 23530,
+      "source_bundle_modified_utc": "2026-09-02T01:45:41.3731781Z",
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration and bundle manifest"
+    },
+    {
+      "path": "corpus/frameworks/abundance/v7.0/ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv",
+      "title": "Abundance v6 to v7 Supersession Matrix",
+      "version": "7.0",
+      "source_filename": "ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv",
+      "source_sha256": "6e341887b3ca46d7659eaaa364b5b8c0fb59f61c047cc31a779a1fa2864c55f2",
+      "source_size_bytes": 6385,
+      "review_status": "public-impersonal-normative-supersession-matrix",
+      "source_origin": "user-identified ChatGPT Civilization project upload; local matching archive used for publication",
+      "source_bundle_filename": "THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_BUNDLE.zip",
+      "source_bundle_sha256": "77785dbad7cbc8070abac0289eb08da8dfc6669d62046999a597b681b86c3f38",
+      "source_bundle_size_bytes": 23530,
+      "source_bundle_modified_utc": "2026-09-02T01:45:41.3731781Z",
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration and bundle manifest"
+    },
+    {
+      "path": "corpus/frameworks/abundance/v7.0/v7.0_manifest.json",
+      "title": "Abundance v7.0 Bundle Manifest",
+      "version": "7.0",
+      "source_filename": "v7.0_manifest.json",
+      "source_sha256": "50c082694e575afef07d539cb73dbee2800a1d4e543efa8e888c30348bc46842",
+      "source_size_bytes": 911,
+      "review_status": "public-impersonal-source-bundle-manifest",
+      "source_origin": "user-identified ChatGPT Civilization project upload; local matching archive used for publication",
+      "source_bundle_filename": "THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_BUNDLE.zip",
+      "source_bundle_sha256": "77785dbad7cbc8070abac0289eb08da8dfc6669d62046999a597b681b86c3f38",
+      "source_bundle_size_bytes": 23530,
+      "source_bundle_modified_utc": "2026-09-02T01:45:41.3731781Z",
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration and bundle manifest"
     }
   ]
 }
