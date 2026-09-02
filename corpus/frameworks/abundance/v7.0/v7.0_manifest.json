@@ -1,0 +1,29 @@
+{
+  "title": "THE ABUNDANCE ENGINE \u2014 Open-Field Reference Architecture",
+  "version": "7.0",
+  "original_architecture": "Steward",
+  "edition_type": "successor modernization",
+  "license": "CC0 1.0 Universal",
+  "parts": 11,
+  "live_external_reference_versions": {
+    "OMNIBUS": "v7.77 (with its stated predecessor continuity)",
+    "GQG": "v0.12",
+    "Hidden_Quotient_Core": "v1.6",
+    "Hidden_Quotient_Operational_Addendum": "v0.7"
+  },
+  "historical_exclusions": [
+    "Livingism as governing doctrine"
+  ],
+  "files": [
+    {
+      "name": "THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_REFERENCE_ARCHITECTURE.md",
+      "bytes": 52911,
+      "sha256": "6e620dc1b5feedbad0f182eece509c396667f8a37cf9a7bddd942d6a440f31d1"
+    },
+    {
+      "name": "ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv",
+      "bytes": 6385,
+      "sha256": "6e341887b3ca46d7659eaaa364b5b8c0fb59f61c047cc31a779a1fa2864c55f2"
+    }
+  ]
+}
