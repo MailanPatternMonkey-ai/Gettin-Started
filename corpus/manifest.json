@@ -2,8 +2,8 @@
   "schema_version": "1.1",
   "snapshot_date": "2026-09-02",
   "license": "CC0-1.0",
-  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, and an explicitly status-labeled simulation protocol package",
-  "source": "Google Drive",
+  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, an explicitly status-labeled simulation protocol package, and a status-labeled CC0 Abundance/Corner framework package",
+  "source": "Google Drive and user-supplied local attachments",
   "files": [
     {
       "path": "corpus/core/OMNIBUS_v7.77_UNIFIED_RETURN_RESIDUAL_CLOSURE.md",
@@ -208,6 +208,58 @@
       "license": "CC0-1.0",
       "license_basis": "source declaration and repository scope",
       "review_status": "public-impersonal-active-governing-successor"
+    },
+    {
+      "path": "corpus/frameworks/corner/THE_CORNER_SET_2026-07-22.txt",
+      "title": "THE CORNER SET",
+      "drive_id": "14doWCU1aDmO-A8sr_ZrqzkmfQeigtNc_0R3DgRmin1A",
+      "source_url": "https://docs.google.com/document/d/14doWCU1aDmO-A8sr_ZrqzkmfQeigtNc_0R3DgRmin1A/edit?usp=drivesdk",
+      "source_origin": "Google Drive native document",
+      "source_modified_time": "2026-07-27T13:12:32.668Z",
+      "source_export_mime_type": "text/plain",
+      "source_size_bytes": 58621,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration",
+      "review_status": "public-impersonal-active-unified-reference"
+    },
+    {
+      "path": "corpus/frameworks/corner/START_A_CORNER_v1.0_DRAFT.txt",
+      "title": "START A CORNER",
+      "drive_id": "1qAbDXjIIjKdjIMSOFjTCMINAN4lbL2zrY8MPOLmfB2c",
+      "source_url": "https://docs.google.com/document/d/1qAbDXjIIjKdjIMSOFjTCMINAN4lbL2zrY8MPOLmfB2c/edit?usp=drivesdk",
+      "source_origin": "Google Drive native document",
+      "source_modified_time": "2026-07-22T15:40:47.759Z",
+      "source_export_mime_type": "text/plain",
+      "source_size_bytes": 3464,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration",
+      "review_status": "public-impersonal-draft-field-guide"
+    },
+    {
+      "path": "corpus/frameworks/abundance/THE_ABUNDANCE_ENGINE_v6.txt",
+      "title": "THE ABUNDANCE ENGINE",
+      "drive_id": "1mYTVaQdsd-SqYDAD91dIb8mbjXwSn3miNo20hGwpHTM",
+      "source_url": "https://docs.google.com/document/d/1mYTVaQdsd-SqYDAD91dIb8mbjXwSn3miNo20hGwpHTM/edit?usp=drivesdk",
+      "source_origin": "Google Drive native document",
+      "source_modified_time": "2026-07-22T16:05:02.768Z",
+      "source_export_mime_type": "text/plain",
+      "source_size_bytes": 111929,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration",
+      "review_status": "public-impersonal-preserved-superseded-precursor"
+    },
+    {
+      "path": "corpus/frameworks/corner/THE_CORNER_MODEL.txt",
+      "title": "THE CORNER MODEL",
+      "drive_id": "1XJZ-nLFKbKI2hOmeA-sj12JoXCpn2ZEm6W7_IATIBaw",
+      "source_url": "https://docs.google.com/document/d/1XJZ-nLFKbKI2hOmeA-sj12JoXCpn2ZEm6W7_IATIBaw/edit?usp=drivesdk",
+      "source_origin": "Google Drive native document",
+      "source_modified_time": "2026-05-30T17:02:47.987Z",
+      "source_export_mime_type": "text/plain",
+      "source_size_bytes": 19380,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration",
+      "review_status": "public-impersonal-preserved-superseded-precursor"
     }
   ]
 }
