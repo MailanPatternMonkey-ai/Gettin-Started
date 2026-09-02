@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-02",
+  "license": "CC0-1.0",
+  "publication_boundary": "individually reviewed impersonal core artifacts only",
+  "source": "Google Drive",
+  "files": [
+    {
+      "path": "corpus/core/OMNIBUS_v7.77_UNIFIED_RETURN_RESIDUAL_CLOSURE.md",
+      "title": "OMNIBUS_v7.77_UNIFIED_RETURN_RESIDUAL_CLOSURE.md",
+      "drive_id": "1n2DqVJOMqZMMk-Tzp96yTExrKE-0Y-F4",
+      "source_url": "https://drive.google.com/file/d/1n2DqVJOMqZMMk-Tzp96yTExrKE-0Y-F4",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal"
+    },
+    {
+      "path": "corpus/core/GQG_0.12_Unified_Return_Residual_Closure.md",
+      "title": "GQG_0.12_Unified_Return_Residual_Closure.md",
+      "drive_id": "13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA",
+      "source_url": "https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal"
+    },
+    {
+      "path": "corpus/core/Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md",
+      "title": "Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md",
+      "drive_id": "1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N",
+      "source_url": "https://drive.google.com/file/d/1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal"
+    },
+    {
+      "path": "corpus/core/THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.6_Unified_Return_Residual_Closure.md",
+      "title": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.6_Unified_Return_Residual_Closure.md",
+      "drive_id": "1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt",
+      "source_url": "https://drive.google.com/file/d/1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal"
+    },
+    {
+      "path": "corpus/manifests/RETURN_RESIDUAL_STACK_UPGRADE_MANIFEST_v1.1.md",
+      "title": "RETURN_RESIDUAL_STACK_UPGRADE_MANIFEST_v1.1.md",
+      "drive_id": "1iZOQ4y5PI6fIaLK7rF-xkS37wHT8wbnb",
+      "source_url": "https://drive.google.com/file/d/1iZOQ4y5PI6fIaLK7rF-xkS37wHT8wbnb",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal"
+    }
+  ]
+}
