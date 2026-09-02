@@ -4,7 +4,7 @@ This repository is the public, source-controlled home for the individually revie
 
 ## Current release boundary
 
-The expanded publication contains 23 source artifacts selected for public, impersonal research use.
+The expanded publication contains 27 source artifacts selected for public, impersonal research use.
 
 ### Active orbit-quotient successor stack
 
@@ -34,6 +34,14 @@ The stack manifests remain historical receipts of the return-residual predecesso
 
 The simulation package is deliberately status-labeled. Appendix B is frozen, but A.8 execution and A.10 validation remain pending and the execution root is blocked. The scaffold files say `NOT_RUN`/`SCAFFOLD_ONLY`; publication does not convert them into completed tests or empirical results.
 
+### Abundance and Corner framework package
+
+- The Corner Set — dated 2026-07-22 and treated as the active unified reference. Its source explicitly replaces the earlier TOH, OMNIBUS v5.2, CTA-Core, Corner v3, metabolism layer, synthesis map, and Abundance Engine set.
+- Start a Corner v1.0 — a CC0 draft field guide. Repository inclusion preserves its draft status.
+- The Abundance Engine v6 and The Corner Model — preserved CC0 precursors for provenance and historical comparison; neither is presented as the current governing framework.
+
+These four files are readable text exports of native Google Docs retrieved on 2026-09-02. Their Drive identifiers, source URLs, modification times, and review statuses are recorded in `corpus/manifest.json`. The related short story remains off GitHub because this release is limited to core framework material.
+
 The wider Drive inventory is not silently published. Files involving private people, literary or personal material, or files whose public status remains uncertain stay off GitHub pending an explicit per-file decision.
 
 ## Evidence boundary
@@ -45,6 +53,7 @@ Repository inclusion preserves the status declared by each source. It does not u
 - `corpus/core/` — active governing artifacts and preserved core predecessors
 - `corpus/manifests/` — preserved coordinated-stack manifests
 - `corpus/protocols/` — status-labeled protocols and validation scaffolds
+- `corpus/frameworks/` — active and preserved Abundance/Corner framework materials
 - `corpus/manifest.json` — machine-readable provenance, source hashes, and publication status
 
 ## License
