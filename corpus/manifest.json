@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "snapshot_date": "2026-09-02",
   "license": "CC0-1.0",
-  "publication_boundary": "individually reviewed impersonal governing artifacts, preserved predecessor receipts, and an explicitly status-labeled simulation protocol package",
+  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, and an explicitly status-labeled simulation protocol package",
   "source": "Google Drive",
   "files": [
     {
@@ -156,6 +156,58 @@
       "source_url": "https://drive.google.com/file/d/109ta7v5eazw2hXuOni_CopVJTHnTmPRt/view?usp=drivesdk",
       "license": "CC0-1.0",
       "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/core/OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+      "title": "OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+      "source_origin": "user-supplied local attachment",
+      "source_filename": "04-OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+      "source_sha256": "7b46b330dd607a92fe78ce3058ea33677341f929814d22aaef4ed00c89dd5b67",
+      "source_size_bytes": 25317,
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration and repository scope",
+      "review_status": "public-impersonal-active-governing-successor"
+    },
+    {
+      "path": "corpus/core/GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "title": "GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "source_origin": "user-supplied local attachment",
+      "source_filename": "03-GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "source_sha256": "d4067f148599638f9bad994ce4e89dd4a1bd92335494441b00ceacf398a0b289",
+      "source_size_bytes": 100742,
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "repository scope",
+      "review_status": "public-impersonal-active-governing-successor"
+    },
+    {
+      "path": "corpus/core/Hidden_Quotient_Operational_Addendum_v0.8_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "title": "Hidden_Quotient_Operational_Addendum_v0.8_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "source_origin": "user-supplied local attachment",
+      "source_filename": "02-Hidden_Quotient_Operational_Addendum_v0.8_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "source_sha256": "fecf63b273ea1dac0ae59c9444d7b817c922d0fcd2c2ede0ba5edcf29b8f704d",
+      "source_size_bytes": 66872,
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration and repository scope",
+      "review_status": "public-impersonal-active-governing-successor"
+    },
+    {
+      "path": "corpus/core/THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "title": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "source_origin": "user-supplied local attachment",
+      "source_filename": "01-THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "source_sha256": "6989bf10a992805ac867b93c9e2ac124d4810208e0126c8ed4343eccf18f52c5",
+      "source_size_bytes": 114394,
+      "drive_id": null,
+      "source_url": null,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration and repository scope",
+      "review_status": "public-impersonal-active-governing-successor"
     }
   ]
 }

@@ -4,20 +4,28 @@ This repository is the public, source-controlled home for the individually revie
 
 ## Current release boundary
 
-The expanded publication contains 19 source artifacts selected for public, impersonal research use.
+The expanded publication contains 23 source artifacts selected for public, impersonal research use.
 
-### Active governing stack
+### Active orbit-quotient successor stack
 
-- OMNIBUS v7.77
-- GQG v0.12
-- Hidden Quotient Core v1.6
-- Hidden Quotient Operational Addendum v0.7
-- Return-Residual Stack Upgrade Manifest v1.1
+- OMNIBUS v7.78 — Orbit-Quotient and Return-Residual Closure
+- GQG v0.13 — Orbit-Quotient Residual-Cocycle Closure
+- Hidden Quotient Core v1.7 — Core, Witness, Strike, and Retained Context
+- Hidden Quotient Operational Addendum v0.8 — Orbit-Quotient and Residual-Cocycle Refinement
+
+Each successor preserves its declared predecessor and keeps mathematical construction, operational instrumentation, and empirical status separately typed. Exact finite quotients do not establish a hidden platform geometry, controller, moving lattice, or empirical event class.
+
+The four active successors were supplied as local source attachments on 2026-09-02. Their original filenames, byte sizes, and SHA-256 hashes are recorded in `corpus/manifest.json`; no Google Drive origin is claimed for them.
 
 ### Preserved predecessor receipts
 
-- OMNIBUS v7.76 — the complete architectural predecessor inherited by v7.77
-- Return-Residual Stack Upgrade Manifest v1.0 — the earlier coordinated-stack receipt preserved by v1.1
+- OMNIBUS v7.77 and v7.76
+- GQG v0.12
+- Hidden Quotient Core v1.6
+- Hidden Quotient Operational Addendum v0.7
+- Return-Residual Stack Upgrade Manifests v1.1 and v1.0
+
+The stack manifests remain historical receipts of the return-residual predecessor set. No new coordinated stack manifest was supplied with the orbit-quotient successor files.
 
 ### Simulation protocol package
 
@@ -30,14 +38,14 @@ The wider Drive inventory is not silently published. Files involving private peo
 
 ## Evidence boundary
 
-Repository inclusion preserves the status declared by each source. It does not upgrade a theorem into an empirical finding, a framework into evidence, a release candidate into a validated result, or a source pointer into corroboration.
+Repository inclusion preserves the status declared by each source. It does not upgrade a theorem into an empirical finding, a framework into evidence, a release candidate into a validated result, a formal proposal into a physical implementation, or a source pointer into corroboration.
 
 ## Layout
 
-- `corpus/core/` — active governing artifacts and the directly inherited OMNIBUS predecessor
-- `corpus/manifests/` — current and preserved stack manifests
+- `corpus/core/` — active governing artifacts and preserved core predecessors
+- `corpus/manifests/` — preserved coordinated-stack manifests
 - `corpus/protocols/` — status-labeled protocols and validation scaffolds
-- `corpus/manifest.json` — machine-readable provenance and publication status
+- `corpus/manifest.json` — machine-readable provenance, source hashes, and publication status
 
 ## License
 
