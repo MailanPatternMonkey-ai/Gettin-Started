@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "snapshot_date": "2026-09-02",
   "license": "CC0-1.0",
-  "publication_boundary": "individually reviewed impersonal core artifacts only",
+  "publication_boundary": "individually reviewed impersonal governing artifacts, preserved predecessor receipts, and an explicitly status-labeled simulation protocol package",
   "source": "Google Drive",
   "files": [
     {
@@ -44,6 +44,118 @@
       "source_url": "https://drive.google.com/file/d/1iZOQ4y5PI6fIaLK7rF-xkS37wHT8wbnb",
       "license": "CC0-1.0",
       "review_status": "public-impersonal"
+    },
+    {
+      "path": "corpus/core/OMNIBUS_v7.76_RETURN_RESIDUAL_FIREWALL.md",
+      "title": "OMNIBUS_v7.76_RETURN_RESIDUAL_FIREWALL.md",
+      "drive_id": "1RiehhppmaoKKwf-d241Jx6af91WNcXcw",
+      "source_url": "https://drive.google.com/file/d/1RiehhppmaoKKwf-d241Jx6af91WNcXcw/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-preserved-predecessor"
+    },
+    {
+      "path": "corpus/manifests/RETURN_RESIDUAL_STACK_UPGRADE_MANIFEST_v1.0.md",
+      "title": "RETURN_RESIDUAL_STACK_UPGRADE_MANIFEST_v1.0.md",
+      "drive_id": "1ci_DTTXDE4jcAnkShq9rMVAu2APwuBIH",
+      "source_url": "https://drive.google.com/file/d/1ci_DTTXDE4jcAnkShq9rMVAu2APwuBIH/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-preserved-predecessor"
+    },
+    {
+      "path": "corpus/protocols/Simulation_Protocol_v0.3.txt",
+      "title": "Simulation Protocol v0.3",
+      "drive_id": "1HVlQsTPnvAiYPqbS1Lb9UjZkak5jMlbpS0gSeUbAwrE",
+      "source_url": "https://docs.google.com/document/d/1HVlQsTPnvAiYPqbS1Lb9UjZkak5jMlbpS0gSeUbAwrE/edit?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-release-candidate-execution-blocked"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/01_appendix_a_canonical_text.md",
+      "title": "01_appendix_a_canonical_text.md",
+      "drive_id": "12kDmC6n7khSh6bh_jPolwWs3NIoRmY--",
+      "source_url": "https://drive.google.com/file/d/12kDmC6n7khSh6bh_jPolwWs3NIoRmY--/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/02_frozen_geometry_specification.md",
+      "title": "02_frozen_geometry_specification.md",
+      "drive_id": "16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU",
+      "source_url": "https://drive.google.com/file/d/16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/03_transition_acceptance_table.md",
+      "title": "03_transition_acceptance_table.md",
+      "drive_id": "108K215mGLW_Jmp9QBh5QubY5egI9rLtA",
+      "source_url": "https://drive.google.com/file/d/108K215mGLW_Jmp9QBh5QubY5egI9rLtA/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/04_algebra_invariant_test_report.md",
+      "title": "04_algebra_invariant_test_report.md",
+      "drive_id": "1N2Zz1Hs3mx_INpBNu-TM2XvVQNnmT7KR",
+      "source_url": "https://drive.google.com/file/d/1N2Zz1Hs3mx_INpBNu-TM2XvVQNnmT7KR/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/05_small_volume_enumeration_and_tail_certificate.md",
+      "title": "05_small_volume_enumeration_and_tail_certificate.md",
+      "drive_id": "1XCq7YZWmNxPpAICFcpF3tmYtpAPDl5Ya",
+      "source_url": "https://drive.google.com/file/d/1XCq7YZWmNxPpAICFcpF3tmYtpAPDl5Ya/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/06_eight_sector_transform_table.md",
+      "title": "06_eight_sector_transform_table.md",
+      "drive_id": "1nPh4w_GbJvEDk2Rf5khyC3xVwyVqhaOQ",
+      "source_url": "https://drive.google.com/file/d/1nPh4w_GbJvEDk2Rf5khyC3xVwyVqhaOQ/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/07_partition_ratio_validation_report.md",
+      "title": "07_partition_ratio_validation_report.md",
+      "drive_id": "1bL7xE3qAW_kv6GUcJZjfMzdsuqQfYkFQ",
+      "source_url": "https://drive.google.com/file/d/1bL7xE3qAW_kv6GUcJZjfMzdsuqQfYkFQ/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/08_detailed_balance_reachability_report.md",
+      "title": "08_detailed_balance_reachability_report.md",
+      "drive_id": "1amHFGlU_WDrQhF4sIjLfV4rGzBcYb7Fd",
+      "source_url": "https://drive.google.com/file/d/1amHFGlU_WDrQhF4sIjLfV4rGzBcYb7Fd/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/09_blind_mixing_roundtrip_pilot_report.md",
+      "title": "09_blind_mixing_roundtrip_pilot_report.md",
+      "drive_id": "1AWDXE7MR5O-mF76cXyzoi1NAZGtiMynZ",
+      "source_url": "https://drive.google.com/file/d/1AWDXE7MR5O-mF76cXyzoi1NAZGtiMynZ/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/10_ckt_axial_mapping_comparator_report.md",
+      "title": "10_ckt_axial_mapping_comparator_report.md",
+      "drive_id": "1-c7HkvapCQ3Qp-iJptg_Lky4BYYw4paz",
+      "source_url": "https://drive.google.com/file/d/1-c7HkvapCQ3Qp-iJptg_Lky4BYYw4paz/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
+    },
+    {
+      "path": "corpus/protocols/simulation_protocol_v0.3/validation/11_source_commit_build_environment_manifest.md",
+      "title": "11_source_commit_build_environment_manifest.md",
+      "drive_id": "109ta7v5eazw2hXuOni_CopVJTHnTmPRt",
+      "source_url": "https://drive.google.com/file/d/109ta7v5eazw2hXuOni_CopVJTHnTmPRt/view?usp=drivesdk",
+      "license": "CC0-1.0",
+      "review_status": "public-impersonal-scaffold-not-run"
     }
   ]
 }
