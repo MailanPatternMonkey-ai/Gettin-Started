@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-09-02",
+  "snapshot_date": "2026-09-08",
   "license": "CC0-1.0",
-  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, an explicitly status-labeled simulation protocol package, and a status-labeled CC0 Abundance/Corner framework package including the Abundance v7.0 successor bundle",
-  "source": "Google Drive and user-supplied local attachments",
+  "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, an explicitly status-labeled simulation protocol package, and a status-labeled CC0 Abundance/Corner framework package including the Abundance v7.0 successor bundle; plus a separate audited TD-COS-FH-001 analytical companion with recovered sources and fresh supplementary arithmetic, without empirical or authorization upgrades",
+  "source": "Google Drive and user-supplied local attachments, a recovered complete Markdown artifact, and newly authored mathematical review and supplementary checks",
   "files": [
     {
       "path": "corpus/core/OMNIBUS_v7.77_UNIFIED_RETURN_RESIDUAL_CLOSURE.md",
@@ -314,6 +314,162 @@
       "source_url": null,
       "license": "CC0-1.0",
       "license_basis": "source declaration and bundle manifest"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/AUDIT.md",
+      "title": "AUDIT.md",
+      "source_origin": "new mathematical review and source-recovery audit",
+      "source_sha256": "221d9a6c361af79b33b3784bc96d6310e8ebf6a0870fd322455a159a35169995",
+      "source_size_bytes": 8245,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/PROOF.md",
+      "title": "PROOF.md",
+      "source_origin": "reviewed edition of source_note.md sections 1-7; heading, cross-reference and math-delimiter edits only",
+      "source_sha256": "0102e977491981bb7e8698f9d9c09ffb209dd2c1b58f1e1c14584402313c2d1c",
+      "source_size_bytes": 13600,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/README.md",
+      "title": "README.md",
+      "source_origin": "new scoped publication summary and evidence boundary",
+      "source_sha256": "71f1f4394b1d52850a848aed726cbf2f1a5e1bd7d7277c1b1b6315f3dfabe1c7",
+      "source_size_bytes": 5739,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/certificates.json",
+      "title": "certificates.json",
+      "source_origin": "fresh stdout of verify_certificates.py",
+      "source_sha256": "64537b9c55edbcf8c7d9b117b76180ddd02005ec4e1da5ea4fa9b5fd54a39b0f",
+      "source_size_bytes": 14120,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
+      "title": "provenance.json",
+      "source_origin": "new provenance and execution receipt",
+      "source_sha256": "f605fe36cc7c62080fc76f29effe5deac84ac9fbabd892acf3dd8aedecb05a4d",
+      "source_size_bytes": 7672,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/source_note.md",
+      "title": "source_note.md",
+      "source_origin": "byte-preserved complete earlier Markdown artifact",
+      "source_sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7",
+      "source_size_bytes": 25675,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/sources/drive_note_snapshot.txt",
+      "title": "sources/drive_note_snapshot.txt",
+      "source_origin": "native document paragraph text joined with LF plus one terminal LF; includes incomplete verifier",
+      "source_sha256": "f819bbb7285c555397a1758fb5f874122d2592dcb3ed3732a0dc8b2ea358e064",
+      "source_size_bytes": 20000,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/sources/kernel_snapshot.txt",
+      "title": "sources/kernel_snapshot.txt",
+      "source_origin": "native document paragraph text joined with LF plus one terminal LF",
+      "source_sha256": "8cbd8b107fee4a0b6006f49032ec50e1929fe642e2a444be9604e3c1150d4052",
+      "source_size_bytes": 14389,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/sources/review_math_excerpt.md",
+      "title": "sources/review_math_excerpt.md",
+      "source_origin": "native document paragraph text; only sections 2-3 retained, with an explicit editorial excerpt header",
+      "source_sha256": "46d2a169691f2dd37dbd2fa7bc22dc9eb1c17bd7f8f9ad095a8737e5029e8089",
+      "source_size_bytes": 5295,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/verification_fresh.json",
+      "title": "verification_fresh.json",
+      "source_origin": "fresh stdout of the recovered verify.py",
+      "source_sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
+      "source_size_bytes": 2538,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/verification_original.json",
+      "title": "verification_original.json",
+      "source_origin": "exact extraction of original embedded JSON output with one terminal LF",
+      "source_sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
+      "source_size_bytes": 2538,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/verify.py",
+      "title": "verify.py",
+      "source_origin": "exact extraction of original Python fenced block with one terminal LF",
+      "source_sha256": "96c2d72c9e1e0de55e86392cc1f2546633d4a076f5f580e7408990aa13166e8f",
+      "source_size_bytes": 4850,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
+    },
+    {
+      "path": "corpus/mathematics/TD-COS-FH-001/verify_certificates.py",
+      "title": "verify_certificates.py",
+      "source_origin": "new independently written supplementary rational checker",
+      "source_sha256": "e965b14ea11d1f60dd7103a7b205508c7ca0361df11369e0ca7b3c2fcbbfaa49",
+      "source_size_bytes": 8958,
+      "license": "CC0-1.0",
+      "license_basis": "source declaration, user publication instruction and repository scope",
+      "review_status": "public-impersonal-scoped-mathematical-companion",
+      "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
+      "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json"
     }
   ]
 }
