@@ -1,0 +1,216 @@
+# Cosmic Time Architecture III · v0.7 executed additions
+
+**Predictive witnesses, signed controls, sampling, and the completed rematch**  
+6 September 2026
+
+Sections 27–32 extend CTA III v0.6. The baseline and pre-run proposal are preserved in this packet; §32 records the new execution and updates the proposal's run status.
+
+## 27. Predictive fidelity — does the witness retain the next step?
+
+Recurrence fidelity and predictive fidelity are separate questions. A witness can correctly detect a repeated pattern while omitting information needed to predict its continuation.
+
+For a declared state domain D, fixed dynamics $\Phi_{\Delta t}:D\to D$, sampling interval Δt, and witness $\mathcal V$, an autonomous observed update exists precisely when
+
+$$
+\mathcal V(x)=\mathcal V(y)
+\quad\Longrightarrow\quad
+\mathcal V(\Phi_{\Delta t}x)=\mathcal V(\Phi_{\Delta t}y)
+\qquad(x,y\in D).
+$$
+
+The proof is direct: define the observed successor using any full-state representative. It is well-defined exactly when the representative does not change the answer. Inputs, parameters, and the sampling interval must be the same for both states, or explicitly included in the predictive record.
+
+For stochastic models, replace equality of successors by equality of their entire next-observation laws. A fitted transition table or matching average is insufficient to establish that condition.
+
+### An exact counterexample within the W₂ model
+
+On W₂'s invariant symmetric branch $\theta_1=\theta_2$, let $a=\theta_3-\theta_1$. The existing reduction is
+
+$$
+\dot a=\delta-K\sin a.
+$$
+
+The collective overlap, written $R_{\mathrm{coll}}$ here to distinguish its scalar meaning, satisfies
+
+$$
+R_{\mathrm{coll}}=\frac{|2+e^{ia}|}{3},\qquad
+C(a):=R_{\mathrm{coll}}^2=\frac{5+4\cos a}{9}.
+$$
+
+The two states $a_+=\pi/2$ and $a_-=-\pi/2$ have the same observed value $C=5/9$. Nevertheless,
+
+$$
+\dot C=-\frac49\sin a\,(\delta-K\sin a),
+$$
+
+so
+
+$$
+\dot C(a_+)=\frac49(K-\delta),\qquad
+\dot C(a_-)=\frac49(K+\delta),
+$$
+
+and their difference is $-8\delta/9$. For nonzero detuning, the derivatives differ. Their observed successors therefore differ for all sufficiently small positive sampling intervals.
+
+At the existing comparator parameter values $\delta=0.003$ and $K=0.0015$:
+
+| Initial relative phase | Initial overlap squared | Initial rate of overlap squared |
+|---|---:|---:|
+| $+\pi/2$ | $5/9$ | $-1/1500$ per model-time unit |
+| $-\pi/2$ | $5/9$ | $+1/500$ per model-time unit |
+
+**The same overlap value is decreasing in one state and increasing in the other.** These are newly constructed starting states under the same law, not additional observations from the original zero-initialized W₂ run.
+
+This disproves predictive closure of collective overlap on the full symmetric relative-phase circle for sufficiently fine sampling. It does not claim failure on every restricted domain or at every possible sampling interval. In particular, an injective restriction of the witness can retain more predictive information than the unrestricted witness.
+
+A sufficient continuous phase record on this branch is $(c,s)=(\cos a,\sin a)$:
+
+$$
+\dot c=-s(\delta-Ks),\qquad
+\dot s=c(\delta-Ks),\qquad c^2+s^2=1.
+$$
+
+The first two clocks coincide only on the symmetric branch. A general weave requires both relative phases. Cumulative winding additionally requires the chosen lift and its history.
+
+The Geometry Maximization and Twin Timelines work supplies a complementary exact benchmark: two phases share 39 slip observations and differ at observation 40. That construction demonstrates finite-history ambiguity in its own phase model. It provides a test pattern for witness design, without identifying its constants or clock with the astronomical system.
+
+## 28. Signed detuning — the mirror control
+
+W₂ executed positive detuning. A useful extension is a paired $+d/-d$ comparison with the same $K\ge0$ and initial relative phase zero.
+
+Uniqueness of the smooth scalar flow and oddness of sine give the exact relation
+
+$$
+a(t;-d)=-a(t;+d).
+$$
+
+Consequently the entire overlap trace is identical:
+
+$$
+R_{\mathrm{coll}}(t;-d)=R_{\mathrm{coll}}(t;+d),
+$$
+
+while the lifted phase changes sign. For $K<d$, the complete oriented turns have opposite signs and equal period
+
+$$
+T_{\mathrm{turn}}=\frac{2\pi}{\sqrt{d^2-K^2}}.
+$$
+
+This comparison changes the parameter sign. It tests whether a witness preserves orientation; it is separate from §27's counterexample under one fixed law.
+
+The positive-detuning descriptions in §24 remain valid for that run. A sign-general extension must use the direction of δ: at $K=d$, the zero-initialized relative phase approaches $\operatorname{sgn}(\delta)\pi/2$; for $K>d$, it approaches $\arcsin(\delta/K)$ on the stable branch.
+
+### Cut conventions are part of the signed record
+
+With principal phase in $[-\pi,\pi)$, the deck label is
+
+$$
+m(a)=\left\lfloor\frac{a+\pi}{2\pi}\right\rfloor.
+$$
+
+Away from the cut, $m(-a)=-m(a)$. At the cut $a=(2k+1)\pi$, the half-open convention instead gives $m(-a)=1-m(a)$. The continuous lift still reverses exactly. Signed crossing events and instantaneous deck labels must therefore be checked with their stated endpoint conventions.
+
+The existing planetary directed witness uses $(-180^\circ,180^\circ]$, while W₂ uses $[-\pi,\pi)$. At the antipodal point these display $+180^\circ$ and $-\pi$ respectively. They represent the same circle point, but their signed representatives differ. Unit conversion must transport the cut convention as well as multiply by a scale.
+
+The paired numerical extension was executed on 6 September 2026 and passed all six coupling settings. Section 32 records its result. The flow symmetry and observation equality above remain exact mathematical consequences.
+
+## 29. Sampling fidelity — a still picture can hide a full turn
+
+Consider three synthetic lifted phases in cycles:
+
+$$
+p_0(t)=0,\qquad p_+(t)=t,\qquad p_-(t)=-t.
+$$
+
+At integer sampling times n, every wrapped observation equals zero. Yet the lifted displacements per interval are 0, +1, and −1 turns. All three corresponding overlap samples equal one.
+
+This is exact sampling aliasing. Wrapped samples alone cannot determine the intervening winding when the intervening dynamics are unspecified. An independently known motion model or speed bound supplies additional information; a smoother visualization does not.
+
+For the reduced weave equation,
+
+$$
+|\dot a|\le |\delta|+K.
+$$
+
+Under exact phase readouts, a sufficient condition for a unique nearest-increment reconstruction between adjacent samples is
+
+$$
+(|\delta|+K)\Delta t<\pi.
+$$
+
+This bounds the actual phase displacement strictly below half a turn. It is sufficient, not necessary; equality is ambiguous. It certifies the net lift increment under its assumptions. In a more general trajectory, detecting every intermediate crossing or recrossing additionally requires an event-resolving path record or justified event brackets. Observation uncertainty must be carried into the reconstruction; ambiguous intervals remain unresolved.
+
+### Sampling contract
+
+Attach the following record to each numerical or astronomical extension:
+
+| Field | Required distinction |
+|---|---|
+| Source clock | Timestamp, time scale, origin, and units |
+| Model clock | Physical time, declared model time, or normalized time; W₂ uses $\tau=|\delta|t$ |
+| Sampling rule | Fixed cadence, actual irregular times, or event-triggered output |
+| Phase representation | Radians, degrees, or cycles; relative versus absolute phase |
+| Lift and cut | Initial lift, principal interval, seam ties, signed crossing rule |
+| Numerical record | Internal solver steps distinguished from saved samples and interpolated display points |
+| Completeness | Missing intervals, uncertainty, and which crossings are certified |
+
+A constant rescaling of time and sampling only at selected events are different operations. Event records should not be interpreted as uniformly timed occupation samples without an appropriate argument or weighting.
+
+This contract supplements the existing $T_{\mathrm{dyn}}$, $T_{\mathrm{addr}}$, and $T_{\mathrm{bind}}$ distinction. It supplies no conversion from model time or Monte Carlo updates to physical time.
+
+## 30. Separate return, prediction, and exploration
+
+The latest project work supplies three different tests:
+
+| Test | What it establishes | Current scope |
+|---|---|---|
+| W₂ detuning comparator | Detuning changes the declared relative dynamics and return geometry | Original execution reported in CTA III §24; fresh signed verification recorded in §32 |
+| Twin Timelines | Equal finite histories can have unequal next observations | Constructed exact phase example; no blind human trial result claimed |
+| Toroidal Q2 pilot | Coarse sector diagnostics can pass while signed winding fails its screens | Completed separate lattice sampler; L=3 and L=4 remain unresolved |
+
+At L=4, for example, the Q2 pilot recorded signed-W effective sample size about 336 and R-hat about 1.03469, outside its declared screens. Physical Q2 remains unresolved. These are sampler results under a different state space and clock, not estimates of astronomical exploration or weave mixing.
+
+Retain the existing distinction
+
+$$
+\mathbf m_{\mathrm{weave}}\in\mathbb Z^2,
+\qquad W_{\mathrm{gauge}}\in\mathbb Z^3,
+\qquad q_{\mathrm{gauge}}=W_{\mathrm{gauge}}\bmod2.
+$$
+
+No map between these registers is created by the shared word “winding.” Likewise recurrence does not establish mixing, and predictive closure does not establish stability.
+
+The useful transferable practice is to check each retained observable against the claim being made. The [checks and evidence record](EVIDENCE_CROSSWALK.json) distinguishes the new exact examples from imported results.
+
+## 31. Extension order and current status
+
+The original symmetric weave question in §17 has a conditional mathematical answer in §24. Add a cross-reference there so the historical question is not mistaken for an experiment that still has not run.
+
+The paired sign-control plan, witnesses, sampling schedule, and evaluation rules have now been executed, as recorded in §32. Overlap equality and signed-lift reversal were scored separately. The two-state witness collision and sampling alias also passed their checks. A future blind presentation may hide labels until a prediction is recorded; no blind human trial was performed here.
+
+For a new planetary claim, the immediate priority remains §26's incomplete reproduction package: recover the scan's ephemeris realization, exact body set, complete module dictionary, numeric tolerances, code identity, run identity, and full null specification. W₁, W₂, Twin Timelines, and the Q2 pilot cannot fill those fields for the earlier aggregate scan.
+
+**Status of this addendum:** exact witness and sampling examples checked; paired numerical weave extension executed and verified within the declared comparator; no new ephemeris scan, physical mechanism test, or historical association claimed. The previously reported planetary result remains **GLOBAL EXCESS SYNCHRONIZATION: NOT SHOWN**.
+
+Keep the clock. Keep the direction. Keep the missing information visible. Then test whether the next step is actually determined.
+
+
+## 32. Executed signed rematch — CTA3-SIGNED-REMATCH-001
+
+**Status: PASS / deterministic model verification.** The frozen plan compared δ=+0.003, −0.003, and 0 at K/d=0, 0.5, 0.9, 1, 1.1, and 2, from θ(0)=(0,0,0). All 18 full-system trajectories were repeated at half the time step and checked against the analytic scalar flow over u=600, with the same fixed clock u=0.003t for every condition.
+
+The paired overlap values matched at every saved time, while the signed relative phases reversed. The drifting pairs completed ±95, ±82, and ±41 full turns. At K/d=0.5 the corresponding signed slip counts were ±83; complete turns and principal-cut crossings remain separate. The critical case approached ±π/2 without completing a turn, and the stronger couplings approached opposite locked offsets.
+
+The maximum primary phase error against the analytic reference was 1.616e-08 radians, below the frozen 5e−7 tolerance. The same-law equal-overlap counterexample and exact sampling/cut checks passed. Settings and thresholds were not changed after execution began.
+
+The trajectory symmetry was predicted analytically before this verification. No untouched discovery, blind human prediction, planetary mechanism, or physical-clock calibration is claimed. The symmetric initial condition remains part of the result's scope.
+
+[Execution report](REPORT.md) · [Frozen plan](PLAN.json) · [Full results](RESULTS.json) · [Supporting cases](SUPPORTING_CASES.json) · [Analytic reference](ANALYTIC_REFERENCE.md) · [Saved-data verification](DATA_VERIFICATION.json)
+
+---
+
+**Reuse:** CC0, following the source document.  
+**Baseline:** [byte-preserved CTA III v0.6](baseline/CTA_III_v0.6.txt).  
+**Sources and verification:** [source identities](FREEZE.json), [exact checks and imported evidence](EVIDENCE_CROSSWALK.json).
+
+

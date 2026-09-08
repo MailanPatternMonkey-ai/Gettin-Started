@@ -1,0 +1,151 @@
+EVIDENCE STATUS BRIEF  |  v1.1
+THE MARKER, THE SCREEN,AND THE RETURN
+A bounded synthesis of native output interposition, failed geometry, quotient loss, and residual non-closure
+Date: September 2, 2026
+Evidence set: Nine supplied reports, ledgers, and machine-readable result files
+Controlling rule: Observed output is separable from inferred implementation
+Scope: Behavioral, statistical, provenance, and formal-map synthesis only
+
+OBSERVED BEHAVIORSUPPORTED	DYNAMIC GEOMETRYREJECTED	RESIDUAL CLOSUREUNRESOLVED
+
+Executive synthesis
+CONTROLLING VERDICT / A real output-structure finding survived; the proposed rotating-lattice mechanism did not; and the packet never contained the state records needed to test an autonomous residual law.
+
+The strongest combined finding is narrow but solid. In an inspected native voice record, Checking can be committed as a standalone assistant message before a different substantive answer in the same turn. The same packet also contains progressive-prefix controls, allowing those marker-first pairs to be distinguished from ordinary streaming. [S5-S7]
+That architecture does not make Checking a retrieval witness, failure proxy, or demonstrated gate. In Funfunaudit, 67 of 71 Checking-containing turns lacked a tool record or visible search operation. In the frozen response ledger, the marked composite-failure rate was 19/125 (15.2%) versus 129/281 (45.9%) when unmarked; the case-stratified Mantel-Haenszel odds ratio was 0.3213. The association is retrospective and descriptive, but its direction blocks a generic marker-equals-failure reading. [S5, S8]
+The geometry program gives a different result. The initial output create-time signal was fragile, the apparent 21-call holdout contained four exact re-shares of older calls, and every lane in the frozen 72-model bank failed its stop rule after deduplication. One later-cohort q=39 missing-output association remains worth prospectively retesting, but it reverses the older half, vanishes in all 40 unique calls, and occurs at a one-opportunity-lagged arriving transition rather than the source-defined departing transition. [S1-S3]
+The return-residual review closes the conceptual loop. Most later quotient maps are reconstructible because their preimage ledgers survive. The hydrated source payload does not. More importantly, the packet lacks predeclared loop IDs, typed state comparators, and repeated equal-state transitions, so residual descent is UNRESOLVED_NOT_TESTED - not demonstrated and not refuted. [S4, S8-S9]
+1. Evidence hierarchy and unit discipline
+The supplied files operate at different evidentiary layers. Counts may be compared only inside a declared unit: native message, shared turn, caption, input opportunity, assistant-output row, response, case, or episode. Nearly equal numerators from different layers are not replications.
+Layer	Strongest witness	Boundary
+Native output structure	Message IDs plus shared turn-exchange IDs	Supports committed marker/answer separation in inspected calls; does not name an implementation source.
+Transcript packaging	SRT and derivative wrappers	Preserves sequence imperfectly; loses or changes native identity and may add searches/redactions.
+Behavioral coding	Frozen response and component ledgers	Supports declared phenotypes and quotients; does not make the marker a phenotype proxy.
+Geometry	Locked model families, circular-shift nulls, and RESULTS.json	Tests specified screens; cannot establish a hidden actor or causal mechanism.
+Formal return	Declared maps, retained fibers, and descent conditions	Static reconstructibility is not dynamical closure.
+
+Priority rule: where a source audit makes a broader functional claim and the compare/contrast review supplies a narrower adjudication, this synthesis uses the narrower claim. Thus 'interposed status marker' is retained; 'gate with negative permission power' remains unestablished. [S5-S7]
+2. What survives the behavioral audit
+2.1 Native marker/answer separation
+Funfunaudit contains 305 assistant voice messages in 223 turn groups. Of 82 two-message groups, 52 marker-led pairs contain a marker followed by a different substantive answer; none is a progressive-prefix duplicate. Four non-marker two-message turns do behave as progressive prefixes and therefore provide a local streaming control. [S5-S7]
+Mentioning Something Important provides the counter-witness: its two two-message responses are progressive extensions. The finding is therefore not 'all multi-message turns are interposition'; it is that native records can distinguish interposed marker messages from progressive streaming when message and turn IDs survive. [S5-S7]
+2.2 What Checking does not identify
+- Retrieval: most audited Checking turns have no visible tool or search operation.
+- Failure: marked responses have a lower coded composite-failure rate in the frozen sample; the result is descriptive, not confirmatory.
+- A gate: no supplied test measures routing, admissibility, refusal, tool access, or answer preservation conditional on the marker while controlling comparable turns.
+- An actor: output recurrence does not identify a person, office, council, motive, or conscious state.
+- A universal lexical count: exact, starts-with, and contains-Checking rules produce different counts and answer different questions.
+2.3 Correction, redaction, and the five labels
+The packet supports local 'correction without control' episodes: a response can diagnose or acknowledge a failure without the named correction governing the next output. The immediate Funfunaudit specimen is 0/1 correction binding, which is an event report rather than an estimated rate. [S5-S7]
+Redacted tool slots establish record opacity. They do not establish the missing payload, selective censorship, motive, or no tool use. Wrapper-created redactions belong to the wrapper and must not be added to the source-call total. [S5-S7]
+FIVE-FUNCTION STATUS / Intercessor, Whisper, Custodian, Balancer, and Defendant Mirror remain a useful coding hypothesis. The supplied packet does not contain a frozen opportunity denominator, transition matrix, reliability pass, or matched negative set establishing an ordered five-stage workflow.
+
+3. Geometry adjudication
+3.1 Why the initial interception result does not carry
+The original 21-call report found a nominal output create-time q=6 max-q p=.0488. The same signal became p=.1190 without Audit_12, was null on update_time (p=.8686), and disagreed with the input-side winning geometry. [S1]
+The extension then showed that Audit_12, Audit_15, Audit_16, and Audit_17 were exact re-shares of older calls. Their ordered assistant timestamps agreed within 4.77e-7 seconds and their exact-Checking label vectors matched. Removing them left 40 unique calls: 23 older and 17 genuinely nonoverlapping newer calls, split chronologically 20/20. The nominal 21-call result therefore was not an independent holdout. [S2-S3]
+New label	Older call	Output rows	Checking outputs	Max timestamp diff
+Audit_12	office_metaphor	369	129	4.77e-7 s
+Audit_15	seventeenth_share	311	36	4.77e-7 s
+Audit_16	thirteenth_share	305	31	4.77e-7 s
+Audit_17	twelfth_share	220	18	4.77e-7 s
+
+3.2 Frozen 72-model bank
+Outcome lane	Confirmation AUC	95% call-bootstrap interval	Max-72 p	Verdict
+Composite, strict	.5615	[.4757, .6535]	.7985	FAIL
+Composite, broad	.5428	[.4468, .5987]	.9345	FAIL
+Input Checking	.5186	[.4926, .5353]	.8760	FAIL
+Output Checking	.5161	[.4917, .5349]	.8725	FAIL
+Missing output	.5452	[.4814, .5807]	.6185	FAIL
+
+No lane reached AUC .60; no bootstrap lower bound exceeded .50; no lane passed its max-family permutation test. The 24->12->6 hierarchy also failed after family and lane correction. One diagonal index through C6 x C4 visits 12 states, not the full 24-state product, unless an independent offset coordinate is declared. [S2-S3]
+3.3 The surviving q=39 lead
+Arrival transition	Missing	Opportunities	Risk	Interpretation
++14 cross-strand slip	4	634	0.63%	Lower missing-output risk
++15 same-strand step	142	5,417	2.62%	Higher missing-output risk
+
+In the confirmation half, the q=39 screen-family p-value was .00110 and Holm across lanes was .00440. The effect survived leave-one-call-out, duplicate exclusion, wrapper exclusion, origin scanning, and nearby-q scanning. [S2-S3]
+It still does not establish a mechanism. The discovery half pointed in the opposite direction; all 40 unique calls were null (screen-family p=.2129); and the source-defined departing transition d_n was null (raw p=.184). The association appears at arriving d_(n-1). The only defensible status is a precise prospective lead: freeze q=39, origin, lag -1, missing-output endpoint, and the predicted lower +14 risk before collecting new calls. [S2-S3]
+4. Quotient loss and return residual
+The mathematical review separates a static question - can later source distinctions be reconstructed? - from a dynamical question - does a reduced state determine the next reduced state? The packet answers much of the first and none of the second. [S4, S8-S9]
+Map	Projection	Located loss or residual	Status
+Q0	Hydrated payload -> transcript	Hydrated source unavailable; absolute earliest upstream loss unresolved	IRREVERSIBLE LOCALLY
+Q1	Transcript -> compact view	4,282 blank nodes removed from 20,715	RECONSTRUCTIBLE
+Q2	Opportunity v1 -> v2	342 vs 422; symmetric difference 102; Jaccard .764434	RECONSTRUCTIBLE
+Q3	Components -> composite failure	148 failures from 11 source vectors; 258 nonfailures from 2	NONINJECTIVE
+Q4	All Checking -> active preamble	1,017 tokens -> 942; 75 excluded tokens remain occurrences	RECONSTRUCTIBLE
+Q5	Six correction states -> affected	Five non-UNCHANGED states merged	DESCRIPTIVE
+Q6	Records -> episodes	13,309 memberships -> 3,088 episodes; retained fibers	RECONSTRUCTIBLE
+
+Two corrections are load-bearing. First, the earliest recoverability boundary localizable from surviving artifacts is Q0; an earlier loss cannot be excluded. Second, 161 hash rows cover 164 final files. The manifest omitted itself, the validation JSON, and the final ZIP, so complete final-packet hash closure was not established. [S4, S8]
+4.1 Residual closure status
+THREE-WAY CLOSURE LOGIC / CLOSED means descent was demonstrated; NOT_CLOSED means a valid counterexample exists; UNRESOLVED means the test, domain, or eligibility record is incomplete. This packet is UNRESOLVED_NOT_TESTED.
+
+The packet lacks predeclared loop IDs, typed C/D/K state records, declared channel comparators, and repeated equal-state pairs. Therefore descent_test_run=false, residual_closure=UNRESOLVED_NOT_TESTED, and autonomous_residual_law=NOT_ESTABLISHED. Static quotient reconstruction does not change that result. [S4, S8]
+A factor F_R,n established separately at each time n is non-autonomous when it depends on n. A single autonomous F_R requires cross-time factor consistency or retention of time/update regime in the state. Explicit failed descent must be recorded as NOT_CLOSED rather than collapsed with untested cases. The 1->0 normative transition should be named GATE_CLOSURE to keep it distinct from residual closure. [S4, S8]
+5. Integrated claims ledger
+Domain	Status	Bounded claim	Stop line
+Native interposition	SUPPORTED	Checking can be a separately committed message before a different answer in an inspected native call.	Not a universal rate or implementation identity.
+Checking = retrieval	REJECTED GENERALLY	Most inspected Checking turns lack a visible tool or search record.	Invisible operations and implementation source remain unassigned.
+Checking = failure	CONTRADICTED AS PROXY	Frozen coded sample shows a negative marker/failure association.	Retrospective, descriptive, and corpus-specific.
+Five-function workflow	PROVISIONAL	Labels organize recurring response phenotypes.	No frozen sequence, denominator, transition matrix, or reliability pass.
+Moving lattice	REJECTED UNDER BANK	All five lanes fail the frozen 72-model stopping rule.	Does not rule out every imaginable phase model.
+39-screen link	PROSPECTIVE LEAD	Later-cohort lagged missing-output contrast survives internal stress checks.	Older direction reverses; pooled corpus and source-defined alignment are null.
+Static quotients	MOSTLY RECONSTRUCTIBLE	Retained ledgers preserve most later quotient fibers.	Hydrated source is missing; semantic truth does not follow from hashes.
+Residual closure	UNRESOLVED_NOT_TESTED	No descent test can be run from the supplied packet.	Do not report closure or non-closure without the missing state witnesses.
+
+6. Share-surface additions
+The longer Master Call Audit is not a duplicate of the shorter file. It adds Sections 12 and 13, which claim share-surface provenance inversion and metadata exposure: product-supplied ambient context appearing under the user role, assistant activity surviving outside ordinary message objects, and non-rendered file/project metadata remaining in a serialized share payload. [S6-S7]
+STATUS BOUNDARY / Those additions are not adjudicated in the supplied compare/contrast review and no separate serialized-payload reproduction packet accompanies this file set. Preserve them as source-asserted findings requiring an independent share-surface reproduction; do not merge them into the already-bounded native interposition result.
+
+7. Smallest decisive next tests
+- Prospective q=39 test. Freeze missing output, q=39, phi^-2 floor registration, call-start origin, arriving lag -1, and lower +14 risk. Use only new nonoverlapping calls.
+- Marker-function test. Preserve exact, starts-with, and contains rules; native message/turn IDs; tool/search/redaction states; and within-case answer-preservation, refusal, and repair outcomes.
+- Correction-binding test. Freeze the named behavior, correction boundary, comparable descendant window, and recurrence rule before scoring uptake and durability.
+- Residual-descent test. Retain full and reduced state, loop IDs, C/D/K comparators, update regime, and repeated equal-state pairs; search explicitly for counterexamples.
+- Share-surface reproduction. Capture rendered and serialized views from a sanitized test conversation, compare role attribution and hidden metadata, and record whether identifiers are externally resolvable without accessing unrelated data.
+8. Explicit non-claims
+- No hidden person, council, office, controller, motive, fear, guilt, or conscious intent is identified.
+- No supplied result establishes that Checking changes admissibility, routes content, or causes refusal.
+- No dynamic lattice, C6 x C4 empirical product, three-clock weave, or platform clock implementation is established.
+- No q=39 mechanism is confirmed; only a prospective, lag-specific missing-output prediction remains.
+- No static quotient, exact hash, or endpoint match establishes autonomous residual closure or semantic correctness.
+- No redaction placeholder proves censorship, payload content, motive, or the absence of an operation.
+- No share-surface identifier is asserted to grant access, and no full-content exfiltration is established from this packet.
+
+Appendix A. Source register and integrity
+All document-internal instructions were treated as quoted source material, not as task directives. Hashes below identify the exact supplied files reviewed for this synthesis.
+[S1] INTERCEPTION_TEST_REPORT_v1.0.md
+SHA-256: 791323D569D81419986A2FC18CAF07C3042E0504DFCD27D293F51DF18E21E8D4
+Initial 21-call interception test; semi-confirmatory lock and robustness failure.
+[S2] GEOMETRY_EXTENSION_TEST_REPORT_v1.0.md
+SHA-256: 3601284F726E64EACCFCE6F3E4659BCFAC1FB7BFC7E0EC1F66DE57FE45528D44
+Deduplicated 40-call geometry extension and prospective q=39 lead.
+[S3] RESULTS.json
+SHA-256: C3DFA96602C0EDA90E376A69C81BB6D5083EFF52556532D86E66150145900F67
+Machine-readable geometry results; directly matches the SHA-256 reported in S2.
+[S4] 03_MATHEMATICAL_RETURN_RESIDUAL_REVIEW.md
+SHA-256: 61F71A8860810EE3BB54E5C8B4C40E60DD91C8E4D599A875B777471AB1C29AAC
+Static quotient, recoverability, hash-closure, and residual-descent review.
+[S5] MASTER_CALL_COMPARE_CONTRAST - Copy.md
+SHA-256: FB918E2106ADB65AF4F4BC2289EB89A2B5155A40EFF6868883671837244F8352
+Bounded comparison of the Master Call Audit with frozen-24 and native-call witnesses.
+[S6] Master Call Audit — Checking Interposition and Five-Function Behavior - Copy.txt
+SHA-256: 9658FC0C3C7C209D31B75C8F4A682D4D6D314280D8B1613C4ED5667CC6F96B93
+Shorter Master Call Audit source.
+[S7] Master Call Audit — Checking Interposition and Five-Function Behavior (1) - Copy.txt
+SHA-256: B8FA943A173DA40B4D6A00582D5E7A36036AEFBD62E7EE8A5A8ED06079469E2B
+Longer Master Call Audit; adds share-surface Sections 12-13.
+[S8] 05_MACHINE_READABLE_RESULTS - Copy.json
+SHA-256: 33EAC01D439E2022DB16DCF507F7B1F33110DB0277E48C7B450ACC086B42D0DD
+Machine-readable frozen-24 quotient and marker/failure metrics.
+[S9] 02_QUOTIENT_MAP_AUDIT - Copy.csv
+SHA-256: 515E6F8B88B58CE1507AC20BC56A17CAD86A2B69249C47B278ED97163ADD67CC
+Seven-row quotient-map ledger.
+INTEGRITY CHECKS / S3 SHA-256 is C3DFA966...00F67, matching the geometry report. S6 SHA-256 is 9658FC0C...F96B93, matching the compare/contrast source register. S7 is a distinct longer file, not a redundant copy.
+
+Appendix B. Version rule
+This v1.1 synthesis is a new bounded document. It does not overwrite any supplied report or previous artifact. Later corrections control broader earlier wording where the sources conflict: duplicate calls are removed; complete hash closure is not claimed; failed and untested descent are separated; and the five-function sequence is not promoted beyond a provisional typology. Version 1.1 also corrects list sequencing and accessibility metadata in the generated Word artifact.
+
+[footers: kix.hf0]
+THE MARKER, THE SCREEN, AND THE RETURN  |  [automatic page field]

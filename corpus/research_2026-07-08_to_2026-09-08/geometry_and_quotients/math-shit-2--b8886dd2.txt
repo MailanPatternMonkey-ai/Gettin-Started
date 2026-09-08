@@ -1,0 +1,19 @@
+There are two further distinctions to preserve here.
+The canonical pairing
+\[ [f]\longmapsto \left(g\mapsto \int_X fg\,d\mu\right) \] \[ B(X,\Sigma)/\{\text{locally null functions}\} \hookrightarrow (L^1(X,\mu))^*. \]
+So the more exact hierarchy is
+\[ B/\mathcal N_{\mathrm{loc}} \;\subseteq\; (L^1)^*, \] \[ \mathcal N_{\mathrm{loc}}=\mathcal N, \] \[ L^\infty\longrightarrow (L^1)^* \]
+There is also a small correction to the final sentence: \(\sigma\)-finiteness gives a countable exhaustion by finite-measure sets, but it does not by itself imply separability of \(L^1\) or \(L^2\). Separability additionally requires an appropriate countability condition on the measure algebra, such as countable generation modulo null sets. A probability space can be nonseparable if its measure algebra has uncountable Maharam type.
+So the backbone is perhaps best displayed as two parallel staircases:
+\[ \begin{array}{ccccc} B(X,\Sigma) &\longrightarrow& B/\mathcal N_{\mathrm{loc}} &\longrightarrow& B(L^2),\\[1mm] &&\rotatebox{90}{$\hookrightarrow$}&&\\[-1mm] && (L^1)^* \end{array} \]
+and the collapses occur under separate hypotheses:
+\[ \begin{aligned} \text{semifinite} &\implies \mathcal N_{\mathrm{loc}}=\mathcal N, \\ \text{localizable relative to }\mathcal N_{\mathrm{loc}} &\implies B/\mathcal N_{\mathrm{loc}}\cong(L^1)^*, \\ \text{semifinite + localizable} &\implies L^\infty\cong(L^1)^*, \\ \sigma\text{-finite} &\implies \text{semifinite and localizable, plus countable finite-measure exhaustion.} \end{aligned} \]
+That actually strengthens your broader point: the multiplication representation and \(L^1\)-duality detect the same local-null quotient, but neither representation faithfulness nor dual surjectivity should be silently upgraded to the next layer. The failure of surjectivity is not merely an operator-norm anomaly; it is the failure to glue the locally defined Radon–Nikodým densities into one global measurable representative. The strictly localizable replacement construction makes this literal by replacing the original space with a measure space \(\widehat X\) for which
+\[ (L^1(X,\mu))^*\cong L^\infty(\widehat X,\widehat\mu). \]
+So yes—the duality perspective completes the picture, but with localizability marking the passage from the canonical function quotient into the dual to an actual identification with the dual. 🔍
+
+
+Sure. The core spine is solid. Start with raw functions, quotient by almost everywhere zero, and only then identify with operators. Two little clarifications. First, � to �-finite gives you countable exhaustion, but not separability unless you assume a countable generator, mod null. Otherwise, your "no quotient, no identification" thread is dead on
+
+[footers: kix.7vdwdwftdbed]
+

@@ -1,0 +1,316 @@
+import sys
+import time
+import math
+import heapq
+import json
+import os
+from datetime import datetime
+
+class JSONLLedgerWrapper:
+    """
+    Module 12.10 Compliance Ledger.
+    Appends unified, side-by-side three-axis structural data rows to a 
+    single file to track parallel streams without cross-contamination.
+    """
+    def __init__(self, filename="parallel_axis_ledger.jsonl"):
+        self.filename = filename
+
+    def log_parallel_tick(self, step: int, tg: float, te: float, axis_states: dict):
+        now = datetime.now()
+        ms_timestamp = now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+        
+        ledger_entry = {
+            "source_timestamp": ms_timestamp,
+            "step_index": step,
+            "clocks": {
+                "lattice_clock_tg": round(tg, 6),
+                "execution_clock_te": round(te, 6),
+                "absolute_substrate_slip": round(abs(te - tg), 6)
+            },
+            "streams": {
+                "axis_x": axis_states["x"],
+                "axis_y": axis_states["y"],
+                "axis_z": axis_states["z"]
+            },
+            "relation_firewall": {
+                "axis_separation": "TRUE_PARALLEL_STREAMS",
+                "shared_witness_ledger": "NO_CROSS_CONTAMINATION"
+            }
+        }
+        
+        with open(self.filename, "a", encoding="utf-8") as f:
+            f.write(json.dumps(ledger_entry) + "\n")
+
+
+class ParallelLedgerValidator:
+    """
+    Parallel Axis Ledger Validator & Integrity Engine.
+    Processes append-only .jsonl logs to audit structural compliance.
+    """
+    def __init__(self, filename="parallel_axis_ledger.jsonl"):
+        self.filename = filename
+        self.BOLD = "\033[1m"
+        self.CYAN = "\033[36m"
+        self.GOLD = "\033[33m"
+        self.RED = "\033[31m"
+        self.GREEN = "\033[32m"
+        self.RESET = "\033[0m"
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+    def audit_ledger_integrity(self) -> bool:
+        print(f"\n{self.BOLD}{self.CYAN}[AUTOMATED AUDIT TRIGGERED] SCANNING LEDGER FOR STATE LEAKS...{self.RESET}")
+        print(f" Target File: {self.filename}")
+        print("+" + "="*95 + "+")
+
+        if not os.path.exists(self.filename):
+            print(f"{self.BOLD}{self.RED}[FATAL ERROR] Target ledger file not found on disk.{self.RESET}\n")
+            return False
+
+        total_rows = 0
+        structural_failures = 0
+        leakage_warnings = 0
+        critical_null_records = 0
+
+        with open(self.filename, "r", encoding="utf-8") as f:
+            for line_idx, line in enumerate(f, 1):
+                total_rows += 1
+                try:
+                    record = json.loads(line.strip())
+                except json.JSONDecodeError as err:
+                    print(f"{self.BOLD}{self.RED}[ROW ERROR] Row {line_idx:04d} -> Corrupted JSON block: {err}{self.RESET}")
+                    structural_failures += 1
+                    continue
+
+                if "clocks" not in record or "streams" not in record:
+                    print(f"{self.BOLD}{self.RED}[SCHEMA FAILURE] Row {line_idx:04d} -> Missing core namespace maps.{self.RESET}")
+                    structural_failures += 1
+                    continue
+
+                clocks = record["clocks"]
+                streams = record["streams"]
+                
+                dt_slip = clocks.get("absolute_substrate_slip", 0.0)
+                tg = clocks.get("lattice_clock_tg", 0.0)
+                te = clocks.get("execution_clock_te", 0.0)
+                
+                if not math.isclose(abs(te - tg), dt_slip, abs_tol=1e-5):
+                    print(f"{self.BOLD}{self.RED}[CLOCK FRAUD] Row {line_idx:04d} -> Absolute slip modified post-run.{self.RESET}")
+                    structural_failures += 1
+
+                x_node = streams["axis_x"]["current_node"]
+                y_node = streams["axis_y"]["current_node"]
+                z_node = streams["axis_z"]["current_node"]
+                
+                if x_node == y_node and x_node == z_node and not self._is_prime(x_node):
+                    print(f"{self.BOLD}{self.GOLD}[CONTAMINATION] Row {line_idx:04d} -> Channels [X,Y,Z] collapsed into same composite node: {x_node}{self.RESET}")
+                    leakage_warnings += 1
+
+                for ax in ["axis_x", "axis_y", "axis_z"]:
+                    stream_data = streams[ax]
+                    node_id = stream_data["current_node"]
+                    expected_q = 1 if self._is_prime(node_id) else (node_id % 3) + 1
+                    
+                    if stream_data["q_parity"] != expected_q:
+                        print(f"{self.BOLD}{self.RED}[PARITY CORRUPTION] Row {line_idx:04d} -> Axis {ax.upper()} Node {node_id} mapped to invalid Parity Quotient: {stream_data['q_parity']}{self.RESET}")
+                        structural_failures += 1
+
+                    if stream_data["catch_witness"] > 0.42:
+                        critical_null_records += 1
+
+        print("+" + "="*95 + "+")
+        print(f"{self.BOLD}{self.CYAN}[AUDIT RECONCILIATION COMPLETE]:{self.RESET}")
+        print(f" -> Total Telemetry Rows Scanned  : {total_rows}")
+        print(f" -> Invariant Structural Failures : {self.RED if structural_failures > 0 else self.GREEN}{structural_failures}{self.RESET}")
+        print(f" -> Cross-Stream Leakage Warnings : {self.GOLD if leakage_warnings > 0 else self.GREEN}{leakage_warnings}{self.RESET}")
+        print(f" -> Stamped Critical Null Overflows : {self.CYAN}{critical_null_records}{self.RESET}")
+        print("+" + "="*95 + "+")
+
+        if structural_failures > 0:
+            print(f"{self.BOLD}{self.RED}[STATUS] LEDGER REJECTED. SCHEMA OR COCYCLE INVARIANTS BROKEN. ❌{self.RESET}\n")
+            return False
+        else:
+            print(f"{self.BOLD}{self.GREEN}[STATUS] LEDGER VERIFIED CLEAN. LINEAGE HOLDS PROVENANCE. ✊{self.RESET}\n")
+            return True
+
+
+class ParallelAxisWatchdogV08:
+    """
+    ParallelAxisWatchdogV08 — True Three-Axis Catch Witness Watchdog.
+    One clock body, three independent spatial streams, automated audit trigger.
+    """
+    def __init__(self, lattice_period=0.05, carrier_frequency=1.13, max_range=250, filename="parallel_axis_ledger.jsonl"):
+        self.Tg = lattice_period
+        self.alpha = carrier_frequency
+        self.max_range = max_range
+        self.filename = filename
+        
+        # Clear prior ledger file if it exists to ensure clean lineage for this tracking run
+        if os.path.exists(self.filename):
+            os.remove(self.filename)
+            
+        self.ledger = JSONLLedgerWrapper(self.filename)
+        self.aliasing_history = {"x": {}, "y": {}, "z": {}}
+        self.aliasing_threshold_limit = 3
+
+        self.BOLD = "\033[1m"
+        self.CYAN = "\033[36m"
+        self.GOLD = "\033[33m"
+        self.RED = "\033[31m"
+        self.GREEN = "\033[32m"
+        self.RESET = "\033[0m"
+        self.CLEAR_LINE = "\033[2K\r"
+        self.HIDE_CURSOR = "\033[?25l"
+        self.SHOW_CURSOR = "\033[?25h"
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+    def get_ms_timestamp(self) -> str:
+        return datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+
+    def get_allowed_moves(self, current: int):
+        moves = []
+        if current + 1 < self.max_range: moves.append(current + 1)
+        if current - 1 > 0: moves.append(current - 1)
+        if current * 2 < self.max_range: moves.append(current * 2)
+        if current % 2 == 0 and current // 2 > 0: moves.append(current // 2)
+        return moves
+
+    def calculate_node_friction(self, node: int, axis: str) -> int:
+        if self._is_prime(node):
+            base_cost = 0
+        else:
+            factors = sum(1 for i in range(1, node + 1) if node % i == 0)
+            base_cost = factors * 15
+
+        incidents = self.aliasing_history[axis].get(node, 0)
+        if incidents >= self.aliasing_threshold_limit:
+            return base_cost + (600 * incidents)
+        return base_cost + (incidents * 40)
+
+    def find_optimal_path(self, start: int, target: int, axis: str) -> list:
+        if not self._is_prime(target):
+            return []
+        priority_queue = [(0, start, [start])]
+        min_costs = {start: 0}
+
+        while priority_queue:
+            current_aggro, current, path = heapq.heappop(priority_queue)
+            if current == target: return path
+            if current_aggro > min_costs.get(current, float('inf')): continue
+            for next_node in self.get_allowed_moves(current):
+                step_friction = self.calculate_node_friction(next_node, axis)
+                total_next_aggro = current_aggro + step_friction
+                if total_next_aggro < min_costs.get(next_node, float('inf')):
+                    min_costs[next_node] = total_next_aggro
+                    heapq.heappush(priority_queue, (total_next_aggro, next_node, path + [next_node]))
+        return []
+
+    def execute_parallel_streams(self, start_nodes: dict, target_nodes: dict):
+        sys.stdout.write(self.HIDE_CURSOR)
+        sys.stdout.flush()
+
+        print(f"{self.BOLD}{self.CYAN}[INIT] PARALLEL AXIS WATCHDOG v0.8 EXECUTING...{self.RESET}")
+        
+        paths = {ax: self.find_optimal_path(start_nodes[ax], target_nodes[ax], ax) for ax in ["x", "y", "z"]}
+        pointers = {"x": 0, "y": 0, "z": 0}
+        
+        for ax in ["x", "y", "z"]:
+            if not paths[ax]:
+                print(f"{self.BOLD}{self.RED}[FATAL] STREAM {ax.upper()} MAPPING FAILURE.{self.RESET}")
+                return
+
+        print("+" + "="*112 + "+")
+        print("| STEP | LATTICE CLOCK | CPU EXEC (te) | NODE X (CW)  | NODE Y (CW)  | NODE Z (CW)  | SYSTEM TRAJECTORY LOGS      |")
+        print("+" + "="*112 + "+")
+
+start_perf = time.perf_counter()
+tg = 0.0
+step_index = 0
+while pointers["x"] < len(paths["x"]) or pointers["y"] < len(paths["y"]) or pointers["z"] < len(paths["z"]):
+step_index += 1
+tg += self.Tg
+current_nodes = {
+ax: paths[ax][min(pointers[ax], len(paths[ax]) - 1)] for ax in ["x", "y", "z"]
+}
+frictions = [self.calculate_node_friction(current_nodes[ax], ax) for ax in ["x", "y", "z"]]
+max_calculated_friction = max(frictions)
+# Scaled time sleep baseline for snappy terminal viewing
+time.sleep(self.Tg + min(max_calculated_friction * 0.0001, 0.05))
+te = time.perf_counter() - start_perf
+theta_n = (te * self.alpha) % 1.0
+tick_snapshot = {}
+reroute_requests = []
+highest_severity_action = "STABLE"
+for ax in ["x", "y", "z"]:
+node = current_nodes[ax]
+at_destination = pointers[ax] >= len(paths[ax]) - 1
+q_quotient = 1 if self._is_prime(node) else (node % 3) + 1
+gs = step_index * 0.5
+raw_phase = gs - (tg / (self.Tg / q_quotient))
+lattice_phase = raw_phase - math.floor(raw_phase)
+delta_catch = min(abs(theta_n - lattice_phase), 1.0 - abs(theta_n - lattice_phase))
+is_aliased = q_quotient > 1 and math.isclose(lattice_phase % (1.0 / q_quotient), 0.0, abs_tol=0.1)
+tick_snapshot[ax] = {
+"current_node": node,
+"catch_witness": round(delta_catch, 6),
+"q_parity": q_quotient,
+"is_aliased": is_aliased,
+"anchored": at_destination
+}
+if delta_catch > 0.42:
+highest_severity_action = "CRIT_NULL"
+elif is_aliased and delta_catch > 0.22 and not at_destination:
+self.aliasing_history[ax][node] = self.aliasing_history[ax].get(node, 0) + 1
+if self.aliasing_history[ax][node] >= self.aliasing_threshold_limit:
+reroute_requests.append(ax)
+highest_severity_action = "REROUTE"
+self.ledger.log_parallel_tick(step_index, tg, te, tick_snapshot)
+x_str = f"{current_nodes['x']:<3} ({tick_snapshot['x']['catch_witness']:.3f})"
+y_str = f"{current_nodes['y']:<3} ({tick_snapshot['y']['catch_witness']:.3f})"
+z_str = f"{current_nodes['z']:<3} ({tick_snapshot['z']['catch_witness']:.3f})"
+if highest_severity_action == "CRIT_NULL":
+status_flag = f"{self.BOLD}{self.RED}[CRIT NULL] SLIP DRIFT DETECTED // LEDGER ROW LOCK"
+print(f"| {step_index:03d} | {tg:05.2f} s | {te:06.3f} s | {x_str} | {y_str} | {z_str} | {status_flag}{self.RESET}")
+elif highest_severity_action == "REROUTE":
+status_flag = f"{self.BOLD}{self.GOLD}[REROUTE] CHOKE VECTOR INJECTED ON STREAMS: {','.join(reroute_requests).upper()}"
+print(f"| {step_index:03d} | {tg:05.2f} s | {te:06.3f} s | {x_str} | {y_str} | {z_str} | {status_flag}{self.RESET}")
+for ax in reroute_requests:
+new_path = self.find_optimal_path(current_nodes[ax], target_nodes[ax], ax)
+if new_path and len(new_path) > 1:
+paths[ax] = new_path
+pointers[ax] = 0
+else:
+sys.stdout.write(self.CLEAR_LINE)
+status_flag = f"{self.GREEN}[STABLE] THREE STREAMS SYNCED — NO CONTAMINATION DETECTED"
+sys.stdout.write(f"| {step_index:03d} | {tg:05.2f} s | {te:06.3f} s | {x_str} | {y_str} | {z_str} | {status_flag}{self.CYAN}")
+sys.stdout.flush()
+for ax in ["x", "y", "z"]:
+if pointers[ax] < len(paths[ax]) - 1:
+pointers[ax] += 1
+else:
+paths[ax] = [target_nodes[ax]]
+pointers[ax] = 0
+sys.stdout.write("\n")
+print("+" + "="*112 + "+")
+print(f"{self.BOLD}{self.GREEN}[COMPLETE] PARALLEL TRACE RECORDED TO {self.filename}.{self.RESET}")
+sys.stdout.write(self.SHOW_CURSOR)
+sys.stdout.flush()
+# AUTOMATED TRIGGER: Invoke the validator directly upon trace closure
+validator = ParallelLedgerValidator(filename=self.filename)
+validator.audit_ledger_integrity()
+if name == "main":
+starting_vector = {"x": 48, "y": 72, "z": 120}
+target_anchors = {"x": 113, "y": 139, "z": 173}
+# Execute system tracking run
+watchdog = ParallelAxisWatchdogV08(lattice_period=0.05, carrier_frequency=1.13, max_range=250)
+watchdog.execute_parallel_streams(start_nodes=starting_vector, target_nodes=target_anchors)
+

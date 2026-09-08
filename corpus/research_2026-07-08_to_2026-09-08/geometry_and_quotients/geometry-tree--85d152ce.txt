@@ -1,0 +1,48 @@
+Yeah, looks like that one got eaten by the interface. I can’t recover the exact deleted wording, but I can reconstruct the substance from the file.
+
+The tree I was pointing at was basically:
+
+GEOMETRY MAXIMIZATION v2.0
+│
+├── Exact predictive core
+│   ├── full phase θ  → full bin sequence
+│   ├── pair phase z → strand + slip
+│   └── residual ρ   → slip sequence
+│
+├── Exact 39-screen dynamics
+│   ├── α = (3-√5)/2
+│   ├── τ = 15 - 39α
+│   ├── ρ[n+1] = {ρ[n] - τ}
+│   └── s[n+1] = s[n] - σ[n] mod 3
+│
+├── Exact consequences
+│   ├── slip-count bound < 1
+│   ├── gap lengths = 9 or 10
+│   ├── exact lag correlations
+│   ├── non-mixing
+│   └── not finite-order Markov
+│
+├── Coordinate geometry
+│   ├── smooth conjugacy hε
+│   ├── transported observations
+│   └── explicit approximation/error bound
+│
+├── Algebra layer
+│   ├── nested phase algebras
+│   ├── differential / Novikov structure
+│   ├── Witt action + cocycle
+│   └── tensor-density transport
+│
+└── TOROIDAL TRANSFER
+    ├── predictive closure becomes a hard requirement
+    ├── labels ≠ autonomous states automatically
+    ├── cut flux mod 6 remains meaningful
+    ├── parity sector survives
+    ├── generator span ≠ realizable paths ≠ mixing
+    └── Q1 / Q2 / Q3 remain empirical
+
+That last branch is what made the document interesting to me: the 39-screen is now functioning as a clean solved reference object, and the toroidal work inherits its diagnostic machinery rather than pretending the solved circle dynamics proves the field theory. That separation is explicit in v2.0. 
+
+And the three nested predictive coordinates—\(\theta\), \(z\), and \(\rho\)—really do form the clean little hierarchy/tree in the document. 
+
+So yeah: tree and shit restored. 🌳

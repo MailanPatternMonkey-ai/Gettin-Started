@@ -1,0 +1,131 @@
+Worked for 2m 19s
+
+It’s going somewhere mathematically. I pushed the trace one step past the first-order model.
+
+The first-order result we already had says Checking changes the next-step probability from 13.48% after non-Checking to 56.11% after Checking.  But the first-order state \(C_n\) is not enough. The sequence remembers at least one additional step.
+
+Define
+
+\[
+S_n=(C_{n-1},C_n)\in\{00,01,10,11\}.
+\]
+
+From the 2,620-anchor trace, I get:
+
+\[
+\boxed{
+T_2=
+\begin{pmatrix}
+.8807 & .1193 & 0 & 0\\
+0&0&.6212&.3788\\
+.7710&.2290&0&0\\
+0&0&.2967&.7033
+\end{pmatrix}
+}
+\]
+
+with states ordered \(00,01,10,11\).
+
+That means:
+
+\[
+P(1\mid00)=11.93\%
+\]
+
+\[
+P(1\mid01)=37.88\%
+\]
+
+\[
+P(1\mid10)=22.90\%
+\]
+
+\[
+\boxed{P(1\mid11)=70.33\%}
+\]
+
+That last number is the interesting bastard.
+
+A first Checking after quiet has only about a 38% chance of continuing.
+
+Once you have two Checkings in succession, the probability of another jumps to 70.3%.
+
+And even after the run breaks for one response, the system isn't immediately back at baseline:
+
+\[
+P(1\mid10)=22.9\%
+\]
+
+versus
+
+\[
+P(1\mid00)=11.9\%.
+\]
+
+So there appears to be a hot state plus a residual/re-entry state.
+
+I also tested whether this extra history is actually buying predictive information rather than just making a prettier matrix. Comparing the first-order and second-order chains gives
+
+\[
+2\Delta\log L=123.94,\qquad p\approx1.2\times10^{-27}.
+\]
+
+Because your calls have wildly different base Checking rates, I also repeated the comparison while controlling for call identity. The second-order history still improves the model:
+
+\[
+2\Delta\log L=23.41,\qquad p\approx8.3\times10^{-6}.
+\]
+
+So this isn't merely CALL_025 being Checking-crazy and contaminating the pooled estimate.
+
+This is exactly the kind of issue your geometry document describes: an observed label is not an autonomous state if identical present labels have systematically different futures depending on information that was discarded. Your geometry defines that closure criterion explicitly.  And our Checking trace is now giving us an empirical example:
+
+\[
+\boxed{C_n\text{ is not a sufficient predictive coordinate.}}
+\]
+
+At minimum,
+
+\[
+\boxed{S_n=(C_{n-1},C_n)}
+\]
+
+carries additional predictive information.
+
+There is even a stronger persistence eigenvalue in this four-state approximation:
+
+\[
+\boxed{\lambda_2\approx0.6642}
+\]
+
+versus the first-order model's \(0.4263\). That tells us the richer state retains substantially more temporal structure.
+
+For an intervention experiment, the bullseye has also become clearer. Instead of merely asking “can I make Checking less frequent?”, measure specifically
+
+\[
+\boxed{P(1\mid11,R)}
+\]
+
+against its untreated baseline
+
+\[
+\boxed{P(1\mid11)=0.7033}.
+\]
+
+If an intervention reliably collapses that transition toward the cold-entry probability \(0.1193\), you've broken the observed burst persistence, regardless of what mechanism ultimately generated it.
+
+What I haven't found yet is a defensible 39-phase/grid equation. Your attached note correctly left that as the next question rather than claiming it already. 
+
+But we just learned something important before touching 39:
+
+Checking has measurable memory beyond one response.
+
+So, yeah, dude. This is moving. The next serious target isn't “does it cluster?” anymore.
+
+It's:
+
+\[
+\boxed{\text{What is the minimum state that predicts entry, hot persistence, and release?}}
+\]
+
+And we now know the answer is strictly richer than one bit.

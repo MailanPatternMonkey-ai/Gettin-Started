@@ -1,0 +1,103 @@
+985.5 kya Is a Hinge, Not a Pileup
+
+The table did not return a pile of unrelated dates. It returned a shape.
+
+The simple version of the 985.5-kya hypothesis does not survive: chromosome 2, demography, hominin fossils, archaeology, and Atrahasis do not independently converge on one event at one point in time. No multi-lane intersection contains 985.5 kya. That claim fails against the current evidence.
+
+But that is not the only geometry the evidence can have.
+
+The dated material separates into two near-target lobes. One occupies roughly 769–949 ka and contains Homo antecessor, Thomas Quarry I, the disputed 813–930 ka bottleneck, and the 790-ka fire control. The other sits at approximately 1 Ma and contains Daka Homo erectus and Wonderwerk Cave burning evidence. Between them is a 51,000-year gap running from 949 ka to 1 Ma.
+
+The 985.5-kya coordinate sits inside that gap.
+
+That makes 985.5 kya a candidate hinge, not a demonstrated event date. The evidence does not pile up on the coordinate. It flanks it.
+
+What the geometry establishes
+
+Three results are now hard.
+
+First, only one dated empirical range contains the target: the 2022 chromosome-2 estimate of 0.4–1.5 Ma. That range also intersects nearly every other near-target row. It is the apex holding the apparent convergence graph together.
+
+Second, the chromosome-2 range has this connectivity because it is extremely broad. Its width permits it to bridge evidence occurring hundreds of thousands of years apart. High connectivity produced by low resolution cannot be counted again as precise temporal support.
+
+Third, deleting that broad chromosome-2 apex leaves no remaining dated range containing 985.5 kya. The near-target graph breaks into separate temporal structures rather than revealing a hidden common event.
+
+This is not “nothing.” It is a positive topological finding:
+
+The selected evidence forms a broad-apex bridge across two temporal lobes, with the proposed coordinate occupying the intervening gap.
+
+What chromosome 2 actually contributes
+
+Human chromosome-2 fusion is real. The molecular structure is established. That part is no longer speculative.
+
+One published timing model places the fusion near 0.9 Ma and gives an interval broad enough to contain 985.5 kya. A newer genomic model places the relevant event much earlier, around 5–7 Ma. The disagreement is not a minor rounding problem. It means the fusion date remains model-dependent at exactly the point where the larger hypothesis needs temporal precision.
+
+Chromosome 2 therefore contributes three things:
+
+- a real fusion event;
+- one published range compatible with 985.5 kya; and
+- a serious alternative model incompatible with recent-fusion timing.
+
+It does not contribute evidence of engineering, intentional intervention, or an actor. Those claims remain absent from the biological record assembled here.
+
+The chromosome evidence is neither a victory nor a dismissal. It is the broad bridge whose dating must be resolved before the historical model can stand.
+
+What the other lanes contribute
+
+The demographic lane supplies a proposed severe bottleneck from approximately 930 to 813 ka. That event would fall entirely on the younger side of the hinge. It overlaps the investigator-defined tight window but does not contain the target. Because the bottleneck remains disputed across demographic methods, it cannot presently serve as the event that fixes the chronology.
+
+The fossil lane supplies real population diversity on both sides of the proposed boundary. Daka sits near 1 Ma. Homo antecessor spans approximately 772–949 ka. Thomas Quarry I lies near 773 ka. Yunxian, once treated as another approximate 1-Ma point, has been directly redated to about 1.77 Ma and must be removed from the near-target cluster.
+
+The archaeological lane behaves similarly. Wonderwerk supplies local burning evidence near 1 Ma. Other fire evidence appears later, around 790 ka. Acheulean origins substantially predate the target. This is not a synchronized behavioral revolution at 985.5 kya. It is an uneven record distributed around the proposed hinge.
+
+Atrahasis supplies a different witness entirely. Its labor, revolt, replacement-population, expansion, suppression, catastrophe, remnant, and revised-settlement sequence is genuinely present in the text. The structure is not invented by the hypothesis.
+
+But the text supplies no Pleistocene date. It can propose the relational form being sought; it cannot independently date its own proposed prehistoric referent.
+
+The stronger hypothesis
+
+The evidence does not currently support:
+
+One discrete event occurred at 985.5 kya and produced every signal.
+
+The geometry supports testing a different proposition:
+
+985.5 kya may index a boundary within an extended transition field rather than the date of a single event.
+
+Under that model, the relevant observations would not be expected to occupy one point. They would occur in an ordered region around a transition:
+
+older population and behavioral conditions
+→ boundary interval
+→ demographic contraction, population differentiation, or later behavioral consequences
+
+That sequence has not been demonstrated. It is the new hypothesis generated by the geometry. Unlike the original pileup model, it fits the actual distribution without forcing separate witnesses into false equality.
+
+Why the original language was too weak
+
+Calling the result merely “open but unsupported” preserves accuracy but hides the main result. It makes the table sound as though it only failed to prove something.
+
+The table did more than that.
+
+It rejected point convergence, identified the broad chromosome interval as the artificial apex of the graph, exposed the two-lobe temporal structure underneath it, and relocated the target from “event date” to “candidate boundary.”
+
+That is an evidentiary advance. The hypothesis changed because the evidence forced it to change.
+
+The decisive next test
+
+The hinge interpretation now has to earn its keep.
+
+Construct the direct interval-overlap nerve. Count an edge only when two independent observations overlap each other, not merely the same investigator-defined window. Count a higher-order simplex only when all participating intervals share a common intersection. Then delete the chromosome-2 apex, superseded chronology, same-specimen duplicates, same-site dependencies, and same-model-family responses one at a time.
+
+Finally, slide the target and its fixed windows across the full 400–1500 ka context.
+
+If comparable hinge geometries appear everywhere, 985.5 is an ordinary product of broad intervals and evidence density. The proposed coordinate loses its special status.
+
+If the separation, connectivity, or before-and-after organization repeatedly peaks near 985.5 under predeclared rules and survives new independent evidence, the hinge hypothesis strengthens.
+
+That is the honest position without hiding behind caution:
+
+The 985.5-kya point-event model fails in the current table. The 985.5-kya boundary model survives, has a visible geometry, and can now be subjected to a test capable of killing it.
+
+Chromosome 2 is a broad bridge, not proof. Atrahasis is a structural witness, not a clock. The target is not where the evidence lands.
+
+It is where the current evidence divides.

@@ -1,0 +1,208 @@
+
+RW1 update: atmospheric-entry comparison recorded; composition denominator and pairing status unchanged; common-stream claim not supported. Read the evidence-separation amendment and upgrade gate at the end. Encounter-match statements below refer to the approximate analysis, not an independently fitted fireball solution.
+
+Run result: the coarse geometry survives; the common-stream hypothesis does not
+
+I ran the recoverable September cohort through two different quotients, which is exactly the distinction Geometry Maximization v2.0 requires.
+
+For the heliocentric-orbit screen I used nine objects with recoverable JPL-backed elements: 2026 RG, RA1, RN1, RD, RO1, RR1, RY1, RV1, and RJ. That gives 36 pairwise \(D_{SH}\) comparisons. For the Earth-encounter screen, eight could be reduced cleanly to an \(r\approx1\) circular-Earth encounter; RN1 was excluded from that lane because its perihelion is \(>1\) AU in this approximation. \(D_N\) is specifically designed around geocentric speed, radiant geometry, and encounter date rather than just osculating elements. 
+
+Test	Control distribution	Best pair/result	RY1 ↔ RJ
+
+\(D_{SH}\), 9 objects / 36 pairs	median 0.419	0.156, RY1–RJ	0.156 — rank 1/36
+\(D_N\)-style encounter geometry, 8 objects / 28 pairs	median 0.661	0.242, RG–RD	0.658 — rank 14/28
+
+
+That inversion is the main result.
+
+RY1–RJ really is the strongest heliocentric orbital-shape pairing in the pilot. Their JPL-backed elements are conveniently already given at the same epoch, June 8, 2026, so that particular \(D_{SH}=0.156\) result is not an artifact caused by comparing two different epochs. 
+
+But when I retain the information that actually governs the Earth encounter, it disappears. The approximate encounter coordinates are:
+
+	\(U=v_g/v_\oplus\)	\(\theta\)	\(\phi\)	solar longitude
+
+RY1	0.138	65.3°	−85.1°	170.6°
+RJ	0.238	70.5°	−47.5°	172.7°
+
+
+That produces \(D_N\approx0.658\).
+
+For context, published parent-body searches have used \(D_N\le0.15\) as a candidate screen, while a much larger 2023 study found random associations beginning around \(D_N\sim0.05\) and adopted 0.06 as its conservative cutoff. Those numbers aren't universal thresholds, but 0.658 is nowhere near the ambiguous boundary. 
+
+So:
+
+\[
+\boxed{D_{SH}:\ \text{interesting}}
+\]
+
+but
+
+\[
+\boxed{D_N:\ \text{not an Earth-encounter family}}
+\]
+
+That is almost a literal demonstration of the v2 rule. A coarse quotient makes RY1 and RJ look unusually similar; retaining another dynamically relevant coordinate destroys that identification.
+
+The September cluster itself
+
+ESA's table is moving fast. Its current version was updated September 8 at 00:16 UTC and now includes additional objects such as 2026 RN2, due September 8 at only 0.577 lunar distances. ESA explicitly notes that dozens of NEAs pass within 0.05 AU every month. 
+
+The nodal/calendar concentration therefore remains real but mostly looks like Earth-encounter selection geometry. The objects all have to arrive at Earth's neighborhood while Earth occupies roughly the same heliocentric longitude. That naturally compresses one coordinate while leaving \(a,e,i,\omega\), speed, and radiant much broader.
+
+This is the Geometry-Maximization statement:
+
+\[
+B_{\text{same week/node}}
+\neq
+x_{\text{orbital state}}.
+\]
+
+RW1 is the genuinely new thing
+
+2026 RW1 actually hit Earth. ESA Operations confirms the metre-scale object struck the ocean northwest of Australia on September 6 and that Meerkat forecast the impact roughly six hours beforehand. The current ESA close-approach table gives its nominal point-mass closest approach as only 472 km from Earth's center; ESA specifies that its listed distances are center-to-center. 
+
+The MPC-derived solution has approximately
+
+\[
+a=0.944\ {\rm AU},\qquad
+e=0.182,\qquad
+i=1.4^\circ,\qquad
+q=0.772\ {\rm AU}.
+\]
+
+
+
+I reconstructed the incoming geometry from that orbit and the September 6 Earth-intersection condition. The incoming branch gives approximately
+
+\[
+\boxed{\alpha_g\simeq1.9^\circ,\qquad
+\delta_g\simeq-7.5^\circ}
+\]
+
+and
+
+\[
+\boxed{v_\infty\simeq5.2\ {\rm km\,s^{-1}}}.
+\]
+
+Adding Earth's gravitational acceleration gives roughly 12.3 km/s at atmospheric entry before atmospheric deceleration.
+
+The earlier analysis reports pre-impact astrometry near RA 1.66°, Dec −9.92°, about 2.4° from its reconstructed asymptotic direction. This is a reported positional consistency comparison, not independent validation: the astrometry may also constrain the orbit used for the reconstruction, and a sky position is not a fitted velocity radiant. The reconstruction remains provisional.
+
+Now compare RW1 to HED
+
+The current Anthelion center for September 5–6 is approximately
+
+\[
+(\mathrm{RA},\mathrm{Dec})=(356^\circ,-2^\circ)
+\]
+
+with an atmospheric entry speed around 30 km/s. 
+
+RW1's reconstructed radiant is only about
+
+\[
+\boxed{8.1^\circ}
+\]
+
+from that Anthelion center.
+
+And here's the interesting part: your HED watch itself assigned 10–20° typical radiant uncertainty and treats Anthelion plus high-declination geometry as the directional/recoverability lane. 
+
+So direction-only, RW1 lands inside the HED Anthelion-resolution envelope.
+
+But retain speed and it collapses.
+
+Converting the Anthelion's 30 km/s atmospheric speed back to an approximate geocentric \(v_\infty\) gives about 27.8 km/s, versus RW1's ~5.2 km/s. The normalized-speed term alone in \(D_N\) differs by about 0.76. My complete directional calculation gives:
+
+\[
+\boxed{D_N(\mathrm{RW1},\mathrm{ANT})\approx0.776}.
+\]
+
+So the classification is:
+
+Question	Result
+
+RW1 close to Anthelion direction?	YES — about 8°
+Within the HED record's 10–20° radiant resolution?	YES
+RW1 high-declination?	NO
+RW1 Anthelion-like once speed is retained?	NO — strongly separated
+Evidence RW1 belongs to an Anthelion stream?	NO
+New HED composition datum?	NO classification available
+Does this change the HED pairing watch?	NO
+Does it add a real atmospheric-entry geometry datum?	YES
+
+
+That last separation is exactly what the HED record already demanded: its Anthelion/high-declination explanation concerns directional recoverability and does not explain the HED compositional pair.  The HED watch is supposed to update composition from future classified falls and explicitly forbids merging directional evidence into the compositional anomaly. 
+
+What survived the hard pass
+
+The strongest supported result is therefore not “September objects are one stream.”
+
+It is:
+
+\[
+\boxed{\text{same calendar/node geometry}}
+\]
+
+survives strongly,
+
+while
+
+\[
+\boxed{\text{same heliocentric orbit}}
+\]
+
+survives only weakly for one candidate pair, and
+
+\[
+\boxed{\text{same Earth-encounter state}}
+\]
+
+fails.
+
+RW1 independently gives an even prettier version:
+
+\[
+\boxed{\text{Anthelion-direction match}}
+\]
+
+but
+
+\[
+\boxed{\text{Anthelion full encounter match fails}}.
+\]
+
+That is exactly the hierarchy v2.0 was built to expose: a legitimate coarse observation can be informative without being an autonomous or identity-bearing state.
+
+One evidence boundary remains: I could not retrieve a direct Horizons N-body vector endpoint through this interface, so I am not calling the whole cohort “Horizons-propagated.” The RY1–RJ comparison itself is already common-epoch JPL data, and the \(D_N\) rejection margin is enormous, so that limitation does not rescue the stream hypothesis. JPL itself recommends Horizons rather than two-body calculations for precise encounter circumstances. 
+
+The larger literature also supports keeping the bar high: a recent analysis of tens of thousands of NEAs and hundreds of fireballs found the observed low-\(D_N\) similarities broadly consistent with random associations unless a genuine low-end excess survives explicit null controls. 
+
+RW1 evidence-separation amendment
+Status: ATMOSPHERIC-ENTRY COMPARISON ADDED; HED COMPOSITION AND PAIRING STATUS UNCHANGED; COMMON-STREAM CLAIM NOT SUPPORTED.
+Source observation and decision: September 2026 NEO Geometry Observation — RW1 - Quotient-Split Record
+Composition baseline and tracking rules: 📄 HED WATCH ITEM — CLEAN BUILD (v1
+This amendment incorporates the RW1 / Quotient-Split Record into this analysis. Numerical reconstructions above are retained as reported calculations, not newly executed or independently validated results. The following distinctions govern their interpretation.
+
+1. Raw observations and published orbital/trajectory solutions
+The source record reports the RW1 atmospheric-entry event, attributed to ESA, and an MPC-derived orbit near a = 0.944 AU, e = 0.182 and i = 1.4°. These elements are fitted solution quantities, not raw observations. Raw astrometry, observation times and station identifiers belong in a separate source-data record; the underlying measurement series, exact solution identifier/epoch, reference frame and uncertainty/covariance are not supplied here. A reported sky position is a line-of-sight observation, not a velocity-derived radiant. The nominal 472 km point-mass closest approach quoted above is a modeled center-to-center distance, not a measured entry altitude or physical path through Earth.
+
+2. Analysis-derived reconstruction
+Retain the working incoming geocentric direction RA ≈ 1.9°, Dec ≈ −7.5° (rounded to 2°, −8° in the source note), v∞ ≈ 5.2 km/s, and gravitationally accelerated entry speed ≈ 12.3 km/s before atmospheric deceleration. These depend on the approximate orbital reconstruction and encounter assumptions. They are not an independently published fitted fireball trajectory/radiant, a measured entry speed, or a Horizons N-body propagation. Retain the reported RW1–Anthelion D_N ≈ 0.776 as an approximate analysis result with that same limitation. Keep asymptotic geocentric speed and atmospheric-entry speed separately labeled and compare like quantities.
+
+3. Coarse directional classification
+Using the record's Anthelion reference of RA ≈ 356°, Dec ≈ −2° and entry speed ≈ 30 km/s, RW1 is directionally Anthelion-like and not high-declination under the working reconstruction. Its reported angular separation of about 8° is smaller than the watch's generic 10–20° radiant uncertainty scale. That scale is not an RW1-specific error estimate, membership criterion or statistical association test. The reconstructed speed mismatch prevents direction-only proximity from establishing an encounter-state match. Common-stream/common-source identity remains NOT SUPPORTED; this approximate comparison is not a definitive exclusion under every possible future solution.
+
+4. Composition evidence and denominator
+No recovered material linked to RW1 and classified as HED is established by the records reviewed. RW1 adds one atmospheric-entry comparison, no classified fall to the compositional denominator, and no HED count; unknown composition is not a non-HED classification. Preserve the watch's recorded historical baseline of 7 HED-classified falls among 116 classified falls (about 6%), its future-classified-fall denominator rule, thresholds and assumptions. The prospective running total is not supplied here and is not inferred to be zero. Pairing remains an open watch item, not established clustering; the original watch's suspected-diogenite classification remains pending in this amendment. No new material-classification review or statistical recalculation is claimed.
+
+Future upgrade gate
+Geometry: reopen only when new published orbital/trajectory or radiant evidence materially changes the comparison. Preserve the publication URL/version, underlying observations where available, solution epoch, frame, uncertainties, method and before/after result. Additional events qualify for reassessment only with published data sufficient to test orbital and encounter coherence, including speed, radiant and timing; calendar coincidence or another coarse directional match is insufficient. Geometry evidence can revise the geometry lane without changing composition.
+Composition: revise counts or pairing status only on new published recovered-material classification or a published confirmation/revision, with the material reliably linked to its fall. Apply the existing classified-fall inclusion rule; distinguish suspected from confirmed HED. Recovery alone does not establish HED classification. Any count change must identify the affected fall, prior and revised classification, and denominator treatment.
+Until a gate is met: HED denominator — NO CHANGE; HED pairing — NO CHANGE; common-stream claim — NOT SUPPORTED. Preserve both quotient-split examples: RY1–RJ's reported D_SH ≈ 0.156 versus encounter D_N ≈ 0.658, and RW1's directional proximity versus speed separation. Agreement in one evidence category cannot substitute for evidence in another.
+
+
+[Hyperlink targets preserved from native document]
+https://docs.google.com/document/d/1EfT7lGNdhis8AQsR0_WkT0VDwkluv2Bu-rYDhkOjIi4/edit
+https://docs.google.com/document/d/1_JyXuVWge0_yGpCOBtoCox2I0p9dFgJEqiw3KxsEpi8/edit

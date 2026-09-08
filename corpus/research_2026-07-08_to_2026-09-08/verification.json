@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "check": "archive integrity only; no scientific claims reverified",
+  "snapshots_checked": 144,
+  "snapshot_bytes": 4471981,
+  "duplicate_mappings_checked": 3,
+  "errors": []
+}

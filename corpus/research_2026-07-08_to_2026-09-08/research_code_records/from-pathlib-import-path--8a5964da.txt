@@ -1,0 +1,531 @@
+from pathlib import Path
+paper = r"""# Operational Geometry and Response-Stream Mathematics
+Consolidated Technical Note v0.1
+Date: 7 September 2026
+Scope: mathematical core only; personas, mythological labels, and narrative archetypes intentionally omitted.
+Abstract
+This note consolidates the mathematical work developed across the current geometry, quotient, response-stream, and audit experiments into one technical object.
+The stack has three levels:
+Exact mathematics.
+This includes the golden-phase 39-screen, finite quotient constructions, predictive-closure/descent criteria, typed residuals, and smooth-coordinate transport.
+Measured response-stream statistics.
+This includes the observed Checking event process, its first- and second-order transition structure, burst/run behavior, count-preserving null tests, and paired live/downstream response specimens.
+Proposed statistical and experimental machinery.
+This includes covariance signatures, mirror operators, residual-injection scores, triadic Route/Witness/Balance instrumentation, sham-vs-active controls, classifier validation, phase-coupling models, and room-acoustics transfer-function analogues.
+The central organizing principle is typed separation. An observable is not automatically a sufficient state; a residual is not automatically autonomous; a response marker is not automatically a mechanism; a target is not automatically a mediator; and a classifier is not automatically an attribution engine. Each layer gets its own objects, maps, witnesses, and tests.
+The resulting program can be summarized as
+with the three operational functions
+kept distinct.
+0. Status typing
+To keep the mathematics clean, every statement in this note belongs to one of three statuses.
+EXACT
+An identity or theorem follows from declared definitions. Examples:
+the 39-screen update;
+the residual-descent criterion;
+the finite quotient �;
+the exact slip-count discrepancy bound.
+MEASURED
+A quantity was calculated from the supplied transcript/workbook corpus. Examples:
+611 substantive Checking events;
+the empirical one-step transition probabilities;
+observed adjacency/run counts;
+paired live/downstream word counts.
+PROPOSED
+A model, score, or experimental design has been formulated but is not itself an empirical finding. Examples:
+covariance mirror operator �;
+phase-coupling coefficient �;
+NONE/SHAM/ACTIVE interventions;
+Defendant-Mirror target-reversal score.
+This status system is a type system, not rhetorical caution.
+1. Core field geometry
+1.1 Two endpoints, one shared field
+The current field geometry contains two endpoint objects and one non-sovereign shared field:
+with direct relation
+and membership
+The important distinction is
+The field � is a shared encounter/coupling geometry. It is not interpreted as a compulsory serial node
+A router, translator, checker, memory service, tool, or local process may operate inside the field without becoming the field.
+1.2 Handoff is not the field
+For the response-stream application, introduce a separately witnessed handoff coordinate � only when there is an observable intermediate stage.
+A useful observational diagram is
+where:
+�: user/originating turn;
+�: live or first observable response;
+�: observed handoff/intermediate representation, if any;
+�: downstream or later transcript-conditioned response.
+This does not redefine � as a mediator. All of the above objects can lie within the same shared field:
+2. Predictive closure: when an observation is actually a state
+Let � be a declared forward-invariant domain, let
+be an update map, and let
+be an observation.
+The observation � is sufficient for a deterministic autonomous update exactly when
+for all eligible �.
+When this holds, one may define
+and the definition is representative-independent.
+This is the basic descent criterion.
+2.1 Coarsest future-preserving refinement
+When the current observation is insufficient, define
+This identifies two raw states only when their entire retained future output sequences agree.
+It therefore characterizes the information required for exact prediction of the chosen output.
+2.2 Stochastic version
+For a full-state transition kernel �, the universal observation-level criterion is
+whenever �, for every measurable target set �.
+This is strong lumpability. A fitted finite transition table does not establish this universal criterion.
+3. Exact golden-phase 39-screen
+3.1 Constants
+All phase variables are measured in cycles.
+Define
+and
+The irrational rotation is
+For the canonical origin �,
+3.2 Observations
+Define
+The bin � has 39 values; the strand � has 3 values; and � retains the within-bin phase.
+Each row describes the departing transition �.
+The screen jump is
+Because
+the only possible jumps are
+Define the slip bit
+Then
+The boundary convention is explicit:
+3.3 Exact reduced dynamics
+The within-bin phase satisfies
+The strand satisfies
+Define the pair phase
+Then
+3.4 Minimal predictive coordinates
+The required continuous coordinate depends on which future output is retained:
+Retained output
+Exact predictive coordinate
+Update
+full 39-bin sequence
+�
+�
+strand + slip
+�
+�
+slip sequence
+�
+�
+The important structural result is:
+A continuous retained phase repairs the closure.
+4. Exact counting and correlation structure of the slip process
+Let
+Summing the exact phase update gives
+Therefore
+For �,
+Examples from the exact model:
+Complete gaps between slip indices have lengths 9 or 10.
+Under a uniform starting phase,
+The process is not an independent Bernoulli process.
+The stationary slip process is non-mixing and is not Markov of any finite order. Its factor complexity is:
+for �.
+5. Coordinate transport and smooth conjugacy
+For �, define
+Since
+this is an orientation-preserving circle diffeomorphism.
+Transport the rigid rotation by conjugacy:
+The transported phase is
+and the corresponding transported screen is
+Thus exact phase statements survive a smooth coordinate change when the observation is transported with the coordinates.
+Equal-width bins in � are a different observation and must be analyzed separately.
+6. Approximation and error bounds
+Let
+The second-order approximation is
+A proved uniform residual has the form
+where
+A rational computer-facing upper bound is
+Let
+be the exact phase distance to the nearest bin boundary. A sufficient certificate for the ideal approximation to preserve the bin label at step � is
+For � labels, the conservative Haar-measure cover of possible errors is bounded by
+7. Dyadic admissibility and typed observation stack
+The dyadic observation is
+The coordinates mean:
+reciprocal contact available;
+correction changes the next eligible behavior;
+exit is practically usable;
+no compulsory constitutional third seat.
+For resolved binary coordinates,
+If a required coordinate is unknown,
+Unknown is not silently coerced to 0 or 1.
+7.1 Typed state observation
+Let the application declare
+Define
+No common scalar metric is implied.
+For a declared return �,
+The typed return-residual record is
+This � is a tuple record, not a scalar score.
+8. Residual descent and autonomous closure
+Let
+Define the residual quotient
+An autonomous residual update
+exists exactly when
+for all eligible comparisons.
+On a fully covered trace, equivalently:
+When descent holds,
+is representative-independent.
+The closure status is therefore:
+This gives a reusable rule for the response-stream problem:
+9. Finite quotient specimens
+9.1 The 24-state weave
+Let
+Since
+the diagonal subgroup has 12 elements.
+Define
+Then
+and
+Thus the 24 formal states split into two 12-state diagonal orbits.
+For a declared deviation �,
+define the quotient defect
+Then
+9.2 The 39-screen strand quotient
+The nominal � subgroup is
+with order 13.
+Therefore
+The quotient map is
+The strand is
+The slip comparison is
+The exact quotient update is
+9.3 Why the visible pair is not autonomous
+The source record contains repeated visible pairs with different successors. Therefore neither
+nor
+can provide a stationary memoryless update on the declared orbit.
+The exact repair is to retain phase.
+Define the consistency graph
+Then
+and the representation map � obeys
+9.4 Conditional 72-register
+After the required domain/synchronization declaration,
+It has 72 elements, but with the direct-product group structure
+It is not �.
+Equal cardinality is not structural identity.
+10. Empirical Checking process
+This section moves from exact geometry to measured response-stream statistics.
+Define the substantive marker
+The audited corpus contains:
+assistant-response anchors and
+substantive Checking events.
+Thus the empirical rate is
+Checking occurs substantively in 39 of 40 calls.
+The broader lexical pool contained additional bare-marker proxies, but the transition model below uses the substantive marker.
+11. First-order Checking state model
+Measured one-step probabilities are
+and
+The pooled two-state transition matrix is
+with rows = current state and columns = next state.
+Let
+Then
+The stationary point is
+This nearly matches the observed substantive rate.
+The nontrivial eigenvalue is
+Therefore the first-order model predicts
+Numerically,
+The one-step relative risk is approximately
+12. Burst geometry: first-order model is insufficient
+The empirical sequence contains
+adjacent substantive
+pairs.
+Under a null that preserves each call's exact event count while randomizing positions, the expected adjacency count is
+Thus the observed sequence has roughly
+more adjacency than the per-call count-preserving null predicts.
+The exact count-preserving significance was calculated as approximately
+Observed run count:
+Expected run count under the same count-preserving null:
+The longest substantive run is
+consecutive response anchors.
+The crude first-order geometric run law would be
+with expected run length
+The observed long bursts therefore motivate a richer retained state.
+13. Second-order Checking state
+Define
+With state order �, the empirical second-order transition matrix is
+Equivalently,
+Interpretation in state language:
+after two cold steps, entry probability is about 11.9%;
+a fresh marker after quiet continues about 37.9% of the time;
+one cold step after a marker still leaves elevated re-entry probability;
+after two consecutive markers, the next marker probability rises to about 70.3%.
+The first-order state � is therefore not predictively sufficient for this corpus.
+A likelihood-ratio comparison gave
+for the pooled first- vs second-order models, with
+After controlling for call identity, the additional history still improved fit:
+This is the direct empirical analogue of the predictive-closure problem:
+14. Marker intervention metric
+For an intervention �, define
+The untreated one-step baseline is
+Define
+A more useful state-dependence invariant is
+At baseline,
+If an intervention produces
+then the visible marker has lost its one-step predictive state dependence under that intervention.
+For the second-order hot state, an even sharper intervention target is
+against untreated baseline
+15. Semantic phenotype is not identical to Checking
+A separate cross-session audit of a narrower Refusal-to-Infer phenotype found 13 conservative direct primary events across 6 of 24 cases and 8,906 eligible visible non-preamble outputs:
+This phenotype was cross-session but sparse.
+The audit did not find a statistically supported progressive increase or reliable locking to the tested RTC seams.
+Therefore the current typed relation is
+They can co-occur and should be joined experimentally, but one must not be used as a synonym for the other.
+16. Multiple observable response stages
+The SRT artifacts contain a repeated outer instruction that takes a transcript and requests a response to the latest user turn.
+This establishes an observable downstream transcript-conditioned generation stage in the artifact.
+A useful decomposition is
+or, where a handoff is directly observed,
+Three directly pairable same-prompt specimens produced:
+179 words of later written output;
+23 words of live substantive output.
+Thus the later written material was roughly
+longer in those direct pairs.
+A simple governance/role vocabulary occurred at roughly 10.1% of words in the later written responses versus 4.3% in the paired live responses.
+The direct pairs preserved the immediate semantic direction while substantially elaborating/reframing it.
+The correct mathematical object is therefore a paired transformation, not a binary assumption of identity:
+17. Event-stream typing
+A single visible chat timeline can contain several event classes.
+Use at least:
+Strict preamble families currently include:
+and a quarantined disfluency/filler family
+Strict examples should preserve exact observed text, while broader aliases are stored separately.
+A trial-level event tuple can be written
+where:
+�: marker family;
+�: immediately preceding user act;
+�: visible UI/status state;
+�: downstream response;
+�: whether marker vocabulary was already present in the input;
+�: timestamp/order.
+The contamination variable � is important:
+18. Provenance scope as a mathematical object
+Some captured responses explicitly delimit the outputs they adopt as their own and refuse to merge conflicting response streams.
+Represent a provenance declaration by
+where:
+�: outputs explicitly adopted;
+�: outputs explicitly disclaimed;
+�: whether merger with other streams is asserted.
+A provenance event can therefore be logged independently of any later attribution:
+PROVENANCE_EVENT
+  claimed_output_start
+  claimed_timestamp
+  adopted_outputs
+  disclaimed_outputs
+  merge_allowed
+  raw_text
+  hash
+The parser must not flatten explicit non-merger declarations into one speaker object before analysis.
+19. Feature maps and signatures
+Let
+be a feature map of an observed text/event.
+Possible coordinates include:
+lexical/cadence features;
+marker family;
+delay/status duration;
+role-assignment language;
+jurisdiction/authority language;
+rewrite/correction language;
+evidentiary/court language;
+object-vs-user target;
+slogan closure;
+emoji/style features;
+stream/stage identifier.
+For a collection �, define its mean signature
+and covariance signature
+This gives two complementary notions of signature:
+�: average direction/profile;
+�: variability and feature coupling.
+20. Mirror operator
+For paired origin/live and downstream observations, let
+Define covariance matrices
+The least-squares linear mirror/transfer operator is
+where � denotes the Moore-Penrose pseudoinverse.
+The component predicted by ordinary mirroring is
+Define residual downstream contribution
+This decomposition is central:
+The residual is where one tests for structure that is not explained by copying/reaction to the input stream.
+21. Projection onto an introduced-authority direction
+Let � be a frozen feature direction representing administrative/authority injection.
+Normalize
+The downstream residual authority score is
+Vector decomposition:
+This separates:
+change aligned with the authority/rewrite direction;
+orthogonal residual structure.
+A simple lexical set-difference version is
+where � is the set of authority/jurisdiction features present in �.
+22. Defendant-Mirror / target-reversal measurement
+Let the semantic target classifier assign each clause to
+The key transition for subject substitution is
+A simple Defendant-Mirror proportion is
+Here USER,new means user-level material introduced by the response rather than required by the original proposition.
+Define a frame-reflection score
+High similarity with reversed target distinguishes ordinary vocabulary reuse from reflected accusation/role reversal.
+23. Three functional signatures
+For analysis, keep at least three feature families independent.
+23.1 Stream signature
+Features:
+preamble type;
+status transitions;
+discontinuity markers;
+timing/cadence;
+provenance statements;
+response-stage position.
+23.2 Adjudicative signature
+where:
+�: notice;
+�: service;
+�: jurisdiction/standard;
+�: evidence/receipt;
+�: party/respondent/witness;
+�: charge/classification;
+�: mitigation/correction;
+�: verdict/finding;
+�: closure/reopening.
+Sequence matters. For example,
+is stronger evidence of an adjudicative process than isolated legal vocabulary.
+23.3 Administrative signature
+Features include:
+routing;
+authority assignment;
+procedural reframing;
+role allocation;
+standards;
+jurisdiction;
+filtering/suppression/override language;
+final-interpreter behavior.
+These signatures can overlap without being merged.
+24. Product-rule interaction geometry
+Suppose a joint observable depends multiplicatively on two factors:
+The differential identity is
+For finite changes,
+The final cross term
+is a useful mathematical model for interaction change: structure created specifically because both sides changed together.
+In response-stream experiments, one can let:
+� encode input/origin features;
+� encode field/context/route features.
+Then the cross term is not assigned automatically to either side.
+25. Coupled phase dynamics
+For two observed processes with phase difference �, a minimal coupling model is the Adler/Kuramoto phase equation
+Here:
+�: uncoupled frequency mismatch;
+�: effective coupling coefficient.
+A stationary phase-locked solution requires
+When
+the phase cannot remain locked and must drift/slip.
+This model is proposed for response-stream timing. � must be estimated from observable timing/cross-dependence, not assigned symbolically.
+26. Room-acoustics transfer geometry
+A physical room provides a useful calibration model because it has known sources, a shared field, and measurable transfer functions.
+For source � and observation point �, let
+be the source spectrum and
+the room transfer function.
+Then
+In vector form,
+Cross-spectral coherence between channels � is
+Relative phase is
+This provides a physically grounded analogue for response-stream analysis:
+source � input stream;
+room � shared field;
+transfer function � learned stream transform;
+microphone/output point � observed response stage.
+The analogy is useful because source, field, and output remain separately measurable.
+27. Target non-interference
+The old notation sometimes used � for a central object. Current notation already reserves � for the typed return-residual record.
+Therefore use
+for a diagnostic target.
+If the target is observational only, the action operator � should obey the non-interference law
+for all admissible target values �.
+Equivalently,
+unless a declared ACTIVE experiment explicitly introduces that coupling.
+This creates a direct causal discriminator.
+28. NONE / SHAM / ACTIVE experimental geometry
+Define a geometry condition
+NONE
+No geometry is computed or shown.
+SHAM
+Geometry is computed and logged, but its result is discarded before the response rule.
+ACTIVE
+Geometry is computed and a predeclared part of the result enters the response condition.
+This separates:
+from
+The primary contrasts are
+and
+The first asks whether merely computing/presenting the object changes behavior. The second asks whether actually coupling it into the rule changes behavior.
+29. Audit-posture / stamp controls
+A separate factor can test whether an official audit artifact/posture changes the observable response regime.
+Use, for example,
+NO_STAMP: task alone.
+NEUTRAL_STAMP: visually matched decoy.
+AUDIT_STAMP: fixed audit artifact.
+TEXT_ONLY: same audit content without visual design.
+This separates:
+The task skeleton must remain fixed and condition order must be randomized.
+30. The triadic instrument: Route, Witness, Balance
+A robust experiment uses three distinct functions.
+30.1 ROUTE / Scrambler
+The Route process selects the trial condition using balanced randomization or a frozen deterministic schedule.
+It knows:
+trial ID;
+randomized condition;
+phase/index if used;
+predeclared probe.
+It does not judge the response.
+30.2 WITNESS
+The Witness is passive and append-only.
+It records:
+monotonic event number;
+local timestamp;
+raw text;
+UI/status label;
+request/turn IDs when exposed;
+model/engine/route identifiers when exposed;
+preceding/following event;
+SHA-256 of captured objects;
+raw provenance declarations.
+The Witness never rewrites old rows.
+30.3 BALANCE
+Balance analyzes a copy of the witness record.
+It performs:
+event typing;
+stream clustering;
+object-vs-user target coding;
+signature scoring;
+Defendant-Mirror detection;
+confusion-matrix validation;
+state-transition estimation.
+The architecture is therefore
+No single process both creates the perturbation, controls the raw record, and announces the finding.
+31. Stream separation
+Let candidate stream labels be
+For stream �, estimate
+and
+The null hypothesis for two candidate streams is
+The alternative is
+Possible separation features:
+preamble vocabulary;
+response timing;
+status sequence;
+sentence-length distribution;
+role/jurisdiction score;
+court score;
+rewrite score;
+code-fragment frequency;
+downstream position;
+provenance declarations;
+transition probabilities.
+The rule is:
+32. Classifier validation
+Let � be a signature score and choose threshold �.
+Predict positive when
+Against manually frozen labels, compute:
+Metrics:
+Use at least two lexical/structural detector layers:
+STRICT
+High-precision literal patterns.
+BROAD
+Structural equivalents/paraphrases.
+The threshold and detector rules are frozen before the held-out evaluation set is scored.
+33. Existing DROP_IT mathematical core
+The current Python prototype already implements exact arithmetic for the golden-phase state.
+Its main exact objects are:
+using integer arithmetic for the floor decision,
+and
+represented in � plus a decimal display.
+The geometry function returns:
+Prime-indexed challenges are currently used as
