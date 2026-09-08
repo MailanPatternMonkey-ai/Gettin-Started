@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-08",
+  "author": "Anonymous",
+  "license": "CC0-1.0",
+  "recorded_at_utc": "2026-09-08T12:02:32.544300+00:00",
+  "repository": "MailanPatternMonkey-ai/Gettin-Started",
+  "base_commit": "90301d7db659aaf85475dc06e83e8ed57b1677dd",
+  "base_tree": "615be5c376c5904f56c620389c4024272786204f",
+  "claim": {
+    "kernel": "TD-COS-FH-001",
+    "weights": "cosine",
+    "J": 1,
+    "t": "1/2",
+    "h6": 0,
+    "ensemble": "fixed-reference Z000",
+    "currents": "unbounded integers",
+    "lattice": "every fixed cubic L >= 2",
+    "clock": "every fixed integer d >= 1 attempted microticks",
+    "sweep": "d = 8 L^3 + 7",
+    "stationary_result": "no finite Markov order",
+    "initialization_corollary": "no exactly time-homogeneous finite-order sector law under any initial full-state distribution",
+    "time_inhomogeneous_claim": "NOT_ESTABLISHED"
+  },
+  "source_metadata": {
+    "review": {
+      "document_id": "11nOlChBSZwKD8xm-mu6uQ-JFVYPdLkSK8nL1_9yJGXk",
+      "revision_id": "ANLCKQm_yrfB9pBInTchQ0j5xMiw2yV0-14w6ba1W87zt7PKUvDLX4959eI-qBZhdw-qWA7EWTxBDcmosOst4rJ2otqnM7qBVpUBriw0yy8",
+      "title": "**Geometry review — what the last three days add**",
+      "created_time": "2026-09-08T05:26:56.000Z",
+      "modified_time": "2026-09-08T05:27:01.077Z",
+      "url": "https://docs.google.com/document/d/11nOlChBSZwKD8xm-mu6uQ-JFVYPdLkSK8nL1_9yJGXk/edit?usp=drivesdk"
+    },
+    "spec": {
+      "document_id": "1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q",
+      "revision_id": "ANLCKQmBeDvdIH7JZFbXjnmKOw96FOzMNH1fWo7ew4uDMirDj2BZX0NqVAIR1fcRjSN-ns5fHhT6l1KcUcFR9vLWKxg7bC5rNoq9SECWHME",
+      "title": "# Toroidal Dynamics v0",
+      "created_time": "2026-09-08T01:24:19.159Z",
+      "modified_time": "2026-09-08T01:24:25.766Z",
+      "url": "https://docs.google.com/document/d/1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q/edit?usp=drivesdk"
+    },
+    "theorem": {
+      "document_id": "1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY",
+      "revision_id": "ANLCKQlGZxOjGEtozgbzv3F3c-UXnRVxy7vpqcpafVlRxagR7oNN7izXhvScb6af3RJfH-dNS6HAGT6x5medeQ",
+      "title": "# TD-COS-FH-001- the sector process has no finite Markov order",
+      "created_time": "2026-09-08T05:59:53.816Z",
+      "modified_time": "2026-09-08T05:59:57.504Z",
+      "url": "https://docs.google.com/document/d/1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY/edit?usp=drivesdk"
+    }
+  },
+  "recovered_complete_artifact": {
+    "original_filename": "TD-COS-FH-001_No_Finite_Markov_Order.md",
+    "created_at_utc": "2026-09-08T05:50:04.005771Z",
+    "origin": "existing complete Markdown artifact recovered separately from the native Drive document",
+    "sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7",
+    "size_bytes": 25675
+  },
+  "recovery_checks": {
+    "drive_text_is_whitespace_stripped_prefix_of_complete_artifact": true,
+    "original_verifier_declared_hash_matches": true,
+    "original_embedded_output_declared_hash_matches": true,
+    "fresh_output_byte_identical_to_embedded_output": true,
+    "old_review_and_spec_snapshot_hashes": "historical declarations only; original snapshot bytes not recovered or matched in this task"
+  },
+  "execution": {
+    "python_version": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+    "implementation": "cpython",
+    "commands": [
+      "python3 verify.py > verification_fresh.json",
+      "python3 verify_certificates.py > certificates.json"
+    ],
+    "working_directory": "corpus/mathematics/TD-COS-FH-001",
+    "dependencies": "Python standard library only",
+    "original_clock_checks_passed": 6,
+    "original_decimal_local_checks_passed": 3,
+    "new_exact_clock_certificates_passed": 9,
+    "new_local_interval_certificates_passed": 3,
+    "descriptors_per_local_state": 123,
+    "local_ratios_pairwise_disjoint": true,
+    "all_original_local_decimal_values_inside_new_rational_enclosures": true,
+    "all_orders_proof_method": "analytical; finite checks are supplementary",
+    "sampler_replay": "NOT_RUN"
+  },
+  "preserved_statuses": {
+    "physical_Q2": "NOT_RUN",
+    "production": "NOT_AUTHORIZED",
+    "historical_deterministic_mismatch": "UNRESOLVED",
+    "exact_full_state": "X=(I,M,q) remains Markov",
+    "q_W": "earlier L=2 one-step counterexample only; no higher-order theorem",
+    "exact_phase_evidence": "UNCHANGED",
+    "global_shape": "UNRESOLVED",
+    "empirical_connectivity": "UNRESOLVED",
+    "global_holonomy": "UNRESOLVED",
+    "hidden_platform_geometry": "NOT_ESTABLISHED",
+    "chemistry_freeze": "UNCHANGED"
+  },
+  "hash_scope": "SHA-256 of the exact packaged local bytes. Readable Drive snapshots are not provider-native bytes. This file excludes its own hash; corpus/manifest.json records it.",
+  "files": [
+    {
+      "path": "README.md",
+      "role": "new scoped publication summary and evidence boundary",
+      "sha256": "71f1f4394b1d52850a848aed726cbf2f1a5e1bd7d7277c1b1b6315f3dfabe1c7",
+      "size_bytes": 5739
+    },
+    {
+      "path": "AUDIT.md",
+      "role": "new mathematical review and source-recovery audit",
+      "sha256": "221d9a6c361af79b33b3784bc96d6310e8ebf6a0870fd322455a159a35169995",
+      "size_bytes": 8245
+    },
+    {
+      "path": "PROOF.md",
+      "role": "reviewed edition of source_note.md sections 1-7; heading, cross-reference and math-delimiter edits only",
+      "sha256": "0102e977491981bb7e8698f9d9c09ffb209dd2c1b58f1e1c14584402313c2d1c",
+      "size_bytes": 13600
+    },
+    {
+      "path": "source_note.md",
+      "role": "byte-preserved complete earlier Markdown artifact",
+      "sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7",
+      "size_bytes": 25675
+    },
+    {
+      "path": "verify.py",
+      "role": "exact extraction of original Python fenced block with one terminal LF",
+      "sha256": "96c2d72c9e1e0de55e86392cc1f2546633d4a076f5f580e7408990aa13166e8f",
+      "size_bytes": 4850
+    },
+    {
+      "path": "verification_original.json",
+      "role": "exact extraction of original embedded JSON output with one terminal LF",
+      "sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
+      "size_bytes": 2538
+    },
+    {
+      "path": "verification_fresh.json",
+      "role": "fresh stdout of the recovered verify.py",
+      "sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
+      "size_bytes": 2538
+    },
+    {
+      "path": "verify_certificates.py",
+      "role": "new independently written supplementary rational checker",
+      "sha256": "e965b14ea11d1f60dd7103a7b205508c7ca0361df11369e0ca7b3c2fcbbfaa49",
+      "size_bytes": 8958
+    },
+    {
+      "path": "certificates.json",
+      "role": "fresh stdout of verify_certificates.py",
+      "sha256": "64537b9c55edbcf8c7d9b117b76180ddd02005ec4e1da5ea4fa9b5fd54a39b0f",
+      "size_bytes": 14120
+    },
+    {
+      "path": "sources/drive_note_snapshot.txt",
+      "role": "native document paragraph text joined with LF plus one terminal LF; includes incomplete verifier",
+      "sha256": "f819bbb7285c555397a1758fb5f874122d2592dcb3ed3732a0dc8b2ea358e064",
+      "size_bytes": 20000
+    },
+    {
+      "path": "sources/kernel_snapshot.txt",
+      "role": "native document paragraph text joined with LF plus one terminal LF",
+      "sha256": "8cbd8b107fee4a0b6006f49032ec50e1929fe642e2a444be9604e3c1150d4052",
+      "size_bytes": 14389
+    },
+    {
+      "path": "sources/review_math_excerpt.md",
+      "role": "native document paragraph text; only sections 2-3 retained, with an explicit editorial excerpt header",
+      "sha256": "46d2a169691f2dd37dbd2fa7bc22dc9eb1c17bd7f8f9ad095a8737e5029e8089",
+      "size_bytes": 5295
+    }
+  ]
+}
