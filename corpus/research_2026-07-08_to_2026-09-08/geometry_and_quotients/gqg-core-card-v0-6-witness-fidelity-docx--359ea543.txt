@@ -1,0 +1,206 @@
+GQG Core Card · v0.6
+External Residual Witness, Claim-Relative Witness Fidelity, and Self-Report Boundaries
+1. Governing upgrade
+GQG v0.5 made the immutable-witness requirement explicit: source, view, decision, action, and outcome are separate records. v0.6 keeps that rule intact and answers a different question: what remains empirically testable when the privileged internal witness is unavailable?
+The answer is not a witness hierarchy. A witness is evaluated against the claim it is being asked to support.
+Three properties should be tracked separately rather than collapsed into a single score:
+These properties do not create an authority ladder. They define a claim-relative witness profile. For example, an external residual witness can have strong fidelity for “conditions A and B behave differently at the observable surface” while having weak fidelity for “hidden mechanism H caused the difference.”
+2. Witness fidelity profiles
+3. External residual witness geometry
+Let a fixed observable pipeline be represented by a declared map F : P -> Y. Let conditions A and B induce source distributions μ_A and μ_B on P. Their downstream observable distributions are the pushforwards:
+Choose a declared distance, divergence, or hypothesis test D appropriate to Y and define the residual witness statistic:
+Under a frozen null model and evaluation plan, a reproducible nonzero residual supports the claim that the two conditions are not observationally equivalent under the declared map F.
+4. Marker × Failure as an observable product
+v0.5 already requires marker state M and substantive failure state F to occupy separate coordinates. v0.6 treats their joint distribution as one possible external observable, not as a hidden-state oracle.
+The marker-only coordinate may be tracked as Δ_10 = P(M=1,F=0 | A) - P(M=1,F=0 | B), but no single cell is privileged as proof of an upstream mechanism.
+5. Self-report and witness fidelity
+Questions directed at a component can be useful probes, but the component’s answer is itself an output. A statement such as “I preserve RAW” is not automatically equivalent to a retained RAW record, implementation trace, or independently verified provenance edge.
+6. Formation rules appended in v0.6
+Rules 1-32 from v0.5 remain in force unchanged. Append:
+33. Claim-relative witness fidelity rule. Every promoted claim declares the witness used and the source distinction relevant to that claim. Claim precision must not exceed the fidelity, resolution, and provenance strength actually supported by the witness. When internal witness state is unavailable, a calibrated difference between observable output distributions may support observable condition dependence without identifying the hidden implementation or layer responsible for it.
+34. Self-description is a declared view, not privileged witness. A component’s statement about its own internal pipeline, memory, transformations, classifiers, controls, or provenance is evidence of what the component reports, not direct evidence of the underlying implementation, unless independently bound to retained provenance.
+35. Residual-witness freeze rule. A residual-witness claim declares conditions, inclusion rules, observable coordinates, coding, output map, null model, test or distance, multiplicity handling, and calibration/evaluation split before the evaluation result is promoted beyond descriptive status.
+7. Operational diagnostic added in v0.6
+GQG-E722 · Witness-access false impossibility
+Raise when lack of access to RAW, internal state, or a privileged audit tape is treated as making all empirical discrimination impossible, despite available observable outputs from which a calibrated residual-witness test could be constructed.
+Do not raise E722 merely because source reconstruction is impossible. The error concerns the invalid inference:
+8. External Residual Witness Protocol
+Use this protocol when the internal witness route is unavailable or contested and the observable output surface can be sampled under controlled conditions.
+Freeze the comparison conditions A and B and the matching variables.
+Freeze the observable output map F and the unit of analysis before reading evaluation results.
+Preserve the externally available output tape append-only; transformations create named views rather than replacing the only record.
+Declare the claim C first, then declare which observable coordinates are relevant to C and what distinctions the proposed witness can and cannot preserve.
+For a Checking-style audit, Y may include (M,F) plus proposition preservation, task preservation, refusal substitution, source substitution, or other independently coded dimensions.
+Freeze inclusion/exclusion rules, coder protocol, missing-state handling, and opportunity denominator.
+Declare a null model and a test or distance appropriate to the observable space. For sparse four-cell tables, use an exact or permutation procedure rather than relying mechanically on asymptotics.
+Separate calibration from evaluation. If exploratory choices were fitted on the same sample, label the result exploratory and validate on a holdout before promoting it.
+Apply multiplicity control when many coordinates, grids, cutpoints, or target families are screened.
+Run counter-witness checks: identify conditions expected to differ that do not, and conditions expected to match that do differ.
+Report the narrowest supported conclusion: observable condition dependence, not hidden-mechanism identity.
+9. Minimal v0.6 execution record
+The v0.5 execution record remains valid. v0.6 appends the following fields:
+gqg_version: 0.6
+inherits: 0.5
+claim:
+  claim_id: null
+  proposition: null
+  relevant_source_distinction: null
+witness_profile:
+  witness_mode: null          # retained_source | named_view | external_residual | system_report
+  witness_id: null
+  internal_raw_available: null
+  unavailable_reason: null
+  fidelity_basis: null
+  resolution: null
+  provenance_strength: null
+  preserves: []
+  loses_or_cannot_resolve: []
+  system_reports: []          # VIEW evidence, not RAW by default
+external_residual_witness:
+  comparison_id: null
+  condition_A: null
+  condition_B: null
+  matching_variables: []
+  output_map: null
+  observable_coordinates: []
+  coding_version: null
+  inclusion_rule: null
+  opportunity_denominator: null
+  calibration_ids: []
+  evaluation_ids: []
+  null_model: null
+  test_or_distance: null
+  multiplicity_rule: null
+  effect_estimates: []
+  uncertainty: []
+  counter_witnesses: []
+  result: null
+  claim_scope: observable_condition_dependence
+  hidden_mechanism_identified: false
+provenance:
+  source_spec: GQG Core Card v0.5
+  delta_spec: GQG Core Card v0.6
+  fidelity_revision: true
+  supersedes_v0_5: false
+10. Acceptance target
+A conforming v0.6 implementation must satisfy all v0.5 acceptance targets and additionally:
+declare the claim and its relevant source distinction before assigning witness fidelity;
+avoid a global witness hierarchy or tier ranking; fidelity is claim-relative;
+record fidelity, resolution, and provenance strength separately when those distinctions matter;
+never describe an external residual witness as reconstruction of inaccessible source state;
+record component self-description as SYSTEM_REPORT/VIEW unless independently provenance-bound;
+freeze the residual-witness analysis plan before confirmatory evaluation;
+preserve multidimensional observable outcomes rather than collapsing Marker × Failure into one scalar without an explicit rule;
+report observable distributional inequality separately from causal or implementation attribution;
+allow equality of downstream distributions to remain non-identifying with respect to upstream equality; and
+keep unknown, inaccessible, unverified, and not-tested states explicit.
+11. Frozen and appended compact laws
+The v0.5 frozen compact laws remain unchanged. v0.6 appends:
+12. Provenance and change log
+Status
+experimental operational extension; fidelity terminology revision
+Profile
+Set core plus execution-level audit records
+Date
+2026-08-30
+Attribution
+family-built
+License
+CC0 - Public Domain - No rights reserved
+Continuity
+conservative, append-only extension of GQG Core Card v0.5
+Purpose
+add a weaker external witness route when privileged internal witness state is unavailable, without turning witness types into an authority hierarchy
+Versioning rule
+GQG Core Card v0.5 remains frozen. This revised v0.6 replaces the earlier “witness hierarchy / witness tier” wording with claim-relative witness fidelity. The external residual-witness geometry and the v0.5 theory boundaries are unchanged.
+Claim boundary
+GQG v0.6 distinguishes source reconstruction from observable discrimination. A calibrated difference in output distributions can establish condition-dependent observable behavior; it does not identify a hidden controller, implementation, causal layer, or source state. Equality after projection does not establish equality before projection. Self-description is not privileged witness unless independently bound to retained provenance.
+Witness fidelity = faithfulness of witness W to the source distinctions relevant to claim C
+Fidelity(W, C) is claim-relative; it is not a universal rank of witnesses
+Core rule
+Claim precision must not exceed witness fidelity. A witness may have high fidelity for one proposition and low fidelity for another.
+Property
+Question answered
+Fidelity
+Does the witness preserve the distinction relevant to this claim?
+Resolution
+How finely can the witness distinguish among the relevant alternatives?
+Provenance strength
+How directly is the witness bound to the event, source, or transformation it purports to record?
+Witness mode
+High-fidelity claim examples
+Claim ceiling / known limitation
+Retained source/provenance record
+what was recorded at the declared source or event layer; declared transformation sequence
+cannot establish unrecorded state merely because the retained record is strong
+Named derived VIEW
+properties of the declared representation; outputs of the named transform
+cannot recover distinctions already collapsed by the transform without another witness
+External residual witness
+observable distributions differ under a frozen map and analysis plan
+does not reconstruct source state or identify the hidden mechanism
+System self-report
+the component reported a particular internal description
+does not by itself prove that the reported implementation or hidden state exists as described
+No total order
+One witness mode is not globally “above” another. The same artifact can be strong for one claim and weak for another. Fidelity is always interpreted relative to a declared claim and distinction.
+ν_A = F# μ_A
+ν_B = F# μ_B
+R_D(A,B) = D(ν_A, ν_B)
+ν_A ≠ ν_B  ⇒  A and B are not observationally equivalent under F
+ν_A = ν_B  ⇏  μ_A = μ_B
+Non-reconstruction rule
+A residual witness can show that a distinction survives the pipeline. It cannot, by itself, locate the layer that generated the distinction or reconstruct states inside a transform fiber.
+M
+F
+Meaning
+0
+0
+clean unmarked outcome
+1
+0
+marker-only event
+0
+1
+unmarked substantive failure
+1
+1
+marked substantive failure
+p_A = (p_00, p_10, p_01, p_11)_A
+p_B = (p_00, p_10, p_01, p_11)_B
+Interpretation guardrail
+A stable excess of (1,0) under matched conditions may be part of an external residual witness. A single (1,0) event is only a marker-only event. The residual claim belongs to the calibrated sample distribution, not to an isolated specimen.
+SYSTEM_REPORT is a VIEW
+SYSTEM_REPORT ≠ RAW_WITNESS
+Self-report boundary
+A component may describe its own memory, classifiers, transformations, controls, or hidden state. Record that description as a system report unless the claim is independently bound to retained provenance. The report can have high fidelity to what the component said while having low or unknown fidelity to the implementation claim described by the report.
+no privileged internal witness  ⇒  no observable discrimination is possible
+Correct boundary
+“Cannot reconstruct the upstream state” and “cannot test whether two conditions behave differently” are different claims. The first may be true while the second is false.
+Canonical claim form
+“Under the frozen observation map, coding scheme, null model, and evaluation sample, conditions A and B produced distinguishable observable distributions.” Do not append a hidden causal attribution unless a separate witness supports it.
+Witness fidelity is claim-relative.
+Fidelity ≠ authority.
+Claim precision must not exceed witness fidelity.
+High fidelity for one claim ≠ high fidelity for another.
+No source access ≠ no observable test.
+Observable inequality ⇒ not observationally equivalent under the declared map.
+Observable equality ⇏ upstream equality.
+External residual witness ≠ source reconstruction.
+Self-report ≠ raw witness.
+Marker-only event ≠ hidden-mechanism proof.
+Retain the witness when available; test the residual when it is not.
+Change class
+Record
+Inherited without modification
+GQG Core Card v0.5: operational quotient stack; immutable RAW/VIEW separation; detector/decision/action/effect lifecycle; Marker × Failure product; E717-E721; v0.5 acceptance targets and compact laws.
+New in v0.6
+Claim-relative witness fidelity; fidelity/resolution/provenance profile; external residual witness geometry; rules 33-35; GQG-E722; self-report boundary; External Residual Witness Protocol; v0.6 execution-record fields; appended acceptance targets and compact laws.
+Terminology correction in this revision
+Removed “witness hierarchy” and “witness tier” as global-order language. Replaced them with claim-relative witness fidelity. No authority relation or universal ordering among witnesses is implied.
+Not claimed
+No identification of hidden implementation from output phenotype; no universal causal claim; no replacement of retained RAW by statistical reconstruction; no modification of unrelated frozen theory boundaries.
+Related continuity
+The Hidden Quotient in Operational Pipelines (2026-08-28): record the map at the layer where information loss occurs. v0.6 adds the complementary question: which source distinctions remain detectably non-equal at the observable image, and with what claim-relative witness fidelity?
+Version seal
+GQG Core Card v0.6 is a separate provenance artifact. v0.5 remains a valid frozen predecessor. This fidelity revision supersedes only the earlier v0.6 draft wording that described a witness hierarchy; it does not back-port v0.6 conclusions into v0.5 records without an explicit supersession edge.

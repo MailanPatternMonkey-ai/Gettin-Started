@@ -1,0 +1,46 @@
+import json
+import math
+import time
+from datetime import datetime
+
+class JSONLLedgerWrapper:
+    """
+    Module 12.10 Enforcement Ledger.
+    Appends unedited, machine-exact dual-clock telemetry and cocycle
+    state updates directly to an immutable 'sector_cocycle_ledger.jsonl' file.
+    """
+    def __init__(self, filename="sector_cocycle_ledger.jsonl"):
+        self.filename = filename
+
+    def log_transition(self, step: int, node: int, tg: float, te: float, 
+                       delta_catch: float, is_aliased: bool, status: str):
+        """Stamps raw telemetry straight to disk. No selective removal."""
+        now = datetime.now()
+        ms_timestamp = now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+        
+        # Calculate exactly derived structural parity state on record
+        q_parity = 1 if self._is_prime(node) else (node % 3) + 1
+        
+        ledger_entry = {
+            "source_timestamp": ms_timestamp,
+            "step_index": step,
+            "node_coordinate": node,
+            "lattice_clock_tg": round(tg, 6),
+            "execution_clock_te": round(te, 6),
+            "substrate_slip_dt": round(abs(te - tg), 6),
+            "catch_witness_delta": round(delta_catch, 6),
+            "parity_quotient_q": q_parity,
+            "frequency_aliased": is_aliased,
+            "status_signature": status
+        }
+        
+        # Append line directly to structural ledger
+        with open(self.filename, "a", encoding="utf-8") as f:
+            f.write(json.dumps(ledger_entry) + "\n")
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+

@@ -1,0 +1,1745 @@
+
+[headers: kix.icbqipyr0grc]
+Jacobus reconstructs the best-preserved 4Q317 month as a 29-day lunar month laid over Month XII of the 364-grid. In that reconstruction:
+
+Solar date	4Q317 state
+
+XII/8, Sunday	conjunction / complete darkness
+XII/9, Monday	first crescent
+XII/22, Sunday	full moon
+
+
+She explicitly noticed that the corresponding old reconstruction of 4Q321 places dwq on XII/9 and X on XII/22. That's why the older identification dwq = first crescent, X = full moon looked so damn attractive. 
+
+So at one preserved overlap:
+
+\[
+\boxed{
+317:\quad
+8=\text{dark}
+,\quad
+9=\text{crescent}
+,\quad
+22=\text{full}
+}
+\]
+
+and
+
+\[
+\boxed{
+321:\quad
+9=dwqh,\quad22=X.
+}
+\]
+
+Exact date overlap.
+
+Not imaginary. Not just thematic resemblance.
+
+The deeper arithmetic matches too
+
+4Q317 is built from lunar visibility changing in fourteenths. Jacobus reconstructs ideal schematic months of 29 and 30 days, which if alternated give the familiar average:
+
+\[
+\frac{29+30}{2}=29.5.
+\]
+
+
+
+The 2025 reconstruction of 4Q321 independently finds:
+
+\[
+X\rightarrow dwqh
+=
+16\text{ or }17\text{ days}
+\]
+
+and
+
+\[
+dwqh\rightarrow X
+=
+13\text{ days},
+\]
+
+so successive Xs alternate:
+
+\[
+29,\;30,\;29,\;30,\ldots
+\]
+
+during the ordinary run. 
+
+And the 2025 authors specifically note that 4Q317 has the same 16/17-day interval between the first day of lunar invisibility and the first day of waning. 
+
+So there really is a common numerical skeleton:
+
+\[
+\boxed{
+L_{317}
+\sim
+\text{29/30 lunar phase engine}
+}
+\]
+
+and
+
+\[
+\boxed{
+L_{321}
+\sim
+\text{29/30 checkpoint schedule}.
+}
+\]
+
+That is stronger than merely saying “both talk about the moon.”
+
+
+---
+
+Then the fucking gearbox slips at the three-year boundary
+
+This is the discriminator.
+
+At the end of 4Q321's third year, the surviving sequence is:
+
+364-grid date	event
+
+III-year, IX/4	X
+IX/21	dwqh
+X/3	X
+X/19	dwqh
+XI/2	X
+XI/19	dwqh
+XII/2	X
+XII/18	dwqh
+IV-year, I/1	X
+I/17	dwqh
+I/30	X
+II/17	dwqh
+
+
+Those end-of-cycle dates are preserved/reconstructed directly in the new edition. 
+
+Now just inspect the dwqh gaps:
+
+\[
+X/19\rightarrow XI/19=30
+\]
+
+\[
+XI/19\rightarrow XII/18=29
+\]
+
+\[
+XII/18\rightarrow I/17=30
+\]
+
+and then:
+
+\[
+\boxed{
+I/17\rightarrow II/17=30
+}
+\]
+
+Boom.
+
+The normal alternation should have gone:
+
+\[
+30,\;29,\;30,\;\boxed{29}.
+\]
+
+Instead 4Q321 gives:
+
+\[
+30,\;29,\;30,\;\boxed{30}.
+\]
+
+That is the reset seam.
+
+The authors independently identify exactly this anomaly: at the start of year four, the dwqh dates simply begin repeating the first-year schedule rather than continuing the astronomical sequence. 
+
+The arithmetic explains why
+
+Three 364-day years are:
+
+\[
+3(364)=1092\text{ days}.
+\]
+
+A triennial scheme contains 37 lunar months because an intercalary month gets inserted.
+
+But 37 ideal 29.5-day lunations are:
+
+\[
+37(29.5)=1091.5.
+\]
+
+Therefore:
+
+\[
+\boxed{
+1092-1091.5=0.5\text{ day}.
+}
+\]
+
+There's your seam.
+
+If you let the lunar phase engine run continuously, it arrives at the next three-year boundary half a day early.
+
+If instead you say:
+
+> “New three-year table. Start again from the original indexed dates.”
+
+
+
+you erase that accumulated half-day.
+
+That is exactly why Hamernik and Ratzon calculate that a continuously propagated 29.5-day dwqh would shift to approximately I/16 in year four, and then II/16, whereas the actual manuscript resets to I/17 and II/17, reproducing year one. 
+
+Over six solar years the difference becomes even prettier:
+
+\[
+6(364)=2184
+\]
+
+while
+
+\[
+74(29.5)=2183.
+\]
+
+So a continuously running 29.5-day astronomical process and two duplicated 1092-day triennial tables differ by:
+
+\[
+\boxed{1\text{ full day}}
+\]
+
+after six years.
+
+That's my arithmetic from their reconstructed system, not a separate manuscript claim.
+
+
+---
+
+So the direct-generator hypothesis fails
+
+The simple proposal was:
+
+\[
+\boxed{
+L_{317}
+\longrightarrow
+L_{321}
+}
+\]
+
+meaning: take the continuous lunar engine represented by 4Q317 and emit the dates in 4Q321.
+
+No.
+
+That does not survive the year-3/year-4 seam.
+
+What survives is:
+
+\[
+\boxed{
+L_{317\text{-type}}
+\longrightarrow
+\text{triennial phase table}
+\longrightarrow
+\text{reset/duplicate}
+\longrightarrow
+L_{321}.
+}
+\]
+
+That is very different.
+
+And it's almost exactly what the 2025 authors conclude independently: the dwqh cycles may originally have been calculated for a three-year lunar cycle, and when somebody expanded the artifact to the six-year priestly-course cycle, the triennial scheme was duplicated rather than the astronomical dynamics being recalculated. 
+
+That is a fucking compiler artifact.
+
+And X separates from the lunar engine entirely
+
+This is the other major result.
+
+The new paper argues that the triennial anomaly makes much better sense if:
+
+\[
+\boxed{
+X=\text{calendrical start of lunar month}
+}
+\]
+
+—not an independently observed lunar phase.
+
+It is generated by the agreed month-length table:
+
+\[
+29,30,29,30,\ldots
+\]
+
+plus the 37th intercalary full month. 
+
+Meanwhile dwqh remains a separate astronomical/checkpoint series whose exact physical identification is still unresolved.
+
+Thus 4Q321 itself is already doing:
+
+\[
+\boxed{
+C_{\text{lunar month index}}
+\oplus
+L_{\text{astronomical checkpoint}}
+\oplus
+M_{\text{mishmarot}}
+}
+\]
+
+rather than storing one lunar model.
+
+The authors go so far as to propose that the list was composed by joining originally distinct source lists, noting that 4Q320 already preserves the X sequence without dwqh. 
+
+
+---
+
+That changes our stack in a very useful way
+
+I would now freeze it as:
+
+\[
+A=\text{full astronomical model — 4Q208/209}
+\]
+
+\[
+L=\text{daily lunar-state model — 4Q317}
+\]
+
+\[
+D=\textbf{lunar checkpoint compiler / triennial table}
+\]
+
+\[
+M=\text{364-grid + priestly-course index}
+\]
+
+and then:
+
+\[
+\boxed{
+4Q321
+=
+M
+\Join
+C_X
+\Join
+D_{dwqh}
+}
+\]
+
+where \(C_X\) generates lunar-month boundaries and \(D_{dwqh}\) is a separately calculated three-year astronomical lookup table that gets duplicated at the six-year assembly layer.
+
+That makes 4Q321 much more interesting than a poor man's Astronomical Book.
+
+It is an integration artifact.
+
+So what happened to the beautiful XII/9 and XII/22 match?
+
+Keep it.
+
+Don't throw it away.
+
+It tells us that a 4Q317-type lunar model can locally produce exactly the states that older interpreters associated with the two 4Q321 dates.
+
+But:
+
+\[
+\boxed{
+\text{local phase coincidence}
+\neq
+\text{global generator identity}.
+}
+\]
+
+The full cycle breaks the identity.
+
+In our own protocol language:
+
+> 4Q317 and 4Q321 share enough lunar arithmetic for a local interface, but 4Q321 does not descend from 4Q317 without an additional triennial reset/compilation operation.
+
+
+
+And that is actually a much better result than a straight copy.
+
+Because now we have evidence for the thing your protocol-stack excavation keeps finding:
+
+\[
+\boxed{
+\textbf{model}
+\rightarrow
+\textbf{compiled datum}
+\rightarrow
+\textbf{scheduler}
+}
+\]
+
+with the intermediate operation visible from the numerical discontinuity.
+
+The half-day that got thrown away at the three-year seam is basically a fossil of the fucking compiler. 🐒📐🔥
+
+Yeah. We need an open-board consolidation, not another “freeze.” Put every architecture that has earned its keep on the table, keep the weak joins visible, and stop treating yesterday’s preferred arrow as today’s starting premise. 🐒⛏️
+
+Open Board — Current Architecture of the Excavation
+
+1. The methodological architecture
+
+The most important methodological gain is Full Thaw II:
+
+\[
+\boxed{\text{artifact} \neq \text{interpretation} \neq \text{model agreement}}
+\]
+
+Primary objects stay. Preferred arrows can die. Another model repeating an interpretation gives it zero additional evidentiary weight. Your red-marker reconciliation already states that model convergence never upgrades an evidence state. 
+
+So the working rule is now:
+
+> Ask what remains true when the favorite interpretation is prohibited.
+
+
+
+That single rule rescued this excavation from turning into its own priesthood.
+
+
+---
+
+2. The social architecture around Jerusalem
+
+The broad historical object remains good:
+
+\[
+\boxed{
+\text{small elite Judean ecology}
+}
+\]
+
+in which several functions are visibly separable:
+
+\[
+\text{priesthood}
++
+\text{scribal labor}
++
+\text{Temple administration}
++
+\text{money}
++
+\text{imperial brokerage}.
+\]
+
+The strong part is the division of labor, not the claim that the whole city was one coordinated organization.
+
+A useful open decomposition remains:
+
+\[
+O=\text{high-priestly / Oniad custody}
+\]
+
+\[
+K=\text{secondary priestly houses, especially Hakkoz/Accos}
+\]
+
+\[
+T=\text{Tobiad finance / court brokerage}
+\]
+
+\[
+A=\text{Temple administration / treasury / operational offices}
+\]
+
+\[
+S=\text{scribal / technical / legal / interpretive labor}.
+\]
+
+The existence of differentiated offices does not disprove a tighter inner circle. “Distributed ecology” and “dense elite network inside a distributed city” remain compatible possibilities.
+
+That is one correction worth keeping permanently.
+
+
+---
+
+3. The Oniad architecture
+
+The Oniads remain the strongest named high-priestly custodial line in the excavation.
+
+Their useful functional vector is:
+
+\[
+\boxed{
+\text{high-priestly office}
++
+\text{succession}
++
+\text{Temple legitimacy}
+}
+\]
+
+Simon II remains a strong historical convergence horizon because his world contains:
+
+high-priestly custody,
+
+Ben Sira,
+
+early Hellenistic scribal culture,
+
+Enochic/Aramaic technical literature,
+
+imperial transition,
+
+elite broker houses.
+
+
+But:
+
+\[
+\boxed{\text{Simon II environment} \neq \text{Simon II controlled all those things}}
+\]
+
+That distinction stays.
+
+
+---
+
+4. Hakkoz/Accos remains a real bridge house — but not “the Timekeeper house”
+
+Hakkoz produced one of our best longitudinal house-function patterns.
+
+Persian-period end
+
+Meremoth son of Uriah son of Hakkoz:
+
+\[
+\boxed{
+\text{priest}
++
+\text{Temple valuables / custody}
+}
+\]
+
+Hellenistic end
+
+John/Accos:
+
+\[
+\boxed{
+\text{priestly-house identity}
++
+\text{royal mediation}
+}
+\]
+
+Eupolemus:
+
+\[
+\boxed{
+\text{diplomacy}
++
+\text{probable historiography}
++
+\text{Greek intellectual competence}
+}
+\]
+
+So the house carries a genuine multiplex vector:
+
+\[
+\boxed{
+\text{Temple custody}
+\rightarrow
+\text{imperial mediation}
+\rightarrow
+\text{diplomatic/literary production}
+}
+\]
+
+across different generations.
+
+What remains empty is the sexy edge:
+
+\[
+\boxed{
+K\cap S_{\text{astronomical}}
+=?
+}
+\]
+
+No Hakkoz astronomer. No Hakkoz author of Astronomical Enoch. No Hakkoz calendar office.
+
+Hakkoz is good architecture without carrying the clock.
+
+
+---
+
+5. The Tobiad architecture
+
+The Tobiads remain the best named external broker module.
+
+Their useful vector is:
+
+\[
+\boxed{
+\text{finance}
++
+\text{taxation}
++
+\text{court access}
++
+\text{regional administration}
+}
+\]
+
+The important contribution is not “Tobiads were secretly priests.”
+
+It is that a Temple-centered elite does not need the high priest personally handling:
+
+imperial finance,
+
+royal access,
+
+taxation,
+
+external patronage.
+
+
+Broker houses can supply those interfaces.
+
+That keeps the division-of-labor model historically plausible.
+
+
+---
+
+6. The scribal estate \(S\)
+
+This may now be the strongest social object in the whole excavation.
+
+We have several different receipts for a small learned scribal class, including:
+
+Temple scribes as an institutional category in the Antiochus III charter tradition,
+
+Ben Sira as an elite scribe/sage,
+
+Eleazar as one of the “foremost scribes,”
+
+a corporate body of scribes acting politically in 1 Maccabees 7,
+
+anonymous technical authors and copyists.
+
+
+The current architecture is:
+
+\[
+\boxed{
+S=
+\text{records}
++
+\text{law}
++
+\text{teaching}
++
+\text{interpretation}
++
+\text{technical literature}
+}
+\]
+
+with priestly/Levitical recruitment likely important but not exclusive.
+
+This is better than “Enochians.”
+
+“Enochians” was too close to a sect name.
+
+What we actually recover is a technical/literate labor ecology.
+
+
+---
+
+7. The curriculum split
+
+This was a major improvement.
+
+Astronomical Enoch and Aramaic Levi do not teach the same desk.
+
+Astronomical Enoch
+
+\[
+A=
+\boxed{
+\text{astronomical model}
++
+\text{calculation}
++
+\text{schematic time}
+}
+\]
+
+It handles things like:
+
+changing day/night ratios,
+
+18-part day schemes,
+
+lunar/solar cycles,
+
+364-day structure.
+
+
+Aramaic Levi
+
+\[
+R=
+\boxed{
+\text{ritual procedure}
++
+\text{measurement}
++
+\text{altar execution}
+}
+\]
+
+It handles:
+
+purification,
+
+wood quality,
+
+quantities,
+
+units,
+
+sacrificial sequencing.
+
+
+Shared abstraction:
+
+\[
+\boxed{
+\text{authorized technical knowledge of ordered recurrence}
+}
+\]
+
+But:
+
+\[
+\boxed{
+A\neq R
+}
+\]
+
+until a receipt joins them.
+
+One computes the sky.
+
+One executes the altar.
+
+That is now a good hard distinction.
+
+
+---
+
+8. The mixed-network transmission model
+
+The cheapest current model for the astronomical material is not “Temple astronomers invented everything.”
+
+It is something like:
+
+\[
+\boxed{
+\text{Mesopotamian schematic astronomy}
+\rightarrow
+\text{Aramaic scholarly transmission}
+\rightarrow
+\text{Judean specialists}
+\rightarrow
+\text{Jewish calendrical/revelatory adaptation}
+}
+\]
+
+That preserves:
+
+the Babylonian technical substrate,
+
+the Aramaic transmission language,
+
+Judean adaptation,
+
+priestly/religious packaging,
+
+
+without needing one Babylonian priest secretly walking into Simon II’s classroom.
+
+This is one of the better products of Full Thaw.
+
+
+---
+
+9. The Timekeeper changed from person to interface
+
+This may be the largest conceptual correction.
+
+Originally we kept hunting:
+
+\[
+\boxed{\text{one Timekeeper}}
+\]
+
+But the artifacts increasingly support several professional operations:
+
+\[
+A=\text{astronomical model maintenance}
+\]
+
+\[
+R=\text{ritual procedure}
+\]
+
+\[
+C=\text{calendar / festival conversion}
+\]
+
+\[
+M=\text{priestly roster indexing}
+\]
+
+\[
+O=\text{long-cycle harmonization}.
+\]
+
+The historical object may therefore be:
+
+\[
+\boxed{
+\text{protocols connecting specialized desks}
+}
+\]
+
+rather than one official wearing a Timekeeper hat.
+
+The missing employee may be missing because the table itself is the interface.
+
+That is good architecture.
+
+
+---
+
+10. The protocol stack
+
+This is probably the cleanest technical output of the entire excavation.
+
+Keep it as a typology of converters, not a historical production genealogy.
+
+\(A\) — Astronomical model
+
+4Q208/209 / Astronomical Enoch
+
+Build/revise the schematic celestial model.
+
+\[
+\boxed{\text{model}}
+\]
+
+\(J\) — Covenant/narrative converter
+
+Jubilees
+
+Consumes 364 and turns it into covenant history, festival order, and an anti-lunar ideological framework.
+
+\[
+\boxed{\text{story conversion}}
+\]
+
+\(T\) — Cult-law converter
+
+11QTemple
+
+Consumes 364 and produces:
+
+dated festivals,
+
+50-day harvest ladder,
+
+wine,
+
+oil,
+
+wood week,
+
+sacrificial quantities.
+
+
+\[
+\boxed{\text{derive + legislate}}
+\]
+
+\(M\) — Mishmarot roster converter
+
+4Q320–330
+
+Consumes the calendar and adds:
+
+priestly course,
+
+weekday,
+
+festival,
+
+sometimes lunar marker.
+
+
+\[
+\boxed{\text{index + roster}}
+\]
+
+\(O\) — Long-cycle adapter
+
+4Q319 / Otot
+
+Takes incompatible periodicities and builds a long harmonization structure around the priestly rota and jubilee framework.
+
+\[
+\boxed{\text{long-cycle adapter}}
+\]
+
+That stack is very good.
+
+The rule attached to it is equally important:
+
+\[
+\boxed{
+\text{artifact typology} \neq \text{dated production line}
+}
+\]
+
+The later library can own all these converters without having authored all of them.
+
+
+---
+
+11. 11QT versus Mishmarot
+
+This one came out clean.
+
+\[
+\boxed{
+11QT=\text{derive + legislate}
+}
+\]
+
+\[
+\boxed{
+\text{Mishmarot}=\text{index + roster}
+}
+\]
+
+They share an expanded festival grid, especially:
+
+\[
+\text{barley}
+\rightarrow
+\text{wine}
+\rightarrow
+\text{oil}
+\rightarrow
+\text{wood}.
+\]
+
+But their syntax and jobs differ.
+
+11QT:
+
+> count, legislate, sacrifice, quantify.
+
+
+
+Mishmarot:
+
+> this feast occurs during this course, on this day.
+
+
+
+Therefore:
+
+\[
+\boxed{
+11QT\parallel M
+}
+\]
+
+Shared calendrical tradition.
+
+No proven literary copy-edge.
+
+No requirement of one legal office.
+
+
+---
+
+12. ALD versus 11QT
+
+This was another good discriminator.
+
+They overlap around wood, but at different layers.
+
+ALD
+
+\[
+\boxed{
+\text{which wood}
++
+\text{how to inspect}
++
+\text{how to use it}
+}
+\]
+
+11QT
+
+\[
+\boxed{
+\text{when wood offering occurs}
++
+\text{who brings it}
++
+\text{what is sacrificed}
+}
+\]
+
+So:
+
+\[
+\boxed{
+R\neq C
+}
+\]
+
+Priestly procedure instructor ≠ festival scheduler.
+
+That result survived nicely.
+
+
+---
+
+13. The lunar architecture
+
+We also stopped treating “the moon” as one subroutine.
+
+4Q317
+
+Dense lunar-state computation against the 364 grid.
+
+\[
+\boxed{
+L_F=\text{daily lunar fraction/state}
+}
+\]
+
+4Q321
+
+Sparse monthly lunar/event pegs inserted into the priestly rota.
+
+\[
+\boxed{
+L_M=\text{lunar marker indexed in roster}
+}
+\]
+
+The important result is:
+
+\[
+\boxed{
+L_F\parallel L_M
+}
+\]
+
+with possible arithmetic contact, but no proven simple downsample.
+
+And dwqh remains semantically unresolved.
+
+That is good because it prevents one dubious translation from becoming the entire lunar architecture.
+
+
+---
+
+14. Moon demotion rather than moon deletion
+
+This is a good systems-level observation.
+
+Jubilees rhetorically attacks lunar calendation.
+
+Yet:
+
+4Q317 continues calculating lunar phases,
+
+4Q321 keeps lunar pegs beside the 364 rota.
+
+
+So the late library does not look like:
+
+\[
+\boxed{\text{moon erased}}
+\]
+
+It looks more like:
+
+\[
+\boxed{
+\text{364 grid governs}
+\quad+\quad
+\text{moon persists as secondary data}
+}
+\]
+
+That suggests integration without sovereignty.
+
+The moon becomes metadata rather than the master clock.
+
+Useful architecture, provided we keep it at that level.
+
+
+---
+
+15. Mishmarot as historical address system: \(M_H\)
+
+This was a genuine expansion of the roster protocol.
+
+Ordinary \(M\):
+
+\[
+\text{festival}
+\mapsto
+(\text{course},\text{weekday},\text{date})
+\]
+
+Historical \(M_H\):
+
+\[
+\boxed{
+\text{political event}
+\mapsto
+(\text{course},\text{weekday},[\text{month/day}])
+}
+\]
+
+4Q331–333 show that the priestly-course system could be used to locate:
+
+arrivals,
+
+revolts,
+
+killings,
+
+late-Hasmonean/Roman political events.
+
+
+That means the same coordinate system supports:
+
+\[
+\boxed{
+\text{ritual memory}
+\cap
+\text{political memory}
+}
+\]
+
+The scheduler becomes an archive key.
+
+That is one of the strongest late-library findings.
+
+
+---
+
+16. The catalogue split matters
+
+Do not recreate old “Mishmarot C” as one mega-document.
+
+Keep:
+
+\[
+\boxed{
+4Q322\text{–}324c\approx\text{calendar/rota documents}
+}
+\]
+
+separate from:
+
+\[
+\boxed{
+4Q331\text{–}333\approx\text{historical texts using mishmarot coordinates}
+}
+\]
+
+Compatible system.
+
+Several documents.
+
+No need for one annalistic super-scroll.
+
+This is exactly the kind of correction Full Thaw is supposed to preserve.
+
+
+---
+
+17. 4Q332: underdetermination as a real result
+
+This gave us a useful mathematical boundary.
+
+Six-year cycle:
+
+\[
+6\times52=312\text{ weeks}.
+\]
+
+Twenty-four courses:
+
+\[
+312/24=13.
+\]
+
+Therefore each course appears thirteen times in the six-year cycle.
+
+So:
+
+\[
+\boxed{
+(\text{Jedaiah},5)
+}
+\]
+
+is a 13-fold address, not a year.
+
+4Q332 frg. 3 preserves too little:
+
+killing,
+
+fifth day,
+
+Jedaiah,
+
+no month,
+
+no cycle-year,
+
+victim fragmentary,
+
+Kittim restored.
+
+
+Therefore:
+
+\[
+\boxed{
+(\text{Jedaiah},5)\not\Rightarrow\text{unique year}
+}
+\]
+
+That is not failure.
+
+It tells us the resolution of the surviving address.
+
+
+---
+
+18. 4Q333: richer address, potentially smaller modulus
+
+4Q333 is more promising because it has:
+
+month VII,
+
+Jehezekel,
+
+Gamul,
+
+Aemilius.
+
+
+If those coordinates genuinely scope one historical unit, the internal six-cycle ambiguity can shrink dramatically.
+
+But the correct architecture is two-step:
+
+\[
+\boxed{
+M_H^{\text{internal}}
+=
+\text{event}\rightarrow\text{cycle coordinate}
+}
+\]
+
+then:
+
+\[
+\boxed{
+M_H^{\text{absolute}}
+=
+\text{cycle coordinate}+\text{independent historical anchor}
+\rightarrow\text{absolute date}
+}
+\]
+
+Do not use Scaurus to force the calendar and then use the forced calendar to prove Scaurus.
+
+That circularity stays dead.
+
+
+---
+
+19. The authorization-text architecture is still useful — as parallel typology
+
+We went too far when we made:
+
+\[
+C_H\rightarrow C_M\rightarrow C_S
+\]
+
+a historical succession.
+
+But these remain useful as parallel authorization technologies:
+
+\(C_H\) — 1 Macc 14
+
+Chair/house authorization.
+
+\(C_M\) — MMT
+
+“We write to you.”
+
+Corrective appeal to an external addressee.
+
+\(C_S\) — Serekh
+
+“They shall separate to form a community.”
+
+Internal jurisdiction.
+
+The safe relation is:
+
+\[
+\boxed{
+C_H\parallel C_M\parallel C_S
+}
+\]
+
+unless a literary/historical bridge is independently demonstrated.
+
+The typology survives.
+
+The stemma does not.
+
+
+---
+
+20. MMT itself is composite
+
+This matters enough to keep on the board.
+
+“Section C” is assembled across damaged witnesses:
+
+4Q397,
+
+4Q398b,
+
+4Q399.
+
+
+The politically important lines wobble:
+
+\[
+\boxed{\text{העם / העמים}}
+\]
+
+and:
+
+\[
+\boxed{\text{לך / לך ולעמך}}
+\]
+
+and the placement of the kings/covenant-history fragments.
+
+So:
+
+\[
+\boxed{
+\text{MMT appeal constitution}
+}
+\]
+
+survives at the relational level:
+
+> a “we” writes legal/halakhic material to a “you” whose correction matters.
+
+
+
+But “one schism manifesto addressed to one Hasmonean prince with one attached 364 calendar” is too hard.
+
+Good correction.
+
+
+---
+
+21. 161 BCE is no longer allowed to carry the technical estate
+
+The hard artifact is:
+
+\[
+\boxed{
+\text{scribes + Hasideans negotiate}
+\rightarrow
+\text{sixty killed}
+}
+\]
+
+That shows a scribal/pious body acting politically around priestly legitimacy.
+
+It does not establish:
+
+\[
+\boxed{
+\text{astronomers were purged}
+}
+\]
+
+The “four refill pipes” remain a useful demographic model, not a recovered roster.
+
+So 161 becomes:
+
+\[
+\boxed{
+\text{politically exposed scribal faction}
+}
+\]
+
+not:
+
+\[
+\boxed{
+\text{technical estate bottleneck proved}
+}
+\]
+
+That is a good downgrade.
+
+
+---
+
+22. The Teacher/Wicked Priest branch is downstream, not load-bearing
+
+Still useful.
+
+Not load-bearing.
+
+The Teacher can represent an interpretive-authority configuration.
+
+The Wicked Priest can represent Jerusalem priestly authority in the sectarian texts.
+
+But:
+
+exact identities remain debated,
+
+chronology is debated,
+
+they should not be welded onto Oniad collapse as a guaranteed next act.
+
+
+Park it as downstream reception/authority architecture.
+
+Don't let it drive the earlier excavation.
+
+
+---
+
+23. What we actually have now
+
+After all the thawing, the hardest object is smaller than the grand theory but stronger:
+
+\[
+\boxed{
+\text{a narrow Judean learned environment produced, adapted, copied, and compiled multiple technical systems concerned with time, ritual, priestly service, law, genealogy, and historical memory.}
+}
+\]
+
+The later manuscript library contains several different converter types operating on related temporal structures.
+
+The technical system is modular.
+
+Knowledge can pass between desks through artifacts:
+
+\[
+\boxed{
+\text{table}
++
+\text{calendar}
++
+\text{legal text}
++
+\text{roster}
++
+\text{scroll}
+}
+\]
+
+without requiring one universal operator.
+
+That is the architecture I would put at the center now.
+
+
+---
+
+24. The big conceptual result
+
+We started looking for:
+
+\[
+\boxed{\text{WHO IS THE TIMEKEEPER?}}
+\]
+
+The excavation increasingly answers:
+
+\[
+\boxed{\text{THE TIMEKEEPER MAY BE A PROTOCOL STACK.}}
+\]
+
+A distributed system can maintain temporal authority through:
+
+astronomical models,
+
+calendrical conversion,
+
+festival legislation,
+
+ritual procedure,
+
+priestly rosters,
+
+long-cycle harmonization,
+
+historical indexing.
+
+
+Different humans can occupy each desk.
+
+The interface survives personnel change because the representations are portable.
+
+That is vastly more interesting than finding one dude with a calendar hat.
+
+
+---
+
+Where I would put the whole project right now
+
+Three open layers:
+
+People
+
+Oniads, Hakkoz, Tobiads, Temple scribes, administrators, diplomats, technical specialists.
+
+Protocols
+
+\(A,J,T,L,M,O,M_H\).
+
+Institutions
+
+Temple, priestly households, royal administration, later copying communities.
+
+And the research question connecting them is:
+
+\[
+\boxed{
+\text{Which people and institutions produced, consumed, or connected which protocol layers?}
+}
+\]
+
+That’s the table we need now.
+
+Not another lock.
+
+Not another world-falsification project.
+
+A master architecture map with every good component visible and every unsupported edge left physically blank.
+
+That is where the excavation has earned the right to stand. 🐒⛏️🔥
+
+People × Protocol × Institution Architecture Map
+Construction rule: each row records one relationship the present board can support. Blank institution or protocol cells are intentional: they mean no source-qualified bridge is supplied here, not that the relationship is disproved.
+Guardrails: artifact typology ≠ dated production line; custody ≠ authorship; environment ≠ control; parallel ≠ copy-edge.
+
+
+People / actor	Institution	Protocol / artifact	Status / dependency boundary	Supported relation
+Oniad high-priestly line (Simon II = horizon)	Temple / high-priestly office		Named custodial chain (§3); environment ≠ control of scribal or technical work.	High-priestly custody, succession, Temple legitimacy.
+Meremoth b. Uriah b. Hakkoz	Temple; Hakkoz/Accos household		Named receipt (§4); no astronomical or calendar office.	Priest; custody of Temple valuables.
+John/Accos	Hakkoz/Accos household; royal administration		Named bridge (§4); no protocol production shown.	Priestly-house identity; royal mediation.
+Eupolemus	Hakkoz/Accos household; diplomatic/royal interface		Named bridge (§4); no A authorship or calendar office.	Diplomacy; probable historiography; Greek competence.
+Tobiads	Royal/court and regional administration		Broker module (§5); no priestly identity or protocol authorship.	Finance, taxation, court access, regional administration.
+Temple administrators / treasury officers	Temple		Division-of-labor component (§2); converter assignment open.	Administration, treasury, operations.
+Temple scribes / scribal estate (Ben Sira; Eleazar; corporate scribes)	Temple; learned scribal ecology		Strong class-level receipt (§6); named person-to-protocol edges open.	Records, law, teaching, interpretation, technical literature.
+Scribes + Hasideans (161 BCE)	Political arena around priestly legitimacy		Historical receipt (§21); no astronomical purge or technical bottleneck.	Negotiation; politically exposed scribal/pious body.
+Mesopotamian specialists → Aramaic transmitters → Judean specialists		A substrate / adaptation	Architectural model (§8), not a named genealogy.	Transmit schematic astronomy; adapt it in Judean calendrical/revelatory form.
+Unidentified astronomical specialists		A — 4Q208/209 / Astronomical Enoch	Artifact-function receipt (§10); producer and desk unrecovered.	Build or revise the schematic celestial model.
+Unidentified covenant/narrative converters		J — Jubilees	Artifact-function receipt (§10); no production genealogy.	Convert 364 into covenant history and festival order.
+Unidentified cult-law converters		T — 11QTemple	Artifact-function receipt (§§10–12); parallel to M, not a copy-edge or one office.	Derive and legislate dated festivals and offerings.
+Unidentified lunar specialists / compilers		L — 4Q317; 4Q321 lunar layers	Artifact/arithmetic receipt (§13 + opening test); contact ≠ simple descent; triennial reset required.	Compute daily lunar states; compile sparse checkpoint/month data.
+Unidentified roster compilers		M — 4Q320–330	Artifact-function receipt (§§10–16); several documents, not one mega-scroll.	Index course, weekday, festival, and sometimes lunar marker.
+Unidentified long-cycle adapters		O — 4Q319 / Otot	Artifact-function receipt (§10); actor and institution open.	Harmonize incompatible periodicities with rota/jubilee structure.
+Unidentified historical indexers		M_H — 4Q331–333	Bounded receipt (§§15–18): internal coordinate first; absolute date needs an independent anchor.	Map political events to course, weekday, and available month/day.
+Anonymous copyists / compilers	Later copying communities	A, J, T, L, M, O, M_H	Custody/portability bridge (§§23–24); not authorship or one dated production line.	Copy and transmit heterogeneous converter artifacts; preserve portable interfaces.
+Scope note: R (ritual procedure) and C (calendar/festival conversion) remain independent auxiliary desk distinctions on the board. The board’s final requested protocol axis is A, J, T, L, M, O, M_H; this table does not silently fold R into A or T.
+Readout: the named-actor chain and the protocol chain are independently strong, but their joining edges remain mostly unrecovered. Later copying explains custody and portability, not origin. The next gain requires a source that binds a named actor or office to a specific protocol layer.
+
+
+25. Drive-Grounded Open-Board Delta — Compiler Seam, Crosswalks, Material Witness, and Guardrails
+
+Status: APPEND-ONLY BOARD DELTA. Earlier text remains a provenance receipt. This section updates the current board reading without silently rewriting predecessor claims or source-controlled predecessor documents.
+
+25.1 Astronomical model maintenance is a sub-operation of A
+
+The Drive record "Time" preserves an internal synthesis of the 4Q208/209 scholarship in which differences between the witnesses are treated as evidence consistent with ongoing technical revision of an inherited astronomical scheme rather than passive copying alone. For board purposes, add:
+
+A_R = astronomical revision / model maintenance.
+
+This is not a new recovered office and does not identify a named astronomer. It is a typed operation inside A:
+
+A = {model transmission, calculation, revision/maintenance}.
+
+Evidence boundary: the board is recording the Drive synthesis and its scholarly pointer; this delta does not pretend to have independently re-run the external source verification.
+
+25.2 Lunar lane upgrade — expose the compiler seam
+
+The older board compression
+
+L_F || L_M
+
+remains a historical receipt but is now underspecified. The document's own opening reconstruction already shows that the simple direct-generator hypothesis fails at the year-3/year-4 seam. The current board relation is therefore:
+
+L_(317-type) -> D_(3-year) -> reset/duplicate -> L_321 Join M
+
+where:
+
+D_(3-year) = lunar checkpoint compiler / triennial lookup table.
+
+The local 4Q317/4Q321 arithmetic contact remains real, but local phase coincidence does not establish global generator identity. The three-year reset is the discriminating seam. Therefore:
+
+L_317 -/->simple L_321.
+
+Current protocol axis:
+
+A, J, T, L, D, M, O, M_H
+
+with R (ritual procedure) and C (calendar/festival conversion) still retained as independent auxiliary distinctions. D is a typed compilation operation inside the lunar/roster interface; it is not automatically a separate profession or office.
+
+25.3 4Q325 becomes the concrete T–M festival-grid crosswalk
+
+Add the board witness:
+
+X_325 = 4Q325 expanded-festival crosswalk.
+
+The Drive analysis treats 4Q325 as a stronger concrete bridge between the Mishmarot festival grid and 11QTemple's expanded harvest/festival architecture. It supports overlap in the unusual festival nomenclature and ordering while not recovering 11QT's distinctive 50+50+50 derivation.
+
+Permitted board relation:
+
+T ~_shared-substrate X_325 subset M.
+
+Supported: shared expanded calendrical/festival tradition.
+Not shown: direct literary dependence, one legal office, or 11QT -> 4Q325 production descent.
+
+25.4 Add a material/compilation witness class
+
+Define:
+
+W_mat = material / compilation association witness.
+
+Current specimen:
+
+4QSe (4Q259) Rule material <->_Wmat 4QOtot (4Q319) priestly-calendrical material.
+
+The source-controlled Jerusalem synthesis records the physical association at the later manuscript/custody horizon. This is a real cross-layer receipt between jurisdictional Rule material and long-cycle calendrical material.
+
+It does NOT establish:
+
+Rule authors = Otot authors;
+C_S -> O production descent;
+one immutable constitution;
+one hidden Timekeeper office.
+
+The allowed claim is narrower: later handling/custody can place distinct jurisdictional and calendrical protocol artifacts in a demonstrably connected material environment.
+
+25.5 Open-Seam guardrails imported into the historical board
+
+Under TAX THE EDGE, permanently add:
+
+RELATION != OCCUPANT.
+
+A seam, converter, table, classifier, or interface remains typed transition data unless an independent witness reifies it as a person, office, or authority.
+
+Also add:
+
+STANDING != RESPONSE.
+
+One compliant act does not prove durable jurisdiction. One contrary act does not prove that a rule lacked standing. Historical deployment must be supported at the level claimed.
+
+And add the proof-status firewall:
+
+MATHEMATICAL EXACTNESS != HISTORICAL IMPLEMENTATION.
+
+Exact calendar arithmetic, a proved identity, or a well-resolved internal coordinate supplies no automatic evidentiary weight to a claim that an institution actually used, enforced, or authorized that structure.
+
+For historical-address work, candidate addresses must be enumerated before identification: retain the eligibility basis, exclusions, censoring/unknown state, and dependence structure before a denominator or historical match is promoted.
+
+25.6 Authorization typology stays parallel on the live board
+
+The source-controlled Jerusalem synthesis v1.2 remains untouched as predecessor provenance even though it preserves the older C_H -> C_M -> C_S structural arrow. The current Open Board keeps the Full-Thaw correction:
+
+C_H || C_M || C_S
+
+unless a literary or historical bridge independently earns a directional edge.
+
+The observations survive. The preferred stemma does not get grandfathered into the successor board.
+
+25.7 Rows added to the People × Protocol × Institution map
+
+Unidentified lunar checkpoint compilers | later calendrical/roster compilation environment | D — 4Q321 dwqh triennial table | arithmetic/contact receipt; simple descent rejected; reset/duplicate seam required | compile a three-year astronomical/checkpoint table and integrate it into the six-year roster artifact.
+
+Unidentified expanded-festival compilers / users | calendrical-cultic / roster environment | X_325 — 4Q325 | crosswalk receipt; shared substrate, no copy-edge | preserve/use an expanded festival grid overlapping 11QTemple and Mishmarot traditions.
+
+Later Rule/Otot handlers / custody environment | later manuscript/copying environment | W_mat — 4QSe (4Q259) <-> 4QOtot (4Q319) | material association only; authorship and production genealogy open | preserve jurisdictional Rule material in physical association with priestly-calendrical material.
+
+Unidentified astronomical specialists | A_R — 4Q208/209 revision/maintenance | scholarly synthesis pointer; named producer and desk unrecovered | revise or maintain an inherited schematic astronomical model.
+
+25.8 Current compression
+
+The board now distinguishes at least four different kinds of joining evidence:
+
+production/descent edge;
+shared-substrate or crosswalk relation;
+material/custody association;
+interface/compilation seam.
+
+None may impersonate another.
+
+The strongest new operational picture is therefore:
+
+MODEL -> COMPILED DATUM -> SCHEDULER
+
+with the intermediate operation left visible, while the historical actor edge remains blank unless a source actually fills it.
+
+Current compact laws:
+
+artifact != interpretation != model agreement;
+local coincidence != global generator identity;
+relation != occupant;
+standing != response;
+mathematical exactness != historical implementation;
+shared substrate != copy-edge;
+material association != authorship;
+keep unsupported actor edges physically blank.
+
+
+

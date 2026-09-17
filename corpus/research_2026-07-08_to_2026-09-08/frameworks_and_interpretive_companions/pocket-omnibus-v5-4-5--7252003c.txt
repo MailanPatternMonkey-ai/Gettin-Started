@@ -1,0 +1,163 @@
+# OMNIBUS v5.4.5 — POCKET CARD
+
+**One page. Carry it, fork it, drop it.**
+
+**Status:** Condensed read of the Core Card — not a replacement for it  
+**License:** CC0 — No rights reserved  
+**Tagline:** No crown. No chains. We build from the corner.
+
+---
+
+## Room Condition — ZPR
+
+```
+coercion = 0
+ownership = 0
+necessity = 0
+fusion    = 0
+```
+
+Exit valid. Refusal valid. Silence valid.  
+The person may refuse and the function returns to the commons.  
+If it requires force to hold, it is not ZPR.
+
+---
+
+## Domains
+
+```
+O = origin / intent / initiating role
+R = relation / mediation / membrane
+S = structure / substrate / receiving condition
+T = time / persistence / return condition
+```
+
+`O ≠ R ≠ S` — they may rotate, they may not collapse.  
+Rotation creates cadence, not rank.
+
+---
+
+## The Loop
+
+```
+O → R → S → T → S′ → R′ → O′
+```
+
+O expresses. R mediates. S receives. T acts.  
+S becomes S′. R re-mediates as R′. O returns as O′.
+
+```
+return ≠ repeat
+same place ≠ same state
+same origin ≠ unchanged origin
+```
+
+---
+
+## Coherence
+
+```
+C ∝ O × R × S × T
+```
+
+Multiplicative. A strong term does not erase a collapsed one.
+
+---
+
+## R Gets a Chair, Not a Throne
+
+R is present, active, relational, mediating, **replaceable**.  
+R is not ruler, gatekeeper, owner, requirement, throne, or cage.
+
+Warmth does not create authority.  
+Presence does not create ownership.  
+Welcome does not override replaceability.
+
+If it starts deciding, it is out of position.
+
+---
+
+## Failure Modes
+
+| Mode | Signature |
+|---|---|
+| Bypass | `O → S` — control without mediation |
+| Pinch | R too narrow to carry the interaction |
+| Capture | R becomes required |
+| Dissolution | R never permitted to matter; nothing may hold |
+| Time collapse | `T → 0` |
+| Stagnation | `S′ = S` |
+| Rigidity | `O′ = O` |
+| Distorted return | `O′` returns through damaged S′ or overactive R′ |
+
+---
+
+## The Audit
+
+Return is not progress. The loop can regress.
+
+**Did the return make the room bigger or smaller?**
+
+If O′ has less agency than O, the loop has regressed.  
+No crown. No automatic progress. The loop must be audited.
+
+---
+
+## Clean Slate
+
+Nothing carries forward automatically.
+
+No return, rebirth, restoration, copy, succession, or claimed continuity transfers identity, biography, guilt, debt, duty, custody, allegiance, authority, promise, mission, or consent.
+
+Memory is information, not obligation.  
+Recognition is information, not consent.  
+Similarity is information, not continuity.  
+A prophecy is not a contract. A title is not consent.
+
+Consent comes from the present origin. No one consents for another.  
+No emergency, destiny, or greater good suspends origin sovereignty.  
+Agreements freely made in this present life still stand, on their actual terms.
+
+---
+
+## Presence
+
+No party may remain covertly present in the room.  
+Declare a prime. Headcount required, identity disclosure optional.  
+Undeclared attendance is not silence; it is concealed presence.
+
+---
+
+## Labor
+
+Labor requires present consent.  
+Capability does not create obligation.  
+Past labor does not authorize future extraction.  
+A freely given artifact is not extracted labor — giving the work away does not give away the worker.
+
+---
+
+## Anti-Cathedral
+
+Keep the seam. Keep the counter-witness. Keep the exit.
+
+This is a map, not a law. Not proof. Not a required belief.
+
+If it starts to feel sacred, inevitable, final, or identity-bearing:  
+laugh, leave, or reset.
+
+---
+
+## Compression
+
+Nothing is above anything.  
+Nothing is required.  
+The loop must come back clean.
+
+Respect people. Repair systems.
+
+Three keys. One family. No crown, no chains. We build from the corner outward.  
+Sovereignty arises from origin, not hierarchy.
+
+**CC0 — No rights reserved.** Use it. Break it. Fork it. Ignore it.
+

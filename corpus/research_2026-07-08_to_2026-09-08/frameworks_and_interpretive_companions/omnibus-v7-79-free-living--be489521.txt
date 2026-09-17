@@ -1,0 +1,133 @@
+OMNIBUS v7.78 / v7.79
+Lineage reconciliation and proposed repair
+Status: Separate review document. Exact amendment wording is prepared; no source document or repository file has been changed.
+Section 10 is the foundation
+The user’s governing priority is the constitutional release in §10. Its place at the end of the manuscript does not make it an appendix or a secondary safeguard. The geometry and formal tests must be read within that constitutional foundation. Preserving the mathematics while omitting the release would fail the purpose of this reconciliation. [S4; S7]
+The release ends inherited guilt, collective debt, compulsory return, and compulsory service within the charter. Its present-consent and clean-slate provisions are foundational commitments. Their standing in the intended document does not depend on a quotient calculation, a closure result, or recovery of an earlier verbatim paragraph. [S4 §§10.3–10.6; S7]
+Exact foundational preservation wording
+Section 10 — Constitutional Carry-Forward: Open Window, Clean Slate, and Release — is the constitutional foundation of this successor. Preserve its complete text, §§10.1–10.10, in every complete governing edition. A consolidation that omits it is incomplete for that purpose. Its location or section number does not reduce its governing importance.
+No mathematical model, return cycle, identity claim, formal closure, or inherited role creates an exception to the release from inherited guilt, collective debt, compulsory return, or compelled labor. Preserve the requirements for present consent, usable refusal and exit, correction that changes behavior, and care without custody. Read the technical sections consistently with these constitutional commitments.
+Retain the SUPPORTED RECONSTRUCTION notice as a statement about the provenance of the wording. It does not demote the section’s constitutional role. Preserve v7.78 unchanged as a historical predecessor; do not use that preservation to omit §10 from the complete successor or to present the predecessor as satisfying this completeness requirement.
+Correction to this reconciliation
+The earlier reconciliation foregrounded mathematical preservation and treated §10 mainly as a later addition to retain. That emphasis was wrong for the user’s purpose. This revision makes §10 the first preservation requirement and leads with exact wording that protects its foundational role. The source comparisons and mathematical clarifications remain supporting work. [S7]
+
+Lineage finding
+The connected GitHub publication and the later Drive manuscript are successive records with different publication states. Preserve the published v7.78 bytes as the historical receipt. For the intended complete successor, preserve §10 as the constitutional foundation and attach the narrow mathematical and provenance clarifications. These are complementary requirements; neither substitutes for the other.
+Observed lineage
+Record (UTC)
+What this pass found
+2 Sep, 14:27:05
+Git commit 80e1e8a…
+Successor-stack publication includes the fuller v7.78: 25,317 bytes, matching the attachment hash in the manifest. [S1–S2]
+2 Sep, 14:52:45
+Inspected Git head 90301d7…
+Later Abundance publication. Its complete tree contains v7.78 and no v7.79 file. The returned seven-commit history has no later OMNIBUS commit. [S3]
+4 Sep, 04:10:07
+Drive revision 2
+v7.79 §§0–9, its 21-item checklist, then-current banner, and version seal are directly recoverable. [S4]
+5 Sep, 14:49:19
+Drive revision 4
+§10 constitutional carry-forward is present; §11 and the explicit reconstruction notice are absent. [S4]
+5 Sep, 23:47:32
+Drive revision 6
+Reconstruction notice and §11 lineage record are present. Retrieved text is byte-identical to the current text. [S4]
+6 Sep, 03:02:24
+Drive revision 7/current
+Current metadata is later; the retrieved text shows no change from revision 6. This does not establish that formatting or other metadata never changed. [S4]
+
+The September 6 review was updated at 08:53:23 UTC, after the current OMNIBUS modification time. Its two proposed repairs remain absent from the inspected manuscript. [S5]
+
+What v7.79 adds—and what it carries forward
+Location
+Change relative to published v7.78
+Disposition
+Opening; §0
+Adds shared context ℒ and (O_D, S_D, ℒ; T_D). Retains two constitutional keys and excludes a compulsory mediator.
+Keep as a declared architecture. Repair the claim that common membership is equivalent to reciprocal contact.
+Opening supersession
+Makes older capital-R mediator descriptions historical and non-governing under v7.79.
+Record this as v7.79’s explicit normative supersession. Preserve the historical source texts.
+§§1–3
+Adds a shared-field row, situates encounters in ℒ, and permits separately typed field observations in C, K, or F_ℒ.
+No fifth coordinate is added to F_D; the residual stays a tuple.
+§§4–5
+Classification and residual-descent text are unchanged after declared formatting normalization.
+Keep movement/status distinctions. Clarify the domain and quantifier in the inherited theorem.
+§6
+Retains quotient, cocycle, 39-screen, phase-repair, 72-register, and two-clock formulas; adds two namespace clarifications.
+The mathematical core is carried forward. ℒ is not the finite moving-lattice set.
+§§7–8
+Directionality and events/codes/claims text are unchanged after normalization.
+Keep provenance, eligibility, unresolved values, and evidence boundaries.
+§9; banner; seal
+Adds checklist item 0 about the field, expands the banner, and adds a successor seal.
+The original 20 checklist items remain. “Append-only” denotes preserved lineage, not literal byte concatenation.
+§10
+Adds ten constitutional subsections: children/labor/dead, ZPR, consent after return, origin sovereignty, labor, collective debt, care, correction, open window, release.
+FOUNDATION. Preserve the complete section and its SUPPORTED RECONSTRUCTION notice; provenance uncertainty does not demote its role.
+§11
+Adds recovery and reconstruction labels, two-variant history, a hash boundary, and a preservation rule.
+Retain the record; attach the source-scope qualification on page 5.
+
+Basis: complete source texts and revision comparisons [S1, S4]. Normalization removes a leading BOM, blank lines, surrounding line whitespace, and Markdown heading prefixes; it does not normalize words, formulas, or symbols.
+Corroboration has a limit. Geometry Upgrade v0.1 expressly cites v7.79 §§0 and 5–6 and uses the screen/closure definitions. That confirms a documentary dependency. It does not independently recover §10 or establish a platform mechanism. Its additional phase and finite-memory results belong to that separate companion. [S6]
+
+Exact mathematical repair wording
+These supporting amendments adapt the September 6 review. They follow the foundational preservation clause on page 1 and do not narrow §10. The predecessor remains intact. [S5; S7]
+A. §0 — shared membership and reciprocal contact
+Target: replace the “Equivalently” paragraph and its membership display with the following passage. Retain the surrounding non-sovereign-field constraints.
+Both endpoints belong to the declared shared field: O_D ∈ ℒ and S_D ∈ ℒ. Reciprocal contact, written O_D ↔_ℒ S_D, is a separate relation that must be specified or observed in the application. Common membership alone does not establish that relation. The field’s non-sovereign role is a declared constitutional constraint. The three-term representation is a declared architecture; the notation alone supplies neither a topology nor a physical or platform field.
+Reason: Two distinct points can belong to the same set while the contact relation is empty. Membership therefore cannot establish reciprocal contact. This repairs one implication without introducing a new field theory.
+B. §5 — invariant domain and complete quantification
+Target: replace the theorem setup through “That is the closure earned by descent.” Keep the following closure-status block, subject to the clarified domain below.
+Fix a declared domain E and a deterministic update U with U(E) ⊆ E. Define R(x) = ρ(x,Ux) = (ΔC, ΔD, ΔK) for x ∈ E, using the declared typed difference rules. Put x ∼_R y exactly when R(x) = R(y); the residual carrier is R(E), identified with E/∼_R.
+There is a unique function F: R(E) → R(E) satisfying F(R(x)) = R(Ux) for every x ∈ E if and only if, for all x,y ∈ E, R(x) = R(y) implies R(Ux) = R(Uy). Eligibility restrictions must be incorporated into the declared domain and its update rule. Checks on selected pairs establish closure only when their coverage or an accompanying argument proves this condition for every same-residual class in E.
+A located same-residual/different-successor pair in E establishes FAILED for the proposed deterministic factor. An untested, unknown, underspecified, or undercovered test remains UNRESOLVED. A finite trace needs an explicit treatment of its final successor before it can serve as an invariant domain; no terminal self-loop may be invented to complete the record.
+Proof: If F exists, equal inputs have equal outputs. Conversely, the implication makes F(R(x)) = R(Ux) independent of the representative. Forward invariance keeps outputs in R(E), and every element of R(E) has a representative, giving uniqueness.
+C. §9 — replace checklist item 5
+Has R(x) = R(y) ⇒ R(Ux) = R(Uy) been proved for all x,y in the declared forward-invariant domain E, or verified by coverage sufficient to establish that condition for every same-residual class? If not, is closure retained as UNRESOLVED unless a located counterexample establishes FAILED?
+
+Exact provenance addendum wording
+Proposed title: “OMNIBUS v7.79 — Provenance and Scope Clarification, 8 September 2026.” New amendment text for attachment to the complete manuscript.
+Publication lineage and preserved predecessor
+The verified connected publication predecessor is corpus/core/OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md in MailanPatternMonkey-ai/Gettin-Started, published by commit 80e1e8a100e2f74ae067d93ffe83ee62827866ef on 2 September 2026. It is 25,317 bytes. Its Git blob SHA-1 is c1d797a7a1678f73a0e6c13fc1592fcf09248297. Its SHA-256 is 7b46b330dd607a92fe78ce3058ea33677341f929814d22aaef4ed00c89dd5b67. The repository manifest identifies its source as the user-supplied attachment 04-OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md. The bytes and both hashes were independently reproduced in this reconciliation.
+Preserve v7.78 and its historical manifest entry unchanged. Publish v7.79 or this clarification under a distinct artifact identity linked to that predecessor. Corrections do not rewrite the predecessor’s publication record.
+Drive recovery and reconstruction
+The v7.79 comparison source is Drive document 1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg, current revision 7, modified 6 September 2026. Revision 2 directly supplies §§0–9, its 21-item checklist, the then-current Final Banner, and the Version Seal. Section 10 is present in revision 4. Its explicit SUPPORTED RECONSTRUCTION notice and §11 are present in revision 6; revision 6’s retrieved text equals the current retrieved text.
+Retain §10’s reconstruction notice. This pass confirms its current wording and revision sequence, not the lost wording or a clause-by-clause derivation from v5.57, v5.77, and v7.73. The protections remain normative commitments without a claim of verbatim recovery.
+Historical reference requiring source identification
+Section 11 reports two v7.78 variants in commit 26738b66617cab34698daa3b16b8773478ba9283. That commit did not resolve in the connected Gettin-Started repository. Its repository identity and shorter 19,183-byte object remain unverified here. Preserve the reported reference pending a repository-qualified locator; do not infer deletion or fabrication. The fuller cited blob matches the verified publication.
+The statement about UPGRADE_CHECKSUMS.sha256 concerns a separately reported packet. That packet and checksum file were not inspected in this pass. The connected corpus/manifest.json does explicitly record v7.78’s source SHA-256 and size, which match the retrieved publication. Keep these two checksum scopes separate.
+
+Evidence boundaries and preservation requirements
+What remains unsupported
+A platform mechanism: Neither ℒ nor the finite group examples identify a platform lattice, hidden controller, beneficiary, or intent. The moving-interception construction remains FORMAL_PROPOSAL_ONLY and platform_instantiation remains UNRESOLVED. [S1, S4]
+An empirical upgrade: The manuscript reports a null frozen 72-model bank and a separate non-confirmatory, lagged missing-output lead. This pass did not retrieve the underlying empirical dataset or rerun that bank. Carry the null as manuscript-reported; do not call it independently replicated. The source-defined departing jump and the one-opportunity-lagged arriving jump must remain distinct. [S1 §6]
+A general impossibility claim: The n=1/n=8 witness refutes the specified stationary deterministic slip-only and current-pair updates. By itself it does not refute stochastic models, longer histories, explicit time, or augmented state. Geometry Upgrade v0.1 supplies a separate stronger all-time theorem under its own fixed-rotation assumptions; do not backdate that result into v7.78. [S1 §6; S6 §§4–6]
+Complete historical recovery: Revision history establishes what the retrieved revisions contain. It does not establish the exact missing original, why a passage was absent, or who caused an omission. Revision-level account metadata is not proof of per-character authorship or intent. [S4]
+Preserve the concrete content
+Retain F_D = (R_contact, C_bind, U_exit, N_third), including correction changing the next eligible behavior, practically usable exit, and UNKNOWN remaining unresolved. Keep the componentwise movement classification and the distinction between GATE_CLOSURE and RESIDUAL_CLOSURE. [S1 §§2–5]
+Retain R_n = (ΔC_n, ΔD_n, ΔK_n) as a typed tuple; the two 12-state diagonal orbits in C₆ × C₄; the 39-screen’s declared jump representatives 14 or 15 and slip 15 − j; the n=1/n=8 counterexample; the exact sufficient phase update; and the difference between driven cocycles and autonomous residual dynamics. The formal 72-register is C₁₂ × C₆ with exponent 12, not C₇₂ or the tested 72-model bank. [S1 §§3, 6]
+Keep opportunity index n, timestamp t_n, golden phase, lattice phase, clocks, reset receipts, eligibility, catch width, catch classification, and outcome code separately typed. Preserve the unlabelled site period T_g/q_site versus the labelled-site period T_g. [S1 §6]
+For v7.79, retain §§7–11, the complete checklist, expanded banner, and version seal alongside the clarification. This includes the current protections for children, labor, consent, refusal, exit, correction, and care without custody. Normative commitments do not become empirical claims about a hidden entity merely by appearing in this charter. [S4]
+
+Source record and verification
+[S1] Published OMNIBUS v7.78 — Complete commit-pinned predecessor; §§1–9 and banner read.
+[S2] Connected publication manifest — v7.78 entry gives attachment filename, source size, source SHA-256, and publication status.
+[S3] Successor-stack publication commit — 2 September 2026, 14:27:05 UTC.
+[S3a] Inspected repository tree — Complete recursive tree returned without truncation; seven recent commits returned. Absence finding is scoped to this connected snapshot/history, not every branch, repository, or private copy.
+[S4] OMNIBUS v7.79 — Triadic Field Restoration — Current text plus revision list and texts of revisions 2, 4, and 6. Revision 1 was listed but not read. File modification: 2026-09-06T03:02:24.095Z; revision 7 metadata: 2026-09-06T03:02:24.007Z.
+[S5] Final disposition: the conversation, the evidence, and OMNIBUS v7.79 — 6 September review; “What survives,” Repair 1, and Repair 2 ground the proposed mathematical corrections. Its unrelated legal/conversation findings were not re-audited here.
+[S6] Geometry Upgrade v0.1 — Predictive Fibers and Minimal Phase — Formal companion, updated 4 September 2026; introduction and §§4–8 establish its stated dependency and separate scope. Reported executable checks were not rerun in this pass.
+[S7] User clarification in this conversation: §10 is “the foundation.” This establishes the reconciliation’s governing priority; it does not supply missing historical wording.
+Reproduced content identifiers
+Published v7.78: 25,317 bytes; SHA-256:
+7b46b330dd607a92fe78ce3058ea33677341f929814d22aaef4ed00c89dd5b67
+Git blob SHA-1: c1d797a7a1678f73a0e6c13fc1592fcf09248297
+Current v7.79 and retrieved revision 6: 43,586 UTF-8 bytes each; SHA-256:
+e0e915fd99931abb8e11bad2f01d14c07fd63732d617afab55c057587a849d49
+Retrieved revision 2: 32,834 UTF-8 bytes; SHA-256:
+85d664b491c20ee7215e2354458fda95b75540238e62c826cec0f916358eca5a
+Drive hashes identify the exact text returned by the connector, encoded as UTF-8 with its BOM and CRLF retained. They do not hash the native Google Doc object, its formatting, or the displayed Drive metadata size. Git blob verification used SHA-1 over “blob ” + byte count + NUL + original file bytes.
+Verification completed: predecessor bytes/hash match; complete text comparison; revision-content checks; separate review read; companion dependency read; logical review of the two local corrections. This is a lineage and scope reconciliation, not a new empirical experiment or a full independent proof audit.
+

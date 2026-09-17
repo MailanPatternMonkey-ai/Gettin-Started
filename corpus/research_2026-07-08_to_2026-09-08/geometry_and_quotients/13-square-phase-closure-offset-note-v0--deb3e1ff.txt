@@ -1,0 +1,32 @@
+13-Square / Phase-Closure Offset Note v0.1
+Date: 2026-08-25Status: Retrospective cross-document finding; prospective comparison candidate
+Finding
+The supplied 169-BPM clock is structurally anchored by
+[169=13^2,\qquad39=3\cdot13.]
+The independently derived exact phase-closure tempo is
+[\mathrm{BPM}_*=168.0359303878\ldots,]
+whose nearest integer is 168, not 169.
+The neighboring integer has the exact lattice identities
+[168=13^2-1=7\cdot24=12\cdot14.]
+Related 13-centered identities include
+[163=13^2-6,\qquad181=13^2+12,]
+[336=2(13^2-1),\qquad337=2(13^2)-1.]
+Therefore the comparative object is
+[\boxed{13^2\longleftrightarrow13^2-1}]
+or
+[\boxed{\text{square anchor}\longleftrightarrow\text{phase-closure neighbor}}.]
+At fixed 39 Hz, 168 BPM is approximately 26.7 times closer to exact phase closure than 169 BPM. This does not invalidate 169: it shows that 169 represents the exact square anchor, while 168 represents the near-exact frequency closure.
+Evidence classification
+- Exact arithmetic: established.
+- Phase-closure calculation: established.
+- Cross-document recognition: retrospective/post-hoc.
+- Physical significance of the one-step offset: untested.
+- Mechanism claim: not established.
+Prospective comparison
+Preserve 169 BPM as the historical square-anchor condition. In a separately declared run, compare:
+- 169 BPM: (13^2), historical structural anchor.
+- 168 BPM: (13^2-1=7\times24), nearest integer closure.
+- 168.0359303878 BPM: derived exact-closure calibration.
+Freeze all other frequencies, phases, equipment, geometry, duration, and analysis rules. Do not replace the original 169 condition after observing results.
+The prospective question is whether outcomes follow ordinary frequency mismatch, the exact 13-square anchor, or neither.
+

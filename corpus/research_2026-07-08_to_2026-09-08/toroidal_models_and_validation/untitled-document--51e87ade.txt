@@ -1,0 +1,71 @@
+Simulation Protocol v0.1: Frozen Lattice Protocol for \mathbb{Z}_2-Gauged \mathbb{Z}_3 Criticality
+Status: Frozen computational protocol
+Target: Explicit numerical test of the \mathrm{XY}^* critical lane vs. confinement / first-order / vison-driven failure modes in the continuum Theory v0.1.
+1. Microscopic Lattice Hamiltonian
+Let \Lambda = L^3 be a 3D simple cubic lattice with periodic boundary conditions.
+ * Matter degrees of freedom: Onsite complex rotor phases \theta_i \in [0, 2\pi) defined on sites i \in \Lambda, where z_i = e^{i\theta_i}.
+ * Gauge degrees of freedom: Discrete link variables \sigma_{ij} = \sigma_{ji} \in \{+1, -1\} defined on directed nearest-neighbor edges \langle ij \rangle.
+ * Gauge transformations: \theta_i \to \theta_i + \pi s_i and \sigma_{ij} \to s_i \sigma_{ij} s_j, where s_i \in \{+1, -1\}.
+The frozen lattice action is:
+
+ * K \ge 0: Matter hopping parameter.
+ * K_g \ge 0: Pure gauge plaquette coupling (controls vison gap / confinement scale).
+ * h_6 \ge 0: Explicit sixfold anisotropy coupling (enforcing the leading allowed onsite operator).
+ * Physical composite order parameter: \Phi_i = z_i^2 = e^{i 2\theta_i}.
+2. Lattice Geometry, Updates, and Equilibration
+Lattice Configurations
+ * System sizes: L \in \{12, 16, 20, 24, 32, 48\}.
+ * Geometry: 3D torus \mathbb{T}^3 with standard periodic boundary conditions and twisted/odd-gauge holonomy configurations for vison free-energy estimation.
+Update Cycle
+ * Gauge Updates: Standard single-spin-flip Metropolis updates alongside 3D plaquette-cluster updates on \sigma_{ij}.
+ * Matter Updates: Single-site over-relaxation + local continuous Metropolis sweeps for \theta_i.
+ * Composite Cluster Updates: Wolff cluster algorithm applied to the composite phases 2\theta_i with effective bond activation probabilities determined by the signs of \sigma_{ij}\cos(\theta_i - \theta_j).
+Equilibration Criteria
+ * Thermalization: Minimum 2 \times 10^5 full Monte Carlo sweeps (MCS).
+ * Autocorrelation: Integrated autocorrelation time \tau_{\mathrm{int}} measured on both the total energy E/V and the composite magnetization \vert{}M_3\vert{}^2. Production runs must span \ge 1000 \times \tau_{\mathrm{int}} post-thermalization.
+3. Concrete Observables and Diagnostics
+A. Physical \mathbb{Z}_3 Order & Binder Cumulant
+ * Complex composite magnetization:
+   
+ * Physical Binder ratio:
+   
+ * Second-moment correlation length ratio \xi_\Phi / L:
+   
+   
+   where \chi(q) = \frac{1}{L^3} \sum_{j,k} e^{i q \cdot (r_j - r_k)} \langle \Phi_j \Phi_k^* \rangle.
+B. Gauge Sector & Vison Diagnostics
+ * Average plaquette flux / vison density:
+   
+ * Vison gap / Free-energy cost \Delta F_v(L):
+   
+   
+   measured by inserting a \pi-flux tube across one lattice cycle (flipping a plane of link signs \sigma_{ij}).
+   * Deconfined/Gapped criteria: \Delta F_v(L) \to \text{const} > 0 as L \to \infty.
+   * Confined criteria: \Delta F_v(L) \sim L (linear confinement).
+   * Vison-critical criteria: \Delta F_v(L) \sim 1/L.
+C. Sixfold Dangerous Irrelevance Parameter
+ * Angular histogram of composite phase P(\alpha), where \alpha = \mathrm{Arg}(M_3) \pmod{\frac{2\pi}{3}}.
+ * Order-six angular anisotropy moment:
+   
+   
+   At the critical point K_c, A_6(L) must decay as a power law with system size: A_6(L) \sim L^{-y_6}, where y_6 = 3 - \Delta_6 < 0 denotes irrelevance.
+4. Finite-Size Scaling Forms
+At the critical point K = K_c(K_g) (holding K_g > K_{g,c}^{\mathrm{gauge}} fixed in the deconfined region):
+| Observable | Clean \mathrm{XY}^* Expected Scaling | Potts / Confined Alternative |
+|---|---|---|
+| Susceptibility \chi_3(L) | \chi_3(L) \sim L^{3 - 2\Delta_2} = L^{0.52742} | \chi_3(L) \sim L^{\gamma/\nu} \sim L^{1.9} |
+| Magnetization M_3(L) | \langle \Vert{}M_3\Vert{} \rangle \sim L^{-\Delta_2} = L^{-1.23629} | \langle \Vert{}M_3\Vert{} \rangle \sim L^{-\beta/\nu} \sim L^{-0.5} |
+| Binder Crossings U_4(K, L) | Invariant crossing point U_4^* | Non-monotonic or negative dip (1st-order) |
+| Correlator \langle \Phi(x) \Phi^\dagger(0) \rangle | \Vert{}x\Vert{}^{-(2\Delta_2)} = \Vert{}x\Vert{}^{-2.47258} | \Vert{}x\Vert{}^{-(1 + \eta_{\mathrm{Potts}})} \approx \Vert{}x\Vert{}^{-1.03} |
+5. Definitive Kill Card and Decision Table
+Run simulations along the K-axis for deep deconfined gauge coupling (K_g \gg K_g^{\mathrm{Ising, dual}} \approx 0.7614).
+| Diagnostic Test | Observation | Verdict on \mathrm{XY}^* Lane |
+|---|---|---|
+| Energy Histogram | Persistent double-peaked distribution P(E) with barrier increasing with L | FAILED (First-order runaway / Potts behavior) |
+| Vison Gap \Delta F_v | \Delta F_v(L) \to 0 or exhibits singular dip at K_c | FAILED (Coupled Matter-Vison Criticality) |
+| Critical Exponent \Delta_2 | Measured composite dimension differs from 1.2363 \pm 0.02 | FAILED (Non-\mathrm{XY}^* critical point) |
+| Anisotropy Flow | Phase angle P(\alpha) locks to \mathbb{Z}_3 axes without intermediate U(1) invariance at K_c | FAILED (Sixfold anisotropy is relevant) |
+| Confinement Signal | Polyakov/Wilson loops obey area law at K_c | FAILED (Matter transition drives gauge confinement) |
+| All Criteria Met | U_4 crossings scale with \nu_{\mathrm{XY}} \approx 0.6718; \Delta_2 \approx 1.2363; gapped \Delta F_v > 0; U(1) emergent phase symmetry at K_c | CONFIRMED (Clean \mathrm{XY}^* realization validated) |
+This protocol is frozen. No parameters or diagnostics are to be modified during or after simulation runs.
+

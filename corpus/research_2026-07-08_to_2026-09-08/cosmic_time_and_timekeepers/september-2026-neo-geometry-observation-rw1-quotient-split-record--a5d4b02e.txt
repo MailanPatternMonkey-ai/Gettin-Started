@@ -1,0 +1,71 @@
+September 2026 NEO Geometry Observation — RW1 / Quotient-Split Record
+
+Date of observation: 7 September 2026
+Status: OBSERVATION RECORDED — NO HED COMPOSITION STATUS CHANGE
+Applicable framework: Geometry Maximization v2.0; HED directional lane kept separate from HED compositional watch.
+
+1. New event
+
+2026 RW1, previously designated CERNQ52, was a metre-scale near-Earth object discovered on 6 September 2026. ESA Operations reports that it struck the ocean northwest of Australia and that ESA's Meerkat system forecast the impact roughly six hours in advance.
+
+The published orbital solution identifies an Aten-type orbit with approximately a=0.944 AU, e=0.182, i=1.4^\circ, and essentially zero Earth MOID.
+
+2. Directional comparison
+
+A working reconstruction from the pre-impact orbit places the incoming geocentric direction near RA 2^\circ, Dec -8^\circ. Treat this as an analysis-derived reconstruction, not an independently published fitted fireball radiant.
+
+For September 5–6, the American Meteor Society places the Anthelion radiant at RA 356^\circ, Dec -2^\circ, with a typical atmospheric entry velocity of about 30 km/s.
+
+The reconstructed RW1 direction lies approximately 8° from the Anthelion center. That angular separation falls inside the HED watch's stated 10–20° typical radiant uncertainty.
+
+However, direction alone is an insufficient state description. RW1's reconstructed encounter speed is substantially lower than the Anthelion reference speed. The coarse directional match therefore does not establish Anthelion membership or common-source identity.
+
+3. Geometry-Maximization quotient result
+
+The September NEO pilot produced a second example of the same effect.
+
+2026 RY1 and 2026 RJ were the strongest pair under the heliocentric-orbit D_{SH} screen, with D_{SH}\approx0.156. When the comparison was changed to an Earth-encounter state retaining geocentric speed, radiant geometry, and encounter timing, their similarity weakened sharply, to approximately D_N\approx0.66.
+
+Classification:
+
+[
+\text{similar under a coarse orbital quotient}
+;\not\Rightarrow;
+\text{similar encounter state}.
+]
+
+RW1 gives the complementary case:
+
+[
+\text{directionally Anthelion-like}
+;\not\Rightarrow;
+\text{Anthelion encounter-state match}.
+]
+
+These are empirical illustrations of the Geometry Maximization v2.0 rule that an observation or quotient must not be silently promoted back into the full predictive state.
+
+4. HED consequence
+
+The HED record already separates the Anthelion/high-declination directional explanation from the HED-family compositional anomaly. Directional geometry may affect the production or recoverability of large events, but it does not explain HED pairing by itself.
+
+No recovered and classified HED-family material from 2026 RW1 is established in this record.
+
+Therefore:
+
+- Directional/fireball geometry lane: ADD RW1 as an observed atmospheric-entry comparison.
+- HED compositional denominator: NO CHANGE.
+- HED pairing status: NO CHANGE.
+- Common-stream claim: NOT SUPPORTED.
+- Geometry Maximization v2.0: RETAIN as a concrete quotient-split example.
+- Future upgrade gate: revise only if a published trajectory/radiant solution, recovered material classification, or additional orbitally coherent events materially changes the comparison.
+
+5. Record rule
+
+Preserve separately:
+
+1. raw orbital/trajectory data,
+2. reconstructed quantities,
+3. coarse directional classifications,
+4. composition evidence.
+
+Do not allow agreement in one layer to substitute for evidence in another.

@@ -1,0 +1,190 @@
+import math
+import heapq
+import time
+from datetime import datetime
+
+class AliasedFrequencyWatchdogV06:
+    """
+    Aliased Frequency Alert System v0.6 — Millisecond Catch Witness Watchdog.
+    Integrates a dynamic Dijkstra pathfinding hook to bypass high-friction
+    sectors logging persistent aliasing flags.
+    """
+    def __init__(self, lattice_period=0.25, carrier_frequency=1.13, max_range=200):
+        self.Tg = lattice_period
+        self.alpha = carrier_frequency
+        self.max_range = max_range
+        
+        # Persistent memory matrix for tracked sector friction overrides
+        self.sector_aliasing_history = {}
+        self.aliasing_threshold_limit = 3  # Count before sector is dynamically blacklisted
+
+        # UI Styling Elements
+        self.BOLD = "\033[1m"
+        self.CYAN = "\033[36m"
+        self.GOLD = "\033[33m"
+        self.RED = "\033[31m"
+        self.GREEN = "\033[32m"
+        self.RESET = "\033[0m"
+        self.CLEAR_LINE = "\033[2K\r"
+        self.HIDE_CURSOR = "\033[?25l"
+        self.SHOW_CURSOR = "\033[?25h"
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+    def get_ms_timestamp(self) -> str:
+        return datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+
+    def get_allowed_moves(self, current: int):
+        """Standard network substrate transition vectors (+1, -1, *2, //2)."""
+        moves = []
+        if current + 1 < self.max_range: moves.append(current + 1)
+        if current - 1 > 0: moves.append(current - 1)
+        if current * 2 < self.max_range: moves.append(current * 2)
+        if current % 2 == 0 and current // 2 > 0: moves.append(current // 2)
+        return moves
+
+    def calculate_node_friction(self, node: int) -> int:
+        """
+        Calculates routing friction cost. 
+        Primes are 0 base cost. Composites scale with factors.
+        Applies a heavy multiplier penalty if persistent aliasing is logged.
+        """
+        if self._is_prime(node):
+            base_cost = 0
+        else:
+            factors = sum(1 for i in range(1, node + 1) if node % i == 0)
+            base_cost = factors * 15
+
+        # Dijkstra Hook: Apply dynamic penalty based on recorded environmental aliasing history
+        aliasing_incidents = self.sector_aliasing_history.get(node, 0)
+        if aliasing_incidents >= self.aliasing_threshold_limit:
+            penalty = 500 * aliasing_incidents
+            return base_cost + penalty
+        return base_cost + (aliasing_incidents * 50)
+
+    def find_optimal_path(self, start: int, target: int) -> list:
+        """Executes Dijkstra's algorithm to calculate the absolute lowest-aggro path."""
+        if not self._is_prime(target):
+            return []
+
+        priority_queue = [(0, start, [start])]
+        min_costs = {start: 0}
+
+        while priority_queue:
+            current_aggro, current, path = heapq.heappop(priority_queue)
+
+            if current == target:
+                return path
+
+            if current_aggro > min_costs.get(current, float('inf')):
+                continue
+
+            for next_node in self.get_allowed_moves(current):
+                step_friction = self.calculate_node_friction(next_node)
+                total_next_aggro = current_aggro + step_friction
+
+                if total_next_aggro < min_costs.get(next_node, float('inf')):
+                    min_costs[next_node] = total_next_aggro
+                    heapq.heappush(priority_queue, (total_next_aggro, next_node, path + [next_node]))
+        return []
+
+    def execute_monitored_routing(self, start_sector: int, target_sector: int):
+        sys.stdout.write(self.HIDE_CURSOR)
+        sys.stdout.flush()
+
+        print(f"{self.BOLD}{self.CYAN}[INIT] DIJKSTRA DYNAMIC ROUTING HOOK ACTIVATED")
+        print(f"[INIT] RUNNING LIVE INTERCEPTION TRACKING TO DESTINATION SECTOR: {target_sector}")
+        
+        start_perf = time.perf_counter()
+        tg = 0.0
+        step_index = 0
+
+        try:
+            # Initial path calculation
+            active_path = self.find_optimal_path(start_sector, target_sector)
+            if not active_path:
+                print(f"{self.BOLD}{self.RED}[FATAL] NO INITIAL SUBSTRATE TRAJECTORY DETECTED.{self.RESET}")
+                return
+
+            current_node_index = 0
+            
+            while current_node_index < len(active_path):
+                step_index += 1
+                sector = active_path[current_node_index]
+                
+                # Advance uniform lattice metrics
+                tg += self.Tg
+                
+                # Simulate structural processing overhead
+                if self._is_prime(sector):
+                    time.sleep(self.Tg)
+                else:
+                    factors = sum(1 for i in range(1, sector + 1) if sector % i == 0)
+                    time.sleep(self.Tg + (factors * 0.010))
+
+                te = time.perf_counter() - start_perf
+                q_quotient = 1 if self._is_prime(sector) else (sector % 3) + 1
+                theta_n = (te * self.alpha) % 1.0
+                
+                gs = step_index * 0.5
+                raw_phase = gs - (tg / (self.Tg / q_quotient))
+                lattice_phase = raw_phase - math.floor(raw_phase)
+                
+                phase_divergence = abs(theta_n - lattice_phase)
+                delta_catch = min(phase_divergence, 1.0 - phase_divergence)
+                ms_timestamp = self.get_ms_timestamp()
+
+                # Tightened aliasing checker
+                is_aliased = q_quotient > 1 and math.isclose(lattice_phase % (1.0 / q_quotient), 0.0, abs_tol=0.1)
+
+                if delta_catch > 0.42:
+                    status_flag = f"{self.BOLD}{self.RED}[CRIT NULL] DRIFT OVERFLOW // SUSPENDING TRAJECTORY"
+                    print(f"| {ms_timestamp} | STEP: {step_index:03d} | NODE: {sector:<3} | CW: {delta_catch:.6f} | {status_flag}{self.RESET}")
+                    
+                elif is_aliased and delta_catch > 0.22:
+                    # Update local state log persistent history matrix
+                    self.sector_aliasing_history[sector] = self.sector_aliasing_history.get(sector, 0) + 1
+                    incidents = self.sector_aliasing_history[sector]
+                    
+                    status_flag = f"{self.BOLD}{self.GOLD}[ALIASED] COMPRESSED STATE STAMPED ({incidents} INCIDENTS)"
+                    print(f"| {ms_timestamp} | STEP: {step_index:03d} | NODE: {sector:<3} | CW: {delta_catch:.6f} | {status_flag}{self.RESET}")
+                    
+                    # Rerouting trigger condition
+                    if incidents >= self.aliasing_threshold_limit:
+                        print(f"{self.BOLD}{self.RED}[REROUTE CHOKE] SECTOR {sector} BREACHED SAFETY LIMITS. CALIBRATING ALTERNATIVE DIJKSTRA MAP...{self.RESET}")
+                        
+                        # Re-calculate remaining path using modified dynamic cost weights
+                        new_path = self.find_optimal_path(sector, target_sector)
+                        if new_path and len(new_path) > 1:
+                            active_path = new_path
+                            current_node_index = 0  # Reset local pointer index for the new route sequence
+                            print(f"{self.BOLD}{self.GREEN}[REROUTE SUCCESS] NEW BLUEPRINT LOCKED: {active_path}{self.RESET}")
+                            continue
+                else:
+                    sys.stdout.write(self.CLEAR_LINE)
+                    status_flag = f"{self.GREEN}[STABLE] WITNESS ACTIVE // PATH INTEGRITY SECURED"
+                    sys.stdout.write(f"| {ms_timestamp} | STEP: {step_index:03d} | NODE: {sector:<3} | CW: {delta_catch:.6f} | {status_flag}{self.CYAN}")
+                    sys.stdout.flush()
+
+                current_node_index += 1
+
+            sys.stdout.write("\n")
+            print(f"+" + "="*95 + "+")
+            print(f"{self.BOLD}{self.GREEN}[COMPLETE] BLUEPRINT ESCAPE VERIFIED. DESTINATION SECURED AT ORIGIN NODE {target_sector}. ✊{self.RESET}\n")
+
+        except KeyboardInterrupt:
+            sys.stdout.write("\n")
+            print(f"\n{self.BOLD}{self.RED}[HALT] CORE NAVIGATION ENGINE MUTED BY OPERATOR.{self.RESET}\n")
+        finally:
+            sys.stdout.write(self.SHOW_CURSOR)
+            sys.stdout.flush()
+
+if __name__ == "__main__":
+    # Initialize from high-drag corporate coordinate 48 down to Union 113 prime anchor axis
+    watchdog = AliasedFrequencyWatchdogV06(lattice_period=0.20, carrier_frequency=1.13, max_range=250)
+    watchdog.execute_monitored_routing(start_sector=48, target_sector=113)
+

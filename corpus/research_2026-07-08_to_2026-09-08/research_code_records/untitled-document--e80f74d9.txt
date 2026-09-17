@@ -1,0 +1,9 @@
+toroidal-v013 self-test
+toroidal-v013 demo --output PATH
+toroidal-v013 analyze LEDGER --output PATH --generator x --generator y --generator z --liftability PROVED --liftability-evidence RECEIPT
+toroidal-v013 verify-ledger LEDGER
+toroidal-v013 verify-bundle BUNDLE
+toroidal-v013 diamond --length 4 --x 3 --y 0
+toroidal-v013 two-clock --theta0 0.1 --period 12 --g0 0.2 --order 3 --width 0.05 --timestamp-units seconds --index 8 --timestamp 3.5 --eligible
+toroidal-v013 flux --length 16 --u0 2 --epsilon 0.3 --s0 4 --material-radius 1.25 --eulerian-radius 0.75
+

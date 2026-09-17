@@ -1,0 +1,207 @@
+Fremlin’s “Dedekind complete measure algebra” is the Boolean-algebra face of localizability. In his usage the two phrases are almost the same object: a measure algebra is localizable precisely when it is semi-finite and its Boolean algebra is Dedekind complete.15751e
+www1.essex
+That is the condition that makes \(L^\infty\) the dual of \(L^1\) and makes the multiplication algebra a von Neumann algebra. The Hidden Quotient note is using this, after first reducing an arbitrary measure to its semifinite part.
+What a measure algebra is
+Fremlin 321A: a measure algebra is a pair \((\mathfrak{A},\bar\mu)\) where
+\(\mathfrak{A}\) is a Boolean algebra that is Dedekind \(\sigma\)-complete (countable suprema exist),
+\(\bar\mu:\mathfrak{A}\to[0,\infty]\) is strictly positive, \(\bar\mu(0)=0\), and countably additive on disjoint sequences.215464
+www1.essex
+The standard example is the measure algebra of a measure space \((X,\Sigma,\mu)\):
+\[
+\mathfrak{A}=\Sigma/\mathcal{N}_\mu,\qquad \bar\mu([E])=\mu(E).
+\]
+
+Elements of \(\mathfrak{A}\) are measurable sets modulo null sets. You have already forgotten points of \(X\); only Boolean operations and measure remain.
+Dedekind \(\sigma\)-completeness is cheap: it is inherited from \(\Sigma\) being a \(\sigma\)-algebra. Dedekind completeness is not.
+Dedekind complete vs \(\sigma\)-complete
+In a Boolean algebra \(\mathfrak{A}\), ordered by \(a\le b\iff a\wedge b=a\):
+Dedekind \(\sigma\)-complete: every countable family has a supremum in \(\mathfrak{A}\).
+Dedekind complete: every family, of any cardinality, has a supremum in \(\mathfrak{A}\).
+On a measure space this is the difference between
+“countable unions of measurable sets are measurable” (always, after the usual \(\sigma\)-algebra axioms), and
+“an arbitrary family of measurable sets has an essential supremum”: a measurable \(E\) that contains each member of the family up to null sets, and is essentially smallest with that property.
+If the family is uncountable, that essential supremum need not exist as a measurable set modulo null sets. That is exactly the failure of Dedekind completeness of \(\Sigma/\mathcal{N}\).
+Localizable = semi-finite + Dedekind complete
+Fremlin 322A–322B:05d4e4
+www1.essex
+Name
+Algebra
+Matching space
+Semi-finite
+\( \bar\mu(a)=\infty\Rightarrow\exists\,0\neq b\le a\) with \(\bar\mu(b)<\infty\)
+every positive-measure set has a finite-positive-measure subset
+\(\sigma\)-finite
+countable cover of \(1\) by finite-measure elements
+\(X=\bigcup_n E_n\), \(\mu(E_n)<\infty\)
+Localizable
+semi-finite and \(\mathfrak{A}\) Dedekind complete
+the measure space is localizable
+Semi-finite and localizable transfer exactly between a space and its measure algebra.
+So “Fremlin’s Dedekind complete measure algebra,” in the localizable clause, means: after you have already required a finite handle on every infinite element, every set of classes still has a least upper bound in the algebra.
+\(\sigma\)-finite \(\Rightarrow\) strictly localizable \(\Rightarrow\) localizable \(\Rightarrow\) semi-finite. The first two arrows are the usual exhaustion; the last is just dropping Dedekind completeness.936e5e
+Epdf
+Why that completeness is the structural hinge
+Once the algebra is localizable, several “textbook” theorems become equivalent. On the function-space side Fremlin 243G: the canonical map
+\[
+T:L^\infty(\mu)\longrightarrow\bigl(L^1(\mu)\bigr)^*,
+\qquad
+(Tv)(u)=\int uv\,d\mu
+\]
+
+is
+injective iff the space is semi-finite,
+bijective iff the space is localizable.af78f5
+www1.essex
+On the operator-algebra side (Segal): for a faithful semifinite measure, Dedekind completeness of \(\Sigma/\mathcal{N}\) is equivalent to
+\((L^1)^*\cong L^\infty\),
+the multiplication algebra being a von Neumann algebra on \(L^2\),
+that algebra being maximal abelian,
+a Radon–Nikodym theorem for measures vanishing on the relevant null ideal.fd7a3f
+Ncatlab
+That is the “one condition, several faces” theorem the Hidden Quotient note is quoting. Fremlin packages the Boolean face as: \(\mathfrak{A}\) Dedekind complete (and already semi-finite).
+A useful analytic restatement (Fremlin 367L): give \(L^0(\mathfrak{A})\) the topology of convergence in measure. Then
+the topology is Hausdorff iff the algebra is semi-finite,
+\(L^0\) is complete in that uniformity iff the algebra is localizable,
+the topology is metrizable iff the algebra is \(\sigma\)-finite.62b04e
+www1.essex
+Dedekind completeness of \(\mathfrak{A}\) is also Dedekind completeness of \(L^0\) as a lattice. Arbitrary essential suprema of measurable functions exist exactly when arbitrary essential suprema of measurable sets exist.
+How this sits on the Hidden Quotient construction
+For a general measure \(\mu\), \(L^2(\mu)\) only sees the semifinite reduction \(\mu_{\mathrm{sf}}\). Locally null sets become \(\mu_{\mathrm{sf}}\)-null, and
+\[
+B(X,\Sigma)/\ker\pi \cong L^\infty(\mu_{\mathrm{sf}}).
+\]
+
+\(\mu_{\mathrm{sf}}\) is always semi-finite. What it may still lack is Dedekind completeness of
+\[
+\Sigma/\mathcal{N}_{\mathrm{loc}}\cong\text{measure algebra of }\mu_{\mathrm{sf}}.
+\]
+
+That missing completeness is exactly “\(\mu_{\mathrm{sf}}\) is not localizable.” Then:
+\(T:L^\infty(\mu_{\mathrm{sf}})\to(L^1)^*\) is isometric but not onto,
+some functionals on \(L^1\) are not multiplication by an \(L^\infty\) class,
+the multiplication algebra need not be weakly closed.
+Semifinite reduction and localizable completion are different operations. The first kills infinite atoms with no finite subset (the point \(p\) of infinite mass). The second, when needed, enlarges the algebra so that arbitrary families acquire essential suprema (Bouafia–De Pauw’s strictly localizable version is one published construction of that second step). Fremlin 322P: a semi-finite measure algebra has a Dedekind completion that can be made into a localizable measure algebra.aa223f
+www1.essex
+What Dedekind completeness does not give you
+It does not make \(L^1\) or \(L^2\) separable. Separability needs the measure algebra to be countably generated modulo null sets.
+It does not make the von Neumann algebra countably decomposable. That is the other “\(\sigma\)-finite” (every orthogonal family of projections is countable).
+It is not the same as metric completeness of \(L^p\). \(L^p\) for \(1\le p<\infty\) is a Banach space on very general spaces; the missing piece at non-localizable \(\mu_{\mathrm{sf}}\) is lattice/duality completeness, not the \(L^p\)-norm.
+A picture
+Think of \(\mathfrak{A}\) as the ledger of distinctions the measure can still make after null sets are quotiented out.
+Semi-finite: every nonzero line in the ledger has a finite-measure witness.
+Dedekind complete: any pile of lines, even an uncountable pile, has a single least upper bound still in the ledger.
+Localizable: both.
+\(\sigma\)-finite spaces get both for free because a countable exhaustion turns every essential supremum into a countable supremum, which the \(\sigma\)-algebra already contains. That is why first courses never mention Dedekind completeness of the measure algebra: the hypothesis that hides the kernel of \(\pi\) also hides the missing suprema.
+Bouafia–De Pauw is not a second name for Fremlin’s \(\mu_{\mathrm{sf}}\). It is a **change of underlying space**: every measure space is promoted to a strictly localizable version whose \(L^\infty\) realises the dual of the **original** \(L^1\).
+
+Two papers, two jobs.
+
+## 1. De Pauw: when is \(\Upsilon:L^\infty\to(L^1)^*\) onto?
+
+De Pauw, *Undecidably semilocalizable metric measure spaces*, arXiv:1909.10190, later *Commun. Contemp. Math.* **26** (2024).
+
+Write \(\mathcal{A}^f=\{A\in\mathcal{A}:\mu(A)<\infty\}\) and
+
+\[
+\mathcal{N}_\mu[\mathcal{A}^f]
+=\{N\in\mathcal{A}:\mu(A\cap N)=0\text{ for all }A\in\mathcal{A}^f\}.
+\]
+
+Those are the **locally null** sets. The canonical map is
+
+\[
+\Upsilon:L^\infty(X,\mathcal{A},\mu)\longrightarrow L^1(X,\mathcal{A},\mu)^*,
+\qquad
+\Upsilon(g)(f)=\int fg\,d\mu.
+\]
+
+De Pauw’s dictionary (matching Fremlin 243G, but split more carefully):
+
+| Property of \(\Upsilon\) | Geometric condition |
+|---|---|
+| injective (then isometric) | \(\mu\) **semifinite** |
+| surjective | \((X,\mathcal{A},\mathcal{N}_\mu[\mathcal{A}^f])\) **localizable** |
+
+He calls the second condition **semilocalizable**: localizability of the measurable space *with locally null sets as the negligible ideal*, without first assuming semifiniteness.
+
+Boolean form: \(\Upsilon\) is onto iff
+
+\[
+\mathcal{A}\big/\mathcal{N}_\mu[\mathcal{A}^f]
+\]
+
+is Dedekind complete. That is Fremlin’s Dedekind completeness, but of the **locally-null** quotient, not of \(\Sigma/\{\mu=0\}\).
+
+For Hausdorff measure \(\mathcal{H}^d\) on a complete separable metric space he gives a third equivalent: **almost decomposability** into sets of finite positive measure. For some \((X,d)\) — including examples with \(d=\dim_H(X)\), and specifically aspects of \(([0,1],\mathcal{H}^{1/2})\) — whether this holds is **independent of ZFC**.
+
+That is the warning: “is \(\mu_{\mathrm{sf}}\) localizable?” is not always a theorem of ordinary analysis. For some geometric measures it is a set-theoretic question.
+
+Motivation in his talks: the dual of \(BV\), which wants \((L^1(\mathcal{H}^{n-1}))^*\). For Carathéodory-measurable \(\mathcal{H}^{n-1}\), surjectivity of \(\Upsilon\) can fail to be decidable.
+
+## 2. Bouafia–De Pauw: build a space where Radon–Nikodym holds
+
+Bouafia–De Pauw, *Radon-Nikodýmification of arbitrary measure spaces*, *Extracta Math.* **38** (2023), 139–.
+
+Problem: given any \((X,\mathcal{A},\mu)\), produce
+
+\[
+(\hat X,\hat{\mathcal{A}},\hat\mu)
+\]
+
+such that
+
+1. \((\hat X,\hat{\mathcal{A}},\hat\mu)\) is **strictly localizable**,
+2. \(L^1(X,\mathcal{A},\mu)\cong L^1(\hat X,\hat{\mathcal{A}},\hat\mu)\) isometrically,
+3. therefore
+   \[
+   L^1(X,\mathcal{A},\mu)^*\cong L^\infty(\hat X,\hat{\mathcal{A}},\hat\mu),
+   \]
+4. and a generalized Radon–Nikodym theorem holds on the new space.
+
+“Strictly localizable” is Fremlin’s stronger cousin of localizable: there is a decomposition of the space into a family of finite-measure pieces that capture every positive-measure set (a measurable partition that works as a local chart atlas). Strictly localizable \(\Rightarrow\) localizable \(\Rightarrow\) \((L^1)^*\cong L^\infty\).
+
+They work first in a category of **measurable spaces with negligibles** \((X,\mathcal{A},\mathcal{N})\), not yet measures. Under conditions they construct a **localizable locally determined version**, described as a kind of **fiber space** that locally records “directions,” characterized by a universal property. Measures are then promoted through that construction.
+
+So the new points of \(\hat X\) need not be the old points of \(X\). That is the difference from \(\mu_{\mathrm{sf}}\).
+
+## 3. Semifinite reduction vs Radon–Nikodýmification
+
+| | Fremlin \(\mu_{\mathrm{sf}}\) | Bouafia–De Pauw \((\hat X,\hat\mu)\) |
+|---|---|---|
+| Underlying set | same \(X\) | generally larger / fibered |
+| What is killed | locally infinite mass with no finite handle | missing essential suprema, by adding points |
+| \(L^p\) for \(p<\infty\) | \(L^p(\mu)=L^p(\mu_{\mathrm{sf}})\) | \(L^1(\mu)\cong L^1(\hat\mu)\) |
+| Duality | \((L^1)^*\cong L^\infty(\mu_{\mathrm{sf}})\) **only if** \(\mu_{\mathrm{sf}}\) is localizable | \((L^1(\mu))^*\cong L^\infty(\hat\mu)\) **by construction** |
+| Boolean algebra | \(\Sigma/\mathcal{N}_{\mathrm{loc}}\) unchanged | completed (new classes appear as new points) |
+
+\(\mu_{\mathrm{sf}}\) is the algebraic shadow of what \(L^2\) already sees. If that algebra is not Dedekind complete, no relabeling of subsets of \(X\) supplies the missing suprema. You have to **add** them. That is the “bigger hall” sentence in the Hidden Quotient note.
+
+## 4. The geometric model they actually compute
+
+For integral-geometric measure \(\mathcal{I}^{n-1}\) (not raw Hausdorff measure), they give an explicit \(\hat X\): a fibered space over \(\mathbb{R}^n\) whose fiber at \(x\) consists of **germs of rectifiable sets through \(x\)**.
+
+Same idea in Bouafia–De Pauw, *A representation formula for members of SBV dual*, arXiv:2110.04747: functionals on \(SBV(\mathbb{R}^n)\) are represented by functions on
+
+\[
+\hat{\mathbb{R}}^n=\bigl\{(x,[E]_x):[E]_x\text{ is an approximate germ of an }(n-1)\text{-rectifiable set at }x\bigr\}.
+\]
+
+The original space \((\Omega,\mathcal{B},\mathcal{I}^{n-1})\) is not localizable if \(\Omega\neq\emptyset\). Compatible families of functions on pieces of \(\Omega\) cannot always be glued there. They can be glued on \(\hat\Omega\), which they identify as the strictly localizable version of the completion of \((\Omega,\mathcal{B},\mathcal{I}^{n-1})\).
+
+That is the construction in coordinates: missing Boolean suprema become extra fiber directions.
+
+## 5. Generalized Radon–Nikodym
+
+Classical RN: if \(\mu\) is \(\sigma\)-finite (or localizable) and \(\nu\ll\mu\), then \(d\nu=f\,d\mu\) for some \(f\in L^1_{\mathrm{loc}}\).
+
+After RN-ification: functionals on \(L^1(X,\mu)\), or measures absolutely continuous with respect to the **locally null** ideal of \(\mu\), are represented by integration against an \(L^\infty\) function **on \(\hat X\)**, not necessarily on \(X\).
+
+The density lives on the completed space. Pulling it back to \(X\) is integration along fibers (composition with the projection \(\hat X\to X\) when that projection exists).
+
+## 6. What this does *not* do
+
+- It does not make every measure on the original \(X\) localizable. Some geometric measures stay non-localizable, and for Hausdorff measure that can be undecidable.
+- It does not replace Part I of the Hidden Quotient note. The kernel of \(\pi\) on a **fixed** \(L^2(X,\mu)\) is still the locally null functions on \(X\). Completing the algebra by adding points changes the Hilbert space.
+- It does not decide Theory v0.1 or Omnibus. It is a published construction in geometric measure theory.
+
+The accurate slogan: **semifinite reduction discards what no finite witness can see; Radon–Nikodýmification adjoins the witnesses needed so that every functional on the original \(L^1\) becomes multiplication on a strictly localizable space.**

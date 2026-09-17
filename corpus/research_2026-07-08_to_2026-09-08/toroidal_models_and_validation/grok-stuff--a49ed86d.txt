@@ -1,0 +1,259 @@
+CKT’s Villain point is a real, published calibration target. It is **not** a cosine-model number, and the protocol treats that distinction as a hard rule.
+
+## Paper and claim
+
+Coleman, Kuklov, and Tsvelik, *Dual view of the \(Z_2\)-Gauged XY Model in 3D*, [Phys. Rev. Lett. **134**, 236001 (2025)](https://doi.org/10.1103/nf4j-kbtj); arXiv:[2502.08708](https://arxiv.org/abs/2502.08708).
+
+Thesis: in the nematic / paired-matter phase (their **phase III**), the charge-one XY field stays confined at every finite gauge coupling. Apparent deconfinement on finite lattices is a large confinement radius, not an asymptotic deconfined phase. They contrast this with Bonati–Pelissetto–Vicari, who report a deconfining large-\(K\) line with vector modes visible after stochastic gauge fixing.
+
+Three phases in their language:
+
+| Phase | Matter | Gauge / visons |
+|---|---|---|
+| I | disordered | disordered |
+| II | disordered | visons confined (topological) |
+| III | \(\psi^2\) ordered (nematic / pair) | CKT: still charge-one confined |
+
+## Two microscopic models
+
+They run both a cosine action and a Villain (“\(J\)-current”) action. Critical couplings **do not match**. CKT state that the Villain phase boundary sits roughly **15–30% below** the cosine boundary, and they use Villain at large \(K\) because it mixes better.
+
+Convention map used in your protocol:
+
+- CKT / protocol gauge fugacity: \(t = K_{\rm CKT} = \tanh\kappa\)
+- Protocol cosine matter coupling is **not** CKT’s Villain \(J\)
+- BPV’s \(J_{\rm BPV}\) is half the protocol cosine \(J\) (\(J_{\rm protocol} = 2J_{\rm BPV}\))
+
+So the headline Villain numbers below **must not** be dropped into a cosine run.
+
+## The frozen Villain benchmark
+
+The protocol’s Rung 3 / Fig.-5 point is this CKT run:
+
+| Quantity | CKT value |
+|---|---|
+| Gauge fugacity | \(K = t = 0.7\) |
+| Matter coupling | \(J = 0.336\) |
+| Critical coupling they quote | \(J_c = 0.3335 \pm 0.0003\) |
+| Superfluid stiffness in phase III | \(\rho_s \approx 0.038\) |
+| Lattice | cubic, periodic |
+| Sizes in the radius plot | through \(L \sim 125\); they read saturation from \(L > 90\) |
+
+That is exactly the protocol sentence: *“at \(t=0.7\), \(J=0.336\), \(J_c=0.3335(3)\), \(\rho_s\approx 0.038\).”*
+
+Pure-gauge check in the same paper: I–II boundary from the heat-capacity peak at \(K_c = 0.639(3)\). The exact 3D Ising dual is \(\tanh(0.7613\ldots)\approx 0.6418\). Your protocol flags both numbers and does not treat \(0.639(3)\) as a closed-form constant.
+
+## Dual variables and the weight you have to reproduce
+
+Dual degrees of freedom:
+
+- integer link currents \(I_\ell\in\mathbb{Z}\)
+- plaquette occupations \(M_p\in\{0,1\}\)
+- Kirchhoff constraint \(\nabla\cdot I = 0\) (at \(h_6=0\))
+- link-parity constraint \(|I_\ell|+M_\ell\) even
+
+Villain current weight:
+
+\[
+w_J^{\rm V}(I)=\exp\left(-\frac{I^2}{2J}\right)
+\]
+
+Cosine dual weight is the modified Bessel \(\mathcal{I}_{|I|}(J)\). Mixing those two in one chain is a protocol violation.
+
+Winding and stiffness are CKT Eq. 6, which your protocol adopted verbatim:
+
+\[
+W_\alpha=\frac1L\sum_{\ell\parallel\alpha}I_\ell,\qquad
+\rho_\alpha=\frac{\langle W_\alpha^2\rangle}{L},\qquad
+R_W=\langle W_\alpha^2\rangle=L\rho_\alpha.
+\]
+
+Odd \(W_\alpha\) would be charge-one winding. Even winding is the \(\psi^2\) sector.
+
+## What they actually plot as “confinement”
+
+They do **not** use ordinary Wilson loops as the kill card (Fradkin–Shenker screening). They use correlator gyration radii.
+
+- \(C_1\): charge-one correlator of \(\psi\) (gauge-fixed / directed)
+- \(C_2\): gauge-invariant \(\langle(\psi^*)^2\psi^2\rangle\)
+- \(R_{1,2}\) or \(\widetilde R_{1,2}\): second-moment / gyration size of those correlators
+
+At \(K=0.2\) (Fig. 4) and at the Villain point \(K=0.7\), \(J=0.336\) (Fig. 5):
+
+- \(\widetilde R_2\) tracks the box, \(\sim L\) (or \(L/4\) in their PBC convention for the first-moment form)
+- \(\widetilde R_1\) **saturates** to a finite \(\xi(J)\)
+
+They read \(\xi\) from the plateau of \(\widetilde R_1/\sqrt{2}\) on \(L>90\), assuming \(C_1\sim e^{-|z|/\xi}\). The protocol’s “visible only on lattices three to four times \(\xi_{\rm conf}\)” is that observation, not a universal theorem. That is why Appendix B freezes
+
+\[
+L_{\max}\ge 4\,\xi_{\rm conf}^{95\%,{\rm upper}}
+\]
+
+before a Q2 headline is allowed.
+
+Heuristic they attach to the same data: a charge-one pair is parity-odd and must drag an \(M_p\) membrane; membrane free energy grows with \(\kappa\), so
+
+\[
+\xi_{\rm conf}\sim e^{2\kappa}
+\]
+
+at large gauge coupling. Deep \(t\to 1\) runs are therefore the easiest place to **fake** deconfinement on finite \(L\). The protocol forbids using only that corner for Q2.
+
+## The axial-gauge detail that forced Appendix A
+
+CKT do odd-current updates **along \(z\) only after imposing** \(u_{ij}=1\) on all \(z\)-links. Residual symmetry is a sign flip of \(\psi\) along those lines.
+
+Your protocol refuses to treat “set every \(z\)-link to \(+1\)” as a self-proving periodic ensemble. On \(T^3\) that condition eats a holonomy bit. The fully summed periodic dual then satisfies
+
+\[
+Z_{\rm full}=\mathcal{Z}_{000},
+\]
+
+so it **cannot** fluctuate in odd mod-two homology. That is why Q2 is defined only in \(Z_{000}\), why the CKT \(z\)-axial code is a **comparator** (`V-CKT-AX-Z`), and why “no odd windings in \(Z_{\rm full}\)” is an ensemble projection, not evidence of confinement.
+
+If a Villain reconstruction does not keep the periodic \(z\)-closure bit and map it to \(h_z\) / \(q_z\), it is a different conditioned ensemble and cannot be sold as canonical Q2.
+
+## What a passing Rung-3 / Rung-4 look like
+
+Your protocol says the Villain code must, within declared uncertainty:
+
+1. Reproduce \(J_c=0.3335(3)\) at \(t=0.7\).
+2. Reproduce \(\rho_s\approx 0.038\) at \(J=0.336\).
+3. Show the qualitative split \(\widetilde R_2\propto L\) vs \(\widetilde R_1\to\mathrm{const}\).
+4. See charge-one saturation only once \(L\) is several times the fitted \(\xi_{\rm conf}\).
+
+Passing that ladder validates the **algorithm and convention map**. It does not decide Q2 in the cosine production model, and it does not license importing \(0.3335\) into a cosine \(J\)-scan.
+
+## Where BPV sits next to this benchmark
+
+BPV (Phys. Rev. B **109**, 235121 (2024)) use the **cosine** \(N=2\) model. On the large-\(K\) line they report continuous XY-class ordering, with the gauge-invariant bilinear scaling as the XY **spin-two** operator
+
+\[
+Y_{T,XY}=1.23629(11)\quad\Rightarrow\quad\chi\sim L^{0.5274},
+\]
+
+versus ordinary-vector scaling \(\chi\sim L^{1.9618}\) on the small-\(K\) line. Their \(K=1\) cosine point is \(J_{\rm BPV}=0.22729(3)\), i.e. protocol \(J\approx 0.45458\). That is a different microscopic theory and a different question (Q1 charge sector), not a replacement for CKT’s Villain \(J_c\).
+
+CKT’s reading of BPV: no deconfinement on the I–III line; they dispute that II–III is asymptotically deconfining, and argue BPV’s finite sizes sit inside a huge \(\xi_{\rm conf}\).
+
+## Practical takeaway for your freeze card
+
+The Villain benchmark is a **code-and-ensemble test**, not a theory win:
+
+- Same \(t=0.7\), same Villain weight, same winding normalization, same \(\widetilde R_{1,2}\) definitions.
+- Separate axial comparator vs three-axis \(Z_{000}\).
+- Never paste \(J_c=0.3335\) into `C-DUAL-FULL` or `C-DIR-PBC`.
+- A matching \(\rho_s\approx 0.038\) and a saturating \(\widetilde R_1\) only show you implemented CKT’s model. Q2 in the cosine theory still needs Appendix A gates plus \(L_{\max}\ge 4\xi_{\rm conf}^{\rm UCB}\).
+
+If you want the next cut, the useful one is a side-by-side of CKT Fig. 5 sizes vs your frozen Q2 ladder \(L=48\ldots 192\), and whether \(L=192\) can actually clear \(4\xi\) at \(t=0.7\) if CKT’s exponential-radius argument is even roughly right.
+
+CKT never print a single number for \(\xi\) at the Villain point. They print a *procedure* and a *size window*. That already decides most of the comparison.
+
+## What CKT actually ran
+
+Villain, \(K=t=0.7\), \(J=0.336\), \(J_c=0.3335(3)\), \(\rho_s\approx 0.038\).
+
+They plot \(\widetilde R_{1,2}(L)\) and read
+
+\[
+\xi \;=\; \text{mean of }\frac{\widetilde R_1}{\sqrt{2}}\quad\text{on }L>90,
+\]
+
+assuming \(C_1\sim e^{-|z|/\xi}\). The box-filling ceiling on the same plot is \(L/(2\sqrt{3})\approx 0.289\,L\). So at \(L=90\) the *maximum* possible second-moment radius is \(\approx 26\); at \(L=125\) it is \(\approx 36\). They needed \(L>90\) before they were willing to call \(C_1\) saturated. That is the whole published constraint.
+
+Side-by-side with the frozen Q2 ladder (Appendix B, Stage D / conditional Q2):
+
+| Role | Sizes |
+|---|---|
+| CKT Fig. 5 | plotted through \(\sim 125\); \(\xi\) readout only for \(L>90\) |
+| Protocol Q2 production | \(48,64,96,128,160,192\) |
+| Dual hard cap | \(L_{\max}^{\rm dual}=192\) |
+| Direct Q2 cap | \(L_{\max}^{\rm direct,Q2}=96\) |
+| Admissibility | \(L_{\max}\ge 4\,\xi_{\rm conf}^{95\%,{\rm upper}}\) |
+
+\(L=48\) and \(64\) sit *below* CKT’s own readout window. \(L=96\) is just entering it. \(L=128\) is CKT’s top end. \(L=160\) and \(192\) are the only points that are unambiguously larger than CKT’s plotted set.
+
+So the protocol did the right structural thing: it put the expensive sizes where CKT said saturation starts to be visible. It did **not** put them deep enough to *guarantee* \(L=4\xi\) once \(\xi\) is measured with an upper confidence bound.
+
+## Two different lengths are being mixed
+
+CKT write two formulas that are easy to smash together and should not be.
+
+**Membrane / large-\(\kappa\) heuristic** (phase III, \(\kappa\to\infty\)):
+
+\[
+1-K\sim e^{-2\kappa},\qquad \xi\sim\frac{1}{1-K}\sim e^{2\kappa}.
+\]
+
+A supplemental variant is \(\xi\approx 2\ln J/|\ln K|\). The vortex-fission estimate is different again:
+
+\[
+\ln L \gtrsim \frac{4\kappa}{\pi J}.
+\]
+
+At the Villain benchmark those *bare* scales are small:
+
+| Point | \(\kappa\) | \(t\) | \(e^{2\kappa}\) | \(1/(1-t)\) | fission \(L\) |
+|---|---|---|---|---|---|
+| P1 | \(0.800\) | \(0.664\) | \(5.0\) | \(3.0\) | \(\sim 20\) |
+| P2 (CKT Fig. 5) | \(0.8673\) | \(0.700\) | \(5.7\) | \(3.3\) | \(\sim 27\) |
+| P3 | \(1.000\) | \(0.762\) | \(7.4\) | \(4.2\) | \(\sim 36\) |
+
+If that were the whole story, \(L=192\) would smash \(4\xi\) by a factor of ten and Q2 would be admissible on scale grounds.
+
+It is not the whole story, because CKT’s Fig. 5 point is **almost on top of criticality**:
+
+\[
+\frac{J-J_c}{J_c}=\frac{0.336-0.3335}{0.3335}\approx 0.75\%.
+\]
+
+Your protocol’s ordered-side Q2 point is the same kind of placement:
+
+\[
+J_{\rm Q2}=1.01\,J_c(t,0).
+\]
+
+Three-dimensional XY correlation length goes as \(\xi_{\rm mat}\sim |t|^{-\nu}\) with \(\nu\simeq 0.67\). A one-percent reduced temperature gives \(\xi_{\rm mat}\) of several tens of lattice spacings if the amplitude is \(O(1)\). Charge-one \(C_1\) then decays on whatever is *larger*: the membrane radius or the critical matter length. That is why CKT can write \(\xi\sim e^{2\kappa}\) in the discussion and still refuse to read \(\xi\) before \(L>90\).
+
+Near \(J_c\), “confinement radius” and “ordinary critical \(\xi\)” are not operationally separable on the sizes they ran.
+
+## Can \(L=192\) clear \(4\xi\) at \(t=0.7\)?
+
+Three regimes, only one of which the frozen ladder can settle.
+
+**1. Bare-membrane \(\xi\sim 3\)–\(7\).**  
+\(4\xi\sim 12\)–\(28\). Every Q2 size is admissible. CKT’s \(L>90\) window would then be overkill, which does not match how they wrote the figure caption.
+
+**2. Near-critical \(\xi\sim 25\)–\(40\), the range implied by “start reading at \(L>90\)” if \(\widetilde R_1/\sqrt{2}\) has actually flattened.**  
+\(4\xi\sim 100\)–\(160\). Then:
+
+- \(L=96\) fails
+- \(L=128\) is marginal
+- \(L=160,192\) pass if the UCB on \(\xi\) stays under \(\approx 48\)
+
+**3. \(\xi\gtrsim 50\), which is what you get if \(\widetilde R_1\) is still climbing toward the box ceiling at \(L=125\).**  
+\(4\xi\gtrsim 200\). \(L=192\) **fails the protocol’s own rule** and the mandatory label is
+
+\[
+\text{Q2 INCONCLUSIVE — QUASI-DECONFINED WINDOW NOT EXCLUDED}.
+\]
+
+CKT’s published text is compatible with (2) or (3) and does not decide between them, because they never quote the plateau value of \(\widetilde R_1\).
+
+Deeper gauge coupling makes (3) more likely even away from \(J_c\). At \(\kappa=1.5\) (\(t=\tanh 1.5\approx 0.905\)), \(e^{2\kappa}\approx 20\). At \(\kappa=2\) (\(t\approx 0.964\)), \(e^{2\kappa}\approx 55\), and \(4\xi\) already wants \(L\gtrsim 220\) *before* critical enhancement. That is why the protocol forbids answering Q2 on a single deep \(t\to 1\) point.
+
+## What this means for the freeze card
+
+The Villain benchmark and the Q2 ladder are matched in *intent* and not matched in *guarantee*.
+
+- Rung 3/4 can be passed by reproducing \(J_c=0.3335(3)\), \(\rho_s\approx 0.038\), and the qualitative split \(\widetilde R_2\propto L\) vs a flattening \(\widetilde R_1\).
+- That does not open a Q2 verdict.
+- At \(J=1.01 J_c\) and \(t=0.7\), \(L=192\) is the first size that has a *chance* of satisfying \(L\ge 4\xi^{\rm UCB}\). It is not a size that makes the inequality automatic.
+- Direct Q2 at \(L_{\max}=96\) is almost certainly inadmissible on CKT’s own window.
+- If the measured UCB on \(\xi_{\rm conf}\) at P2 exceeds \(48\), Appendix B already tells you what to print. You do not get to drop \(L=192\) or slide \(J\) deeper into the ordered phase after seeing the radius.
+
+The honest pre-run statement is:
+
+> At the CKT Villain point the published data show charge-one saturation beginning only past \(L\sim 90\), on a coupling \(0.75\%\) above \(J_c\). The protocol’s \(L=192\) point is larger than CKT’s plot, but whether it is four times the confinement radius cannot be known until the frozen \(\xi_{\rm conf}\) estimator returns an upper bound. If that bound is \(\gtrsim 48\), Q2 at \(t=0.7\) is inconclusive by the protocol’s own rule — which is a valid scientific outcome, not a failed run.
+
+That is the cut. The lattice can still answer Q1 and Q3 on \(Z_{\rm full}\) without waiting on this inequality.

@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-09-08T12:28:36.436293+00:00",
+  "python_version": "3.12.13",
+  "command": "python3 verify_archive.py",
+  "exit_code": 0,
+  "scope": "integrity of readable source snapshots only",
+  "sha256": {
+    "verify_archive.py": "fae3f2957150cfa2880b21b3bde54ce161ce69fb6bf5f50bfd1046f78885bc66",
+    "manifest.json": "4c902cc058b4b9e245c20f0c9e69b645a57501d3c44f4222d8cc68c0d1994b2c",
+    "verification.json": "e321c901c094565df417c14f33629458387302ec4041ae4d2181d056880842df"
+  }
+}
