@@ -14,6 +14,9 @@ content_sha256: PENDING_AFTER_COMPLETION
 completed_at_utc: PENDING
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Fixed inventory
 
 Evaluate every Cartesian entry `point in {P1,P2,P3}` by `L in {48,64,96,128,160,192}` by `axis in {x,y,z}` in `C-DUAL-FH-000`. No row may be removed after any pilot output is opened.

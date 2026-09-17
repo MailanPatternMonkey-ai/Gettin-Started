@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 GQG Core Card · v0.13
 Witness Fidelity, Transition Fidelity, Eligibility, Response Fidelity, Evidence-Status Separation, Unified Return-Residual Closure, and Orbit-Quotient Cocycles
 Status

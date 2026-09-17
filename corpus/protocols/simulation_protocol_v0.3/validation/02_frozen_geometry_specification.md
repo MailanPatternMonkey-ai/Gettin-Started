@@ -13,6 +13,9 @@ content_sha256: PENDING_AFTER_COMPLETION
 completed_at_utc: PENDING
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Frozen geometry
 
 - Lattice: `Lambda_L=(Z/LZ)^3`, coordinates `0,...,L-1`, addition modulo `L`.

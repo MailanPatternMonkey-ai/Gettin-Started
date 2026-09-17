@@ -6,6 +6,9 @@ source_url: https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA
 public_scope_review: individually-reviewed-impersonal-corpus-object
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 GQG Core Card · v0.12
 Witness Fidelity, Transition Fidelity, Eligibility, Response Fidelity, Evidence-Status Separation, and Unified Return-Residual Closure
 Status

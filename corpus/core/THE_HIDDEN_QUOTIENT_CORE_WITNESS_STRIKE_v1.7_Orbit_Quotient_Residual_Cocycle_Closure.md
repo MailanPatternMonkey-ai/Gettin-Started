@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # THE HIDDEN QUOTIENT — CORE, WITNESS, STRIKE, AND RETAINED CONTEXT
 
 ### Multiplication representation over arbitrary measures, with two declared readings and seven typed companion bridges

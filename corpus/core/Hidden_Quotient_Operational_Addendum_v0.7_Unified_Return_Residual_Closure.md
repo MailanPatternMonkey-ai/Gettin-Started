@@ -6,6 +6,9 @@ source_url: https://drive.google.com/file/d/1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N
 public_scope_review: individually-reviewed-impersonal-corpus-object
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # The Hidden Quotient in Operational Pipelines
 
 ## An exact addendum for normalization, calibration, transformation, outcome coding, eligibility, response fidelity, and return-residual closure

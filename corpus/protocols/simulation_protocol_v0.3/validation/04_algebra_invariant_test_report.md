@@ -14,6 +14,9 @@ content_sha256: PENDING_AFTER_COMPLETION
 completed_at_utc: PENDING
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Mandatory tests
 
 | ID | Exact assertion | Scope | Result | Evidence hash |

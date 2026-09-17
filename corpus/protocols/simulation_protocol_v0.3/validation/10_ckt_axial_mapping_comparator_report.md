@@ -13,6 +13,9 @@ content_sha256: PENDING_AFTER_COMPLETION
 completed_at_utc: PENDING
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Comparator boundary
 
 Compare `V-CKT-AX-Z` with canonical `V-DUAL-FH-000` at Villain `t=0.700`. This validates an implementation mapping only. It cannot replace the cosine theory, the canonical three-axis ensemble, or the Q2 decision rules.

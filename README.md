@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # Machine-Readable Corpus
 
 This repository is the public, source-controlled home for the individually reviewed machine-readable corpus.
@@ -64,3 +66,9 @@ Repository inclusion preserves the status declared by each source. It does not u
 All affirmer-owned rights in this repository's original materials and compilation are dedicated to the public domain under CC0 1.0 Universal. See [LICENSE](LICENSE) and [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Third-party quotations, citations, trademarks, privacy rights, and other rights that the affirmer does not own are not erased by CC0.
 
 No crown. No chains. Tools, not thrones.
+
+## Attribution and permission
+
+Created by **Ron Swanson**. Published with permission under the existing **CC0 1.0 Universal** dedication. See [ATTRIBUTION.md](ATTRIBUTION.md) for the publication notice and its scope.
+
+Visible document credits and machine-readable attribution identify the creator. The CSV has an accompanying `.license` notice so its data and columns remain intact. Original-source hashes in the manifests remain historical source records; separate `published_sha256` and `published_size_bytes` fields identify the annotated repository copies.

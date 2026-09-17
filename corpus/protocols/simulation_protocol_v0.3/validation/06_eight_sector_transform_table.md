@@ -13,6 +13,9 @@ content_sha256: PENDING_AFTER_COMPLETION
 completed_at_utc: PENDING
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Frozen transform
 
 Use row/column order `000,001,010,011,100,101,110,111` and `H[h,q]=(-1)^(h dot q)` over `Z_2`. The two identities are

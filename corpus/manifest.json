@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "snapshot_date": "2026-09-02",
   "license": "CC0-1.0",
   "publication_boundary": "individually reviewed impersonal active successor artifacts, preserved predecessor receipts, an explicitly status-labeled simulation protocol package, and a status-labeled CC0 Abundance/Corner framework package including the Abundance v7.0 successor bundle",
@@ -11,7 +11,17 @@
       "drive_id": "1n2DqVJOMqZMMk-Tzp96yTExrKE-0Y-F4",
       "source_url": "https://drive.google.com/file/d/1n2DqVJOMqZMMk-Tzp96yTExrKE-0Y-F4",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal"
+      "review_status": "public-impersonal",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "a1d9358578b28482ebf3be0006252be5346d04711e7eefbd001ca23f60312d8f",
+      "published_size_bytes": 10962
     },
     {
       "path": "corpus/core/GQG_0.12_Unified_Return_Residual_Closure.md",
@@ -19,7 +29,17 @@
       "drive_id": "13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA",
       "source_url": "https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal"
+      "review_status": "public-impersonal",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "b391f4e5ecfffddab373afef4cb8dd3f2256407febc0867c26030e2d3a9968f0",
+      "published_size_bytes": 77420
     },
     {
       "path": "corpus/core/Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md",
@@ -27,7 +47,17 @@
       "drive_id": "1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N",
       "source_url": "https://drive.google.com/file/d/1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal"
+      "review_status": "public-impersonal",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "f2b52bc0e4413351853a7e5ff8a6ea22f1ef8ee1755e19fa6b050d8491274fe3",
+      "published_size_bytes": 50834
     },
     {
       "path": "corpus/core/THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.6_Unified_Return_Residual_Closure.md",
@@ -35,7 +65,17 @@
       "drive_id": "1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt",
       "source_url": "https://drive.google.com/file/d/1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal"
+      "review_status": "public-impersonal",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "c29a550213204b28915901f49481e64d9d30e6db4cf7cb78fe0eb5dcbea4ee78",
+      "published_size_bytes": 102463
     },
     {
       "path": "corpus/manifests/RETURN_RESIDUAL_STACK_UPGRADE_MANIFEST_v1.1.md",
@@ -43,7 +83,17 @@
       "drive_id": "1iZOQ4y5PI6fIaLK7rF-xkS37wHT8wbnb",
       "source_url": "https://drive.google.com/file/d/1iZOQ4y5PI6fIaLK7rF-xkS37wHT8wbnb",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal"
+      "review_status": "public-impersonal",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "77ec81584ccf44ddc538d6b6c6aef5844c820ca6d03e83047b14e4c706ff1443",
+      "published_size_bytes": 6251
     },
     {
       "path": "corpus/core/OMNIBUS_v7.76_RETURN_RESIDUAL_FIREWALL.md",
@@ -51,7 +101,17 @@
       "drive_id": "1RiehhppmaoKKwf-d241Jx6af91WNcXcw",
       "source_url": "https://drive.google.com/file/d/1RiehhppmaoKKwf-d241Jx6af91WNcXcw/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-preserved-predecessor"
+      "review_status": "public-impersonal-preserved-predecessor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "d06b457e3f7f63e2071f039def9adb0820d62670ab717bbe583c1d14c7c58e15",
+      "published_size_bytes": 72215
     },
     {
       "path": "corpus/manifests/RETURN_RESIDUAL_STACK_UPGRADE_MANIFEST_v1.0.md",
@@ -59,7 +119,17 @@
       "drive_id": "1ci_DTTXDE4jcAnkShq9rMVAu2APwuBIH",
       "source_url": "https://drive.google.com/file/d/1ci_DTTXDE4jcAnkShq9rMVAu2APwuBIH/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-preserved-predecessor"
+      "review_status": "public-impersonal-preserved-predecessor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "db1922555301b50140d91811473ab81ba68d1d7cb321631320aba1809a272c74",
+      "published_size_bytes": 2621
     },
     {
       "path": "corpus/protocols/Simulation_Protocol_v0.3.txt",
@@ -67,7 +137,17 @@
       "drive_id": "1HVlQsTPnvAiYPqbS1Lb9UjZkak5jMlbpS0gSeUbAwrE",
       "source_url": "https://docs.google.com/document/d/1HVlQsTPnvAiYPqbS1Lb9UjZkak5jMlbpS0gSeUbAwrE/edit?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-release-candidate-execution-blocked"
+      "review_status": "public-impersonal-release-candidate-execution-blocked",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "6a1809bc4d84d36909b55280b20e4be477f9ffa3ce1094dc950099cccb508891",
+      "published_size_bytes": 59878
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/01_appendix_a_canonical_text.md",
@@ -75,7 +155,17 @@
       "drive_id": "12kDmC6n7khSh6bh_jPolwWs3NIoRmY--",
       "source_url": "https://drive.google.com/file/d/12kDmC6n7khSh6bh_jPolwWs3NIoRmY--/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "a2025c01de251ffb34884f4862a968b94563bb2a096ac4a8677873edaef34c0e",
+      "published_size_bytes": 2020
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/02_frozen_geometry_specification.md",
@@ -83,7 +173,17 @@
       "drive_id": "16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU",
       "source_url": "https://drive.google.com/file/d/16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "4139a100f0bebb9c08a5c9927a2fabac263db279bb8d59ba908cf07d21e8e3f9",
+      "published_size_bytes": 2297
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/03_transition_acceptance_table.md",
@@ -91,7 +191,17 @@
       "drive_id": "108K215mGLW_Jmp9QBh5QubY5egI9rLtA",
       "source_url": "https://drive.google.com/file/d/108K215mGLW_Jmp9QBh5QubY5egI9rLtA/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "18d26e0f11f074759a7cbcdeb1c07b786feb62b4d4374d5e317f6d1d64d0f643",
+      "published_size_bytes": 3149
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/04_algebra_invariant_test_report.md",
@@ -99,7 +209,17 @@
       "drive_id": "1N2Zz1Hs3mx_INpBNu-TM2XvVQNnmT7KR",
       "source_url": "https://drive.google.com/file/d/1N2Zz1Hs3mx_INpBNu-TM2XvVQNnmT7KR/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "e88e513c82ceb1dbab3f3b92570b08a9889328df095caa589d89c41372a311a5",
+      "published_size_bytes": 2072
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/05_small_volume_enumeration_and_tail_certificate.md",
@@ -107,7 +227,17 @@
       "drive_id": "1XCq7YZWmNxPpAICFcpF3tmYtpAPDl5Ya",
       "source_url": "https://drive.google.com/file/d/1XCq7YZWmNxPpAICFcpF3tmYtpAPDl5Ya/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "c90e4a761392b4606be23ed76b624ffc5a4d437cf215ba3c37047c99a799fcd1",
+      "published_size_bytes": 2363
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/06_eight_sector_transform_table.md",
@@ -115,7 +245,17 @@
       "drive_id": "1nPh4w_GbJvEDk2Rf5khyC3xVwyVqhaOQ",
       "source_url": "https://drive.google.com/file/d/1nPh4w_GbJvEDk2Rf5khyC3xVwyVqhaOQ/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "b54a1059d4396b05ead53de0d7545177adc483feb73460fe5b6c2cdc2a8c5d99",
+      "published_size_bytes": 2039
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/07_partition_ratio_validation_report.md",
@@ -123,7 +263,17 @@
       "drive_id": "1bL7xE3qAW_kv6GUcJZjfMzdsuqQfYkFQ",
       "source_url": "https://drive.google.com/file/d/1bL7xE3qAW_kv6GUcJZjfMzdsuqQfYkFQ/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "dd04b9c361b2476b5d9d5fede6a1ae4b0c483357d4725f191048959fec32945f",
+      "published_size_bytes": 2369
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/08_detailed_balance_reachability_report.md",
@@ -131,7 +281,17 @@
       "drive_id": "1amHFGlU_WDrQhF4sIjLfV4rGzBcYb7Fd",
       "source_url": "https://drive.google.com/file/d/1amHFGlU_WDrQhF4sIjLfV4rGzBcYb7Fd/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "e76e8bf6d94863e72746b9e9c8988f926d549a22bf1b93db8af834aaa8294171",
+      "published_size_bytes": 2389
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/09_blind_mixing_roundtrip_pilot_report.md",
@@ -139,7 +299,17 @@
       "drive_id": "1AWDXE7MR5O-mF76cXyzoi1NAZGtiMynZ",
       "source_url": "https://drive.google.com/file/d/1AWDXE7MR5O-mF76cXyzoi1NAZGtiMynZ/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "3ad69ba1a58ff2a6d687dbc542e1f793f39a90750fd03c3094752bc3cfb83dd3",
+      "published_size_bytes": 3329
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/10_ckt_axial_mapping_comparator_report.md",
@@ -147,7 +317,17 @@
       "drive_id": "1-c7HkvapCQ3Qp-iJptg_Lky4BYYw4paz",
       "source_url": "https://drive.google.com/file/d/1-c7HkvapCQ3Qp-iJptg_Lky4BYYw4paz/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "5b4b82c6dfb5de03ba4bfb8c17696395db66e16bca1e946c2f270ff5cb16a130",
+      "published_size_bytes": 2214
     },
     {
       "path": "corpus/protocols/simulation_protocol_v0.3/validation/11_source_commit_build_environment_manifest.md",
@@ -155,7 +335,17 @@
       "drive_id": "109ta7v5eazw2hXuOni_CopVJTHnTmPRt",
       "source_url": "https://drive.google.com/file/d/109ta7v5eazw2hXuOni_CopVJTHnTmPRt/view?usp=drivesdk",
       "license": "CC0-1.0",
-      "review_status": "public-impersonal-scaffold-not-run"
+      "review_status": "public-impersonal-scaffold-not-run",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "29e587165fea2b0058e50bda0837b021a123df9d20215363bf5f01fbce3f5e4b",
+      "published_size_bytes": 5321
     },
     {
       "path": "corpus/core/OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
@@ -168,7 +358,17 @@
       "source_url": null,
       "license": "CC0-1.0",
       "license_basis": "source declaration and repository scope",
-      "review_status": "public-impersonal-active-governing-successor"
+      "review_status": "public-impersonal-active-governing-successor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "cf8edaef4546268031c528fb70c0d47786b326c286817085dac7bd1db58346dc",
+      "published_size_bytes": 25448
     },
     {
       "path": "corpus/core/GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
@@ -181,7 +381,17 @@
       "source_url": null,
       "license": "CC0-1.0",
       "license_basis": "repository scope",
-      "review_status": "public-impersonal-active-governing-successor"
+      "review_status": "public-impersonal-active-governing-successor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "0f0f1929c66bf301ef2c4be62c43a45ca723561655697898dc9ef3be13044921",
+      "published_size_bytes": 100873
     },
     {
       "path": "corpus/core/Hidden_Quotient_Operational_Addendum_v0.8_Orbit_Quotient_Residual_Cocycle_Closure.md",
@@ -194,7 +404,17 @@
       "source_url": null,
       "license": "CC0-1.0",
       "license_basis": "source declaration and repository scope",
-      "review_status": "public-impersonal-active-governing-successor"
+      "review_status": "public-impersonal-active-governing-successor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "c0a73006eed9eb71afb6700a32eb35c9bb5c581f3ac754624af80375217e5783",
+      "published_size_bytes": 67003
     },
     {
       "path": "corpus/core/THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Orbit_Quotient_Residual_Cocycle_Closure.md",
@@ -207,7 +427,17 @@
       "source_url": null,
       "license": "CC0-1.0",
       "license_basis": "source declaration and repository scope",
-      "review_status": "public-impersonal-active-governing-successor"
+      "review_status": "public-impersonal-active-governing-successor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "4aea7b99c4fd706cea06c22bedccae5713b3ba66dabf81d69a61f505b4e28439",
+      "published_size_bytes": 114525
     },
     {
       "path": "corpus/frameworks/corner/THE_CORNER_SET_2026-07-22.txt",
@@ -220,7 +450,17 @@
       "source_size_bytes": 58621,
       "license": "CC0-1.0",
       "license_basis": "source declaration",
-      "review_status": "public-impersonal-current-corner-unified-reference"
+      "review_status": "public-impersonal-current-corner-unified-reference",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "58f11003e179cfca460eaf85833076a44fa67ba8cf51be3ed61612116c2a7d6b",
+      "published_size_bytes": 58694
     },
     {
       "path": "corpus/frameworks/corner/START_A_CORNER_v1.0_DRAFT.txt",
@@ -233,7 +473,17 @@
       "source_size_bytes": 3464,
       "license": "CC0-1.0",
       "license_basis": "source declaration",
-      "review_status": "public-impersonal-draft-field-guide"
+      "review_status": "public-impersonal-draft-field-guide",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "ed9650a8e10fe85426e6f7b61ec31dece10783f757c02c0f7961f3761e873b50",
+      "published_size_bytes": 3537
     },
     {
       "path": "corpus/frameworks/abundance/THE_ABUNDANCE_ENGINE_v6.txt",
@@ -246,7 +496,17 @@
       "source_size_bytes": 111929,
       "license": "CC0-1.0",
       "license_basis": "source declaration",
-      "review_status": "public-impersonal-preserved-superseded-precursor"
+      "review_status": "public-impersonal-preserved-superseded-precursor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "2e9273cca89477aac432793af893f621cb0ce10a96a6cb948242bbd762b25c60",
+      "published_size_bytes": 112002
     },
     {
       "path": "corpus/frameworks/corner/THE_CORNER_MODEL.txt",
@@ -259,7 +519,17 @@
       "source_size_bytes": 19380,
       "license": "CC0-1.0",
       "license_basis": "source declaration",
-      "review_status": "public-impersonal-preserved-superseded-precursor"
+      "review_status": "public-impersonal-preserved-superseded-precursor",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "0ea4a859caca77c28c2122ab21f454b7c2df540a6940a602741125db2bcce7e1",
+      "published_size_bytes": 19453
     },
     {
       "path": "corpus/frameworks/abundance/v7.0/THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_REFERENCE_ARCHITECTURE.md",
@@ -277,7 +547,17 @@
       "drive_id": null,
       "source_url": null,
       "license": "CC0-1.0",
-      "license_basis": "source declaration and bundle manifest"
+      "license_basis": "source declaration and bundle manifest",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "7719019b3b309a4d56f649d44615143445571bf516a84840efe9a5babdb17b74",
+      "published_size_bytes": 53042
     },
     {
       "path": "corpus/frameworks/abundance/v7.0/ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv",
@@ -295,7 +575,18 @@
       "drive_id": null,
       "source_url": null,
       "license": "CC0-1.0",
-      "license_basis": "source declaration and bundle manifest"
+      "license_basis": "source declaration and bundle manifest",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "6e341887b3ca46d7659eaaa364b5b8c0fb59f61c047cc31a779a1fa2864c55f2",
+      "published_size_bytes": 6385,
+      "attribution_notice": "corpus/frameworks/abundance/v7.0/ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv.license"
     },
     {
       "path": "corpus/frameworks/abundance/v7.0/v7.0_manifest.json",
@@ -313,7 +604,27 @@
       "drive_id": null,
       "source_url": null,
       "license": "CC0-1.0",
-      "license_basis": "source declaration and bundle manifest"
+      "license_basis": "source declaration and bundle manifest",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "published_sha256": "d347ec32dd3953eab8a557a043e83d87df5e44fadb61c8f014618651c7abf3d9",
+      "published_size_bytes": 2549
     }
-  ]
+  ],
+  "attribution": {
+    "creator": "Ron Swanson",
+    "publication_permission": "Published with permission.",
+    "statement_source": "Repository publisher",
+    "license": "CC0-1.0",
+    "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "attribution_updated_date": "2026-09-17",
+  "fingerprint_scope": "Existing source_sha256 and source_size_bytes fields identify the original supplied sources; published_sha256 and published_size_bytes identify current repository copies. Source snapshot_date is unchanged."
 }

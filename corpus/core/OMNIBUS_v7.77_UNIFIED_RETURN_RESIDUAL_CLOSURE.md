@@ -6,6 +6,9 @@ source_url: https://drive.google.com/file/d/1n2DqVJOMqZMMk-Tzp96yTExrKE-0Y-F4
 public_scope_review: individually-reviewed-impersonal-corpus-object
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # OMNIBUS v7.77 — UNIFIED RETURN-RESIDUAL CLOSURE
 
 **Dyadic admissibility, quotient stack, empirical firewall**
