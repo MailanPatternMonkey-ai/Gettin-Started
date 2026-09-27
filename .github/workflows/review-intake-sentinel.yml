@@ -1,0 +1,160 @@
+name: Review intake sentinel
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review:
+    types: [submitted]
+  pull_request_review_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  triage:
+    if: >-
+      (github.event_name == 'issue_comment' &&
+       github.event.issue.number == 8 &&
+       github.actor != 'github-actions[bot]') ||
+      (github.event_name == 'pull_request_review' &&
+       github.event.pull_request.number == 6) ||
+      (github.event_name == 'pull_request_review_comment' &&
+       github.event.pull_request.number == 6 &&
+       github.event.comment.in_reply_to_id == null)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Classify, summarize, and notify
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const OWNER = context.repo.owner;
+            const REPO = context.repo.repo;
+            const NOTIFY_ISSUE = 8;
+            const REVIEW_TARGET = 'e8623fa88a6e049e17e7564222356a6675d6b29d';
+
+            const eventName = context.eventName;
+            const p = context.payload;
+            const actor = (p.sender && p.sender.login) || context.actor || 'unknown';
+
+            let kind = 'unclassified review signal';
+            let body = '';
+            let sourceUrl = '';
+            let citedLocation = 'No explicit file/section citation detected.';
+            let eventLabel = eventName;
+
+            const compact = (s, n = 900) => {
+              const t = (s || '').replace(/\s+/g, ' ').trim();
+              return t.length > n ? t.slice(0, n - 1) + '…' : t;
+            };
+
+            const detectLocationFromText = (text) => {
+              const t = text || '';
+              const file = t.match(/(?:^|[\s'"])((?:corpus\/[^\s'"]+\/)?(?:README|PROOF|AUDIT)\.md)(?=$|[\s'",:;.)])/i);
+              const section = t.match(/(?:section|§|heading)\s*[:#-]?\s*([^\n.;]{2,120})/i);
+              if (file && section) return file[1] + ' — ' + section[1].trim();
+              if (file) return file[1];
+              if (section) return 'Section: ' + section[1].trim();
+              return null;
+            };
+
+            const volunteerRe = /\b(i\s*(?:can|will|'ll|would)\s+review|happy to review|volunteer(?:ing)?|take (?:a )?look|review this)\b/i;
+            const referralRe = /\b(refer|referral|recommend|suggest|colleague|reviewer candidate|can ask|will ask|reach out to)\b|@[A-Za-z0-9-]+/i;
+            const approvalRe = /\b(approve|approved|looks good|lgtm|no blocking issues?)\b/i;
+            const blockingRe = /\b(block(?:er|ing)?|must fix|needs? correction|incorrect|error|request(?:ing)? changes?|cannot approve|before approval)\b/i;
+
+            if (eventName === 'issue_comment') {
+              body = (p.comment && p.comment.body) || '';
+              sourceUrl = (p.comment && p.comment.html_url) || (p.issue && p.issue.html_url) || '';
+              const loc = detectLocationFromText(body);
+              if (loc) citedLocation = loc;
+
+              if (volunteerRe.test(body)) kind = 'volunteer reviewer';
+              else if (referralRe.test(body)) kind = 'reviewer referral';
+              else if (approvalRe.test(body)) kind = 'approval signal';
+              else if (blockingRe.test(body) && loc) kind = 'concrete blocking correction';
+              else if (blockingRe.test(body)) kind = 'blocking concern without a concrete cited location';
+              eventLabel = 'Issue #8 comment';
+            }
+
+            if (eventName === 'pull_request_review') {
+              body = (p.review && p.review.body) || '';
+              sourceUrl = (p.review && p.review.html_url) || (p.pull_request && p.pull_request.html_url) || '';
+              const state = ((p.review && p.review.state) || '').toLowerCase();
+              const loc = detectLocationFromText(body);
+              if (loc) citedLocation = loc;
+
+              if (state === 'approved') kind = 'approval';
+              else if (state === 'changes_requested' && loc) kind = 'concrete blocking correction';
+              else if (state === 'changes_requested') kind = 'changes requested without a concrete cited location';
+              else if (blockingRe.test(body) && loc) kind = 'concrete blocking correction';
+              else if (approvalRe.test(body)) kind = 'approval signal';
+              else kind = 'submitted review comment';
+              eventLabel = 'PR #6 submitted review';
+            }
+
+            if (eventName === 'pull_request_review_comment') {
+              body = (p.comment && p.comment.body) || '';
+              sourceUrl = (p.comment && p.comment.html_url) || (p.pull_request && p.pull_request.html_url) || '';
+              const c = p.comment || {};
+              const line = c.line || c.original_line || c.start_line || c.original_start_line;
+              citedLocation = c.path ? (c.path + (line ? ':' + line : '')) : (detectLocationFromText(body) || citedLocation);
+              kind = c.path ? 'concrete review-thread correction' : 'new review thread';
+              eventLabel = 'PR #6 new review thread';
+            }
+
+            let draft = '';
+            if (kind === 'volunteer reviewer') {
+              draft = 'Thanks for volunteering. The review target is commit ' + REVIEW_TARGET +
+                '. Please start with the package README, then PROOF.md and AUDIT.md, and return either approval or a concrete blocking issue with the file/section and needed correction. The stated hypotheses and evidence boundaries remain unchanged.';
+            } else if (kind === 'reviewer referral') {
+              draft = 'Thanks for the referral. Please share issue #8 / PR #6 with the suggested reviewer and ask them to assess publication clarity, repository integration, and faithful preservation of the stated hypotheses and evidence boundaries against commit ' + REVIEW_TARGET + '.';
+            } else if (kind === 'approval' || kind === 'approval signal') {
+              draft = 'Thanks for the review and approval. Record the approval against commit ' + REVIEW_TARGET +
+                ' without expanding the claim: it remains an analytical result for the specified ideal kernel under the stated unbounded-current cosine-kernel hypotheses.';
+            } else if (kind.includes('concrete') || kind.includes('changes requested') || kind.includes('blocking')) {
+              draft = 'Acknowledge the cited concern and inspect ' + citedLocation +
+                '. Make the smallest correction that resolves the reviewer point while preserving the theorem stated hypotheses and claim scope. Do not convert finite arithmetic checks into physical evidence. Keep Physical Q2 = NOT_RUN, production = NOT_AUTHORIZED, and the historical mismatch = UNRESOLVED. If arithmetic/certificates are touched, rerun only the existing relevant checks and report exactly what changed.';
+            } else {
+              draft = 'Thank the reviewer and ask for the smallest concrete next step: approval, a file/section-specific blocking correction, or a reviewer referral. Do not infer a review outcome that was not explicitly supplied.';
+            }
+
+            const excerpt = compact(body) || '(no body text)';
+            const guardrail = [
+              'Analytical scope only for the specified ideal kernel.',
+              'Claim requires the stated unbounded-current cosine-kernel hypotheses.',
+              'Finite checks support arithmetic only.',
+              'Physical Q2 remains NOT_RUN.',
+              'Production remains NOT_AUTHORIZED.',
+              'Historical mismatch remains UNRESOLVED.',
+              'No new verification/review outcome is inferred beyond the incoming GitHub event.'
+            ].join('\n- ');
+
+            const message = [
+              '@MailanPatternMonkey-ai — **review intake alert**',
+              '',
+              '- **Event:** ' + eventLabel,
+              '- **From:** @' + actor,
+              '- **Classification:** ' + kind,
+              '- **Cited file/section:** ' + citedLocation,
+              sourceUrl ? '- **Source:** ' + sourceUrl : '',
+              '',
+              '**Compact summary**',
+              excerpt,
+              '',
+              '**Minimal useful response / correction plan**',
+              draft,
+              '',
+              '**Theorem/evidence guardrail**',
+              '- ' + guardrail
+            ].filter(Boolean).join('\n');
+
+            await github.rest.issues.createComment({
+              owner: OWNER,
+              repo: REPO,
+              issue_number: NOTIFY_ISSUE,
+              body: message
+            });
