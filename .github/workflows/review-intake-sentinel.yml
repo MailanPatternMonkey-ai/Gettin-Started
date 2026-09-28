@@ -100,8 +100,12 @@ jobs:
               sourceUrl = (p.comment && p.comment.html_url) || (p.pull_request && p.pull_request.html_url) || '';
               const c = p.comment || {};
               const line = c.line || c.original_line || c.start_line || c.original_start_line;
-              citedLocation = c.path ? (c.path + (line ? ':' + line : '')) : (detectLocationFromText(body) || citedLocation);
-              kind = c.path ? 'concrete review-thread correction' : 'new review thread';
+              const loc = c.path ? (c.path + (line ? ':' + line : '')) : detectLocationFromText(body);
+              if (loc) citedLocation = loc;
+              if (blockingRe.test(body) && loc) kind = 'concrete blocking correction';
+              else if (blockingRe.test(body)) kind = 'blocking concern without a concrete cited location';
+              else if (approvalRe.test(body)) kind = 'approval signal';
+              else kind = c.in_reply_to_id == null ? 'new review thread' : 'review thread reply';
               eventLabel = c.in_reply_to_id == null ? 'PR #6 new review thread' : 'PR #6 review thread reply';
             }
 
