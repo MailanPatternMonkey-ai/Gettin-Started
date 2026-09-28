@@ -33,7 +33,7 @@ jobs:
             const OWNER = context.repo.owner;
             const REPO = context.repo.repo;
             const NOTIFY_ISSUE = 8;
-            const REVIEW_TARGET = 'e8623fa88a6e049e17e7564222356a6675d6b29d';
+            const REVIEW_TARGET = 'dc83636a4628b603f863daf3a21b235cbb3fb611';
 
             const eventName = context.eventName;
             const p = context.payload;
