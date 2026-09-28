@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # The Hidden Quotient in Operational Pipelines
 
 ## An exact addendum for normalization, calibration, transformation, outcome coding, eligibility, response fidelity, return-residual closure, and finite orbit quotients

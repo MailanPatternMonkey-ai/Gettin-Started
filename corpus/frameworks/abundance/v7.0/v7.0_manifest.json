@@ -1,5 +1,5 @@
 {
-  "title": "THE ABUNDANCE ENGINE \u2014 Open-Field Reference Architecture",
+  "title": "THE ABUNDANCE ENGINE — Open-Field Reference Architecture",
   "version": "7.0",
   "original_architecture": "Steward",
   "edition_type": "successor modernization",
@@ -18,12 +18,42 @@
     {
       "name": "THE_ABUNDANCE_ENGINE_v7.0_OPEN_FIELD_REFERENCE_ARCHITECTURE.md",
       "bytes": 52911,
-      "sha256": "6e620dc1b5feedbad0f182eece509c396667f8a37cf9a7bddd942d6a440f31d1"
+      "sha256": "6e620dc1b5feedbad0f182eece509c396667f8a37cf9a7bddd942d6a440f31d1",
+      "published_size_bytes": 53042,
+      "published_sha256": "7719019b3b309a4d56f649d44615143445571bf516a84840efe9a5babdb17b74",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "name": "ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv",
       "bytes": 6385,
-      "sha256": "6e341887b3ca46d7659eaaa364b5b8c0fb59f61c047cc31a779a1fa2864c55f2"
+      "sha256": "6e341887b3ca46d7659eaaa364b5b8c0fb59f61c047cc31a779a1fa2864c55f2",
+      "published_size_bytes": 6385,
+      "published_sha256": "6e341887b3ca46d7659eaaa364b5b8c0fb59f61c047cc31a779a1fa2864c55f2",
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "attribution_notice": "ABUNDANCE_v6_to_v7_SUPERSESSION_MATRIX.csv.license"
     }
-  ]
+  ],
+  "attribution": {
+    "creator": "Ron Swanson",
+    "publication_permission": "Published with permission.",
+    "statement_source": "Repository publisher",
+    "license": "CC0-1.0",
+    "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "fingerprint_scope": "The bytes and sha256 fields describe the original source bundle members. The published_size_bytes and published_sha256 fields describe the current repository copies."
 }

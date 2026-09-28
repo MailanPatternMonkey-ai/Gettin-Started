@@ -6,6 +6,9 @@ source_url: https://drive.google.com/file/d/1iZOQ4y5PI6fIaLK7rF-xkS37wHT8wbnb
 public_scope_review: individually-reviewed-impersonal-corpus-object
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Return-Residual Stack Upgrade Manifest v1.1
 
 **Original manifest date:** 2026-08-31  

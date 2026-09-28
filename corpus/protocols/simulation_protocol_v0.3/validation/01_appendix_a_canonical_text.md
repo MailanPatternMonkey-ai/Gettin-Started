@@ -16,6 +16,9 @@ created_at_utc: PENDING
 completed_at_utc: PENDING
 ---
 
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
 # Purpose
 
 Freeze the exact Appendix A source bytes that control every Q2 holonomy, sector, and validation statement. This scaffold is not evidence of a pass.

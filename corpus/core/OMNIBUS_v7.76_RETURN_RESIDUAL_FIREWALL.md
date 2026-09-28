@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # OMNIBUS v7.76 — DYADIC ADMISSIBILITY / RETURN-RESIDUAL FIREWALL
 
 **Minimal Portable Handoff**

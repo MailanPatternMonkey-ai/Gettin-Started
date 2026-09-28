@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # THE ABUNDANCE ENGINE
 ## Open-Field Reference Architecture — v7.0
 

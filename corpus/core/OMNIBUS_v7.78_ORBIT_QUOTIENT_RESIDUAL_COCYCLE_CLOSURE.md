@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # OMNIBUS v7.78 — ORBIT-QUOTIENT AND RETURN-RESIDUAL CLOSURE
 
 **Dyadic admissibility, finite orbit quotients, residual cocycles, empirical firewall**

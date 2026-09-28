@@ -1,3 +1,5 @@
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 # Return-Residual Stack Upgrade Manifest v1.0
 
 **Date:** 2026-08-31  
