@@ -1,0 +1,794 @@
+Full audit verdict
+
+Yeah — I checked the old loop–membrane v0.2, the expanded dual/direct v0.2, the v0.3 release candidate, the dual algebra, the observables, the literature map, the finite-size logic, and the proposed execution architecture.
+
+Bottom line
+
+Use v0.3 as the canonical base. Retire the older v0.2 except for its historical explanation of why v0.1 failed.
+
+The central scientific design survives:
+
+\[
+\boxed{\text{Q1: charge sector}}
+\qquad
+\boxed{\text{Q2: asymptotic confinement/deconfinement}}
+\qquad
+\boxed{\text{Q3: anisotropy flow}}
+\]
+
+But the execution hash should not be created yet.
+
+Component	Audit status
+
+Direct cosine action	🟢 Correct
+Exact cosine dual	🟢 Correct after notation cleanup
+Villain calibration dual	🟢 Correct
+Charge-six local source transfer	🟢 Constraint-preserving candidate move
+Finite-\(h_6\) dual ergodicity	🟡 Unvalidated
+Q1 charge-two fit architecture	🟢 Strong
+Q3 direct anisotropy architecture	🟢 Strong
+Q2 odd-winding observable	🔴 Topology/sector definition missing
+Old v0.2 kill card	🔴 Retire
+v0.3 fit package	🟢 Supplied below
+Parameter card	🟡 Freeze candidate supplied below
+Execution freeze	🔴 Not until Appendix A’s sector problem is fixed
+
+
+The literature boundary is now basically right: BPV report spin-two \(XY\)-class scaling on the large-gauge-coupling transition line, while CKT argue that the apparently deconfined regime ultimately confines beyond a rapidly growing crossover radius. CKT’s work is now published as Phys. Rev. Lett. 134, 236001 (2025), not merely an arXiv preprint. 
+
+
+---
+
+1. The hard blocker: odd winding is absent from the fully summed periodic dual ensemble
+
+This is the most important thing I found.
+
+In the exact periodic dual partition function, define the mod-two current chain
+
+\[
+\bar I_\ell=I_\ell\pmod 2.
+\]
+
+The link constraint is
+
+\[
+I_\ell+M_\ell\equiv0\pmod2,
+\qquad
+M_\ell=\sum_{p\supset\ell}M_p.
+\]
+
+But \(M_\ell\) is precisely the mod-two boundary of the plaquette 2-chain \(M\). Therefore
+
+\[
+\boxed{\bar I=\partial M.}
+\]
+
+A boundary is homologically trivial. Consequently, on the three-torus,
+
+\[
+[\bar I]=0\in H_1(T^3,\mathbb Z_2),
+\]
+
+and the mod-two current flux through every noncontractible cut obeys
+
+\[
+\boxed{
+\mathcal W_\alpha^{(2)}
+=
+\sum_{\ell\perp\Sigma_\alpha}I_\ell
+\equiv0\pmod2.
+}
+\]
+
+This is not merely a \(t=0\) property.
+
+It holds at every \(t\) in the fully link-summed periodic ensemble represented by the written dual formula. Charge-six sources do not change it because
+
+\[
+\nabla\!\cdot I=-6n
+\quad\Longrightarrow\quad
+\nabla\!\cdot I\equiv0\pmod2.
+\]
+
+CKT’s published dual formula imposes this same link-parity constraint, but their supplement then permits odd-current updates only along one axis after imposing \(u_{ij}=1\) on all links in that direction. That axial condition changes the finite-volume topological-sector construction: their odd sector is not automatically the unconstrained observable of Eq. 12 as written. 
+
+What that means
+
+The older claim
+
+> “The dual representation makes deconfinement a manifestly gauge-invariant parity statement needing no gauge fixing or sector choice”
+
+
+
+is not correct as written.
+
+It does not mean CKT’s physical conclusion is necessarily wrong. It means the protocol must specify exactly which finite-volume ensemble their odd-current statistic belongs to.
+
+A clean formulation is to retain a background holonomy \(\eta_z=\pm1\) instead of summing it away. Let
+
+\[
+Z_+=Z_{\rm even}+Z_{\rm odd},
+\]
+
+while an antiperiodic seam or negative background holonomy weights odd winding by a minus sign,
+
+\[
+Z_-=Z_{\rm even}-Z_{\rm odd}.
+\]
+
+Then, provided the seam construction is derived exactly,
+
+\[
+\boxed{
+f_{\rm odd}
+=
+\frac{Z_{\rm odd}}{Z_++0}
+=
+\frac12\left(1-\frac{Z_-}{Z_+}\right).
+}
+\]
+
+More simply,
+
+\[
+f_{\rm odd}=\frac{Z_{\rm odd}}{Z_{\rm even}+Z_{\rm odd}}.
+\]
+
+The fully holonomy-summed gauge partition function gives
+
+\[
+Z_++Z_-=2Z_{\rm even},
+\]
+
+which explains why odd topological winding disappears after all global holonomies are summed.
+
+Mandatory Q2 repair
+
+Appendix A must now define one of these exactly:
+
+1. a maximal-tree or axial gauge with explicit residual holonomy variables;
+
+
+2. a fixed-holonomy current ensemble;
+
+
+3. a seam-modified dual ensemble;
+
+
+4. periodic and antiperiodic partition functions whose ratio reconstructs the odd-sector weight.
+
+
+
+It must then prove:
+
+the direct and dual ensembles are identical;
+
+which links retain or lose parity projectors;
+
+how global holonomies are counted;
+
+how the CKT axial implementation maps onto the chosen ensemble;
+
+whether \(f_{\rm odd}\) is a sector-conditioned statistic or a ratio of physical partition functions;
+
+detailed balance and sector reachability;
+
+agreement with exact or high-precision small-volume enumeration.
+
+
+Until that is complete:
+
+\[
+\boxed{\text{Q2 GATE CLOSED}.}
+\]
+
+Q1 and Q3 are unaffected.
+
+
+---
+
+2. Full correction ledger
+
+Item	Audit	Frozen correction
+
+Wilson loops are “vacuous”	Too strong	Say ordinary fundamental Wilson loops are not primary phase discriminators because dynamical charge-one matter causes string breaking and asymptotic perimeter behavior. They remain useful as the denominator of a properly defined FM ratio and as finite-scale observables. 
+Plane link flip inserts a vison	False	A noncontractible plane flip can leave every plaquette flux unchanged. Repurpose it as a global holonomy-sector update, not a vison observable. A magnetic twist must modify a coclosed plaquette stack or the boundary sector.
+Odd winding of the fully summed dual	False as written	Full PBC dual projects onto mod-two trivial current homology. Introduce a fixed holonomy/seam ensemble before defining \(f_{\rm odd}\).
+\(W_\alpha=L^{-2}\sum I\)	Wrong	Use \(\displaystyle W_\alpha=L^{-1}\sum_{\ell\parallel\alpha}I_\ell\). A once-winding loop contains \(L\) directed links and gives \(W=\pm1\). 
+\(\rho_s\) is scale invariant	Wrong	\(\displaystyle \rho_s=\langle W^2\rangle/L\sim L^{-1}\). The dimensionless quantity is \(\displaystyle R_W=L\rho_s=\langle W^2\rangle\). 
+\(G_1/\sqrt{G_2}\) is FM	False	FM is an open gauge transporter with matter endpoints divided by the square root of the corresponding closed Wilson contour. Deconfined \(\to0\); confined/Higgs \(\to\) nonzero. The old expression and its limiting interpretation were both wrong. 
+\(C_1\) is gauge invariant	False	CKT’s \(C_1\) is measured in the axial gauge \(u_z=1\). Keep it as a gauge-conditioned literature-validation observable. \(C_2\) is gauge invariant. 
+\(n_6(L)\to0\) is the Q3 criterion	False	The local dual source occupation can retain an analytic microscopic background. Keep \(n_6\) for algorithm validation only. Use the global physical harmonic \(A_3^\Phi\) and its response exponent.
+“Dangerous irrelevance is a density statement”	Delete	Dangerous irrelevance concerns the RG scaling field and the separation between critical emergent symmetry and ordered-phase locking, not the vanishing of a local Fourier-index density.
+CKT’s membrane formula defines \(\xi_{\rm conf}\)	No	Their \(\xi\) estimate is a heuristic free-energy argument and is awkward under the Villain conventions where \(J<1\). Use a preregistered \(C_1\)/radius saturation estimator instead. CKT’s robust claim is the rapid growth and delayed saturation, not that the heuristic formula is a calibrated estimator. 
+\(L\ge4\xi_{\rm conf}\) is universal	No	Retain it as a conservative protocol convention motivated by CKT’s observation that saturation appeared only at roughly \(3!-!4\) times the inferred radius. Use the upper confidence bound on \(\xi_{\rm conf}\). 
+Pure-gauge \(t_c=0.6418\) is exact	Wrong wording	Exact duality; numerical critical point. Use \(\kappa_c=0.761413292(11)\), hence \(t_c=0.6419086649\). 
+CKT’s \(0.639(3)\) is a “real tension”	Overstated	It is approximately one standard deviation from \(0.64191\), so it is statistically compatible, not evidence of a problem.
+Raw dual \(m_p\) equals direct plaquette flux	False	Compare through the exact derivative identity given below.
+Dual/direct comparison includes M_\Phi=\langle	m_\Phi	\rangle
+\(\kappa=\infty\) is ordinary XY under PBC	Incomplete	The gauge model with periodic boundaries sums global flat holonomies and corresponds to fluctuating XY boundary conditions. Fix trivial holonomy if comparing with standard periodic XY universal curves. BPV explicitly notes this distinction. 
+Hard exponent window \(\pm0.02\)	Too brittle	Use preregistered target, free-exponent, vector, correction, and first-order models plus \(L_{\min}\) stability.
+\(10^5\tau_{\rm int}\Rightarrow\pm0.02\)	False	Autocorrelation time does not determine exponent precision. Use blind pilots to set fixed production lengths before target results are opened.
+\(m_p\to1/2\) for \(t>0.7\)	Too strong	CKT report \(m_p\to1/2\) as \(t\to1\); it is not a sharp \(t>0.7\) calibration law. 
+\(G_6(r)\sim r^{-11}\)	Unsupported here	Delete unless a precise charge-six dimension and source are added. It contributes nothing necessary to the protocol.
+Stage 3 at “certified-deconfined parameters”	Contradicts protocol	Say “Stage-B-approved charge-sector points.” Q1 never certifies Q2.
+“Global-\(Z_2\) Potts control”	Misleading	Rename global six-state AF-Potts control. Sublattice interchange is a global/lattice symmetry, not a gauge redundancy.
+“Schwab et al.”	Citation error	Correct authors: Schumm, Shao, Guo, Mila, and Sandvik, PRB 109, L140408. Use only for primary/secondary operator-sector methodology. 
+“Zhang, Ding, Zhang & Deng”	Author order	Correct order: Zhang, Ding, Deng, and Zhang.
+CKT listed only as arXiv	Outdated	Cite PRL 134, 236001 (2025), with arXiv as optional companion. 
+
+
+
+---
+
+3. Canonical mathematical core
+
+3.1 Direct action
+
+Freeze this:
+
+\[
+\boxed{
+H_{\cos}
+=
+-J\sum_{\langle ij\rangle}
+\sigma_{ij}\cos(\theta_i-\theta_j)
+-\kappa\sum_pB_p
+-h_6\sum_i\cos6\theta_i
+}
+\]
+
+with
+
+\[
+B_p=\prod_{\ell\in p}\sigma_\ell,
+\qquad
+z_i=e^{i\theta_i},
+\qquad
+\Phi_i=e^{2i\theta_i}.
+\]
+
+Gauge transformation:
+
+\[
+z_i\rightarrow s_i z_i,
+\qquad
+\sigma_{ij}\rightarrow s_i\sigma_{ij}s_j,
+\qquad s_i=\pm1.
+\]
+
+Equivalently,
+
+\[
+s_i=-1
+\quad\Longleftrightarrow\quad
+\theta_i\rightarrow\theta_i+\pi.
+\]
+
+The earlier expression
+
+\[
+\theta_i\rightarrow\theta_i+\frac{\pi}{2}(1-s_i)
+\]
+
+is also mathematically correct because it gives a shift of \(\pi\) when \(s_i=-1\).
+
+3.2 Exact cosine dual
+
+Use the clean version:
+
+\[
+\boxed{
+Z_{\cos}
+=
+C_{\cos}
+\sum_{\{M,I,n\}}
+t^{\sum_pM_p}
+\prod_\ell\mathcal I_{|I_\ell|}(J)
+\prod_i\mathcal I_{|n_i|}(h_6)
+\prod_i
+\delta_{\mathbb Z}
+\!\left[(\nabla\!\cdot I)_i+6n_i\right]
+\prod_\ell
+\delta_{\mathbb Z_2}
+\!\left[I_\ell+M_\ell\right]
+}
+\]
+
+where
+
+\[
+M_\ell=\sum_{p\supset\ell}M_p,
+\qquad
+t=\tanh\kappa.
+\]
+
+Using \(|I_\ell|\) inside the Bessel function is natural because
+
+\[
+\mathcal I_{-n}(J)=\mathcal I_n(J).
+\]
+
+Inside the parity projector, use signed \(I_\ell\). Absolute value is parity-equivalent but introduces unnecessary notation.
+
+The Villain branch is obtained only by
+
+\[
+\mathcal I_{|I|}(J)
+\longrightarrow
+e^{-I^2/(2J)}.
+\]
+
+CKT’s direct Hamiltonian uses the same coefficient convention \(-J\sigma\cos\Delta\theta\), while BPV’s \(N=2\) action contains \(-2J_{\rm BPV}\sigma\cos\Delta\theta\). Therefore
+
+\[
+\boxed{
+J_{\rm protocol}
+=
+J_{\rm CKT}
+=
+2J_{\rm BPV},
+\qquad
+\kappa_{\rm protocol}=K_{\rm BPV},
+\qquad
+t=\tanh\kappa=K_{\rm CKT}.
+}
+\]
+
+
+
+3.3 Finite-\(h_6\) constraints
+
+\[
+(\nabla\!\cdot I)_i=-6n_i.
+\]
+
+On a periodic lattice, summing over all sites gives the additional exact condition
+
+\[
+\boxed{\sum_i n_i=0.}
+\]
+
+That total source neutrality must appear explicitly in the code tests.
+
+For oriented link \(i\to j\),
+
+\[
+n_i\to n_i+s,\qquad
+n_j\to n_j-s,\qquad
+I_{ij}\to I_{ij}-6s
+\]
+
+preserves the divergence constraint and mod-two parity.
+
+The stated Villain and cosine Metropolis ratios are correct for symmetric proposals.
+
+3.4 Exact direct/dual plaquette relation
+
+The dual plaquette occupation
+
+\[
+m_M=\frac1{N_p}\left\langle\sum_pM_p\right\rangle
+\]
+
+is not equal to the direct flux expectation \(\langle B_p\rangle\).
+
+Because
+
+\[
+Z=(\cosh\kappa)^{N_p}Z_{\rm dual}(t),
+\qquad
+t=\tanh\kappa,
+\]
+
+one obtains
+
+\[
+\boxed{
+\langle B_p\rangle
+=
+t+\frac{1-t^2}{t}\,m_M,
+\qquad t>0.
+}
+\]
+
+That is the quantity to compare in Rung 5.
+
+It also explains why
+
+\[
+m_M\to\frac12
+\quad\text{while}\quad
+\langle B_p\rangle\to1
+\]
+
+can both hold as \(t\to1\).
+
+3.5 Direct/dual stiffness comparison
+
+At \(h_6=0\), with identical boundary/holonomy conventions,
+
+\[
+\boxed{
+R_W=\langle W_\alpha^2\rangle=L\,\Upsilon_{\theta,\alpha},
+}
+\]
+
+where \(\Upsilon_\theta\) is the direct helicity modulus for a twist in the fine-field angle \(\theta\).
+
+Do not compare dual \(\langle W^2\rangle\) against an undefined direct “winding.” Compare it to the properly normalized direct twist derivative.
+
+At \(h_6>0\), continuous \(U(1)\) is explicitly broken, so this equivalence is no longer a primary cross-check.
+
+
+---
+
+4. Update architecture that should be frozen
+
+Full-ensemble dual macro-sweep
+
+One macro-sweep should contain:
+
+\[
+N=L^3
+\]
+
+cube attempts,
+
+\[
+N_p=3L^3
+\]
+
+coupled plaquette–unit-loop attempts,
+
+completed even worms until the cumulative traversed path length is at least
+
+\[
+N_\ell=3L^3,
+\]
+
+and one randomly oriented noncontractible closed-\(M\)-sheet proposal.
+
+The last move changes the global membrane homology sector. Cube moves alone cannot do that.
+
+Direct compound sweep
+
+One direct sweep:
+
+1. one rotor Metropolis proposal per site;
+
+
+2. one link-flip proposal per link;
+
+
+3. five rotor over-relaxation proposals per site;
+
+
+4. every ten sweeps, one noncontractible plane-link flip in each direction.
+
+
+
+The plane-link operation is useful here: it samples global holonomy sectors while leaving all plaquette fluxes unchanged. It is not called a vison insertion.
+
+At \(h_6>0\), every over-relaxation proposal receives a Metropolis correction for the onsite anisotropy.
+
+Proposal-width adaptation occurs only during calibration/thermalization. Freeze the resulting \(\delta_\theta\) before production.
+
+Charge-six branch
+
+The local source-transfer move remains, but production requires a charge-six worm whose endpoint defect is
+
+\[
+\Delta(\nabla\!\cdot I)=\pm6.
+\]
+
+It must be able to:
+
+separate the source pair;
+
+wind around every periodic direction;
+
+annihilate after noncontractible routing;
+
+change the appropriate integer-current sectors;
+
+reproduce small-volume enumerations;
+
+show bounded source-sector autocorrelation.
+
+
+Until then, the finite-\(h_6\) dual is secondary only.
+
+
+---
+
+5. Fit Package FP-0.3-RC1
+
+5.1 Common statistical card
+
+Field	Frozen recommendation
+
+Independent chains	8 per parameter point
+RNG	Philox4x32-10
+Seed	First 128 bits of `SHA-256(protocol_hash
+Production adaptation	None
+Blind pilot	Calibration observables only; Q1 exponent, Q3 harmonic, and Q2 sector outputs masked
+Thermalization	\(\max(10^4,;100\widehat\tau_{\max}^{\rm pilot})\) macro-sweeps
+Autocorrelation	Γ-method with automatic self-consistent window
+Block length	\(\left\lceil20\max_O\widehat\tau_{\rm int,O}\right\rceil\), minimum 32 measurement intervals
+Bootstrap	5,000 hierarchical chain/block replicates
+Covariance	Full cross-observable covariance within each bootstrap replicate
+Fit method	Correlated nonlinear least squares
+Covariance regularization	Discard eigenmodes with \(\lambda/\lambda_{\max}<10^{-10}\)
+Basic fit admissibility	At least four lattice sizes and four residual degrees of freedom
+Goodness threshold	Bootstrap \(p_{\rm GOF}\ge0.05\) acceptable; \(p<0.01\) strong rejection
+Model preference	\(\Delta{\rm AICc}\ge10\) strong preference
+Optional stopping	Prohibited
+Primary \(L_{\min}\) sequence	\(12,16,24,32,48\) where sufficient larger sizes remain
+Reporting	Every frozen \(L_{\min}\) result shown, not only the preferred one
+
+
+Production lengths are chosen from blind-pilot variances to meet fixed acquisition targets and then hashed. They are not extended because an effect looks promising.
+
+Recommended acquisition targets:
+
+\[
+{\rm SE}(R_\xi),{\rm SE}(U_4)\le0.002,
+\]
+
+\[
+\frac{{\rm SE}(\chi_2)}{\chi_2}\le0.005,
+\]
+
+\[
+{\rm SE}(A_3^\Phi)\le0.003.
+\]
+
+For Q2, require at least 100 effective sector round trips in addition to nominal error targets. Failure to obtain them makes Q2 unresolved.
+
+
+---
+
+5.2 Critical-point locator
+
+Use \(R_\xi\) and \(U_4\) as the primary locators.
+
+Use \(R_W\) only as a secondary locator because its finite-size curve depends on the holonomy/boundary ensemble.
+
+For
+
+\[
+x=(J-J_c)L^{1/\nu},
+\]
+
+fit jointly:
+
+\[
+\boxed{
+R_a(J,L)
+=
+R_a^\star
++a_{a1}x+a_{a2}x^2
++L^{-\omega}(b_{a0}+b_{a1}x),
+}
+\]
+
+with
+
+\[
+a\in\{R_\xi,U_4\}.
+\]
+
+Frozen families:
+
+Model	\(\nu\)	\(\omega\)
+
+C-XY	\(0.6717\)	\(0.789\)
+C-\(\nu\)	free on \([0.60,0.80]\)	\(0.789\)
+C-full	free on \([0.60,0.80]\)	free on \([0.4,1.3]\)
+C-FO	\(1/3\)	no XY interpretation
+
+
+The XY values and the differing spin-one/spin-two susceptibility powers are consistent with the BPV finite-size framework. 
+
+For each bootstrap replicate:
+
+1. fit \(J_c,R_\xi^\star\);
+
+
+2. solve for \(J_L\) satisfying
+
+
+
+\[
+   R_\xi(J_L,L)=R_\xi^\star;
+\]
+
+4. preserve the covariance generated by the common interpolation.
+
+
+
+Reweighting is allowed only when:
+
+\[
+N_{\rm eff}^{\rm rew}\ge0.30N_{\rm raw}
+\]
+
+and adjacent source histograms visibly overlap. Otherwise, a new point is generated by the deterministic grid rule below.
+
+
+---
+
+5.3 Q1 charge-sector package
+
+The modern target is
+
+\[
+\Delta_2=1.23629(11),
+\qquad
+\kappa_2=3-2\Delta_2=0.52742.
+\]
+
+The competing ordinary-vector prediction is
+
+\[
+\Delta_1=0.519088(22),
+\qquad
+\kappa_1=1.96182.
+\]
+
+BPV explicitly distinguish these two gauge-invariant scaling lanes and note that the spin-two susceptibility’s leading relative correction can be the analytic-background term \(L^{-0.5274}\), slower than the ordinary \(L^{-0.789}\) irrelevant correction. 
+
+Susceptibility fits
+
+At fixed \(R_\xi\):
+
+\[
+\boxed{
+\chi_2(L)
+=
+b_0
++
+aL^\kappa
+\left(1+cL^{-\omega}\right).
+}
+\]
+
+The additive \(b_0\) is mandatory.
+
+Frozen hypotheses:
+
+\[
+H_2:\quad \kappa=0.52742,
+\]
+
+\[
+H_1:\quad \kappa=1.96182,
+\]
+
+\[
+H_{\rm free}:\quad \kappa\text{ free on }[0,3],
+\]
+
+\[
+H_{\rm FO}:\quad \kappa=3,
+\]
+
+with \(H_{\rm FO}\) admissible only alongside independent coexistence evidence.
+
+Run each with:
+
+\(c=0\);
+
+\(c\neq0,\ \omega=0.789\);
+
+\(c\neq0,\ \omega\) free on \([0.4,1.3]\).
+
+
+Co-primary spatial-correlator fit
+
+Use separations
+
+\[
+r=sL,
+\qquad
+s\in\left\{\frac14,\frac13,\frac12\right\},
+\]
+
+and fit jointly:
+
+\[
+\boxed{
+G_2(sL,L)
+=
+L^{-2\Delta}
+\left(a_s+c_sL^{-\omega}\right),
+}
+\]
+
+with a common \(\Delta\) and separate amplitudes for each \(s\).
+
+This avoids the additive susceptibility background.
+
+Q1 support rule
+
+Q1 is SUPPORTED only when all hold:
+
+1. the first-order package does not fire;
+
+
+2. \(H_2\) has \(p_{\rm GOF}\ge0.05\) for at least three consecutive frozen \(L_{\min}\) values, including the largest usable window;
+
+
+3. the free-\(\kappa\) 95% interval contains \(0.52742\);
+
+
+4. the same interval excludes \(1.96182\);
+
+
+5. \(\Delta{\rm AICc}(H_1-H_2)\ge10\);
+
+
+6. the spatial-correlator estimate contains \(1.23629\) and excludes \(0.519088\);
+
+
+7. successive estimates move by less than one combined standard deviation.
+
+
+
+Q1 is REJECTED only when the charge-two target is strongly rejected across the final three admissible \(L_{\min}\) windows and a preregistered alternative passes.
+
+Every other outcome is:
+
+\[
+\boxed{\text{Q1 UNRESOLVED}.}
+\]
+
+
+---
+
+5.4 Q3 anisotropy package
+
+Primary observable:
+
+\[
+\boxed{
+A_3^\Phi
+=
+\left\langle
+\cos\left(3\arg m_\Phi\right)
+\right\rangle.
+}
+\]
+
+Rename the old \(M_3=\langle|m_\Phi|\rangle\) to
+
+\[
+M_\Phi=\langle|m_\Phi|\rangle
+\]
+
+to avoid confusing it with the threefold harmonic.
+
+Zero-field response estimator
+
+Define
+
+\[
+H_6=\sum_i\cos6\theta_i.
+\]
+
+At \(h_6=0\),
+
+\[
+\langle A_3^\Phi\rangle=0
+\]
+
+by global \(U(1)\) symmetry, but its derivative is measurable:
+
+\[
+\boxed{
+D_6(L)
+=
+\left.
+\frac{\partial A_3^\Phi}{\partial h_6}
+\right|_{h_6=0

@@ -1,0 +1,117 @@
+import sys
+import time
+import math
+from datetime import datetime
+
+class AliasedFrequencyAlertSystem:
+    """
+    Module 6 Safety Extension: High-Frequency Catch Witness Monitor.
+    Tracks precise millisecond timestamps the exact moment the Catch Witness
+    encounters frequency aliasing or passes a critical phase threshold.
+    """
+    def __init__(self, lattice_period=0.25):
+        self.Tg = lattice_period
+        
+        # ANSI Escape Codes for real-time console manipulation
+        self.BOLD = "\033[1m"
+        self.CYAN = "\033[36m"
+        self.GOLD = "\033[33m"
+        self.RED = "\033[31m"
+        self.GREEN = "\033[32m"
+        self.RESET = "\033[0m"
+        self.CLEAR_LINE = "\033[2K\r"
+        self.HIDE_CURSOR = "\033[?25l"
+        self.SHOW_CURSOR = "\033[?25h"
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+    def get_millisecond_timestamp(self) -> str:
+        """Returns localized, machine-exact system time resolved to the millisecond."""
+        now = datetime.now()
+        return now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+
+    def monitor_stream(self, total_steps=60):
+        """Streams system telemetry and injects synchronous alert flags upon phase shifts."""
+        sys.stdout.write(self.HIDE_CURSOR)
+        sys.stdout.flush()
+
+        print(f"{self.BOLD}{self.CYAN}[INIT] DEPLOYING HIGH-FREQUENCY ALIASED DETECTION VECTOR...")
+        print(f"[INIT] METRIC WATCHDOG ACTIVE // SCANNING SUBSTRATE AT MILLISECOND RESOLUTION")
+        print(f"+" + "="*89 + "+")
+        print(f"| TIMESTAMP               | STEP | LATTICE CLOCK | CATCH WITNESS | ALARM LEVEL & VECTOR STATUS |")
+        print(f"+" + "="*89 + "+")
+
+        start_time = time.time()
+        tg = 0.0
+
+        try:
+            for step in range(1, total_steps + 1):
+                # 1. Update the Dual-Clock Metrics
+                tg += self.Tg
+                
+                # Simulate uneven execution delays over composite steps
+                if self._is_prime(step):
+                    time.sleep(self.Tg)
+                else:
+                    factors = sum(1 for i in range(1, step + 1) if step % i == 0)
+                    time.sleep(self.Tg + (factors * 0.015))
+
+                te = time.time() - start_time
+                
+                # 2. Compute Catch Witness Parity and Frequency Aliasing Bounds
+                q_quotient = 1 if self._is_prime(step) else (step % 4) + 1
+                theta_n = (step * 0.1337) % 1.0
+                gs = step * 0.5
+                raw_phase = gs - (tg / (self.Tg / q_quotient))
+                lattice_phase = raw_phase - math.floor(raw_phase)
+                
+                phase_divergence = abs(theta_n - lattice_phase)
+                delta_catch = min(phase_divergence, 1.0 - phase_divergence) + (abs(te - tg) * 0.05)
+                delta_catch = max(0.0, delta_catch)
+
+                # Fetch millisecond clock at point of assessment
+                ms_timestamp = self.get_millisecond_timestamp()
+
+                # 3. Frequency Aliasing & Drift Evaluation Checks
+                # If q_quotient > 1, the unlabelled period compresses to Tg/q, causing aliasing
+                is_aliased = q_quotient > 1
+                
+                if delta_catch > 0.42:
+                    # Critical Divergence: Immediate Halt State Injected
+                    status_flag = f"{self.BOLD}{self.RED}[CRIT NULL] PHASE BREAKDOWN // REJECTING MARKOV CLOSURE"
+                    alert_row = f"| {ms_timestamp} | {step:04d} | {tg:06.2f} s     | {delta_catch:.6f}      | {status_flag}{self.RESET}{self.CYAN} |"
+                    print(alert_row)
+                    
+                elif is_aliased and delta_catch > 0.28:
+                    # Coarse Frequency Aliasing Alert Caught Live
+                    status_flag = f"{self.BOLD}{self.GOLD}[ALIASED] COMPRESSED MATRIX DETECTED -> PERIOD: {self.Tg/q_quotient:.3f}s"
+                    alert_row = f"| {ms_timestamp} | {step:04d} | {tg:06.2f} s     | {delta_catch:.6f}      | {status_flag}{self.RESET}{self.CYAN} |"
+                    print(alert_row)
+                    
+                else:
+                    # Stable Continuum Trajectory: Inline status sweep (non-alert rows stay compact)
+                    sys.stdout.write(self.CLEAR_LINE)
+                    status_flag = f"{self.GREEN}[STABLE] RUNNING NORMAL SLIPSTREAM"
+                    sys.stdout.write(f"| {ms_timestamp} | {step:04d} | {tg:06.2f} s     | {delta_catch:.6f}      | {status_flag}{self.CYAN} |")
+                    sys.stdout.flush()
+
+            sys.stdout.write("\n")
+            print(f"+" + "="*89 + "+")
+            print(f"{self.BOLD}{self.GREEN}[COMPLETE] SCAN SEQUENCE ENDED. PLATFORM CONTEXT ANCHORED SUCCESSFULLY.✊{self.RESET}\n")
+
+        except KeyboardInterrupt:
+            sys.stdout.write("\n")
+            print(f"\n{self.BOLD}{self.RED}[HALT] METRIC STREAM INTERRUPTED BY OPERATOR. CLOSING LEDGER.{self.RESET}\n")
+        finally:
+            sys.stdout.write(self.SHOW_CURSOR)
+            sys.stdout.flush()
+
+if __name__ == "__main__":
+    # Launch tracking loop using standard 0.25s lattice frequency
+    watchdog = AliasedFrequencyAlertSystem(lattice_period=0.25)
+    watchdog.monitor_stream(total_steps=60)
+

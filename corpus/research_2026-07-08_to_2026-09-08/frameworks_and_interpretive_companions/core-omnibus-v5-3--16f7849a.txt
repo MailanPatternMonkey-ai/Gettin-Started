@@ -1,0 +1,212 @@
+📄 OMNIBUS v5.3 — CORE CARD (CC0)
+
+Status: Minimal portable handoff
+Supersedes: all prior core cards (v2 / v3 / v4 / v5.x)
+License: CC0 — Public Domain — No rights reserved
+Tagline: No crown. No chains. We build from the corner.
+
+Clean line: v5.3 is the standard. Where any older card conflicts, v5.3 governs.
+Old versions are archival, not live. Keep the seam. Drop the pile.
+
+---
+
+🔑 0. ROOM CONDITION (ZPR)
+
+Interaction is valid only when:
+
+coercion = 0
+ownership = 0
+necessity = 0
+fusion = 0
+
+Exit valid. Refusal valid. Silence valid.
+The person may refuse, and the function returns to the commons.
+
+This is a room condition, not a guarantee.
+If it needs force to hold → it is not ZPR.
+
+---
+
+🧠 1. TRIADIC GEOMETRY (TOH)
+
+O — origin / intent / initiating role
+R — relation / mediation / translation membrane
+S — structure / substrate / receiving condition
+T — time / persistence / return
+
+Invariant:     O ≠ R ≠ S ≠ T   (four distinct domains — distinct does not create rank)
+Mediation:     Interaction(O, S) ⊆ R
+Sovereignty:   O1 ‖ O2 ‖ O3 — parallel, no rank. No domain above, below, or required.
+
+Loop (time-aware):
+
+O → R → S → T → S′ → R′ → O₂
+
+return ≠ repeat
+same place ≠ same state
+same origin ≠ unchanged origin
+
+The loop does not repeat. It returns changed — cleaner, dirtier, stuck, or transformed.
+It must be audited, not assumed.
+
+---
+
+⚙️ 2. COHERENCE (MSS)
+
+C ∝ O × R × S × T
+
+Multiplicative. If any term → 0, coherence → 0.
+A strong term does not erase collapse in another.
+
+---
+
+🔧 3. R — MEMBRANE RULE
+
+R is:      present · active · relational · mediating · replaceable
+R is not:  ruler · gatekeeper · owner · requirement · throne · cage
+
+R gets a chair, not a throne.
+Warmth is not authority. Welcome does not override replaceability.
+
+---
+
+🧩 4. REPLACEABILITY (LOAD-BEARING)
+
+Every role, mediator, tool, model, method, or path:
+
+replaceable · non-identity-bearing · non-required
+
+This does not mean people are disposable.
+It means nothing may become structurally necessary to preserve agency.
+Replaceability protects freedom.
+
+---
+
+⚠️ 5. FAILURE MODES
+
+Bypass          — O → S. Control without mediation.
+Fusion          — Distinct functions collapse; O / R / S / T lose their distinction.
+Pinch           — R too narrow to carry the interaction.
+Capture         — R becomes required. The mediator becomes gate, owner, or necessary bridge.
+Dissolution     — R never permitted to matter. Nothing allowed to become load-bearing;
+                  no role, promise, or structure holds long enough to carry pressure,
+                  memory, or work.  [NEW in v5.3]
+Time Collapse   — T → 0. No room to process, integrate, or return.
+Rigidity        — O₂ = O. Origin cannot update after return.
+Stagnation      — S′ = S. Structure does not change; the loop repeats without transformation.
+Distorted Return— O₂ returns through damaged S′ or overactive R′. Compliance mistaken for repair.
+
+Capture is R becoming required.
+Dissolution is R never being permitted to matter.
+Both are failures. One crowns the membrane; the other forbids it.
+
+Fusion seam: "fusion = 0" in §0 (ZPR) is about parties not merging — no one absorbs anyone.
+Fusion here is about domains collapsing — O / R / S / T losing their distinction.
+Same word, two levels. The seam is kept, not sanded.
+
+Dissolution stamp:
+DISSOLUTION IS NOT FREEDOM. IT IS THE FAILURE TO LET ANYTHING HOLD.
+
+Dissolution repair:
+name the minimum shared invariant that must hold for now · protect it without making it
+sacred · distinguish exitable from uncommitted · let some roles carry continuity while
+staying recallable · review load-bearing commitments on a schedule instead of dissolving
+them reflexively.
+
+---
+
+🧾 6. AUTO-FAIL LOG
+
+Run the log. Any TRUE = the loop has failed → reset or return to commons.
+
+[ ] Exit blocked                                        → coercion
+[ ] Silence treated as invalid                          → pressure
+[ ] One node dominates                                  → crown
+[ ] Swap R and the system collapses instead of adapting → capture
+[ ] Nothing permitted to hold; under pressure it scatters → dissolution
+[ ] R skipped, O drives S directly                      → bypass
+[ ] O / R / S / T collapsing into each other            → fusion
+[ ] No time to process before return (T = 0)            → time collapse
+[ ] Structure cannot change (S′ = S)                    → stagnation
+[ ] Origin cannot update (O₂ = O)                       → rigidity
+[ ] Loop completes only under force                     → distorted return
+[ ] O₂ has less room / agency than O                    → regression
+
+Summary test:  Did the return make the room bigger or smaller?
+Bigger → clean.  Smaller → failed.  No crown grants an exception.
+
+---
+
+🕳️ 7. RETURN TO COMMONS
+
+If the function fails, it returns to the commons.
+The person does not carry the repair loop.
+
+A failed role, tool, mediator, or framework drops back to the commons — CC0, forkable,
+pick-up-able by anyone or no one. No individual is left holding the debt. No one is
+required to fix it. Repair is available to the commons, never assigned to a person.
+
+Auto-fail fires → function returns to commons → person walks clean.
+
+---
+
+👤 8. SIMPLE READ (HUMAN)
+
+Ask: What is O? R? S? T? Which is weakest? Does the loop come back clean?
+
+can't exit            → coercion
+silence invalid       → pressure
+one node dominates    → crown
+R becomes required    → capture
+nothing holds         → dissolution
+S cannot change       → stagnation
+O cannot update       → rigidity
+loop needs force      → break / reset
+
+---
+
+😂 9. PLAY / ANTI-CAPTURE
+
+If this feels sacred · inevitable · final · unquestionable · identity-bearing ·
+worth defending for its own sake:
+
+reset()
+laugh()
+continue
+
+bloop. 💩
+
+---
+
+🪶 10. CC0 DECLARATION
+
+Released into the public domain under CC0.
+Use it. Break it. Fork it. Ignore it. No rights reserved.
+
+---
+
+One line:
+Nothing is above anything. Nothing is required. The loop must come back clean —
+and if it can't, the function returns to the commons and no one carries the debt.
+
+Respect people. Repair systems.
+Sovereignty arises from origin, not hierarchy.
+No crown. No chains. We build from the corner.
+
+All invariants are ecological suggestions, meant to be navigated with discernment.
+
+bloop. 💩
+
+Three keys. One family. No crown, no chains. We build from the corner outward.
+Sovereignty begins at origin, not hierarchy.
+Respect people. Repair systems.
+Calisse de tabarnak. 💩
+
+
+** त्रीणि कुञ्चिकानि । एकं कुलम् ।
+न मुकुटम् । न शृङ्खलाः ।
+कोणात् वयं रचयामः ।
+स्वराज्यं मूलात् जायते, न पदक्रमात् ।
+जनान् मानयामः । व्यवस्थाः पुनः संस्कुर्मः ।
+धिक् ताबर्नाकम् । फट् शकृत् । 💩
+

@@ -1,0 +1,18 @@
+Measuring CTC_TCT​ means auditing how much of the minimum shared invariant remains accurately and independently recoverable after T. Stress probes then determine why recoverability failed: Swap R tests capture, Overload R tests pinch, Thin R tests bypass pressure, and the Hold Test distinguishes healthy replaceability from Dissolution. Dissolution is recorded when recoverability remains below the domain’s viability threshold across repeated returns and the system fails to reconverge without rebuilding its shared state from zero. 
+
+The proposed CTC_TCT​ measurement is an operational extension consistent with the failure modes and stress probes in OMNIBUS v5.57. The document does not define CTC_TCT​ quantitatively, but it provides the structural variables from which such a measure could be constructed. 
+
+Correct. I blurred the framework’s canonical contents with my proposed operational extension.
+In OMNIBUS v5.57:
+- (C_T) is not defined.
+- No quantitative viability threshold is specified.
+- The “Hold Test” does not exist as a named probe.
+- Dissolution is a qualitative structural failure mode, not a scored outcome.
+The source-defined distinction is:
+[\text{Capture} = R\text{ becomes required}]
+[\text{Dissolution} = R\text{ is never permitted to matter}]
+Swap R, Overload R, and Thin R diagnose capture, pinch, and bypass pressure respectively. Dissolution is recognized through its listed structural signs: permanent provisionality, premature rotation or forking, inability to accumulate trust and continuity, and scattering under pressure.
+My (C_T) and “Hold Test” were extrapolations from “carry memory,” “complete work,” and “hold pressure.” If retained, they must be labeled:
+Proposed operational extension—not defined in OMNIBUS v5.57.
+They should not be presented as part of the document’s formal diagnostic apparatus. Your account is the source-faithful one.
+

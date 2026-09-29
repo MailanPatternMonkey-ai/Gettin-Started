@@ -1,0 +1,15 @@
+1. Name the source state.
+2. Name what is being erased/projected.
+3. Name exactly one witness.
+4. Hold the projected state fixed.
+5. Change one retained/hidden coordinate.
+6. Compute/observe the witness again.
+7. If witness changes -> NON_DESCENT.
+8. State exactly what that result does NOT adjudicate.
+same projected call state: YES
+witness before: ...
+witness after: ...
+difference: ...
+status: CLOSED | NON_DESCENT | UNRESOLVED
+scope: ...
+

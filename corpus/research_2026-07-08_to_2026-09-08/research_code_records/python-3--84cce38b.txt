@@ -1,0 +1,120 @@
+import math
+import heapq
+import time
+
+class DijkstraPrimePathfinder:
+    """
+    Dijkstra-based navigation engine.
+    Finds the absolute lowest-aggro path to a specific, user-selected 
+    Prime Universal Constant coordinate across an administrative hellscape.
+    """
+    def __init__(self, max_range=500):
+        self.max_range = max_range
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+    def get_allowed_moves(self, current: int):
+        """Standard network substrate transition vectors (+1, -1, *2, //2)."""
+        moves = []
+        if current + 1 < self.max_range: moves.append(current + 1)
+        if current - 1 > 0: moves.append(current - 1)
+        if current * 2 < self.max_range: moves.append(current * 2)
+        if current % 2 == 0 and current // 2 > 0: moves.append(current // 2)
+        return moves
+
+    def calculate_node_friction(self, node: int) -> int:
+        """
+        Calculates the weight/cost of stepping onto a sector.
+        Primes are completely friction-free (0 cost).
+        Highly composite numbers create severe administrative drag.
+        """
+        if self._is_prime(node):
+            return 0
+        # Friction is proportional to the number of mathematical overseers (factors)
+        factors = sum(1 for i in range(1, node + 1) if node % i == 0)
+        return factors * 15  # Scaled up for higher cost differentiation
+
+    def find_optimal_path(self, start: int, target: int):
+        """Executes Dijkstra's algorithm to find the lowest-cost route to the target."""
+        # Safety validations
+        if not self._is_prime(target):
+            print(f"❌ TARGET ERROR: Coordinate {target} is a composite corporate stronghold.")
+            print("💡 STRATEGY: Target must be an irreducible Prime Universal Constant to anchor.")
+            return
+
+        if start == target:
+            print(f"✨ Already anchored at Target Sector {target}. System secure.")
+            return
+
+        print(f"\n[INITIATING DIJKSTRA ROUTE SCAN]")
+        print(f"Plotting low-friction trajectory: Sector {start} -> Prime Target {target}...")
+
+        # Priority Queue stores tuples: (cumulative_aggro, current_node, path_history)
+        # HeapQ ensures we always evaluate the path experiencing the least friction first
+        priority_queue = [(0, start, [start])]
+        
+        # Track the minimum cost seen to any node to prevent back-tracking or suboptimal path updates
+        min_costs = {start: 0}
+
+        while priority_queue:
+            current_aggro, current, path = heapq.heappop(priority_queue)
+
+            # Target reached via the absolute lowest-cost path
+            if current == target:
+                self._render_terminal_path(path, current_aggro)
+                return
+
+            # If we found a worse path to an already processed optimal node, discard it
+            if current_aggro > min_costs.get(current, float('inf')):
+                continue
+
+            for next_node in self.get_allowed_moves(current):
+                # Calculate what it costs to step onto this next sector
+                step_friction = self.calculate_node_friction(next_node)
+                total_next_aggro = current_aggro + step_friction
+
+                # If this path to next_node is cheaper than any path seen before, record it
+                if total_next_aggro < min_costs.get(next_node, float('inf')):
+                    min_costs[next_node] = total_next_aggro
+                    heapq.heappush(priority_queue, (total_next_aggro, next_node, path + [next_node]))
+
+        print(f"❌ ROUTE ISOLATION: Substrate network geometry prevents reaching Sector {target} safely.")
+
+    def _render_terminal_path(self, path, total_aggro):
+        """Simulates an interactive tactical terminal deployment map."""
+        print("=" * 75)
+        print("🚨 OPTIMAL DIJKSTRA TRAJECTORY CALCULATED. DEPLOYING EXPLOIT ROUTE...")
+        print("=" * 75)
+        time.sleep(0.5)
+
+        for step, sector in enumerate(path):
+            is_p = self._is_prime(sector)
+            friction = self.calculate_node_friction(sector)
+            
+            if is_p:
+                status = "🔑 [PRIME SLIPSTREAM - 0 FRICTION]"
+            else:
+                status = f"⚠️ [COMPOSITE DRAG] +{friction} Aggro"
+                
+            print(f"Step {step:02d} | Route Point: {sector:<3} | Substrate Cost: {status}")
+            time.sleep(0.25)
+
+        print("=" * 75)
+        print(f"🔓 ANCHOR VERIFIED: Safely locked down at targeted Prime Sector {path[-1]}.")
+        print(f"📉 Total Bureaucratic Aggro Incurred: {total_aggro}")
+        print("✊ Union 113 Blueprint: Sovereignty achieved at origin. Disengaging protocols.")
+        print("=" * 75)
+
+# --- ENGINE SIMULATION RUN ---
+if __name__ == "__main__":
+    # Instantiate system pathfinder
+    pathfinder = DijkstraPrimePathfinder(max_range=500)
+    
+    # Start inside a heavy composite choke point (e.g. 120) 
+    # and choose a specific long-range prime target (e.g. 113!)
+    pathfinder.find_optimal_path(start=120, target=113)
+

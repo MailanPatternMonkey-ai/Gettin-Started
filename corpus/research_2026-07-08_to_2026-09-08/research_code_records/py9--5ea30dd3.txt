@@ -1,0 +1,215 @@
+import json
+import math
+import time
+import heapq
+from datetime import datetime
+
+class MultiAxisLedgerSplitter:
+    """
+    Module 12 / A.15 Multi-Axis Compliance Engine.
+    Simultaneously drives and tracks independent parallel execution paths 
+    for X, Y, and Z spatial dimensions, logging them into synchronized 
+    multi-column array streams without cross-contamination.
+    """
+    def __init__(self, filename="multi_axis_cocycle_ledger.jsonl"):
+        self.filename = filename
+
+    def log_parallel_streams(self, step: int, active_nodes: dict, clocks: dict, 
+                             witness_deltas: dict, aliased_flags: dict, status_signatures: dict):
+        """
+        Stamps a completely parallelized, multi-column structural record of 
+        all three geometric axes into the immutable tracking pipeline.
+        """
+        ms_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+        
+        # Parallel Matrix Row Compilation
+        parallel_record = {
+            "source_timestamp": ms_timestamp,
+            "step_index": step,
+            "clocks": {
+                "geometric_lattice_time_tg": round(clocks["tg"], 6),
+                "execution_processing_time_te": round(clocks["te"], 6),
+                "absolute_substrate_slip_dt": round(abs(clocks["te"] - clocks["tg"]), 6)
+            },
+            "axis_streams": {
+                "X_AXIS": {
+                    "node_coordinate": active_nodes["x"],
+                    "catch_witness_delta": round(witness_deltas["x"], 6),
+                    "parity_quotient_q": 1 if self._is_prime(active_nodes["x"]) else (active_nodes["x"] % 3) + 1,
+                    "frequency_aliased": aliased_flags["x"],
+                    "status_signature": status_signatures["x"]
+                },
+                "Y_AXIS": {
+                    "node_coordinate": active_nodes["y"],
+                    "catch_witness_delta": round(witness_deltas["y"], 6),
+                    "parity_quotient_q": 1 if self._is_prime(active_nodes["y"]) else (active_nodes["y"] % 3) + 1,
+                    "frequency_aliased": aliased_flags["y"],
+                    "status_signature": status_signatures["y"]
+                },
+                "Z_AXIS": {
+                    "node_coordinate": active_nodes["z"],
+                    "catch_witness_delta": round(witness_deltas["z"], 6),
+                    "parity_quotient_q": 1 if self._is_prime(active_nodes["z"]) else (active_nodes["z"] % 3) + 1,
+                    "frequency_aliased": aliased_flags["z"],
+                    "status_signature": status_signatures["z"]
+                }
+            },
+            "relation_firewall": {
+                "mapping_rules": "EXACT_QUOTIENT_PER_AXIS",
+                "co-primary_tracking": "THREE_AXIS_FIXED_HOLONOMY_ENSEMBLE"
+            }
+        }
+
+        with open(self.filename, "a", encoding="utf-8") as f:
+            f.write(json.dumps(parallel_record) + "\n")
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+
+class ParallelAxisWatchdogV08:
+    """
+    Aliased Frequency Alert System v0.8 — Parallel Matrix Catch Witness Watchdog.
+    Simultaneously executes three parallel Dijkstra pathfinders (X, Y, Z) and
+    logs synchronized multi-axis operations to a combined ledger.
+    """
+    def __init__(self, lattice_period=0.20, carrier_frequency=1.13, max_range=250):
+        self.Tg = lattice_period
+        self.alpha = carrier_frequency
+        self.max_range = max_range
+        
+        self.splitter_ledger = MultiAxisLedgerSplitter()
+        self.sector_aliasing_history = {"x": {}, "y": {}, "z": {}}
+        self.aliasing_threshold_limit = 3
+
+        # UI Styling Elements
+        self.BOLD = "\033[1m"
+        self.CYAN = "\033[36m"
+        self.GOLD = "\033[33m"
+        self.RED = "\033[31m"
+        self.GREEN = "\033[32m"
+        self.RESET = "\033[0m"
+        self.CLEAR_LINE = "\033[2K\r"
+        self.HIDE_CURSOR = "\033[?25l"
+        self.SHOW_CURSOR = "\033[?25h"
+
+    def _is_prime(self, n: int) -> bool:
+        if n < 2: return False
+        for i in range(2, int(math.isqrt(n)) + 1):
+            if n % i == 0: return False
+        return True
+
+    def get_allowed_moves(self, current: int):
+        moves = []
+        if current + 1 < self.max_range: moves.append(current + 1)
+        if current - 1 > 0: moves.append(current - 1)
+        if current * 2 < self.max_range: moves.append(current * 2)
+        if current % 2 == 0 and current // 2 > 0: moves.append(current // 2)
+        return moves
+
+    def calculate_node_friction(self, node: int, axis_label: str) -> int:
+        base_cost = 0 if self._is_prime(node) else sum(1 for i in range(1, node + 1) if node % i == 0) * 15
+        aliasing_incidents = self.sector_aliasing_history[axis_label].get(node, 0)
+        if aliasing_incidents >= self.aliasing_threshold_limit:
+            return base_cost + (500 * aliasing_incidents)
+        return base_cost + (aliasing_incidents * 50)
+
+    def find_optimal_path(self, start: int, target: int, axis_label: str) -> list:
+        if not self._is_prime(target): return []
+        priority_queue = [(0, start, [start])]
+        min_costs = {start: 0}
+
+        while priority_queue:
+            current_aggro, current, path = heapq.heappop(priority_queue)
+            if current == target: return path
+            if current_aggro > min_costs.get(current, float('inf')): continue
+            for next_node in self.get_allowed_moves(current):
+                step_friction = self.calculate_node_friction(next_node, axis_label)
+                total_next_aggro = current_aggro + step_friction
+                if total_next_aggro < min_costs.get(next_node, float('inf')):
+                    min_costs[next_node] = total_next_aggro
+                    heapq.heappush(priority_queue, (total_next_aggro, next_node, path + [next_node]))
+        return []
+
+    def execute_synchronized_trajectories(self, starts: dict, targets: dict):
+        sys.stdout.write(self.HIDE_CURSOR)
+        sys.stdout.flush()
+
+        print(f"{self.BOLD}{self.CYAN}[INIT] PARALLEL THREE-AXIS MONITOR DEPLOYED // FIXED-HOLONOMY ENFORCED")
+        print(f"[INIT] INDEPENDENT TRAJECTORIES UNLOCKED — LOGGING MULTI-COLUMN STREAM")
+        print(f"+" + "="*112 + "+")
+        print(f"| STEP | LATTICE CLOCK | CPU EXEC (te) | X-NODE [CW]     | Y-NODE [CW]     | Z-NODE [CW]     | SUBSTRATE SYSTEM STATE    |")
+        print(f"+" + "="*112 + "+")
+
+        start_perf = time.perf_counter()
+        tg = 0.0
+        step_index = 0
+
+        # Calculate discrete trajectories across all coordinates independently
+        paths = {
+            "x": self.find_optimal_path(starts["x"], targets["x"], "x"),
+            "y": self.find_optimal_path(starts["y"], targets["y"], "y"),
+            "z": self.find_optimal_path(starts["z"], targets["z"], "z")
+        }
+
+        max_steps = max(len(paths["x"]), len(paths["y"]), len(paths["z"]))
+        pointers = {"x": 0, "y": 0, "z": 0}
+
+        try:
+            while step_index < max_steps:
+                step_index += 1
+                tg += self.Tg
+                
+                # Fetch active sector nodes or anchor at target if path has already resolved
+                active_nodes = {
+                    "x": paths["x"][pointers["x"]] if pointers["x"] < len(paths["x"]) else targets["x"],
+                    "y": paths["y"][pointers["y"]] if pointers["y"] < len(paths["y"]) else targets["y"],
+                    "z": paths["z"][pointers["z"]] if pointers["z"] < len(paths["z"]) else targets["z"]
+                }
+
+                # Simulate processing overhead based on cumulative environmental drag
+                max_friction_node = max(active_nodes.values())
+                if not self._is_prime(max_friction_node):
+                    factors = sum(1 for i in range(1, max_friction_node + 1) if max_friction_node % i == 0)
+                    time.sleep(self.Tg + (factors * 0.008))
+                else:
+                    time.sleep(self.Tg)
+
+                te = time.perf_counter() - start_perf
+                theta_n = (te * self.alpha) % 1.0
+
+                witness_deltas = {}
+                aliased_flags = {}
+                status_signatures = {}
+
+                # Process calculations across the multi-axis split array parallel streams
+                for axis in ["x", "y", "z"]:
+                    node = active_nodes[axis]
+                    q_quotient = 1 if self._is_prime(node) else (node % 3) + 1
+                    
+                    gs = step_index * 0.5
+                    raw_phase = gs - (tg / (self.Tg / q_quotient))
+                    lattice_phase = raw_phase - math.floor(raw_phase)
+                    
+                    phase_divergence = abs(theta_n - lattice_phase)
+                    delta_catch = min(phase_divergence, 1.0 - phase_divergence)
+                    witness_deltas[axis] = delta_catch
+
+                    # Explicit phase boundary analysis tracking structural aliasing
+                    is_aliased = q_quotient > 1 and math.isclose(lattice_phase % (1.0 / q_quotient), 0.0, abs_tol=0.1)
+                    aliased_flags[axis] = is_aliased
+
+                    # Handle and update localized drift states
+                    if delta_catch > 0.42:
+                        status_signatures[axis] = "CRIT_NULL"
+                    elif is_aliased and delta_catch > 0.22:
+                        status_signatures[axis] = "ALIASED_DRIFT"
+                        self.sector_aliasing_history[axis][node] = self.sector_aliasing_history[axis].get(node, 0) + 1
+                        
+                        # Real-time trajectory interception trigger condition
+                        if self.sector_aliasing_history[axis][node] >= self.aliasing_threshold_limit:
+                            new_path = self.find_optimal_path(node, targets[axis], axis)
+

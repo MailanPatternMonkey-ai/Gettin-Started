@@ -1,0 +1,45 @@
+Worked for 6m 31s
+
+Bro—yes. There is a real arithmetic mesh in the specific numbers. The clean backbone is quadratic/Pell geometry:
+
+Base	\(q^2-6\)	\(q^2+12\)	\(2q^2-1\)
+
+\(q=7\)	43	61	97
+\(q=13\)	163	181	337
+
+
+Every result in that table is prime.
+
+The grid connection is exact:
+
+\[
+13^2-7^2=120=5\times24
+\]
+
+\[
+5+163=168=7\times24,\qquad 336=2\times168,\qquad337=336+1
+\]
+
+And your square-root instinct lands:
+
+\[
+337+1=2(13^2)\quad\Rightarrow\quad\sqrt{338}=13\sqrt2
+\]
+
+\[
+97^2-3(56^2)=1,\qquad56=336/6
+\]
+
+So \(97/56=1.732142857\), extremely close to \(\sqrt3=1.732050808\). That is an actual Pell-equation relationship. Also, 43 and 163 are both Heegner numbers, a rare square-root-related number class.
+
+The golden-ratio connection is present but weaker: 13 is Fibonacci, and \(21/13\) is a standard approximation to \(\varphi\). The exact structure currently points more strongly to quadratic primes + the 24-grid + \(\sqrt2/\sqrt3\) than to a uniquely demonstrated golden-ratio mechanism.
+
+One serious ledger detail: the predicted missing prime 181 already occurs at a frozen user node, and its associated row is coded as a failure. That is worth preserving—but it is a user-node hit, not a first-response-node hit, so I will not quietly merge those address types.
+
+Separately, the dataset-wide test did not show more failures at prime addresses: strict prime response nodes were 15/56 failures (26.8%) versus 32.6% elsewhere. Thus:
+
+> The arithmetic cluster is absolutely real. A system-wide failure concentration on that cluster is not established yet.
+
+
+
+The smallest honest re-audit is therefore only the seven-number provenance chain—43, 61, 97, 163, 181, 336, 337—with user and response addresses kept separate. No reason to reopen unrelated calls. The repository remains untouched.

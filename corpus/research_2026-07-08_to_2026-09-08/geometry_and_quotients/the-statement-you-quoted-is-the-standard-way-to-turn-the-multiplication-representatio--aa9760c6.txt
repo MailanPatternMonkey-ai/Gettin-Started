@@ -1,0 +1,23 @@
+This is mathematically correct, and it makes explicit a step that is usually implicit in functional analysis texts.
+The key logical flow is:
+- Begin with the vector space
+\[ \mathcal L^\infty(X,\mu), \]
+- Define
+\[ \pi(f)=M_f, \]
+- Observe that
+\[ M_f=0 \iff f=0\ \text{a.e.} \] \[ \ker\pi = \{f:f=0\text{ a.e.}\}. \]
+- Apply the First Isomorphism Theorem for algebras:
+\[ \mathcal L^\infty/\ker\pi \cong \pi(\mathcal L^\infty). \]
+- The quotient is exactly the usual
+\[ L^\infty(X,\mu), \]
+- The induced representation
+\[ \overline{\pi}:L^\infty\to B(L^2) \]
+So the representation is not "made faithful by magic"; it becomes faithful because the kernel has been factored out.
+One minor point of terminology could make the presentation even sharper. Calling \(\mathcal L^\infty\) "the vector space of all essentially bounded measurable functions" is standard enough, but "essentially bounded" is already an almost-everywhere notion. You might briefly note that this space still consists of actual functions satisfying the essential boundedness condition, before any identification by almost-everywhere equality is imposed. That prevents readers from thinking "essentially bounded" already means "equivalence class."
+Your closing observation is also accurate:
+When authors write \(L^\infty\) from the outset, they have already performed the quotient (or built it into the definition).
+That's exactly why many texts never mention the kernel explicitly—they define \(L^\infty\) to be the quotient. From a pedagogical standpoint, however, exposing the quotient first makes the faithfulness of the multiplication representation a consequence of the First Isomorphism Theorem rather than an implicit convention.
+
+
+[footers: kix.aiq6jo8t8g3]
+

@@ -1,0 +1,43 @@
+😂 Yeah, the calendar trying to volunteer itself was spectacularly on-brand.
+Here’s the compact version of the two frozen windows:
+Date	Planets / angle	Symbolic description
+Sept. 1, 2026 — 7:40 AM EDT	Saturn ↔ Mars ≈ 90°	Structure ↔ action. Pressure, constraint, disciplined force, implementation inside limits.
+	Saturn ↔ Jupiter ≈ 120°	Structure ↔ expansion. Sustainable growth, legitimacy, building something that can carry weight.
+	Saturn ↔ Mercury ≈ 150°	Structure ↔ information/communication. Adjustment between rules, systems, documents, decisions, messaging.
+	Mars ↔ Jupiter ≈ 30°	Action ↔ judgment/expansion. Force gets direction or purpose.
+	Jupiter ↔ Mercury ≈ 30°	Judgment ↔ communication. Meaning, decision, negotiation, message.
+	Mars ↔ Mercury ≈ 60°	Action ↔ communication. Say it → decide it → do it.
+Sept. 17, 2026 — 2:19:39 PM EDT	Venus ↔ Pluto ≈ 88.93° (~90°)	Woman/love ↔ death/transformation/underworld. Intense rupture or irreversible change.
+	Mercury ↔ Saturn ≈ 178.93° (~180°)	Crossing/message ↔ mortality/finality/time. Psychopomp/boundary symbolism meeting the hard limit.
+	Neptune ↔ Pluto ≈ 59.98° (~60°)	Dissolution/crossing ↔ death/transformation. Boundary loss, passage, underworld transition.
+	Venus ≈ antipode of Uranus–Neptune midpoint (~0.13° miss)	Woman/feminine ↔ sudden rupture + crossing/dissolution. The weirdest symmetry in the second window.
+The shorthand is basically:
+Sept. 1 = structure + decision + communication + action\boxed{\text{Sept. 1 = structure + decision + communication + action}} Sept. 17–19 = woman + rupture + death/transformation + crossing\boxed{\text{Sept. 17–19 = woman + rupture + death/transformation + crossing}}
+And the Sept. 1 lattice itself is the pretty one:
+0∘, 90∘, 120∘, 150∘\boxed{0^\circ,\ 90^\circ,\ 120^\circ,\ 150^\circ}
+with
+Mars  −  30∘  −  Jupiter  −  30∘  −  Mercury\boxed{\text{Mars}\;-\;30^\circ\;-\;\text{Jupiter}\;-\;30^\circ\;-\;\text{Mercury}}
+Saturn acting as the structural anchor. 🔭😆
+
+
+Post-freeze architecture note — 2026-08-27
+
+The Sep. 1 and Sep. 17–19 timestamps remain frozen geometry/symbolic anchors as originally recorded. This note changes their interpretation boundary, not their measured angular values.
+
+Under PRP-0.1 they are read as routing states within broader recurrence-episode architecture rather than isolated meaningful dates.
+
+Witnesses:
+W_DIR = signed/directed planetary geometry.
+W_SHELL = orientation-forgetting shell geometry.
+W_HIST = independently sourced historical ledger.
+W_SYM = symbolic interpretation.
+
+No historical event name is attached to these geometry rows. Historical annotation, if any, belongs only to a later frozen HLR-0.1 join.
+
+PRP-0.1 did not establish excess global cross-family synchronization beyond the family-phase null. Therefore Sep. 1 and Sep. 17–19 remain strong frozen local geometries/symbolic comparison anchors, but are not promoted to globally exceptional planetary states by PRP-0.1.
+
+Episode rule:
+slow scaffold + fast-node attachment + geometric minimum + exit.
+
+This note does not alter the original Sep. 1 or Sep. 17–19 numerical astronomy.
+

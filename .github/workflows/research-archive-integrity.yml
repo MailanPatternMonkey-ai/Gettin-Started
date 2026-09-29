@@ -1,0 +1,20 @@
+name: Research archive integrity
+
+on:
+  pull_request:
+    paths:
+      - 'corpus/research_2026-07-08_to_2026-09-08/**'
+      - '.github/workflows/research-archive-integrity.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  archive-integrity:
+    name: Archive integrity only (no scientific validation)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify archive bytes and inventory
+        working-directory: corpus/research_2026-07-08_to_2026-09-08
+        run: python3 verify_archive.py

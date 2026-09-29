@@ -1,0 +1,187 @@
+13-Square / Phase-Closure BPM Comparison — Frozen Run Protocol v1.0
+Prepared: Aug 26, 2026
+Protocol ID: PCO-20260826-B04B9138
+Status: Prospective; not yet run. Complete the freeze sheet and name a frozen Google Docs version before collecting comparison data.
+Candidate source: 13-Square / Phase-Closure Offset Note v0
+Historical baseline record: 4_23_26_169 BPM - 7-8 loop
+Selection-audit context: seven_number_provenance_lattice_v1
+Sealed condition key: SEALED — 13-Square BPM Condition Key — Open After Analysis Lock
+BLINDING WARNING: Do not open the sealed condition key until the analysis-lock step.
+
+1. Purpose and claim boundary
+This protocol tests whether a room-recorded outcome distinguishes 169.0000000000 BPM, 168.0000000000 BPM, and 168.0359303878 BPM when a 39 Hz comparison carrier and every other declared condition are frozen. The historical 169 BPM configuration is preserved separately and is not rewritten as if it originally contained the new 39 Hz comparison carrier.
+
+- Established input: 169 = 13²; 168 = 13² − 1; the exact-closure calibration is 168.0359303878 BPM.
+- Established input: the phase-closure calculation is mathematical, not yet a physical result.
+- Retrospective input: recognizing the 13-square / one-step offset across documents was post-hoc.
+- Untested claim: the one-step offset has a reproducible physical or perceptual consequence.
+- Not established: any special room, field, biological, or other mechanism.
+The selection audit reports that, with 39 Hz fixed and integer BPM restricted to 150–190, 169 ranks 2 of 41 while 168 is closer; across integer carriers 35–43 Hz and tempos 150–190 BPM, the 39/169 pair ranks 18 of 369 by normalized closure residual. Therefore this protocol tests the declared candidate only. It makes no uniqueness claim for 39 Hz or 169 BPM, and no alternate carrier or tempo may be introduced to rescue the result.
+
+2. Operational sequence
+- Run Phase H once: a known-condition reproduction of the April 23 historical 169 BPM loop.
+- Build and verify the three Phase C comparison renders from one cloned project; add the same continuous 39 Hz carrier to all three.
+- Freeze hardware, geometry, levels, timing, duration, schedule, files, exclusions, and analysis code.
+- Run six blinded sessions, each containing all three coded conditions once.
+- Calculate and lock code-labeled outcomes before opening the sealed condition key.
+- Unblind once, apply the fixed decision rules, and place every nonregistered analysis in an exploratory appendix.
+3. Phase H — historical 169 BPM provenance reproduction
+Purpose: preserve the historical condition as its own dated object before testing the later offset candidate. Phase H is descriptive and must never be pooled with the blinded comparison.
+
+- Clock: 169 BPM.
+- Meter: 7/8; preserve the original beat-unit interpretation from the archival project or playback source.
+- Constant anchor: 437 Hz.
+- Motion: 911 Hz, left/right.
+- Lift: 1109 Hz.
+- Transient shimmer: 4723 Hz.
+- Body: 47 Hz.
+- Reset gate: 23 Hz.
+- Pulsing hum: 7.83 Hz.
+- Drive: 13 Hz.
+- Sequence: 437 → 911 → 1109 → 4723 flicker → 47 → 23 → repeat.
+- No intro and no outro. The loop is the structure. The center does not move.
+Historical-integrity rule: do not add 39 Hz to Phase H unless an archival audio file, project, preset, or contemporaneous record proves it was present. If 39 Hz is absent or unresolved, keep Phase H 39-Hz-free and record that fact. If the original audio/project cannot be recovered, label the run “document-based reconstruction”; do not call it an exact reproduction.
+
+Phase H duration: 1,307 seconds of the historical loop after a 30-second room-silence baseline, followed by at least 180 seconds of silence. The 1,307-second window preserves the previously derived approximate 21.783-minute full-slip horizon without extending the observation after results appear.
+
+4. Phase C — blinded fixed-39-Hz comparison
+Phase C is a new comparison environment. Its 169 BPM trial is the square-anchor comparison condition, not the historical reproduction.
+
+- Start from one cloned version of the historical minimal-loop project.
+- Add one continuous 39.000 Hz sine carrier at a fixed channel, level, phase, and route.
+- Create exactly three renders. Change only the tempo field: 169.0000000000, 168.0000000000, or 168.0359303878 BPM.
+- Preserve 7/8 meter, beat unit, sequence, envelopes, pan/motion law, loop boundaries, source phases, gains, sample rate, bit depth, limiter state, routing, and total sample count.
+- Begin the 39 Hz carrier at a declared zero crossing and start the loop from the same sample-zero marker in every render.
+- Use neutral filenames containing only X, Y, or Z. The mapping exists only in the sealed key.
+Each Phase C trial consists of 30 seconds of room silence, 30 seconds of 39 Hz alone, 1,307 seconds of the full comparison signal, and at least 180 seconds of silence/washout. Do not lengthen, shorten, repeat, or replace a trial because its coded result looks weak or strong.
+
+5. Phase-capable eligibility gate
+- Full phase-closure inference requires every output channel to share one audio sample clock and requires a direct digital or electrical reference/loopback capture.
+- Independent Bluetooth speakers or unsynchronized playback devices may be used only for an explicitly labeled exploratory room/perceptual pilot. Their clock drift prevents a clean phase-closure adjudication.
+- The microphone must have verified usable response at 39 Hz for 39-Hz amplitude claims. Otherwise retain timing/marker analyses only and label low-frequency amplitude unknown.
+- The direct reference must verify each rendered tempo within ±0.0001 BPM, the carrier within ±0.001 Hz, and the declared common onset within one sample. A failed verification is a manipulation failure; rerender before data collection.
+- If the playback system cannot represent 168.0359303878 BPM within tolerance, record the achieved tempo and stop the exact-calibration comparison. Do not relabel an approximate render as exact.
+6. Frozen apparatus and room sheet
+Complete every field before Phase C Session 1. Any unresolved field is a declared unknown, not an invitation to fill it after seeing outcomes.
+
+Playback project/version: ______________________________
+Archival source status (original / reconstructed): ______________________________
+Render sample rate / bit depth / channel count: ______________________________
+Rendered X hash: ______________________________
+Rendered Y hash: ______________________________
+Rendered Z hash: ______________________________
+Reference/loopback channel and recorder: ______________________________
+Audio interface / common clock: ______________________________
+Amplifier, speakers, subwoofer, and channel assignment: ______________________________
+Software / plug-in / firmware versions: ______________________________
+Master gain, per-channel gain, 39-Hz dBFS, and measured room level: ______________________________
+Speaker coordinates, height, angle, and orientation: ______________________________
+Microphone coordinates, height, angle, and orientation: ______________________________
+Listener position, if present: ______________________________
+Door, window, HVAC, furniture, and room-state lock: ______________________________
+Room photo filename and hash: ______________________________
+Fixed time-of-day window: ______________________________
+Allowed ambient-noise ceiling and measurement method: ______________________________
+Loop/reset marker definition: ______________________________
+Named frozen Google Docs version: ______________________________
+Freeze timestamp and signer: ______________________________
+
+Geometry rule: mark all speaker, subwoofer, microphone, and listener positions physically. Do not rotate, move, or re-aim equipment between conditions. If anything moves, stop the session and log the deviation before deciding whether the entire session is invalid.
+
+7. Blinding and fixed six-session schedule
+The sealed key randomly maps X, Y, and Z to the three tempos. One three-trial block is run per session. Across six sessions, every one of the six possible orders occurs exactly once, so each code appears twice in each ordinal position.
+
+Session 1: Z → X → Y
+Session 2: Y → Z → X
+Session 3: Y → X → Z
+Session 4: X → Z → Y
+Session 5: Z → Y → X
+Session 6: X → Y → Z
+
+- The runner sees only X, Y, or Z. A second person or an automated launcher must load the coded file without revealing its tempo.
+- If no independent key holder or automated concealment is available, label the run order-randomized but not blinded.
+- Record guesses only after each trial and never use them to alter the schedule.
+- If the mapping is learned early, mark the blind broken immediately. Preserve the data and analyze it separately; do not regenerate a key.
+8. Trial execution
+- Keep people and pets outside the measurement room unless their presence is part of the frozen configuration.
+- Start the microphone and reference/loopback recorders before the 30-second baseline. Disable automatic gain control and all unregistered enhancement, normalization, noise suppression, and spatial-audio processing.
+- Launch the coded render at the fixed marker. Do not touch gain, routing, phase, playback position, or equipment during the trial.
+- After the full-signal window, stop the signal and preserve at least 180 seconds of silence before the next trial.
+- Immediately complete the secondary rating form while the code remains masked.
+- Copy recordings using code and session identifiers only; compute and record file hashes before analysis.
+Secondary ratings, each 0–10: pulse clarity; spatial stability; perceived intensity; discomfort. Record one optional free-text observation. Ratings and free text are secondary/exploratory and cannot replace the objective primary outcome.
+
+9. Safety and stop rules
+- Use a normal, predeclared listening level and never increase volume to chase an effect.
+- Stop immediately for discomfort, dizziness, headache, nausea, aura-like symptoms, unexpected pressure, equipment distress, clipping, overheating, or a room interruption.
+- A stopped trial is neither a success nor a failure. Log its code and reason while still blinded.
+- Do not resume the same trial in the same session. A replacement may be scheduled only while the blind remains intact and before any condition mapping is opened.
+- Exit is always valid.
+10. Registered signal verification and primary outcome
+Manipulation check: use the direct reference to confirm the actual 39 Hz carrier, tempo, onset, loop/reset markers, duration, and absence of clipping. The reference-phase result is expected to reflect ordinary timing arithmetic and is not evidence of a room mechanism.
+
+Primary outcome: room-over-reference residual phase concentration at 39 Hz, calculated once per trial.
+
+- Discard the first and last 60 seconds of the 1,307-second full-signal window.
+- At every registered loop/reset marker in the retained window, calculate the complex 39 Hz coefficient from a 1.000-second Hann window centered on the marker.
+- For microphone phases φroom,k, calculate PLVroom = |mean(exp(iφroom,k))|.
+- For time-matched reference phases φref,k, calculate PLVref = |mean(exp(iφref,k))|.
+- The trial-level registered outcome is ΔPLV = PLVroom − PLVref.
+- The session, not the individual reset event, is the unit of replication. Each session supplies one ΔPLV value per code.
+Fixed secondary objective outcomes: microphone/reference transfer gain at exactly 39 Hz; and reference-normalized 20–80 Hz RMS during the fixed 0–250 ms window after each reset marker. Any alternative band, window, filter, spatial point, aggregation, or outcome is exploratory.
+
+11. Exclusions fixed before unblinding
+- Exclude a trial only for recorder dropout, failed or missing reference, tempo/carrier outside tolerance, onset misalignment beyond one sample, clipping above 0.1% of samples, equipment movement, an unplanned room interruption, or an early safety stop.
+- Do not exclude a trial because its primary value is an outlier or contradicts a favored model.
+- A session missing any one of its three conditions is excluded from the paired primary test but retained descriptively.
+- Log exclusions under code before opening the condition key.
+- No post-unblinding replacement trials enter the confirmatory set.
+12. Analysis lock and statistics
+- While still blinded, freeze the preprocessing code, software version, input hashes, exclusions, per-code ΔPLV values, secondary outcomes, and blind-integrity statement.
+- Create a timestamped analysis-lock record and name the corresponding Google Docs version.
+- Only then open the sealed condition key once.
+- Use the six sessions as paired blocks.
+- Registered contrast 1 — square anchor: Csquare = ΔPLV169 − mean(ΔPLV168, ΔPLVexact).
+- Registered contrast 2 — exact precision: Cprecision = ΔPLVexact − ΔPLV168.
+- Enumerate all six label permutations within each of the six three-condition blocks, for 6⁶ = 46,656 assignments, and use the maximum absolute contrast statistic to control familywise error across the two registered contrasts.
+- Report raw condition values, contrast estimates, familywise p-values, session-wise directions, and uncertainty intervals.
+- A candidate-level separation requires familywise p ≤ 0.05 and the same registered direction in at least 5 of 6 valid sessions. One attractive session or one uncorrected statistic is insufficient.
+13. Frozen interpretation rules
+- Ordinary mismatch only: the reference exhibits the closure ordering, the room largely follows it, and ΔPLV adds no replicated condition-specific separation.
+- Square-anchor candidate: Csquare is positive, familywise-significant, present in at least 5 of 6 valid sessions, and not already explained by the reference signal.
+- Exact precision candidate: Cprecision is positive, familywise-significant, present in at least 5 of 6 valid sessions, and not already explained by the reference signal.
+- Closure-family candidate: 168 and exact both exceed 169 in room-over-reference residuals, with no reliable exact-versus-168 separation.
+- Neither / unresolved: manipulation failure, broken synchronization, insufficient valid sessions, inconsistent direction, or no corrected separation.
+- Any surviving result remains a prospective acoustic candidate. It does not by itself establish a broader physical mechanism.
+Forbidden retrofits: no new carrier, tempo, constant, phase rule, waveform, microphone position, filter band, time window, endpoint, subgroup, exclusion, or trial duration may be promoted into the confirmatory analysis after outcomes are opened. New analyses must be labeled exploratory and tested in a separately frozen replication.
+
+14. Run and deviation ledger
+Phase H status (exact archival reproduction / document-based reconstruction / not run): ______________________________
+Phase H deviations: ______________________________
+Phase C synchronization class (full phase-capable / exploratory unsynchronized): ______________________________
+Blind holder or automated launcher: ______________________________
+Blind integrity before analysis lock: ______________________________
+Valid sessions: ______________________________
+Excluded trials/sessions and fixed reasons: ______________________________
+Analysis code/version/hash: ______________________________
+Analysis-lock timestamp/version: ______________________________
+Key opened timestamp: ______________________________
+Registered verdict (ordinary mismatch / square anchor / exact precision / closure family / neither-unresolved): ______________________________
+Confirmatory result summary: ______________________________
+Exploratory findings, kept separate: ______________________________
+Protocol deviations: ______________________________
+
+15. Final claim ledger
+Exact arithmetic: established before this run.
+Phase-closure calculation: established before this run.
+Historical April 23 condition: preserved separately; reproduction status must be stated exactly.
+Cross-document offset recognition: retrospective/post-hoc.
+Physical significance of offset: to be adjudicated only by the locked Phase C comparison.
+Mechanism: not established by arithmetic, source-phase verification, subjective impression, or a single run.
+
+
+[Hyperlink targets preserved from native document]
+https://docs.google.com/document/d/1EXJj469QPdtGaXaj6JAJtzGoDL-OMfT_EMi9QdKu7O4/edit
+https://docs.google.com/document/d/1fbor1XUwGo1ks_FLiBimROAVsFwj3GWpZq_byTV3y7E/edit
+https://docs.google.com/document/d/1zVYF90ZmusLvcI_dFzW9u1CqK5Lt9p9VvQmLj0GjDB0/edit
+https://docs.google.com/spreadsheets/d/1RzPSXSLTYdGaI-7jm45raPsHOZ55dDzUfykDkpVoz-U/edit

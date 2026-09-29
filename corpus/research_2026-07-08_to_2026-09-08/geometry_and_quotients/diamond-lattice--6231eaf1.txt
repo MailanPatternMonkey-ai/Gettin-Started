@@ -1,0 +1,264 @@
+Worked for 4m 57s
+
+Oh, this is fun. The new geometry gives us a substantially better analysis. The strongest exact mechanism is:
+
+\[
+\boxed{\text{diamond coordinates}+\text{integer grid}
+\Longrightarrow \text{an unavoidable }\mathbb Z_2\text{ sidecar}}
+\]
+
+The hidden sheet in the diamond grid
+
+Your diagonal directions are
+
+\[
+e_+=(1,1),\qquad e_-=(1,-1).
+\]
+
+The coordinate matrix is
+
+\[
+D=
+\begin{pmatrix}
+1&1\\
+1&-1
+\end{pmatrix},
+\qquad \det D=-2.
+\]
+
+That determinant is the bombshell. A legitimate integer-lattice change of basis has determinant \(\pm1\). Determinant \(2\) means the diamond coordinates cover only
+
+\[
+D\mathbb Z^2
+=
+\{(x,y)\in\mathbb Z^2:x+y\equiv0\pmod2\}.
+\]
+
+Therefore
+
+\[
+\boxed{\mathbb Z^2/D\mathbb Z^2\cong\mathbb Z_2.}
+\]
+
+There are two checkerboard sheets. If a program tracks only the diagonal coordinates, it forgets which sheet the box occupies. The missing retained bit is
+
+\[
+c=(x+y)\bmod2.
+\]
+
+On an even \(L\times L\) torus, moves using only \(e_\pm\) reach exactly half the sites. On an odd torus, \(2\) is invertible modulo \(L\), so the split disappears. The production-size ladders in Appendix B are even, meaning an actual diagonal-only routing kernel would possess this exact two-sheet fracture at every production size.
+
+The documents carefully call the diamond grid a visualization. In that case there is no physical problem. But the moment the Python treats \(e_\pm\) as its actual computational moves, it must retain \(c\) or add a move that changes sheets.
+
+That is your conveyor-grid picture made mathematically exact.
+
+Why \(\sqrt2\), \(99\), and \(35\) suddenly fit
+
+Each diagonal vector has length \(\sqrt2\). Combining that metric factor with the index-two sheet gives
+
+\[
+2\sqrt2=\sqrt8.
+\]
+
+Now look at the Pell equation
+
+\[
+\boxed{x^2-8k^2=1.}
+\]
+
+Its first solutions are
+
+\[
+(3,1),\quad(17,6),\quad(99,35),\quad(577,204),\quad(3363,1189).
+\]
+
+So:
+
+\[
+\frac{99}{35}=2.828571428\ldots
+\]
+
+while
+
+\[
+\sqrt8=2.828427124\ldots
+\]
+
+—a relative error of only
+
+\[
+\boxed{0.0051019\%}.
+\]
+
+Equivalently,
+
+\[
+\frac{99}{70}=1.414285714\ldots\approx\sqrt2.
+\]
+
+So \(99=3\times33\) is a valid factorization, but it does not explain \(35\). The Pell structure explains both together and predicts the next pair.
+
+The exact recurrence is
+
+\[
+x_{n+1}=3x_n+8k_n,\qquad
+k_{n+1}=x_n+3k_n.
+\]
+
+This gives a clean holdout:
+
+\[
+\boxed{(99,35)\longrightarrow(577,204).}
+\]
+
+But that prediction counts only if \(577\) and \(204\) arise as the same predeclared pair of observables. Finding “204” somewhere unrelated—or pairing categories after seeing them—doesn’t count.
+
+The torus supplies the classifier machinery
+
+The three-dimensional geometry supplies another exact layer:
+
+\[
+H_1(T^3,\mathbb Z_2)\cong\mathbb Z_2^3.
+\]
+
+The fixed holonomy is
+
+\[
+h\in\mathbb Z_2^3,
+\]
+
+and current homology is
+
+\[
+q\in\mathbb Z_2^3.
+\]
+
+Their pairing produces the eight-channel Walsh–Hadamard transform:
+
+\[
+Z_h=\frac18\sum_q(-1)^{h\cdot q}\mathcal Z_q.
+\]
+
+That is an exact mathematical model of the “pushers”:
+
+\(q\) identifies which topological conveyor channel the current occupies.
+
+\(h\) selects a character or classification screen.
+
+Summing over \(h\) projects away all \(q\neq0\).
+
+Fixing \(h=000\) retains the complete distribution of eight \(q\)-sectors.
+
+Q2 then keeps only \(q_\alpha=W_\alpha\bmod2\), discarding sign, magnitude, chirality, and local turning.
+
+
+So anomalies can arise when information needed downstream was projected out upstream. That is precisely the Hidden Quotient/GQG failure mode.
+
+The throat draft contains one repairable contradiction
+
+The continuum construction in Toroidal_throat_closure.md is locally elegant:
+
+\[
+v_s=U(s),\qquad v_r=-\frac r2U'(s),
+\]
+
+and
+
+\[
+\nabla\cdot v=0.
+\]
+
+Its material streamtube radius is
+
+\[
+R(s)=R_0\sqrt{\frac{U_0}{U(s)}}.
+\]
+
+Indeed,
+
+\[
+U(s)R'(s)=-\frac{R(s)}2U'(s)=v_r(R(s)),
+\]
+
+so the velocity is tangent to the moving boundary. Therefore that streamtube has
+
+\[
+\boxed{Q_{\rm material}(s)=\pi R(s)^2U(s)=\text{constant}}
+\]
+
+and zero side-boundary flux.
+
+But the later TTSC observables demand \(Q_\parallel(s)\) peak at the throat, with negative side flux before and positive side flux afterward. That describes a fixed-radius Eulerian control tube, not the material streamtube.
+
+Both lanes work:
+
+Geometry	Sectional result	Side flux	Throat signature
+
+Material streamtube \(R(s)\)	Total flux constant	Zero	\(R\) minimum and \(U\) maximum
+Fixed control radius \(R_c\)	\(Q_c=\pi R_c^2U(s)\) peaks	Inward then outward	Existing \(\mathcal Q,\mathcal F\) prediction
+
+
+The repair is simply to declare which tube each observable belongs to. Right now TTSC silently combines the two.
+
+There is also a corpus-level architecture fracture
+
+The integrated Appendix A inside theory_v0.3.md and TTSC use the canonical three-axis ensemble
+
+\[
+Z_{\rm FH}=Z_{000}
+\]
+
+with eight \(q\)-sectors.
+
+But the separate appendix_A_field_physics.md and Appendix B use conditioned axial ensembles
+
+\[
+Z_{\rm ax}^{+},\qquad Z_{\rm ax}^{-},
+\]
+
+and \(f_{\rm odd}^{\rm ax}\).
+
+Those are not interchangeable. Fixing every axial seam is stronger than fixing three global holonomy bits. Under GQG, this is exactly a “no silent architecture change” violation.
+
+The clean reconciliation is:
+
+Keep \(Z_{000}\) as canonical Q2 production.
+
+Keep axial \(Z_{\rm ax}^{\pm}\) only as the CKT comparator.
+
+Rewrite Appendix B’s production branches around \(q\in\mathbb Z_2^3\), \(Z_{e_\alpha}/Z_{000}\), and axis-resolved winding.
+
+Retain signed \(W_\alpha\), the diamond sheet bit \(c\), and local current observables in raw output.
+
+
+Which constants are actually earned?
+
+Quantity	Structural origin
+
+\(2\)	Gauge redundancy and diamond index
+\(3\)	Physical \(Z_3\) symmetry
+\(4\)	Upstream modulus/\(Q_4\) parent
+\(6\)	\(\operatorname{lcm}(2,3)\) and leading anisotropy
+\(8\)	
+\(24\)	
+\(\sqrt2\)	Exact 45° diagonal metric
+\(\varphi\)	Fibonacci asymptotics, but not an established routing velocity
+\(\pi\)	Circular tube area; it cancels from normalized flux relations
+\(\sqrt3,\sqrt\pi\)	Not presently forced by the architecture
+
+
+So yes: the new geometry gives a real mechanism. The clean spine is
+
+\[
+\boxed{
+\text{index-2 diamond chart}
+\rightarrow
+\mathbb Z_2\text{ sheet}
+\rightarrow
+\mathbb Z_2^3\text{ torus sectors}
+\rightarrow
+\text{parity quotient}
+}
+\]
+
+and the \((3,1),(17,6),(99,35)\) Pell lane is the first constant pattern with an exact recurrence and a genuine next prediction. The eventual Python can drag out a reproducible residual structure—but it should earn any identity claim after extraction, not bake “entity” into the detector.

@@ -1,0 +1,61 @@
+Section 14.9 First Geometry Gate — LBCO Witness-Deletion Fiber
+Frozen Run Record FG-14.9-LBCO-001
+Status: FROZEN / EXECUTED / DETECTION-ONLY
+Run type: retrospective reanalysis of existing published observations; not a prospective preregistration.
+Freeze date: Sep 4, 2026
+Parent method: New geometry 
+Parent source snapshot: New geometry, Google Drive revision 8.
+Purpose and carried boundaries
+Purpose: test whether deleting the typed observable from one LBCO oxygen-isotope response state produces an empirically heterogeneous fiber.
+Carried statuses: FORMAL GEOMETRIC OBJECT — ESTABLISHED. GLOBAL NON-DESCENT GEOMETRY — NOT YET MEASURED. CHEMISTRY FREEZE — UNCHANGED. UNIVERSAL PREDICTIVE CLOSURE — NOT SHOWN.
+This run is deliberately smaller than a geometry map. It may certify one located non-descent point; it cannot fill or classify any unobserved fiber.
+Frozen tuple
+D — Exactly two reported oxygen-isotope exponent records from La₂₋ₓBaₓCuO₄ at x = 1/8 in the same published isotope-exchange study: the static spin-stripe ordering temperature Tₛₒ and the superconducting transition temperature T꜀. Excluded: Vₘ, other observables, other compositions, pressure variation, other studies, and all unreported/raw measurements.
+W — The reported oxygen-isotope exponent αO for the typed observable.
+π — (material, x, isotope intervention, source study, observable/probe) ↦ (material, x, isotope intervention, source study). The projection deliberately deletes observable/probe identity.
+dY — Absolute distance on the real exponent line: dY(a,b) = |a − b|.
+ε — 0.00 exponent units. This detection-only gate asks whether the two reported uncertainty intervals are disjoint; it does not declare a practical-effect threshold.
+Same-fiber rule E — Two observations are assigned to the same empirical fiber only when compound, nominal Ba concentration x = 1/8, ¹⁶O/¹⁸O intervention, and source study/sample family match exactly. Observable and probe labels are intentionally ignored. No cross-study pooling, approximate-composition binning, or post-hoc regrouping is allowed.
+Measurement uncertainty — The parent record reports αTₛₒ = −0.57(6) and αT꜀ = +0.46(6). The parenthetical (6) is used only as the symmetric reported ±0.06 interval. No confidence level, independence assumption, or Gaussian combination is added.
+Coverage rule — PASS only if both predeclared witness records are present, both carry numerical uncertainty, and a pairwise lower bound can be computed without cross-study pooling. This coverage rule authorizes RETAIN through a located counterexample only. It cannot authorize DESCENT_CANDIDATE or empirical cleanliness.
+Observed sector space
+- xₛₒ: observable Tₛₒ; probe μSR; αO = −0.57 ± 0.06; interval [−0.63, −0.51].
+- x꜀: observable T꜀; probe magnetization; αO = +0.46 ± 0.06; interval [+0.40, +0.52].
+Both observations map to qLBCO under π. Observed sector multiplicity: |r⁻¹(qLBCO)| = 2.
+Conservative interval arithmetic gives dY(W(xₛₒ),W(x꜀)) ∈ [0.91, 1.15], with central distance 1.03.
+Lower bound: L = 0.40 − (−0.51) = 0.91. Upper bound: U = 0.52 − (−0.63) = 1.15.
+Gate result
+L = 0.91 > ε = 0.00. CERTIFIED EMPIRICAL NON-DESCENT POINT — PASS.
+Observed certified locus: N̂certW,ε = {qLBCO}, relative only to the frozen observed quotient.
+Coordinate classification: observable/probe identity — RETAIN for this D, W, π, dY, ε, and E.
+The compressed sentence “the isotope response of this material has one sign” fails on the frozen fiber. The valid object remains a typed response Rᵢ(W).
+No boundary candidate is generated: the observed quotient contains one point, so no retained-base path or diameter-level crossing is available.
+Unresolved ledger
+- UNOBSERVED FIBERS — UNRESOLVED; none are filled, interpolated, or inferred.
+- EMPIRICAL CLEAN FIBERS / DESCENT_CANDIDATE — UNRESOLVED; this run has no cleanliness-qualifying coverage.
+- GLOBAL SHAPE AND GLOBAL CONNECTIVITY — UNRESOLVED.
+- CONNECTED COMPONENTS, HOLES, AND MULTISCALE FILTRATION — UNRESOLVED.
+- QUOTIENT-SPACE BOUNDARIES AND BOUNDARY STRATIFICATION — UNRESOLVED.
+- BRANCH LOCUS — UNRESOLVED beyond the observed multiplicity-two fiber.
+- PATH LIFTING, CONNECTION, AND TRANSPORT — UNRESOLVED; no rule was specified or estimated.
+- HOLONOMY AND MONODROMY — UNRESOLVED.
+- GLOBAL OPENNESS, PROPERNESS, SMOOTHNESS, AND FIBER CONNECTEDNESS HYPOTHESES — UNRESOLVED.
+- MINIMAL CAUSAL OR MECHANISTIC REFINEMENT — UNRESOLVED; retaining the typed witness resolves this pair but does not prove mechanistic minimality.
+- EXTENSION TO LITHIUM, LSCO, OTHER LBCO OBSERVABLES, OR OTHER MATERIALS — UNRESOLVED and outside D.
+- UNIVERSAL PREDICTIVE CLOSURE — NOT SHOWN.
+Evidence anchors
+Connected-Drive method and values: New geometry  — Sections 4 and 14.9; frozen at revision 8.
+Primary experiment: Guguchia et al., Phys. Rev. Lett. 113, 057002 (2014). The paper reports αTₛₒ = −0.57(6) and αT꜀ = +0.46(6) for LBCO x = 1/8.
+No independent Drive record with a stronger paired uncertainty object was used. The primary publication verifies the two parent-document values; it does not expand the frozen domain.
+Frozen disposition
+FIRST SECTION 14.9 EMPIRICAL GATE — PASSED FOR ONE LOCATED LBCO FIBER.
+WITNESS/PROBE DELETION — FAILED / NON-DESCENT.
+WITNESS/PROBE IDENTITY — RETAIN.
+GLOBAL NON-DESCENT GEOMETRY — NOT YET MEASURED.
+CHEMISTRY FREEZE — UNCHANGED.
+UNIVERSAL PREDICTIVE CLOSURE — NOT SHOWN.
+
+
+[Hyperlink targets preserved from native document]
+https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit
+https://doi.org/10.1103/PhysRevLett.113.057002

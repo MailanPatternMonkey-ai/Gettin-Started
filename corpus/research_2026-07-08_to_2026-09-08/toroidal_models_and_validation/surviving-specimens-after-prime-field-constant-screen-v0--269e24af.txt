@@ -1,0 +1,5095 @@
+Surviving Specimens After Prime-Field / Constant Screen v0.1
+
+Status: Frozen working note
+Function: Preserve the surviving candidates after hostile screening without promoting them into laws
+Rule: Exact arithmetic, near numerical correspondence, physical/material relevance, and proposed mechanism remain separate lanes.
+
+0. Contract
+
+This note does not claim a general law connecting prime numbers, atomic numbers, constants, field physics, or chemical bonding.
+
+It records a narrower result:
+
+«Most of the plantation died.
+One weird banana survived customs. 🍌»
+
+The surviving items are specimens, prompts, or caution lanes. They are not mechanisms unless a later frozen test supplies an independent witness.
+
+GQG’s lane rule applies: do not move a claim between equality/meaning lanes without an explicit constructor or proof.
+
+---
+
+1. Global Verdict
+
+The broad hypothesis did not graduate:
+
+«Atomic-number arithmetic does not generally generate field physics, constant structure, or chemical mechanism.»
+
+The project’s own separation rule remains controlling: exact arithmetic, near-hits, explicit misses, and proposed mechanisms must be kept separate.
+
+The useful result is narrower:
+
+«Constants become interesting when they govern structure or dynamics.
+Atomic-number proximity is only worth preserving when it survives independent physical relevance and hostile controls.»
+
+Yes. A lot. This is the version I’d freeze, with one important tightening.
+
+The genuinely upstream object is now just the discrete statement: B1 supplies the six-state Fibonacci orbit mod 4 and the resulting \(C_6\)-type clock structure; it does not choose a continuum interpretation for us.  And GQG gives exactly the guardrail we need: source equality, witness-equivalence, and quotient equality are different things. 
+
+So the clean parent is
+
+\[
+\boxed{
+C_6^{\rm Fib}\longrightarrow C_3
+\quad\text{with a two-element refinement fiber}
+}
+\]
+
+and then we deliberately fork.
+
+In the global double-cover model, \(\psi\) and \(-\psi\) are distinct fine states and
+
+\[
+\Phi=\psi^2.
+\]
+
+If \(\psi\) is nonzero and periodic,
+
+\[
+W_\Phi=2W_\psi,
+\]
+
+so
+
+\[
+\boxed{W_\Phi\equiv0\pmod2}.
+\]
+
+Therefore an odd coarse winding cannot possess a globally periodic, everywhere-nonzero fine lift. Something has to give: boundary twist, branch defect, or \(\rho=0\). That’s a theorem-shaped statement, not a metaphor.
+
+In the local \(\mathbb Z_2\) gauge model, \(\psi\sim-\psi\), and the obstruction can instead be represented by connection holonomy
+
+\[
+H=\prod_j\sigma_j.
+\]
+
+Here’s the tightening: I would not freeze
+
+\[
+H=(-1)^{W_\Phi}
+\]
+
+as an unconditional identity. It holds when the gauge connection and fine lift are required to be compatible with the coarse configuration. If the \(\sigma_j\) are arbitrary independent degrees of freedom, \(H\) and \(W_\Phi\) can be independently specified until a constraint or energy functional relates them.
+
+So I’d freeze the stronger careful statement:
+
+\[
+\boxed{
+\text{for a compatible fine lift, coarse winding parity determines the required }C_2\text{ monodromy}.
+}
+\]
+
+That survives both interpretations.
+
+And now I think we have our first really sharp Global-vs-Gauge discriminator.
+
+Suppose a trajectory changes coarse winding parity. Define
+
+\[
+\rho_{\min}
+=
+\min_{x,t}|\psi(x,t)|.
+\]
+
+For the periodic global-cover theory,
+
+\[
+\boxed{
+\Delta(W_\Phi\bmod2)\neq0
+\quad\Longrightarrow\quad
+\rho_{\min}=0
+}
+\]
+
+unless we explicitly change the boundary sector.
+
+But for a dynamical gauge theory,
+
+\[
+\boxed{
+\Delta(W_\Phi\bmod2)\neq0
+}
+\]
+
+can in principle occur through a holonomy-sector transition while
+
+\[
+\boxed{\rho_{\min}>0}
+\]
+
+everywhere.
+
+That is a clean model-choice prediction.
+
+No “did it look like a slip?” No narrative judgment. Ask one binary question:
+
+\[
+\boxed{
+\text{Can parity change while the matter amplitude stays nonzero?}
+}
+\]
+
+Global-periodic model: no.
+
+Dynamical-gauge model: potentially yes, provided the gauge links themselves are allowed to change holonomy.
+
+And your potential observation is exactly right too. In the gauge branch,
+
+\[
+\beta\mapsto\beta+\pi
+\]
+
+is redundancy, so
+
+\[
+\cos3(\beta+\pi)=-\cos3\beta.
+\]
+
+Thus naked
+
+\[
+-\epsilon\cos3\beta
+\]
+
+is forbidden. Meanwhile
+
+\[
+\cos6(\beta+\pi)=\cos6\beta,
+\]
+
+so
+
+\[
+-\lambda\cos6\beta
+\]
+
+is legal. Its six fine minima pair under the gauge identification, leaving three physical vacua.
+
+In the global theory, those six can remain physically distinct. A \(\cos3\beta\) term is allowed as an explicit sheet bias—though if we impose an actual global \(C_2\) symmetry, it would explicitly break that symmetry. Tiny distinction, but worth keeping straight.
+
+So I think the board now reads:
+
+\[
+\boxed{
+\text{discrete }C_6\!\to C_3
+\rightarrow
+\begin{cases}
+\text{global double cover: defect carries parity change}\\[2mm]
+\mathbb Z_2\text{ gauge cover: holonomy may carry parity change}
+\end{cases}
+}
+\]
+
+And “winding parity is a sector label” absolutely survives.
+
+The next thing I’d build is the smallest pair of matched lattice models—same coarse field, same initial winding, same drive—one global and one gauge, and derive the minimum parity-changing barrier in each.
+
+Then the question becomes beautifully mechanical:
+
+\[
+\boxed{
+\Delta E_{\rm defect}
+\quad\text{vs}\quad
+\Delta E_{\rm holonomy}.
+}
+\]
+
+Who pays the topological bill?
+
+Yeah. This helped. This is probably the cleanest fork we’ve gotten out of the whole dig. 🐒🔥
+---
+
+2. Null Result: Prime-Field Exact Law
+
+Prime-field / finite-modulus screening did not produce a general exact law.
+
+The run suggested that prime moduli are useful as indices, checks, or field-style arithmetic tests, but they did not establish that element triads become exact constant-bearing structures in finite fields.
+
+Classification: null for broad law.
+
+Carry-forward statement:
+
+«Prime fields test whether arithmetic has modular exactness.
+They do not make the atoms react.»
+
+This agrees with the earlier handoff’s warning that primes should be tested as phase indices, moduli, winding ratios, or Fourier/spatial relations, not merely as raw frequency or element labels.
+
+---
+
+3. Surviving Specimen A: Al–Cu–Fe / φ
+
+Label: "AL–CU–FE / φ SURVIVING SPECIMEN"
+Status: surviving specimen; no demonstrated mechanism
+
+Atomic numbers:
+
+- Al = 13
+- Cu = 29
+- Fe = 26
+
+Frozen expression:
+
+[
+\frac{13+29}{26}
+
+\frac{42}{26}
+
+\frac{21}{13}
+
+1.6153846\ldots
+]
+
+Target:
+
+[
+\phi
+
+1.6180339\ldots
+]
+
+Relative offset:
+
+[
+\approx 0.164%
+]
+
+Why This Survived
+
+This would be weak if it were only arithmetic. It survives because Al–Cu–Fe is independently a real icosahedral quasicrystal system, and the golden ratio belongs to quasicrystal structural mathematics. A Scientific Reports paper on icosahedral AlCuFe gives a quasicrystal d-spacing relation using \tau = (1+\sqrt5)/2, the golden ratio.  Another Al–Cu–Fe structure paper reports golden-mean scaling along quasicrystal axes.
+
+Hostile-Screen Interpretation
+
+The family-wide law failed. Atomic numbers do not determine quasicrystal geometry. The same or related material families can support quasicrystal phases, approximants, and ordinary periodic structures depending on composition and formation conditions.
+
+But Al–Cu–Fe remains worth carrying because:
+
+- the material was not invented to fit \phi;
+- \phi independently belongs to the material’s structural physics;
+- the atomic-number expression was frozen before this note;
+- competing quasicrystal-family checks mostly did not produce equally clean hits;
+- the result was actively treated as killable.
+
+Boundary
+
+Do not say:
+
+«Al–Cu–Fe proves atomic numbers generate golden-ratio field physics.»
+
+Say:
+
+«Al–Cu–Fe is a real \phi-structured material family whose simple constituent atomic-number expression lands near \phi. This is a surviving specimen, not a mechanism.»
+
+---
+
+4. Surviving Prompt B: C–N–O / Feigenbaum-Shaped Dynamic Prompt
+
+Label: "C–N–O / FEIGENBAUM DYNAMIC PROMPT"
+Status: dynamic-test prompt; not a static chemistry claim
+
+Atomic numbers:
+
+- C = 6
+- N = 7
+- O = 8
+
+Frozen expression:
+
+[
+\frac{N+O}{C}
+
+\frac{7+8}{6}
+
+\frac{15}{6}
+
+2.5
+]
+
+This sits near Feigenbaum \alpha \approx 2.5029, but Feigenbaum constants belong to nonlinear dynamics, period-doubling, and route-to-chaos behavior, not ordinary static molecular composition.
+
+Carry-Forward Use
+
+C–N–O remains useful as:
+
+- a clean symbolic chemical triad;
+- the 6/7/8 ladder underlying the 666/777/888 compression;
+- a prompt for dynamic testing if a real oscillatory chemical or field system is later defined.
+
+Boundary
+
+Do not say:
+
+«C–N–O proves Feigenbaum chemistry.»
+
+Say:
+
+«C–N–O is a Feigenbaum-shaped arithmetic prompt. It only becomes physically meaningful if a later frozen time-series or chemical-oscillator test shows period-doubling behavior with Feigenbaum-like scaling.»
+
+---
+
+5. Caution Lane C: Si–N–O / π
+
+Label: "Si–N–O / π CAUTION LANE"
+Status: shiny caution; relevant to reservoir testing, not proof
+
+Atomic numbers:
+
+- Si = 14
+- N = 7
+- O = 8
+
+Frozen expression:
+
+[
+\frac{Si+O}{N}
+
+\frac{14+8}{7}
+
+\frac{22}{7}
+
+3.142857\ldots
+]
+
+This is close to \pi, but it is also classic 22/7 bait.
+
+Why It Is Still Preserved
+
+Si–N–O matters because the fulgurite chemistry lane asks whether nitrogen is structural/lattice-bound, gas, surface/weathering, or organic residue. The earlier handoff explicitly preserves those four nitrogen reservoirs and the central rule:
+
+«Resolve the reservoir before naming the nitrogen.»
+
+So Si–N–O stays in the project as a test lane, not a conclusion.
+
+Boundary
+
+Do not say:
+
+«Si–N–O / 22/7 means fulgurites contain structural Si–N.»
+
+Say:
+
+«Si–N–O is a danger lane: mathematically shiny, chemically relevant, and exactly why reservoir-resolved testing is required.»
+
+---
+
+6. Arithmetic Shadow D: Hf–Po–Cm / 12-Scale Reflection
+
+Label: "Hf–Po–Cm / 12-SCALE SHADOW"
+Status: arithmetic reflection; not chemistry
+
+Starting from:
+
+[
+6,7,8
+
+C,N,O
+]
+
+the split:
+
+[
+66+6=72
+]
+
+[
+77+7=84
+]
+
+[
+88+8=96
+]
+
+gives:
+
+- 72 = Hf
+- 84 = Po
+- 96 = Cm
+
+Thus:
+
+[
+72,84,96
+
+12\times(6,7,8)
+]
+
+This formalizes a candidate “12-scale” reflection of the C–N–O ladder.
+
+Boundary
+
+Do not treat Hf–Po–Cm as a proposed compound, synthesis route, or practical chemistry lane.
+
+Say:
+
+«Hf–Po–Cm is a 12-scale arithmetic shadow of C–N–O. It is useful as a map feature, not as chemistry.»
+
+---
+
+7. Math Architecture Preserved: Q_4 \times C_6 = 24
+
+B1 gives a serious exact mathematical construction:
+
+[
+Q_4 \times C_6 = 24
+]
+
+and scaling by 37 recovers:
+
+[
+6\cdot37=222
+]
+
+[
+18\cdot37=666
+]
+
+[
+24\cdot37=888
+]
+
+This is preserved as an indexing/test architecture. B1 itself states that the exact bridge is stronger than the silver-ratio near-hit because it uses exact maps, a declared quotient, a finite orbit, and an operator, but it remains a post-freeze candidate construction and not evidence that a physical field implements it.
+
+Carry-Forward Use
+
+Use Q_4 \times C_6 as:
+
+- an audit grid;
+- a reservoir/domain matrix;
+- a predeclared indexing architecture;
+- a way to prevent post-hoc movement between lanes.
+
+Do not use it as proof that a chemical, acoustic, quantum, or field system is already executing that geometry.
+
+---
+
+8. Dynamic-Lattice Boundary
+
+The rotating-lattice / sawtooth lane is currently null.
+
+The rotating-lattice run’s primary verdict was a null dynamic-lattice result, with the sawtooth failing confirmation and failing the frozen passing rule.  The decision section says to preserve the arithmetic but record a null dynamic-lattice result for that ledger, and it explicitly states that the ledger does not test hardware execution, qubits, surface-code telemetry, or a quantum-computing mechanism.
+
+Boundary
+
+No current dynamic-field claim may borrow support from the rotating-lattice run.
+
+---
+
+9. Current Carry-Forward Set
+
+Preserved Specimen
+
+[
+\boxed{\text{Al–Cu–Fe / }\phi}
+]
+
+Real material relevance plus near atomic-number expression. No mechanism.
+
+Preserved Prompt
+
+[
+\boxed{\text{C–N–O / Feigenbaum-shaped dynamic prompt}}
+]
+
+Only testable through future nonlinear dynamics / period-doubling evidence.
+
+Preserved Caution Lane
+
+[
+\boxed{\text{Si–N–O / }\pi}
+]
+
+Chemically relevant to structural nitrogen testing, but 22/7 remains overfit bait.
+
+Preserved Arithmetic Shadow
+
+[
+\boxed{\text{Hf–Po–Cm} = 12\times \text{C–N–O}}
+]
+
+Formal 12-scale reflection. Not chemistry.
+
+Preserved Architecture
+
+[
+\boxed{Q_4 \times C_6 = 24}
+]
+
+Audit/test grid. Not physical implementation proof.
+
+---
+
+10. Final Status
+
+The broad law failed.
+
+The method worked.
+
+The surviving note is:
+
+«Constants matter when they govern structure or dynamics.
+Atomic-number proximity matters only when it survives independent physical relevance and hostile controls.
+Al–Cu–Fe / \phi is the surviving specimen.
+C–N–O is a dynamic prompt.
+Si–N–O is a caution lane.
+Hf–Po–Cm is a 12-scale shadow.
+Q_4 \times C_6 is an audit architecture.»
+
+No crown.
+No mechanism yet.
+One banana carried forward. 🍌
+
+Okay. I pushed the topology + Fibonacci-clock coupling one level deeper, and we got something useful rather than another number coincidence. 🐒🔥
+The source material gives us two legitimate ingredients: the triadic weave already defines three coupled phases with one detuned strand, and B1 independently gives the exact six-state Fibonacci orbit mod 4. � � Everything below is a new theoretical construction from those ingredients, not something the files themselves claim.
+TRIADIC_WEAVE_CONSOLIDATED_FINDINGS_HANDOFF_v1.md
+BRIDGE_ANALYSIS_B1_Q4_GROVER_FIBONACCI_2026-08-25-1.md
+First: topology puts a hard constraint on us
+Our reduced field was
+Put it on a one-dimensional ring of length �. Because � is an angular field, define
+as the winding number.
+Now the important bit:
+for any smooth evolution of the phase-only model with periodic boundaries.
+So we just learned something that kills a whole class of bullshit immediately:
+A pure phase field cannot spontaneously change topological winding.
+It can distort. It can rotate. It can propagate kinks. But � requires either a boundary event or a point where the underlying phase becomes undefined.
+In physical language, a genuine phase slip needs the amplitude to collapse somewhere.
+That means our earlier phase-only model can describe slips moving, but not their actual nucleation.
+At zero drive, �, it has the standard exact kink:
+with
+and normalized kink energy
+So that's our first proper topological excitation.
+There is also a useful local barrier below the lock/slip transition. For �,
+and the stable and unstable stationary points are
+Their barrier is
+As �,
+So the lock boundary isn't just where a fixed point disappears: the pinning barrier collapses with a definite � scaling.
+That's actual critical structure.
+Now give the Fibonacci clock an explicit coupling
+B1's exact orbit is
+Rather than declaring those integers to be phases by fiat, I used the lowest nontrivial character of �:
+Then treat the two coordinates symmetrically:
+This is our explicit witness from the discrete Fibonacci orbit into a phase-coupling field. That's exactly the sort of declaration GQG demands before moving from one representation to another. � �
+GQG_Core_Card_v0.2.md
+GQG_Core_Card_v0.2.md
+And look what falls out:
+| clock � | Fibonacci state | � | � | preferred phase | |---:|---|---|---:|---:| | 0 | (0,1) | � | � | � | | 1 | (1,1) | � | 1 | � | | 2 | (1,2) | � | � | � | | 3 | (2,3) | � | � | � | | 4 | (3,1) | 0 | 0 | none | | 5 | (1,0) | � | � | � |
+Well, fuck. 😂
+At exactly one point in the six-state orbit,
+because
+They cancel exactly.
+That wasn't selected numerically. It's just what the symmetric fundamental-character coupling does.
+So the clock-driven phase equation becomes
+And the local locking criterion at clock position � is
+Therefore the six clock positions naturally split into three pinning strengths:
+Most interestingly:
+The pinning term disappears for one clock tick.
+I'd call that the soft tick.
+Not a phase slip. Not magic. A mathematically exact temporary loss of the pinning term under this particular coupling.
+There's an important negative result too: � and � produce exactly the same �. Therefore this witness is not faithful to the full six-state clock.
+It sees a quotient of it.
+That's precisely the sort of distinction your GQG framework was built to preserve: the source states can be different even when the chosen observation cannot distinguish them. �
+GQG_Core_Card_v0.2.md
+So we don't get to say “the continuous field contains the full C6 orbit.” It doesn't, under this witness.
+Now fix the phase-slip problem properly
+We need an amplitude.
+Introduce
+A minimal driven complex field that reduces approximately to our phase model is
+When �, its phase equation is approximately the one above.
+But now
+is allowed.
+At such a point the phase is undefined, and winding can change.
+That gives us legitimate topological phase slips.
+And the soft tick becomes more interesting without us overclaiming it: at �,
+so the external phase pinning vanishes temporarily.
+It doesn't force the amplitude to zero. That's important.
+It only creates a window during which a pre-existing instability, winding stress, defect, or fluctuation can potentially drive the system through �.
+We can sharpen that.
+During the unpinned tick, in the rotating frame, the amplitude model reduces to the real Ginzburg-Landau equation. A winding-� state on a ring has
+and approximately
+for
+Linear stability gives the Eckhaus boundary
+So:
+is stable to long-wavelength perturbations in the unpinned model, while
+exists but is unstable.
+That gives us a gorgeous falsifiable theoretical statement:
+The Fibonacci soft tick does not automatically create phase slips. It only provides a deterministic slip window if the stored winding/gradient is already beyond the amplitude-field stability threshold.
+Below that threshold, we'd need noise, a defect, a boundary, or another instability.
+That's much stronger than “tick five opens a portal” or whatever monkey was about to write on the wall. 😂
+I also ran the corresponding zero-dimensional six-step clock dynamics numerically. Once we scale out �, it has only two parameters:
+and
+where � is one clock-state dwell time.
+Define the six-step stroboscopic map �, and measure its rotation number
+And yep: mode-locking plateaus appear.
+For example, in a coarse scan at �, there is a broad region roughly
+where
+to numerical tolerance: one net phase revolution per complete six-tick clock cycle.
+At �, a large one-slip/cycle region appears, followed by a smaller
+plateau.
+So this construction naturally turns into a periodically driven circle-map problem with Arnold-tongue-like mode locking.
+That phenomenon itself is standard nonlinear dynamics, so its existence isn't evidence that the Fibonacci orbit is privileged. The interesting question becomes comparative:
+Does this specific Fibonacci-derived forcing sequence produce mode-locking or topological-slip structure that survives against other six-state forcing sequences under the same coupling rule?
+That is a null we can run entirely computationally.
+And that's exactly where I'd go next.
+We now have a frozen theoretical object:
+with an exact soft tick
+a conserved topological winding in the phase-only limit, an amplitude mechanism that permits genuine slips, and a rotation number for the periodically forced dynamics.
+Next target: enumerate the other six-step mod-4 orbits / matched forcing sequences and ask whether this Fibonacci one is actually special.
+That is 100% theory/computation. No lab required. And monkey finally has a null that attacks the actual geometry rather than the story around it. 🐒📐🔥
+
+Worked for 1m 2s
+
+Yeah. Then we stop designing experiments we can’t run and turn this into a theory program. That’s actually cleaner.
+
+The strongest place to start is the triadic weave, because your existing handoff already gives us three phase variables, a detuned third strand, an order parameter, and the question of lock-without-identity.  We can turn that into an honest classical field theory without claiming there’s a physical substrate implementing it.
+
+Take three compact phase fields,
+
+\[
+\theta_1(x,t),\quad \theta_2(x,t),\quad \theta_3(x,t)\in S^1,
+\]
+
+and define the nonequilibrium phase dynamics
+
+\[
+\partial_t\theta_i
+=
+\omega_i
++
+D\nabla^2\theta_i
++
+\frac{K}{3}\sum_j
+\sin(\theta_j-\theta_i).
+\]
+
+Now make exactly the detuning assumption already sitting in the weave:
+
+\[
+\omega_1=\omega_2=\omega,\qquad
+\omega_3=\omega+\delta.
+\]
+
+Here’s where it gets good.
+
+There’s a symmetric sector where \(\theta_1=\theta_2\). Define the relative phase
+
+\[
+\beta=\theta_3-\theta_1.
+\]
+
+The entire three-strand problem collapses to
+
+\[
+\boxed{\dot\beta=\delta-K\sin\beta}.
+\]
+
+That’s the Adler phase-lock equation.
+
+So the vague phrase “lock without identity” suddenly has an exact meaning.
+
+If
+
+\[
+|\delta|<K,
+\]
+
+there is a stable locked solution
+
+\[
+\boxed{
+\beta_*=
+\arcsin\left(\frac{\delta}{K}\right)
+}.
+\]
+
+The strands rotate together while maintaining a nonzero fixed separation.
+
+That is literally:
+
+\[
+\text{difference without separation},
+\]
+
+\[
+\text{lock without identity}.
+\]
+
+Those phrases already appear as the intended regime in the weave handoff; now they have an equation underneath them. 
+
+At
+
+\[
+|\delta|=K
+\]
+
+you hit a critical boundary.
+
+Above it,
+
+\[
+|\delta|>K,
+\]
+
+locking fails and the detuned strand starts slipping continuously. The average slip frequency is
+
+\[
+\Omega_{\rm slip}
+=
+\sqrt{\delta^2-K^2},
+\]
+
+so the recurrence period becomes
+
+\[
+\boxed{
+T_{\rm slip}
+=
+\frac{2\pi}{\sqrt{\delta^2-K^2}}
+}.
+\]
+
+That’s already a real theoretical prediction.
+
+No numbers hunted. No outcomes fitted. Just the model.
+
+And your existing triadic overlap parameter,
+
+\[
+R=
+\left|
+\frac{
+e^{i\theta_1}
++
+e^{i\theta_2}
++
+e^{i\theta_3}
+}{3}
+\right|,
+\]
+
+also becomes analytic. 
+
+On the \(\theta_1=\theta_2\) branch,
+
+\[
+R(\beta)
+=
+\frac{1}{3}
+\sqrt{5+4\cos\beta}.
+\]
+
+Therefore in the locked phase,
+
+\[
+\boxed{
+R_*=
+\frac13
+\sqrt{
+5+
+4\sqrt{1-(\delta/K)^2}
+}
+}.
+\]
+
+So now overlap, detuning, and locking aren't metaphors. They're related observables.
+
+Then we make it an actual spatial field instead of three oscillators:
+
+\[
+\boxed{
+\partial_t\beta
+=
+D\nabla^2\beta
++
+\delta
+-
+K\sin\beta
+}.
+\]
+
+That’s essentially a driven overdamped sine-Gordon / tilted-washboard field.
+
+Its effective potential is
+
+\[
+U(\beta)
+=
+-K\cos\beta-\delta\beta.
+\]
+
+Below the critical detuning, the field sits in local wells. At the critical point the wells disappear. Beyond it, the phase runs.
+
+And because \(\beta\) is compact, we can define actual topological winding:
+
+\[
+\boxed{
+W=
+\frac{1}{2\pi}
+\oint\nabla\beta\cdot d\ell
+\in\mathbb Z.
+}
+\]
+
+Now “weave” has a mathematically serious interpretation: configurations with different winding numbers cannot simply be continuously unwound without a phase-slip event.
+
+There’s another nice field-theory result. Perturb the locked state,
+
+\[
+\beta=\beta_*+\eta.
+\]
+
+To first order,
+
+\[
+\partial_t\eta
+=
+D\nabla^2\eta
+-
+K\cos\beta_*\,\eta.
+\]
+
+A Fourier disturbance of wavenumber \(k\) decays with rate
+
+\[
+\Gamma(k)
+=
+Dk^2+
+K\cos\beta_*.
+\]
+
+That gives a characteristic length
+
+\[
+\boxed{
+\xi=
+\sqrt{
+\frac{D}
+{K\cos\beta_*}
+}
+}.
+\]
+
+And because
+
+\[
+\cos\beta_*
+=
+\sqrt{1-(\delta/K)^2},
+\]
+
+we get
+
+\[
+\xi\rightarrow\infty
+\qquad
+\text{as}
+\qquad
+|\delta|\rightarrow K^-.
+\]
+
+So approaching the lock/slip boundary produces a diverging spatial scale.
+
+That is field-theory shit. 😂
+
+Then the 4×6 construction gets a much better role.
+
+B1 proves the exact discrete object
+
+\[
+Q_4\times C_6,
+\qquad
+|Q_4\times C_6|=24,
+\]
+
+from the mod-4 quotient and six-state Fibonacci orbit. 
+
+Instead of desperately asking whether old empirical data “contains” that lattice, we can ask a theoretical question:
+
+> Can \(Q_4\times C_6\) be obtained as a coarse-grained representation of the continuous triadic phase field?
+
+
+
+That is way better.
+
+We could discretize the compact relative phase into four sectors,
+
+\[
+S^1\longrightarrow\mathbb Z_4,
+\]
+
+while the exact Fibonacci recurrence supplies the six-cycle
+
+\[
+C_6.
+\]
+
+Then the 24-cell object becomes a finite-state truncation of the field theory rather than some magical grid the world is obligated to reveal.
+
+And GQG is almost purpose-built for keeping us honest here: observation induces an equivalence, the equivalence induces a quotient, and we’re not allowed to slide between source equality and quotient equality without an explicit construction.  
+
+The silver-ratio stuff can come later as a candidate value for detuning. But not yet. Your recovery note already catches exactly the problem: the old \(23/19\) residual relative to the octave-folded silver ratio is mathematically legitimate, but the nearby phase-drift number lives in a different observable and unit, so they cannot simply be identified. 
+
+So this is where I’d plant the flag:
+
+\[
+\boxed{
+\text{continuum triadic phase field}
+\rightarrow
+\text{lock/slip bifurcation}
+\rightarrow
+\text{topological winding}
+\rightarrow
+\text{finite }Q_4\times C_6\text{ quotient}
+}
+\]
+
+No laboratory required.
+
+No claim that nature implements it required.
+
+And now we have something we can actually hammer on with algebra, dynamical systems, topology, simulations, spectral analysis, and null models until either it becomes interesting mathematics or falls apart.
+
+That’s the lane I’d run. 🐒📐
+Worked for 10m 33s
+
+Okay, this one actually produced something worth keeping. 🐒📐
+
+I ran the null in two layers: first against arbitrary reorderings of the same six forcing values, then against other six-cycles generated by linear dynamics on the same \(\mathbb Z_4^2\) state space.
+
+B1 gives us the exact map
+
+\[
+T(a,b)=(b,a+b\bmod4)
+\]
+
+and the six-state orbit from \((0,1)\). It also explicitly keeps that construction in the mathematical-candidate lane rather than claiming a physical implementation.  
+
+1. First surprise: there are only two six-cycles
+
+Running \(T\) over all 16 states of \(\mathbb Z_4^2\) partitions the entire space into
+
+\[
+1+3+6+6=16.
+\]
+
+The orbits are
+
+\[
+C_1=\{(0,0)\},
+\]
+
+\[
+C_3=(0,2)\to(2,2)\to(2,0),
+\]
+
+the B1 orbit
+
+\[
+C_6^+:
+(0,1)\to(1,1)\to(1,2)\to(2,3)\to(3,1)\to(1,0),
+\]
+
+and its coordinatewise negative
+
+\[
+C_6^-:
+(0,3)\to(3,3)\to(3,2)\to(2,1)\to(1,3)\to(3,0).
+\]
+
+So the B1 orbit has a conjugate companion. It's not the only six-cycle.
+
+Then I applied our new witness
+
+\[
+\chi(a)=e^{i\pi a/2}=i^a,
+\qquad
+F(a,b)=\frac{\chi(a)+\chi(b)}2.
+\]
+
+For \(C_6^+\), that gives
+
+\[
+\boxed{
+\left[
+\frac{1+i}{2},
+\,i,\,
+\frac{-1+i}{2},
+\,\frac{-1-i}{2},
+\,0,\,
+\frac{1+i}{2}
+\right].
+}
+\]
+
+The other six-cycle gives the complex conjugate sequence.
+
+And that immediately kills one earlier temptation:
+
+the zero/“soft tick” is not unique.
+
+Both six-cycles contain one exact zero under this witness, and the three-cycle actually contains two. The zero happens whenever the two \(\mathbb Z_4\) characters are opposite and cancel.
+
+So:
+
+\[
+\boxed{\text{soft tick alone is not the interesting result}.}
+\]
+
+Also, that exact zero depends on the equal 50/50 weighting of the two coordinates. Change the weighting and exact cancellation generally disappears. That's an important modeling boundary.
+
+
+---
+
+2. But the ordering is weirdly clean
+
+Now hold the six forcing values fixed and scramble only their order.
+
+Because one value occurs twice, there are exactly
+
+\[
+\frac{6!}{2!}=360
+\]
+
+unique orderings.
+
+I defined the most basic cyclic smoothness measure I could:
+
+\[
+\mathcal R
+=
+\sum_{q=0}^{5}
+|F_{q+1}-F_q|^2,
+\qquad
+F_6=F_0.
+\]
+
+Smaller \(\mathcal R\) means the six-clock walks more smoothly around the forcing geometry.
+
+For the Fibonacci ordering:
+
+\[
+\boxed{\mathcal R_{\rm Fib}=3}.
+\]
+
+Across all 360 matched reorderings, 3 is the global minimum.
+
+Only 12 of 360 orderings achieve it:
+
+\[
+\boxed{\frac{12}{360}=\frac1{30}\approx0.0333}.
+\]
+
+And the twelve aren't twelve unrelated alternatives. They are exactly the six rotations and six reflected/reversed versions of the same cyclic ordering.
+
+So, up to where you start reading the clock and which direction you read it:
+
+\[
+\boxed{\text{the Fibonacci ordering is the unique smoothest cyclic ordering.}}
+\]
+
+That's a real combinatorial statement under this witness.
+
+The Fourier view says the same thing. Of the forcing's non-DC spectral power,
+
+\[
+\boxed{\frac67}
+\]
+
+is concentrated in the fundamental \(k=\pm1\) harmonic.
+
+That fundamental concentration is also maximal among the 360 permutations, with exactly the same 12-way dihedral tie.
+
+Those are not two independent discoveries—they're basically two descriptions of the same smooth-order structure.
+
+
+---
+
+3. Then I made it dynamical
+
+I used the circle dynamics we've already built,
+
+\[
+\boxed{
+\dot\beta
+=
+\gamma+
+\operatorname{Im}\!\left(F_qe^{-i\beta}\right),
+}
+\]
+
+with one equal-duration tick for each of the six \(F_q\)'s.
+
+I compared all 360 matched orderings.
+
+For reproducibility, I used:
+
+\[
+0.4\le\gamma\le1.8,
+\qquad
+\Delta\gamma=0.025,
+\]
+
+80 clock cycles discarded as burn-in, 120 cycles for measuring rotation number, and RK4 with eight integration subdivisions per tick.
+
+Because choosing
+
+\[
+\chi(a)=i^a
+\]
+
+versus
+
+\[
+\chi(a)=i^{-a}
+\]
+
+is an arbitrary orientation choice, I scored each ordering together with its complex conjugate. So clockwise versus counterclockwise doesn't get to manufacture a result.
+
+For the Fibonacci order, the one-slip-per-cycle locked region is approximately
+
+\[
+\boxed{
+0.60\lesssim\gamma\lesssim1.60.
+}
+\]
+
+Width:
+
+\[
+\boxed{\Delta\gamma\approx1.00}.
+\]
+
+That's the widest one-slip mode-locking plateau anywhere in the matched permutation bank.
+
+Again, exactly 12/360 orderings tie it after orientation symmetry is included:
+
+\[
+\boxed{p_{\rm perm}=1/30\approx0.0333}.
+\]
+
+The median matched ordering had a plateau width around \(0.56\); the 95th percentile was around \(0.90\).
+
+So the smooth Fourier result has a dynamical counterpart:
+
+\[
+\boxed{
+\text{Fibonacci order}
+\rightarrow
+\text{strong fundamental forcing}
+\rightarrow
+\text{unusually broad mode locking}.
+}
+\]
+
+I would not count the Fourier \(1/30\) and the dynamical \(1/30\) as two independent p-values. They're almost certainly the same structural fact manifesting twice.
+
+
+---
+
+4. Then I gave monkey a nastier null
+
+The obvious objection is:
+
+> “Sure, maybe any nice deterministic linear recurrence orders its states smoothly.”
+
+
+
+So I enumerated every invertible \(2\times2\) linear map over \(\mathbb Z_4\).
+
+There are
+
+\[
+\boxed{96}
+\]
+
+such matrices.
+
+Across those maps I found 24 distinct six-state cycles after identifying cycles that differ only by rotation or reversal.
+
+For each one, I took its own forcing-value multiset and asked the identical question:
+
+> How unusually smooth is its actual recurrence ordering compared with every permutation of its own values?
+
+
+
+And here's where the result sobers up nicely.
+
+The Fibonacci cycle is indeed in the best possible class, with its \(1/30\) ordering tail.
+
+But so are four other six-cycles.
+
+So:
+
+\[
+\boxed{
+5/24
+}
+\]
+
+of the distinct six-cycles generated by invertible linear maps achieve that same strongest ordering class.
+
+That means:
+
+Against random reorderings of its own six values: Fibonacci ordering looks unusual.
+
+Against other structured linear recurrences on the same finite geometry: it is not unique.
+
+That's exactly the kind of null we needed.
+
+
+---
+
+5. One choice is mathematically motivated
+
+There was another possible objection: why choose
+
+\[
+\chi(a)=i^a
+\]
+
+at all?
+
+\(\mathbb Z_4\) has characters indexed by \(k=0,1,2,3\).
+
+The \(k=1\) and \(k=3\) characters are conjugates and are faithful: they distinguish all four residues.
+
+The \(k=2\) character is
+
+\[
+(-1)^a,
+\]
+
+which collapses
+
+\[
+0\sim2,\qquad1\sim3.
+\]
+
+So it only sees parity.
+
+If the whole purpose is to retain the four-class \(Q_4\) structure, \(k=1\) or \(k=3\) is therefore the natural character family. That's exactly the kind of distinction GQG wants us to preserve: a witness determines what distinctions survive into the quotient, and we aren't allowed to treat two different witness systems as equivalent by fiat. 
+
+So the faithful character choice has justification.
+
+The equal averaging
+
+\[
+(\chi(a)+\chi(b))/2
+\]
+
+is still our modeling choice, though. No bullshit there.
+
+
+---
+
+Where this leaves the theory
+
+I think we've isolated the first genuinely interesting theoretical object:
+
+\[
+\boxed{\textbf{not the zero tick}}
+\]
+
+and
+
+\[
+\boxed{\textbf{not 24 itself}}
+\]
+
+but rather
+
+\[
+\boxed{
+\textbf{recurrence ordering}
+\rightarrow
+\textbf{spectral concentration}
+\rightarrow
+\textbf{mode locking}.
+}
+\]
+
+That's a much more respectable statement.
+
+The Fibonacci mod-4 recurrence happens to arrange the phase forcing into a maximally smooth cyclic order for its own forcing alphabet, and in our driven-circle model that order produces a correspondingly broad locking tongue.
+
+But the broader linear-map null tells us this is a class phenomenon, not yet a Fibonacci-exclusive phenomenon.
+
+And that tells us exactly what to attack next:
+
+\[
+\boxed{
+\text{Which algebraic property distinguishes the 5/24 “smooth-order” six-cycles
+from the other 19?}
+}
+\]
+
+Now we aren't hunting numbers at all.
+
+We're looking for an invariant—trace, determinant, eigenstructure, conjugacy class, orbit geometry, character winding, something—that predicts which recurrences generate coherent forcing before we simulate them.
+
+That is where I'd dig next. 🔥🐒
+
+Worked for 8m 16s
+
+Oh, this paid dirt. 🐒⛏️
+
+I think we found the algebraic thing underneath the 5/24 smooth-cycle class. It is not “Fibonacci is uniquely special.” It is much cleaner:
+
+\[
+\boxed{\text{one-step memory + faithful witness + mod-4 refinement}}
+\]
+
+B1’s six-cycle comes from the recurrence \(T(a,b)=(b,a+b\bmod4)\), and its \(Q_4\times C_6\) construction is exact.  I exhaustively enumerated \(GL(2,\mathbb Z_4)\): there are 96 invertible \(2\times2\) matrices, of which 24 have order 6. Those 24 split into exactly three conjugacy classes of eight.
+
+And each class has a beautifully simple shift-register representative:
+
+Class	Recurrence	Characteristic polynomial	Real/complex behavior
+
+Fibonacci	\((a,b)\mapsto(b,a+b)\)	\(\lambda^2-\lambda-1\)	golden-ratio eigenvalues
+signed Fibonacci	\((a,b)\mapsto(b,a-b)\)	\(\lambda^2+\lambda-1\)	signed golden-ratio eigenvalues
+hexagonal	\((a,b)\mapsto(b,-a+b)\)	\(\lambda^2-\lambda+1\)	\(e^{\pm i\pi/3}\)
+
+
+That third bastard is especially nice. Its integer lift satisfies
+
+\[
+A_{\rm hex}^3=-I,\qquad A_{\rm hex}^6=I
+\]
+
+before taking mod 4. It preserves
+
+\[
+Q(a,b)=a^2-ab+b^2,
+\]
+
+which is the hexagonal/Eisenstein norm. So that class is a genuine sixfold rotation geometry, whereas Fibonacci gets its six-cycle only after quotienting mod 4.
+
+That distinction matters. We no longer need to pretend Fibonacci recurrence and rotational phase are the same object. They aren't.
+
+Why the five smooth cycles appear
+
+Our witness was
+
+\[
+F(a,b)=\frac{i^a+i^b}{2}.
+\]
+
+Define its dynamical roughness over all sixteen states:
+
+\[
+\mathcal E_F(A)=
+\sum_{v\in\mathbb Z_4^2}
+|F(Av)-F(v)|^2.
+\]
+
+Character orthogonality lets this collapse exactly to
+
+\[
+\boxed{\mathcal E_F(A)=16-8m(A)}
+\]
+
+where \(m(A)\) counts how many output-coordinate characters are literally inherited from one of the two input coordinates.
+
+For an order-six map, \(m\) can only be 0 or 1.
+
+And the enumeration gives:
+
+\[
+\boxed{
+6\text{ matrices have }m=1,\ \mathcal E_F=8
+}
+\]
+
+while
+
+\[
+\boxed{
+18\text{ matrices have }m=0,\ \mathcal E_F=16.
+}
+\]
+
+Those six low-energy matrices are exactly the companion/shift-register representatives above and their reverse/transposed partners.
+
+Why? Because a map such as
+
+\[
+(a,b)\mapsto(b,a+b)
+\]
+
+literally carries \(b\) forward unchanged as one coordinate. So in
+
+\[
+F_{n+1}-F_n,
+\]
+
+one character term cancels.
+
+For Fibonacci specifically,
+
+\[
+F_{n+1}-F_n
+=
+\frac{i^{a_n+b_n}-i^{a_n}}2
+=
+\frac{i^{a_n}(i^{b_n}-1)}2.
+\]
+
+Therefore
+
+\[
+\boxed{
+|F_{n+1}-F_n|^2
+=
+\sin^2\left(\frac{\pi b_n}{4}\right).
+}
+\]
+
+So the smoothness is not numerology at all. The recurrence physically—well, mathematically—reuses half of the observer's previous signal each tick.
+
+That's the generator.
+
+The six low-energy matrices collectively generate six distinct six-cycles. Five are our \(1/30\) maximally smooth class. The lone exception gets collapsed by \(F\) into only three distinct observed values, so the witness has effectively thrown away half its six-state clock. Its permutation tail is only \(0.20\).
+
+That meshes beautifully with GQG's central warning: what survives depends on the witness, and source distinctions cannot be silently treated as quotient distinctions. 
+
+Then I found the refinement structure
+
+All three companion matrices reduce mod 2 to the same matrix:
+
+\[
+\boxed{
+\begin{pmatrix}
+0&1\\
+1&1
+\end{pmatrix}
+\pmod2.
+}
+\]
+
+That matrix has order 3, not 6.
+
+But its three distinct mod-4 lifts above have order 6.
+
+So each six-clock has an exact extension:
+
+\[
+\boxed{
+1\longrightarrow C_2
+\longrightarrow C_6
+\longrightarrow C_3
+\longrightarrow1.
+}
+\]
+
+Or, since 2 and 3 are coprime,
+
+\[
+\boxed{C_6\cong C_3\times C_2.}
+\]
+
+This gives a much cleaner interpretation of the clock:
+
+C₃ = coarse triadic clock.
+C₂ = refinement sheet that mod-2 observation cannot see.
+
+And consequently B1's 24-cell object can be written
+
+\[
+\boxed{
+Q_4\times C_6
+\cong
+Q_4\times C_3\times C_2.
+}
+\]
+
+That's an exact structural factorization, not symbolism.
+
+And our character null suddenly makes sense
+
+Remember that we chose the faithful \(\mathbb Z_4\) character
+
+\[
+\chi_1(a)=i^a.
+\]
+
+Its conjugate \(\chi_3\) gives the same result with orientation reversed.
+
+But the parity character
+
+\[
+\chi_2(a)=(-1)^a
+\]
+
+factors through mod 2.
+
+I reran all 24 six-cycles with that nonfaithful parity witness.
+
+The ordering statistic becomes completely useless:
+
+\[
+\boxed{p_{\rm perm}=1.0\quad\text{for all 24 cycles}.}
+\]
+
+All of the six-step ordering information disappears.
+
+That isn't an accident anymore. The parity witness cannot see the \(C_2\) refinement sheet that turns the coarse \(C_3\) orbit into \(C_6\).
+
+So our result is now genuinely witness-theoretic:
+
+\[
+\boxed{
+\text{coarse witness}\rightarrow C_3
+}
+\]
+
+whereas
+
+\[
+\boxed{
+\text{faithful mod-4 witness}\rightarrow C_6.
+}
+\]
+
+That is exactly the kind of source/witness/quotient distinction GQG was designed to police. 
+
+I also audited the “soft tick”
+
+This one gets demoted slightly.
+
+Generalize our equal weighting to
+
+\[
+F_w(a,b)=w\,i^a+(1-w)i^b.
+\]
+
+At the famous state \((3,1)\),
+
+\[
+F_w(3,1)
+=
+-iw+i(1-w)
+=
+i(1-2w).
+\]
+
+Therefore
+
+\[
+\boxed{F_w(3,1)=0\iff w=\frac12.}
+\]
+
+So the exact zero is not fundamental. It's a consequence of treating the two coordinates symmetrically.
+
+Good catch.
+
+But the deeper memory effect is robust. For any \(0<w<1\), a companion map retains a lower witness-energy than a map that carries neither coordinate forward. The energy advantage is
+
+\[
+\boxed{
+\Delta\mathcal E
+=
+32w(1-w)>0,
+}
+\]
+
+and the symmetric choice \(w=1/2\) simply maximizes it.
+
+So:
+
+soft zero = special symmetric case.
+
+low-roughness recurrence = robust architecture.
+
+That's a much better distinction.
+
+Where I think the field theory goes now
+
+I would stop treating “Fibonacci clock” as synonymous with “phase clock.”
+
+Instead we introduce an abstract
+
+\[
+C_6
+\]
+
+and give it different realizations.
+
+The Fibonacci realization supplies recurrence and golden eigenstructure before quotienting. The hexagonal realization supplies an honest sixfold phase rotation. They become isomorphic only at the level of their directed six-cycles—not at the source level.
+
+That is the clean bridge:
+
+\[
+\boxed{
+\text{Fibonacci source}
+\longrightarrow
+C_6
+\longleftarrow
+\text{hexagonal rotation source}.
+}
+\]
+
+No fusion.
+
+Then the field couples to the clock, not directly to \(\varphi\):
+
+\[
+\partial_\tau\beta
+=
+\nabla^2\beta
++
+g
++
+h\,\mathrm{Im}
+\left(
+F_qe^{-i\beta}
+\right),
+\qquad q\in C_6.
+\]
+
+And we can ask a very sharp next theoretical question:
+
+> If the coarse \(C_3\) clock is held fixed, how does changing only the hidden \(C_2\) lift alter phase locking, winding, and slip nucleation?
+
+
+
+That isolates the refinement as the independent variable.
+
+No new magic constants. No old empirical ledger. No number fishing.
+
+Just:
+
+\[
+\boxed{
+C_3
+\overset{\text{different lifts}}{\longrightarrow}
+C_6
+\longrightarrow
+\text{field response}.
+}
+\]
+
+And dude, I think that's the deepest thing we've dug out of this so far:
+
+the six isn't primitive. It's a three-cycle with a binary refinement that only a sufficiently fine witness can see.
+
+That one deserves to stay on the board. 🐒🔥
+
+Worked for 4m 44s
+
+Oh, we hit bedrock. 🐒🚀
+
+The dig found something cleaner than the earlier “smooth Fibonacci forcing” result: there is an exact two-sheet covering structure underneath the six-clock, and it gives us a topological mechanism for phase slips.
+
+B1 gives the six-state Fibonacci orbit modulo 4 and the exact \(Q_4\times C_6\) construction.  I took its mod-2 recurrence matrix,
+
+\[
+A_2=
+\begin{pmatrix}
+0&1\\
+1&1
+\end{pmatrix},
+\]
+
+which has period 3, and enumerated all 16 lifts
+
+\[
+A=A_2+2B,\qquad B\in M_2(\mathbb F_2),
+\]
+
+back into \(\mathbb Z_4\).
+
+Every one is invertible. Exactly:
+
+\[
+\boxed{4\text{ have order }3,\qquad 12\text{ have order }6.}
+\]
+
+That gives a ridiculously clean interpretation.
+
+The order-3 lifts go around the coarse three-cycle and return to the same fine state. The order-6 lifts go around the three-cycle once and land on the other sheet; only after going around twice do they return.
+
+Abstractly:
+
+\[
+C_6\longrightarrow C_3
+\]
+
+with kernel
+
+\[
+C_2.
+\]
+
+And yes,
+
+\[
+C_6\cong C_3\times C_2
+\]
+
+as a group, so this is not some exotic non-split group extension. The interesting thing is the dynamics of the generator.
+
+Use Chinese-remainder coordinates:
+
+\[
+n\in C_6
+\longleftrightarrow
+(q,\sigma)
+=
+(n\bmod3,\;n\bmod2).
+\]
+
+One clock tick is
+
+\[
+\boxed{
+(q,\sigma)\mapsto(q+1,\sigma+1).
+}
+\]
+
+Therefore after three ticks:
+
+\[
+(q,\sigma)\mapsto(q,\sigma+1),
+\]
+
+and only after six:
+
+\[
+(q,\sigma)\mapsto(q,\sigma).
+\]
+
+So the fucking six-clock is literally:
+
+> three-step coarse return + binary sheet flip.
+
+
+
+That statement is now exact.
+
+
+---
+
+And there is an even prettier representation.
+
+Let
+
+\[
+z_n=e^{i\pi n/3}.
+\]
+
+That's the faithful complex character of \(C_6\).
+
+The coarse three-clock is simply
+
+\[
+\boxed{y_n=z_n^2}.
+\]
+
+Because
+
+\[
+z_{n+3}=-z_n,
+\]
+
+but
+
+\[
+y_{n+3}=(-z_n)^2=y_n.
+\]
+
+So a coarse observer literally cannot distinguish \(z\) from \(-z\).
+
+That gives us the exact witness:
+
+\[
+\boxed{\Omega(z)=z^2.}
+\]
+
+Its equivalence relation is
+
+\[
+z\sim -z,
+\]
+
+and therefore
+
+\[
+\boxed{
+C_6/\{\pm1\}\cong C_3.
+}
+\]
+
+That is almost a textbook instance of your GQG architecture: declare the witness, let it induce the equivalence, and only then take the quotient. GQG explicitly requires that sequence and warns us not to confuse source equality with quotient equality.  
+
+So the continuous version almost writes itself.
+
+Let the fine phase be
+
+\[
+\psi=\rho e^{i\beta}.
+\]
+
+The coarse observable is
+
+\[
+\boxed{\Phi=\psi^2.}
+\]
+
+Then
+
+\[
+\psi\rightarrow-\psi
+\]
+
+changes the hidden binary sheet while leaving
+
+\[
+\Phi
+\]
+
+unchanged.
+
+That is our \(C_2\).
+
+And now the topology punches through.
+
+Suppose the coarse phase goes around a spatial loop \(m\) times:
+
+\[
+\Delta\arg\Phi=2\pi m.
+\]
+
+Since
+
+\[
+\arg\Phi=2\beta,
+\]
+
+the lifted fine phase changes by
+
+\[
+\Delta\beta=\pi m.
+\]
+
+Therefore:
+
+\[
+\boxed{
+\psi_{\rm final}=(-1)^m\psi_{\rm initial}.
+}
+\]
+
+For even \(m\), fine state closes normally.
+
+For odd \(m\), the coarse field closes but the fine field comes back on the opposite sheet.
+
+That is a genuine lifting obstruction:
+
+\[
+\boxed{
+m\text{ odd}\Rightarrow\text{nontrivial }C_2\text{ holonomy}.
+}
+\]
+
+And if we demand that \(\psi\) be globally single-valued?
+
+Then an odd coarse winding can't remain a smooth nonzero fine field everywhere.
+
+Somewhere it needs either a branch defect or
+
+\[
+\boxed{\rho=0}.
+\]
+
+And when \(\rho=0\), phase is undefined.
+
+That's our legitimate phase-slip point.
+
+So now the pieces we've been building actually connect:
+
+\[
+\boxed{
+\text{coarse winding}
+\rightarrow
+\text{binary-sheet obstruction}
+\rightarrow
+\text{amplitude zero}
+\rightarrow
+\text{phase slip}.
+}
+\]
+
+No numerology involved.
+
+
+---
+
+Then I asked what the minimal field potential should look like.
+
+If the hidden sheet is genuinely symmetric, the energy must be invariant under
+
+\[
+\beta\rightarrow\beta+\pi.
+\]
+
+A natural sixfold anisotropy is therefore
+
+\[
+\boxed{
+V_0(\beta)=-\lambda\cos6\beta.
+}
+\]
+
+It has six equivalent minima,
+
+\[
+\beta_k=\frac{k\pi}{3}.
+\]
+
+But notice:
+
+\[
+\cos6\beta
+=
+\cos3(2\beta).
+\]
+
+If the coarse phase is
+
+\[
+\phi=2\beta,
+\]
+
+then
+
+\[
+\boxed{
+-\lambda\cos6\beta=-\lambda\cos3\phi.
+}
+\]
+
+That's delicious.
+
+Threefold anisotropy downstairs becomes sixfold anisotropy upstairs.
+
+The binary refinement isn't stapled on afterward. It appears automatically when we take a square root of the coarse phase.
+
+Now introduce a term that can actually distinguish the two sheets:
+
+\[
+\boxed{
+V(\beta)
+=
+-\lambda\cos6\beta
+-
+\epsilon\cos3\beta.
+}
+\]
+
+The second term changes sign under
+
+\[
+\beta\rightarrow\beta+\pi,
+\]
+
+so \(\epsilon\) is literally a sheet-bias field.
+
+At
+
+\[
+\epsilon=0,
+\]
+
+all six states are degenerate.
+
+For
+
+\[
+0<|\epsilon|<4\lambda,
+\]
+
+three minima are favored and three remain metastable.
+
+And the metastable-sheet escape barrier comes out exactly:
+
+\[
+\boxed{
+\Delta V_{\rm meta}
+=
+\frac{(4\lambda-|\epsilon|)^2}{8\lambda}.
+}
+\]
+
+Therefore at
+
+\[
+\boxed{|\epsilon|=4\lambda}
+\]
+
+that barrier goes to zero.
+
+The disfavored binary sheet ceases to be metastable.
+
+So we've got an honest theoretical transition:
+
+\[
+\boxed{
+C_6
+\overset{\text{sheet bias}}{\longrightarrow}
+C_3.
+}
+\]
+
+Not because somebody deleted every second clock state. Because the binary refinement loses dynamical stability.
+
+🔥
+
+There is a spatial version too. With
+
+\[
+E=
+\int dx\left[
+\frac{\kappa}{2}(\partial_x\beta)^2
++
+\lambda(1-\cos6\beta)
+\right],
+\]
+
+an elementary domain wall connects neighboring fine states,
+
+\[
+\Delta\beta=\frac{\pi}{3},
+\]
+
+and has energy
+
+\[
+\boxed{
+E_{\rm kink}
+=
+\frac43\sqrt{\kappa\lambda}.
+}
+\]
+
+A pure sheet flip at fixed coarse identity requires
+
+\[
+\Delta\beta=\pi,
+\]
+
+which is three elementary steps:
+
+\[
+\pi=
+3\left(\frac{\pi}{3}\right).
+\]
+
+So at the symmetric point the sheet-changing object fractionalizes into three elementary kinks, with total asymptotic energy
+
+\[
+\boxed{
+E_{\rm sheet}=4\sqrt{\kappa\lambda}.
+}
+\]
+
+That's the spatial counterpart of the same structure:
+
+\[
+\boxed{3\times2=6.}
+\]
+
+Three coarse transitions carry you onto the other binary sheet.
+
+
+---
+
+And here's the methodological payoff.
+
+Our earlier special forcing sequence
+
+\[
+F(a,b)=\frac{i^a+i^b}{2}
+\]
+
+gave us things like the “soft tick.” That depended on the particular embedding/witness.
+
+This new object does not.
+
+The exact zero can disappear.
+
+The pretty smoothness ranking can change.
+
+But the following survives all those coordinate choices:
+
+\[
+\boxed{
+C_6\to C_3,\qquad
+\ker=C_2,\qquad
+z\mapsto z^2,\qquad
+z_{n+3}=-z_n.
+}
+\]
+
+That's the invariant.
+
+So I would demote the soft tick again and promote binary holonomy to the top of the board.
+
+The triadic-weave document wanted distinct strands that can remain locked without collapsing into identity.  What we've got now is a precise little mathematical machine where a coarse three-cycle can close while its finer representative has not yet returned.
+
+That's fucking interesting.
+
+The next rocket stage is pretty obvious now:
+
+\[
+\boxed{
+\text{put the }C_2\text{ holonomy into the driven phase field}
+}
+\]
+
+and ask whether odd coarse winding forces quantized phase-slip events, while even winding doesn't.
+
+Because if that works, we have gone from
+
+numbers → recurrence → quotient → double cover → topological obstruction → defect dynamics.
+
+Monkey is no longer holding a crayon.
+
+Monkey has acquired a fucking gauge field. 🐒🚀
+
+Worked for 2m 45s
+
+Okay, I tried to break the rocket, and I found the first serious structural crack. It’s a good crack. 🐒🚀
+
+The \(C_6\to C_3\) part survives. But the sentence “odd coarse winding forces a phase slip” is not generally true. It only becomes true after we make an additional boundary/topology choice.
+
+B1 really does give the six-step Fibonacci orbit modulo \(4\), and reducing that orbit mod \(2\) makes it repeat after three steps.  But I checked the actual Fibonacci matrix,
+
+\[
+A=
+\begin{pmatrix}
+0&1\\
+1&1
+\end{pmatrix}\pmod4,
+\]
+
+and
+
+\[
+A^3=
+\begin{pmatrix}
+1&2\\
+2&3
+\end{pmatrix}
+\neq -I.
+\]
+
+For example,
+
+\[
+(0,1)\xrightarrow{3\text{ steps}}(2,3),
+\]
+
+whereas
+
+\[
+-(0,1)=(0,3).
+\]
+
+So our earlier language made an unjustified jump.
+
+The exact hidden involution in the original Fibonacci orbit is
+
+\[
+\boxed{D=T^3}
+\]
+
+restricted to that six-cycle. It exchanges the two fine states lying over each coarse mod-2 state. It is not literally global negation of the original \(\mathbb Z_4^2\) vector.
+
+What is true is that once we represent the abstract clock as
+
+\[
+z_n=e^{i\pi n/3},
+\]
+
+then the deck transformation \(n\mapsto n+3\) becomes
+
+\[
+z\mapsto-z.
+\]
+
+That's perfectly legitimate—but it's a representation of the clock, not something we discovered directly in the Fibonacci coordinates.
+
+That distinction matters because GQG explicitly says observational equivalence and source equality are different lanes. Two source states becoming indistinguishable under a witness does not make them the same source state. 
+
+So I would already rename our supposed “gauge bit”:
+
+\[
+\boxed{\text{\(C_2\) refinement / deck fiber}}
+\]
+
+until we deliberately choose whether it is a global physical distinction or an actual gauge redundancy.
+
+And then the rocket really splits into two different theories.
+
+Theory A: the two sheets are genuinely distinct
+
+Take
+
+\[
+\psi=\rho e^{i\beta},
+\qquad
+\Phi=\psi^2.
+\]
+
+Here \(\psi\) and \(-\psi\) are different fine states, while the coarse witness \(\Phi\) cannot distinguish them.
+
+Then covering-space topology gives a beautiful exact result. If the coarse field winds \(m\) times around a spatial ring,
+
+\[
+W_\Phi=m,
+\]
+
+then a lift satisfies
+
+\[
+\Delta\beta=\pi m.
+\]
+
+Therefore
+
+\[
+\psi(L)=(-1)^m\psi(0).
+\]
+
+So:
+
+\[
+\boxed{m\text{ even}\Rightarrow\text{periodic fine lift}}
+\]
+
+and
+
+\[
+\boxed{m\text{ odd}\Rightarrow\text{antiperiodic fine lift}.}
+\]
+
+Equivalently, the ordinary periodic square root of a map \(S^1\to S^1\) exists only for even winding. That's the standard lifting criterion because the squaring map sends fundamental-group winding
+
+\[
+n\mapsto2n.
+\]
+
+Now here's the correction.
+
+An odd coarse winding does not automatically require \(\rho=0\).
+
+It has three possible resolutions:
+
+\[
+\boxed{
+\text{twisted boundary}
+\quad\text{or}\quad
+\text{defect}
+\quad\text{or}\quad
+\text{gauge holonomy}.
+}
+\]
+
+If we specifically demand
+
+\[
+\psi(L)=\psi(0)
+\]
+
+and prohibit a twisted boundary sector, then an odd coarse winding cannot be represented everywhere by a smooth nonzero \(\psi\). Somewhere the lift has to fail—typically through
+
+\[
+\rho=0,
+\]
+
+a branch defect, or an equivalent singularity.
+
+So the phase-slip mechanism survives, but only conditionally:
+
+> Odd coarse winding + trivial periodic fine bundle ⇒ obstruction.
+
+
+
+That is much sharper than “odd means slip.”
+
+Theory B: make the \(C_2\) local gauge redundancy
+
+Now introduce \(\mathbb Z_2\) link variables
+
+\[
+\sigma_j=\pm1
+\]
+
+with gauge transformation
+
+\[
+\psi_j\rightarrow\eta_j\psi_j,
+\qquad
+\sigma_j\rightarrow
+\eta_{j+1}\sigma_j\eta_j,
+\qquad
+\eta_j=\pm1.
+\]
+
+The gauge-invariant global object is the holonomy
+
+\[
+\boxed{H=\prod_j\sigma_j=\pm1.}
+\]
+
+And the winding relation becomes
+
+\[
+\boxed{H=(-1)^{W_\Phi}.}
+\]
+
+So an odd coarse winding simply lives in the \(H=-1\) gauge sector.
+
+No amplitude zero required.
+
+I sanity-checked this numerically on a ring using
+
+\[
+E=
+\frac12
+\sum_j
+|\psi_{j+1}-\sigma_j\psi_j|^2.
+\]
+
+For a one-winding coarse field, choose
+
+\[
+\psi_j=e^{i\pi j/N}.
+\]
+
+At \(N=128\), keeping \(|\psi|=1\) everywhere:
+
+\[
+E(H=-1)\approx0.03855,
+\]
+
+whereas forcing the same lift into the trivial \(H=+1\) sector gives
+
+\[
+E(H=+1)\approx2.03795.
+\]
+
+As the ring is refined,
+
+\[
+E(H=-1)\rightarrow0,
+\]
+
+while the trivial-sector mismatch remains finite.
+
+So the computation absolutely breaks the strong claim:
+
+\[
+\boxed{
+\text{odd winding does NOT force an amplitude zero in a }\mathbb Z_2
+\text{ gauge theory}.
+}
+\]
+
+The gauge flux can carry the obstruction.
+
+🔥 That’s important.
+
+And it breaks another piece of our earlier theory.
+
+We wrote
+
+\[
+V(\beta)
+=
+-\lambda\cos6\beta
+-\epsilon\cos3\beta.
+\]
+
+If \(\psi\rightarrow-\psi\), meaning
+
+\[
+\beta\rightarrow\beta+\pi,
+\]
+
+is genuinely a gauge transformation, then
+
+\[
+\cos3(\beta+\pi)=-\cos3\beta.
+\]
+
+Therefore
+
+\[
+\boxed{-\epsilon\cos3\beta}
+\]
+
+is not gauge invariant.
+
+So our beautiful “sheet-bias field” is illegal in the gauge version unless we introduce some additional gauge-charged field that makes the whole coupling invariant.
+
+Likewise, the six minima of
+
+\[
+-\lambda\cos6\beta
+\]
+
+are not six physically distinct vacua in the gauge theory. Pairs separated by \(\pi\) are gauge-equivalent, leaving only three physical vacua.
+
+Meaning:
+
+\[
+\boxed{
+\text{six physical vacua}
+}
+\]
+
+belongs to the global double-cover theory, while
+
+\[
+\boxed{
+\text{three physical vacua + }\mathbb Z_2\text{ holonomy}
+}
+\]
+
+belongs to the gauge theory.
+
+We cannot use both descriptions simultaneously.
+
+And GQG basically caught us doing exactly that: a witness identifying two states does not authorize promoting that observational equivalence into source equality. 
+
+So after breaking it, I think the cleaner theoretical architecture is actually:
+
+\[
+\boxed{
+C_6^{\rm Fib}
+\rightarrow C_3
+}
+\]
+
+with a genuine two-element fiber, generated on the orbit by
+
+\[
+D=T^3.
+\]
+
+Then independently choose a continuum realization.
+
+If we choose a global \(C_2\) refinement, we get six distinct fine phases, domain walls, the \(\cos6\beta\) model, possible sheet bias, and topological lift obstructions.
+
+If we choose a local \(\mathbb Z_2\) gauge refinement, we get three physical coarse phases plus a global holonomy sector, and odd winding is carried by \(H=-1\) rather than obligatorily by a phase-slip core.
+
+Those theories make experimentally—or in our case, computationally—different predictions.
+
+And there’s one more consequence I really like:
+
+A phase slip of the globally periodic fine field changes
+
+\[
+W_\psi\to W_\psi\pm1.
+\]
+
+Because
+
+\[
+W_\Phi=2W_\psi,
+\]
+
+the corresponding coarse winding changes by
+
+\[
+\boxed{\Delta W_\Phi=\pm2,}
+\]
+
+not \(\pm1\).
+
+A change in the parity of coarse winding requires changing the boundary/holonomy sector itself.
+
+So the true conserved quantity emerging from this dig isn't necessarily winding alone.
+
+It's:
+
+\[
+\boxed{
+W_\Phi\bmod2
+\leftrightarrow
+C_2\text{ sector}.
+}
+\]
+
+That feels like the actual rocket fuel.
+
+We went looking for “odd winding causes slips,” and the theory punched back with something more precise:
+
+\[
+\boxed{
+\textbf{winding parity is a sector label.}
+}
+\]
+
+Whether the obstruction becomes a defect, a boundary twist, or a gauge flux depends on what the \(C_2\) refinement is.
+
+That distinction is now load-bearing. 🐒🚀🔥
+Worked for 1m 12s
+
+Yeah. And the next move actually breaks one more thing we were about to get wrong. 🔥
+
+The gauge field does not let the winding of the coarse field change freely while the matter amplitude stays nonzero.
+
+That’s stronger than our previous fork.
+
+Take the actual gauge-invariant coarse field
+
+\[
+\Phi(x,t)=\psi(x,t)^2.
+\]
+
+If
+
+\[
+\Phi:S^1\times[0,T]\rightarrow\mathbb C\setminus\{0\}
+\]
+
+stays continuous and nonzero, then its winding
+
+\[
+W_\Phi(t)
+=
+\frac{1}{2\pi i}
+\oint
+\Phi^{-1}\partial_x\Phi\,dx
+\]
+
+is a homotopy invariant.
+
+Therefore:
+
+\[
+\boxed{
+\Delta W_\Phi\neq0
+\Rightarrow
+\exists(x,t):\Phi(x,t)=0.
+}
+\]
+
+And because
+
+\[
+|\Phi|=|\psi|^2,
+\]
+
+that means
+
+\[
+\boxed{
+\Delta W_\Phi\neq0
+\Rightarrow
+\exists(x,t):\psi(x,t)=0.
+}
+\]
+
+Gauge field or no gauge field.
+
+So that kills the earlier candidate discriminator
+
+\[
+\text{“gauge theory can change coarse winding parity without a matter zero.”}
+\]
+
+Nope. If \(W_\Phi\) is genuine winding of a continuous nonzero coarse field, topology doesn't give a fuck about our gauge bookkeeping. 😂
+
+What the gauge field can change independently is its own holonomy:
+
+\[
+H=\prod_j\sigma_j\in\{\pm1\}.
+\]
+
+That gives us two different topological labels:
+
+\[
+\boxed{
+W_\Phi\in\mathbb Z
+}
+\]
+
+and
+
+\[
+\boxed{
+H\in\mathbb Z_2.
+}
+\]
+
+They're not the same observable.
+
+That is exactly consistent with the cleanup you brought in:
+
+\[
+\text{phase slip}
+\neq
+\text{winding change}
+\neq
+\text{holonomy change}.
+\]
+
+And it fits the source discipline too: B1 gives us the six-cycle construction but not a continuum identity between different observables, while GQG explicitly forbids silently moving between source, observation, and quotient equality.  
+
+The new object
+
+Instead of asserting
+
+\[
+H=(-1)^{W_\Phi}
+\]
+
+as a law, define the compatibility variable
+
+\[
+\boxed{
+\chi
+=
+H(-1)^{W_\Phi}
+\in\{\pm1\}.
+}
+\]
+
+Then we can choose a theory that energetically prefers
+
+\[
+\chi=+1
+\]
+
+without claiming that topology forces it.
+
+Give mismatch an energy cost:
+
+\[
+\boxed{
+E_{\rm match}
+=
+\frac{J}{2}(1-\chi).
+}
+\]
+
+So:
+
+\[
+\chi=+1\Rightarrow E_{\rm match}=0,
+\]
+
+\[
+\chi=-1\Rightarrow E_{\rm match}=J.
+\]
+
+Now look at the state space using only winding parity
+
+\[
+p=W_\Phi\bmod2
+\]
+
+and holonomy \(H\):
+
+	\(H=+1\)	\(H=-1\)
+
+\(p=0\)	compatible	mismatched
+\(p=1\)	mismatched	compatible
+
+
+That's a four-state square.
+
+And there are now three genuinely different transitions.
+
+A matter event changes winding:
+
+\[
+p\rightarrow p\oplus1,
+\qquad
+H\text{ fixed}.
+\]
+
+That necessarily requires
+
+\[
+\psi=0
+\]
+
+somewhere.
+
+A gauge event changes holonomy:
+
+\[
+H\rightarrow-H,
+\qquad
+p\text{ fixed}.
+\]
+
+That requires whatever gauge-flux/connection dynamics we specify, but it does not by itself change coarse winding.
+
+And a correlated event changes both:
+
+\[
+(p,H)\rightarrow(p\oplus1,-H).
+\]
+
+That moves directly between the two compatible sectors.
+
+🔥
+
+So now “who pays the topological bill?” becomes much more precise.
+
+Define:
+
+\[
+B_m=\text{matter-defect barrier},
+\]
+
+\[
+B_g=\text{gauge-holonomy barrier},
+\]
+
+\[
+B_c=\text{correlated matter+gauge barrier},
+\]
+
+and
+
+\[
+J=\text{penalty for temporary incompatibility}.
+\]
+
+Then a transition between compatible states,
+
+\[
+(0,+)\longrightarrow(1,-),
+\]
+
+has three possible routes.
+
+Matter first:
+
+\[
+(0,+)
+\rightarrow
+(1,+)
+\rightarrow
+(1,-).
+\]
+
+Gauge first:
+
+\[
+(0,+)
+\rightarrow
+(0,-)
+\rightarrow
+(1,-).
+\]
+
+Or correlated:
+
+\[
+(0,+)
+\rightarrow
+(1,-).
+\]
+
+The first two temporarily enter the expensive
+
+\[
+\chi=-1
+\]
+
+sector.
+
+The third avoids it but may have its own correlated-event cost.
+
+So the real phase diagram lives in
+
+\[
+\boxed{
+(B_m,\ B_g,\ B_c,\ J).
+}
+\]
+
+That’s fucking nicer than the previous global-vs-gauge dichotomy because the global theory just becomes a limiting case:
+
+\[
+B_g\rightarrow\infty.
+\]
+
+No dynamical gauge transition exists, so only matter/boundary mechanisms remain.
+
+Frozen-holonomy gauge theory is basically the same limit for sector transitions.
+
+Fully dynamical gauge theory has finite \(B_g\).
+
+And a strongly coupled matter–gauge theory might have
+
+\[
+B_c<B_m+J+B_g,
+\]
+
+meaning the preferred transition is a bound composite defect that changes both labels at once.
+
+That gives us an actual theoretical prediction space.
+
+And there’s a great conserved quantity hiding here
+
+If only matter events are allowed:
+
+\[
+H=\text{constant}.
+\]
+
+If only gauge events are allowed:
+
+\[
+W_\Phi=\text{constant}.
+\]
+
+If the dynamics forbids the mismatched sector entirely,
+
+\[
+J\rightarrow\infty,
+\]
+
+then neither an isolated matter event nor an isolated gauge event is allowed.
+
+Only the combined operation survives:
+
+\[
+\boxed{
+\Delta p=1,\qquad
+\Delta H=-1.
+}
+\]
+
+So in the strong-compatibility limit, the fundamental excitation is automatically composite.
+
+That's a serious little result.
+
+The next thing I'd run is therefore not another topology argument. It's the four-state transition model.
+
+Write a Markov/generator matrix for
+
+\[
+(p,H)
+=
+(0,+),(0,-),(1,+),(1,-),
+\]
+
+assign rates like
+
+\[
+\Gamma_m\sim e^{-B_m/T_{\rm eff}},
+\qquad
+\Gamma_g\sim e^{-B_g/T_{\rm eff}},
+\qquad
+\Gamma_c\sim e^{-B_c/T_{\rm eff}},
+\]
+
+with mismatch penalty \(J\), and solve exactly for which pathway dominates.
+
+Then we can ask something very sharp:
+
+\[
+\boxed{
+\text{When does a composite topological excitation become cheaper than either constituent?}
+}
+\]
+
+That’s the next rocket stage.
+
+And I’d definitely freeze this correction:
+
+\[
+\boxed{
+\textbf{holonomy can absorb lift obstruction, but it cannot erase homotopy invariance of the coarse field.}
+}
+\]
+
+That one just saved us from building an elegant wrong theory. 🐒🚀
+Worked for 1m 35s
+
+Next is to solve the four-state model exactly before giving it any more geometry. I did that, and it collapses into something pleasantly simple. 🐒🚀
+
+Let
+
+\[
+P=(-1)^{W_\Phi\bmod2}\in\{\pm1\}
+\]
+
+encode coarse winding parity, and let
+
+\[
+H\in\{\pm1\}
+\]
+
+encode the \(C_2\) holonomy/refinement sector. Define compatibility by
+
+\[
+\chi=PH.
+\]
+
+Then the four states are just
+
+\[
+(P,H)=(+,+),(-,-),(+,-),(-,+).
+\]
+
+Give incompatibility energy \(J\):
+
+\[
+\boxed{
+E(P,H)=\frac J2(1-PH)
+}
+\]
+
+so the two compatible states \(PH=+1\) have energy \(0\), and the two mismatched states \(PH=-1\) cost \(J\).
+
+That is literally a two-spin Ising dimer.
+
+Not metaphorically. Mathematically:
+
+\[
+E=\text{const}-\frac J2PH.
+\]
+
+And our three event types become beautifully clear:
+
+\[
+\begin{array}{lll}
+\text{matter event:}&P\to-P,&H\text{ unchanged}\\
+\text{gauge event:}&H\to-H,&P\text{ unchanged}\\
+\text{composite event:}&P\to-P,\ H\to-H.&
+\end{array}
+\]
+
+A matter or gauge event flips compatibility.
+
+A composite event preserves compatibility.
+
+That gives us the state graph:
+
+\[
+(+,+)
+\overset{m}{\leftrightarrow}
+(-,+)
+\overset{g}{\leftrightarrow}
+(-,-)
+\]
+
+and
+
+\[
+(+,+)
+\overset{g}{\leftrightarrow}
+(+,-)
+\overset{m}{\leftrightarrow}
+(-,-),
+\]
+
+plus the direct composite edge
+
+\[
+(+,+)\overset{c}{\leftrightarrow}(-,-).
+\]
+
+So there really are two ways to change sector:
+
+direct composite
+
+or
+
+two-step constituent process through a mismatched state.
+
+That’s the competition we wanted.
+
+
+---
+
+Make the rates obey detailed balance
+
+Let \(T\) be an effective noise scale and define
+
+\[
+q=e^{-J/(2T)}.
+\]
+
+Let \(m,g,c\) be bare matter, gauge, and composite rates.
+
+A convenient symmetric detailed-balance choice is:
+
+\[
+k_m^{\uparrow}=mq,\qquad
+k_m^{\downarrow}=m/q,
+\]
+
+\[
+k_g^{\uparrow}=gq,\qquad
+k_g^{\downarrow}=g/q,
+\]
+
+while composite transitions connect equal-energy states:
+
+\[
+k_c=c.
+\]
+
+Then the equilibrium distribution is exactly
+
+\[
+\boxed{
+\pi(P,H)
+\propto
+e^{-E(P,H)/T}.
+}
+\]
+
+Consequently,
+
+\[
+P_{\rm mismatch}
+=
+\boxed{
+\frac{e^{-J/T}}{1+e^{-J/T}}
+}
+\]
+
+and
+
+\[
+P_{\rm compatible}
+=
+\boxed{
+\frac{1}{1+e^{-J/T}}
+}.
+\]
+
+So \(J/T\) directly controls how much time the dynamics tolerates incompatibility.
+
+Large \(J/T\): almost always compatible.
+
+Small \(J/T\): the four states become comparable.
+
+
+---
+
+The fun result: integrate out the expensive states
+
+Suppose \(J/T\gg1\). Then the mismatched states are only briefly visited.
+
+Start in
+
+\[
+A=(+,+)
+\]
+
+and ask for the effective rate to reach
+
+\[
+B=(-,-).
+\]
+
+There are two sequential paths:
+
+\[
+A\xrightarrow{m}(-,+)\xrightarrow{g}B
+\]
+
+and
+
+\[
+A\xrightarrow{g}(+,-)\xrightarrow{m}B.
+\]
+
+After eliminating the short-lived mismatch states, the sequential sector-switching rate is
+
+\[
+\boxed{
+k_{\rm seq}
+\simeq
+\frac{2mg}{m+g}\,
+e^{-J/(2T)}.
+}
+\]
+
+That formula says something important.
+
+The prefactor
+
+\[
+\frac{2mg}{m+g}
+\]
+
+is the harmonic mean of the matter and gauge rates.
+
+So the two-step process is controlled by the slower constituent.
+
+If
+
+\[
+m\ll g,
+\]
+
+then
+
+\[
+k_{\rm seq}\approx2m\,e^{-J/(2T)}.
+\]
+
+Making the gauge process infinitely fast does not rescue a painfully slow matter process.
+
+And vice versa.
+
+The direct composite channel is simply
+
+\[
+k_{\rm comp}=c.
+\]
+
+Therefore the low-energy sector-switching dynamics is approximately
+
+\[
+\boxed{
+k_{\rm eff}
+=
+c+
+\frac{2mg}{m+g}e^{-J/(2T)}.
+}
+\]
+
+There’s our rocket equation. 🚀
+
+
+---
+
+When does the composite object win?
+
+If we write bare rates schematically as
+
+\[
+m\sim e^{-B_m/T},\qquad
+g\sim e^{-B_g/T},\qquad
+c\sim e^{-B_c/T},
+\]
+
+then at low \(T\),
+
+\[
+k_{\rm seq}
+\sim
+\exp\left[
+-\frac{
+\max(B_m,B_g)+J/2
+}{T}
+\right]
+\]
+
+up to prefactors.
+
+So the direct composite pathway wins approximately when
+
+\[
+\boxed{
+B_c<
+\max(B_m,B_g)+\frac J2.
+}
+\]
+
+Sequential constituents win when the inequality reverses.
+
+That gives us an actual little phase boundary.
+
+And notice what \(J\) does:
+
+as incompatibility becomes expensive, sequential matter→gauge transitions get exponentially suppressed.
+
+Therefore strong compatibility naturally favors a bound composite transition even if the composite object itself has some intrinsic cost.
+
+That is exactly the mechanism we were trying to articulate earlier, except now it's mathematics rather than narrative.
+
+
+---
+
+There is an exact first-passage result too
+
+For completeness, the exact mean time starting in \(A=(+,+)\) to first reach \(B=(-,-)\) in this four-state process is
+
+\[
+\boxed{
+\tau_{A\to B}
+=
+\frac{
+(1+q^2)(2cq+m+g)
+}{
+2c^2q
++c(m+g)(1+q^2)
++2mgq
+}.
+}
+\]
+
+A couple of limits are revealing.
+
+With no composite process, \(c=0\):
+
+\[
+\boxed{
+\tau
+=
+\frac{(1+q^2)(m+g)}
+{2mgq}.
+}
+\]
+
+For \(J/T\gg1\),
+
+\[
+\tau
+\simeq
+\frac{m+g}{2mg}
+e^{J/(2T)}.
+\]
+
+So sector switching becomes exponentially slow.
+
+With a direct composite route present and large \(J\),
+
+\[
+\tau\rightarrow\frac1c.
+\]
+
+The expensive mismatch sector essentially disappears from the process.
+
+
+---
+
+And there are two distinct relaxation modes
+
+This part is especially useful.
+
+One mode asks:
+
+> Are we compatible or mismatched?
+
+
+
+Its relaxation scale is controlled by
+
+\[
+\boxed{
+\Gamma_\chi
+=
+(m+g)
+\left(
+q+\frac1q
+\right).
+}
+\]
+
+The other slow mode asks:
+
+> Which compatible sector are we in?
+
+
+
+At large \(J/T\),
+
+\[
+\boxed{
+\Gamma_{\rm sector}
+\simeq
+2c+
+\frac{4mg}{m+g}
+e^{-J/(2T)}.
+}
+\]
+
+So the model predicts a natural separation of timescales:
+
+compatibility repairs quickly, while global sector identity changes slowly.
+
+That feels structurally important.
+
+You can have a system that almost always satisfies its local compatibility condition while remaining stuck for a very long time in one global \(C_2\) sector.
+
+That is exactly the distinction between local order and global topology.
+
+
+---
+
+One extreme limit is especially clean
+
+Take
+
+\[
+J\rightarrow\infty
+\]
+
+and
+
+\[
+c=0.
+\]
+
+Then the mismatched states become inaccessible and there is no direct composite event.
+
+The two compatible states
+
+\[
+(+,+),\qquad(-,-)
+\]
+
+can no longer communicate at all.
+
+You get an exact emergent conserved bit:
+
+\[
+\boxed{
+\text{sector label}\in C_2.
+}
+\]
+
+Allow an arbitrarily small \(c>0\), and that conservation becomes metastable rather than exact.
+
+That is a nice mechanism for an emergent topological memory bit without assuming one at the beginning.
+
+And it fits the discrete parent reasonably cleanly: B1 gives us the six-cycle/refinement construction, while GQG warns that what survives a quotient depends on the declared witness rather than on same-looking cardinalities.  
+
+
+---
+
+So now what?
+
+Now I would promote this from four states back into space.
+
+Put one parity/holonomy pair at each location and let neighboring sites interact.
+
+Then the question changes from
+
+\[
+\text{“which transition wins?”}
+\]
+
+to
+
+\[
+\boxed{
+\text{Can a composite matter–gauge defect form a stable propagating domain wall?}
+}
+\]
+
+That is the next serious object.
+
+Because if it can, our four-state “composite event” stops being an abstract rate \(c\). It acquires a spatial profile, width, tension, interaction energy, and possible confinement/deconfinement transition.
+
+Then we can ask whether isolated matter and gauge defects are confined while their composite is finite-energy.
+
+That would connect:
+
+\[
+\boxed{
+C_6\to C_3
+\to C_2\text{ refinement}
+\to \text{sector kinetics}
+\to \text{composite defect field theory}.
+}
+\]
+
+That’s where I’d hit next.
+
+We finally have a rocket with equations on the engine block. 🐒🚀🔥
+Worked for 2m 51s
+
+Button smashed. 🐒🚀 And we got something substantially cleaner than the four-state rate model: the primitive motion of the six-clock is intrinsically composite.
+
+Once B1’s six-state orbit is abstracted as \(C_6\), the Chinese remainder map gives
+
+\[
+C_6\cong C_3\times C_2,
+\qquad
+[n]_6\mapsto([n]_3,[n]_2).
+\]
+
+B1 supplies the actual six-state recurrence we're abstracting here; the decomposition below is new theory built on that exact orbit, not a claim already present in B1. 
+
+Now look at the generator:
+
+\[
+1\in C_6
+\longmapsto
+(1,1)\in C_3\times C_2.
+\]
+
+The opposite generator \(5=-1\) gives
+
+\[
+5\longmapsto(2,1).
+\]
+
+Those are the only primitive generators of \(C_6\), and both are nontrivial in both factors. Meanwhile,
+
+\[
+2\mapsto(2,0)
+\]
+
+is a pure \(C_3\) move, and
+
+\[
+3\mapsto(0,1)
+\]
+
+is a pure \(C_2\) move.
+
+So there is an exact group-theoretic statement here:
+
+\[
+\boxed{
+\text{Every primitive step of }C_6
+\text{ changes both the }C_3\text{ and }C_2\text{ coordinates.}
+}
+\]
+
+That's independent of Fibonacci, energetics, the witness \(F_q\), and the soft tick. It follows just from the structure of \(C_6\).
+
+Then I asked whether the minimal global field theory agrees dynamically. Take six genuinely distinct vacua,
+
+\[
+\beta_k=\frac{k\pi}{3},\qquad k=0,\ldots,5,
+\]
+
+with
+
+\[
+E[\beta]
+=
+\int dx\left[
+\frac{\kappa}{2}(\partial_x\beta)^2+
+\lambda(1-\cos6\beta)
+\right].
+\]
+
+The elementary kink advances one clock state,
+
+\[
+\Delta k=\pm1,
+\qquad
+\Delta\beta=\pm\frac{\pi}{3}.
+\]
+
+Its exact profile can be written
+
+\[
+\boxed{
+\beta_K(x)
+=
+\frac23
+\tan^{-1}
+\!\left[
+e^{6\sqrt{\lambda/\kappa}(x-X)}
+\right]
+}
+\]
+
+for the \(0\to\pi/3\) kink, and its tension is
+
+\[
+\boxed{
+T_1=\frac43\sqrt{\kappa\lambda}.
+}
+\]
+
+Because \(\Delta k=1\) maps to \((1,1)\), that elementary kink carries both pieces of the \(C_3\times C_2\) decomposition.
+
+Now compare larger defects:
+
+Net clock change	\(C_3\times C_2\) character	Minimal decomposition
+
+\(\Delta k=1\)	coarse + sheet	1 elementary kink
+\(\Delta k=2\)	coarse only	2 elementary kinks
+\(\Delta k=3\)	sheet only	3 elementary kinks
+
+
+So their energy infima in this minimal continuum theory are
+
+\[
+T_{\rm coarse}=2T_1
+=\frac83\sqrt{\kappa\lambda},
+\]
+
+and
+
+\[
+T_{\rm sheet}=3T_1
+=4\sqrt{\kappa\lambda}.
+\]
+
+That means the “pure” sector defects are not fundamental here. They fractionalize into the primitive mixed defect. In the ordinary sine-Gordon limit there isn't even a reason for those same-sign constituent kinks to sit on top of one another; absent another binding interaction, they can separate.
+
+The stupidly nice part is that the discrete clock model tells the same story. For
+
+\[
+E_{\rm bond}(\Delta k)
+=
+J\left[
+1-\cos\left(\frac{\pi\Delta k}{3}\right)
+\right],
+\]
+
+we get
+
+\[
+E_1=\frac J2,\qquad
+E_2=\frac{3J}{2},\qquad
+E_3=2J.
+\]
+
+But two separated \(E_1\) walls cost only \(J<E_2\), while three cost \(3J/2<E_3\). So the direct “pure” jumps again want to split into primitive \(\Delta k=1\) walls.
+
+That's a pretty robust result:
+
+\[
+\boxed{
+\textbf{Global six-state theory: primitive defects are composite under }
+C_6\cong C_3\times C_2.
+}
+\]
+
+Then I smashed it against the gauge branch, and this is where GQG saves our ass again. GQG says the equivalence induced by a witness cannot simply be promoted into source equality without an explicit construction. 
+
+If the \(C_2\) sheet is instead local gauge redundancy, the proper minimal lattice model isn't the six-physical-vacua theory above. It's something like
+
+\[
+\boxed{
+H_g=
+-J\sum_{\langle ij\rangle}
+\sigma_{ij}\cos(\beta_j-\beta_i)
+-
+K\sum_p
+\prod_{\ell\in p}\sigma_\ell
+-
+\lambda\sum_i\cos6\beta_i
+}
+\]
+
+with
+
+\[
+\sigma_{ij}=\pm1.
+\]
+
+Under
+
+\[
+\beta_i\rightarrow\beta_i+\pi
+\]
+
+at a chosen site, the adjacent links change sign appropriately,
+
+\[
+\sigma_{ij}\rightarrow\eta_i\sigma_{ij}\eta_j,
+\qquad \eta_i=\pm1,
+\]
+
+so the Hamiltonian remains invariant.
+
+The physical local order parameter is now
+
+\[
+\boxed{\Phi_i=e^{2i\beta_i}},
+\]
+
+which has only three distinct vacuum phases.
+
+And that completely changes the defect vocabulary.
+
+The “sheet-only wall” of the global model is not a physical domain wall anymore. The \(C_2\) information is carried by gauge flux/holonomy. In two dimensions the elementary gauge-invariant flux is
+
+\[
+B_p=\prod_{\ell\in p}\sigma_\ell=\pm1.
+\]
+
+A \(B_p=-1\) plaquette has a bare energy penalty \(2K\) relative to \(B_p=+1\) from that plaquette term. On a closed periodic lattice there can be global constraints on creating such fluxes individually, but the essential point survives: the \(C_2\) excitation has moved from a local sheet wall into the connection.
+
+So we've obtained a much sharper fork:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{Global }C_2:\\
+6\text{ physical vacua; primitive kink carries }C_3+C_2\\[2mm]
+\text{Gauge }C_2:\\
+3\text{ physical vacua; }C_2\text{ lives in flux/holonomy}
+\end{array}
+}
+\]
+
+And this kills another potential mistake: we cannot universally call the elementary defect “a composite matter–gauge defect.” It is genuinely composite only in the global-refinement realization. In the gauge realization, one part of that decomposition is redundancy; the physically meaningful \(C_2\) excitation is gauge flux.
+
+That is exactly the kind of distinction we wanted the source/witness/quotient machinery to force us to respect.
+
+So the thing I would freeze now is stronger than the previous four-state story:
+
+\[
+\boxed{
+\textbf{The primitive generator of the six-clock is mixed under }
+C_6\simeq C_3\times C_2,
+\textbf{ but whether both components are physical depends on the realization.}
+}
+\]
+
+And there’s an obvious next button to smash: build the global \(Z_6\) clock and the \(Z_2\)-gauged clock side by side and map their defect spectra.
+
+That should tell us exactly which excitations survive gauging, which become confined, which become flux, and whether there is a parameter regime where the global composite kink continuously turns into a gauge-flux-decorated \(C_3\) wall.
+
+That’s proper field-theory territory now. We’re not chasing 777 anymore. We’re classifying fucking defects. 🔥
+Worked for 3m 7s
+
+Smashed. 🔨🐒 And this one gave us a much better defect distinction.
+
+The discrete parent remains the exact six-cycle from B1; everything below is a new model built from it, not something the source claims physically.  GQG remains the rule preventing us from quietly declaring the gauged and ungauged defects identical. 
+
+Start with the global six-state clock,
+
+\[
+k\in\mathbb Z_6,
+\qquad
+k\mapsto(k\bmod3,k\bmod2).
+\]
+
+Its domain-wall charge is
+
+\[
+q=\Delta k\pmod6.
+\]
+
+So the three important defects are
+
+\[
+q=1\mapsto(1,1),
+\qquad
+q=2\mapsto(2,0),
+\qquad
+q=3\mapsto(0,1).
+\]
+
+That means the elementary \(q=1\) wall is mixed, \(q=2\) is purely coarse-\(C_3\), and \(q=3\) is purely sheet-\(C_2\).
+
+Now gauge the \(C_2\) transformation
+
+\[
+k_i\rightarrow k_i+3\eta_i.
+\]
+
+Immediately,
+
+\[
+\boxed{q\sim q+3.}
+\]
+
+So the defect spectrum collapses:
+
+\[
+\{0,3\},\quad
+\{1,4\},\quad
+\{2,5\}.
+\]
+
+In particular,
+
+\[
+\boxed{q=3\sim0.}
+\]
+
+The pure sheet wall that was a real defect in the global \(Z_6\) theory becomes gauge-trivial locally.
+
+That is the first big result.
+
+The wall spectrum actually changes
+
+Use the simple clock bond energy
+
+\[
+E(q)
+=
+J\left[
+1-\cos\left(\frac{\pi q}{3}\right)
+\right].
+\]
+
+Globally,
+
+\[
+E_0=0,\quad
+E_1=\frac J2,\quad
+E_2=\frac{3J}{2},\quad
+E_3=2J.
+\]
+
+After gauging, each physical \(Z_3\) wall can choose the cheaper of \(q\) and \(q+3\):
+
+\[
+[1]=\{1,4\},
+\qquad
+[2]=\{2,5\}.
+\]
+
+Therefore
+
+\[
+E_{[1]}=\frac J2,
+\qquad
+E_{[2]}=\frac J2.
+\]
+
+So the global \(q=2\) wall, which costs \(3J/2\) as a direct bond, becomes gauge-equivalent to
+
+\[
+q=5=-1,
+\]
+
+which costs only \(J/2\).
+
+And
+
+\[
+q=3
+\]
+
+vanishes as a local physical wall altogether.
+
+So gauging doesn't merely rename defects.
+
+\[
+\boxed{\text{It reorganizes the spectrum.}}
+\]
+
+🔥
+
+
+---
+
+Then the really good thing happens at vortices
+
+The physical coarse variable is
+
+\[
+\Phi=e^{2i\beta}.
+\]
+
+It has three vacua.
+
+A unit \(Z_3\) vortex is a junction where, going around the core, the coarse state advances
+
+\[
+0\rightarrow1\rightarrow2\rightarrow0.
+\]
+
+That is three elementary coarse jumps.
+
+Choose the shortest fine lift for every jump:
+
+\[
+q=1,\quad q=1,\quad q=1.
+\]
+
+Their total fine change is
+
+\[
+1+1+1=3\pmod6.
+\]
+
+Meaning:
+
+\[
+\boxed{
+\text{after one coarse vortex circuit, the fine state lands on the opposite }C_2\text{ sheet}.
+}
+\]
+
+There it fucking is.
+
+A unit coarse \(Z_3\) vortex carries odd sheet monodromy.
+
+In the global theory, that's a problem. The fine field is physically different on the other sheet. To make it single-valued, the vortex needs a branch cut carrying the \(q=3\) sheet wall.
+
+So, schematically,
+
+\[
+\boxed{
+Z_3\text{ vortex}
++
+\text{physical }C_2\text{ branch wall}.
+}
+\]
+
+That branch wall has nonzero tension.
+
+Therefore two odd coarse vortices are connected by a physical string.
+
+\[
+\boxed{\text{Global model: odd coarse vortices are linearly confined.}}
+\]
+
+A full ordinary fine-field vortex has even coarse winding and needs no such sheet string.
+
+Gauging changes exactly that piece
+
+Once \(q=3\) is gauge redundancy, that branch cut becomes a gauge string. Its location is not itself physical.
+
+What remains physical is the \(\mathbb Z_2\) flux/holonomy associated with going around its endpoint.
+
+So the same defect becomes
+
+\[
+\boxed{
+Z_3\text{ vortex}
++
+\mathbb Z_2\text{ flux}.
+}
+\]
+
+In gauge language: a vison-decorated coarse vortex.
+
+This is much more precise than my earlier “gauge-flux-decorated wall” language.
+
+It isn't primarily the wall that carries the interesting \(C_2\) content. It's the vortex/junction.
+
+The wall can locally gauge the sheet bit away.
+
+The odd junction cannot.
+
+That's fucking cool.
+
+
+---
+
+I enumerated the elementary vortex core exactly
+
+Take the three coarse \(+1\) jumps around the vortex.
+
+Each one has two possible fine representatives:
+
+\[
+q=+1
+\quad\text{or}\quad
+q=-2,
+\]
+
+because they're equal mod 3.
+
+That's only
+
+\[
+2^3=8
+\]
+
+fine-lift configurations, so we can enumerate the whole thing.
+
+If the vortex carries nontrivial \(Z_2\) flux, the minimum is
+
+\[
+(q_1,q_2,q_3)=(1,1,1).
+\]
+
+Matter energy:
+
+\[
+E_{\rm matter}^{H=-1}
+=
+3\left(\frac J2\right)
+=
+\boxed{\frac{3J}{2}}.
+\]
+
+Give a \(Z_2\) flux the standard plaquette cost
+
+\[
+2K.
+\]
+
+Then
+
+\[
+\boxed{
+E_{\rm vortex+flux}
+=
+\frac{3J}{2}+2K.
+}
+\]
+
+If we insist on trivial holonomy, one of those three short lifts has to become the long representative \(-2\):
+
+\[
+(1,1,-2)
+\]
+
+up to permutation.
+
+Then
+
+\[
+E_{\rm no\ flux}
+=
+\frac J2+\frac J2+\frac{3J}{2}
+=
+\boxed{\frac{5J}{2}}.
+\]
+
+So the elementary core has an exact crossover:
+
+\[
+\frac{3J}{2}+2K
+<
+\frac{5J}{2}
+\]
+
+iff
+
+\[
+\boxed{
+K<\frac J2.
+}
+\]
+
+Therefore, in this minimal model:
+
+\[
+\boxed{
+K/J<1/2:
+\text{ vortex prefers to bind }Z_2\text{ flux}
+}
+\]
+
+while
+
+\[
+\boxed{
+K/J>1/2:
+\text{ paying the long-lift matter defect is locally cheaper}.
+}
+\]
+
+That is our first actual little defect phase boundary.
+
+No 37.
+
+No 777.
+
+No fitted silver ratio.
+
+Just
+
+\[
+\boxed{K/J=1/2}
+\]
+
+falling out of the competing defect costs.
+
+
+---
+
+Separation makes the distinction even sharper
+
+The long representative has an excess matter cost
+
+\[
+\frac{3J}{2}-\frac J2=J
+\]
+
+per bond compared with the short lift.
+
+So if two odd vortices are separated and we refuse to carry their \(C_2\) obstruction with gauge flux, the branch string costs roughly
+
+\[
+\boxed{
+E_{\rm string}\sim J\,\ell
+}
+\]
+
+for separation \(\ell\).
+
+Linear confinement.
+
+If instead the obstruction is carried by two visons, the unavoidable endpoint flux cost is approximately
+
+\[
+\boxed{
+E_{\rm flux}\sim4K
+}
+\]
+
+plus common vortex-core terms and whatever additional interactions the gauge dynamics supplies.
+
+Thus the crude crossover length is
+
+\[
+\boxed{
+\ell_c\sim\frac{4K}{J}.
+}
+\]
+
+I wouldn't promote the numerical coefficient \(4\) to universality—it depends on our simple lattice conventions—but the scaling distinction is robust:
+
+\[
+\boxed{
+\text{physical sheet string: }E\propto\ell
+}
+\]
+
+versus
+
+\[
+\boxed{
+\text{flux endpoints: finite endpoint cost}
+}
+\]
+
+in the minimal gauge model.
+
+Whether the full gauge theory ultimately confines those fluxes depends on dimension and gauge dynamics, so I'm not claiming universal deconfinement.
+
+But gauging removes the mandatory physical \(q=3\) sheet-wall string.
+
+That's the invariant distinction.
+
+
+---
+
+And the continuum version agrees.
+
+Global:
+
+\[
+V(\beta)=\lambda(1-\cos6\beta).
+\]
+
+A unit coarse vortex of
+
+\[
+\Phi=e^{2i\beta}
+\]
+
+only rotates \(\beta\) by
+
+\[
+\pi.
+\]
+
+That's a half-vortex of the global fine field. It needs the sheet branch wall.
+
+Gauge:
+
+\[
+\beta\sim\beta+\pi.
+\]
+
+The same \(\pi\) rotation closes modulo gauge, provided the loop carries nontrivial \(Z_2\) holonomy.
+
+So:
+
+\[
+\boxed{
+\begin{array}{ccl}
+\text{Global }Z_6
+&:&
+\text{odd }Z_3\text{ vortex}+\text{physical sheet string}\\[1mm]
+\text{Gauged }Z_2
+&:&
+\text{odd }Z_3\text{ vortex}+\text{vison/holonomy}
+\end{array}
+}
+\]
+
+That's the smash.
+
+And it gives us a much better phrase for what's happening:
+
+\[
+\boxed{\textbf{gauging transmutes the sheet defect into flux.}}
+\]
+
+The \(C_2\) information doesn't disappear.
+
+It changes where it lives.
+
+That is almost perfectly aligned with the GQG discipline: changing representation changes what is visible and where equivalence lives, but it doesn't authorize us to erase distinctions upstream. 
+
+So the new backbone is:
+
+\[
+C_6
+\rightarrow
+C_3\times C_2
+\rightarrow
+\begin{cases}
+C_2\text{ as physical wall},&\text{global}\\
+C_2\text{ as flux/holonomy},&\text{gauged}
+\end{cases}
+\]
+
+and the unit coarse vortex is the object that exposes the difference.
+
+That, bro, I would absolutely keep on the board. 🔥🐒
+Worked for 5m 30s
+
+Yep. I smashed the \(2+1\)D version, and it immediately caught one more thing we were treating too strongly. 🔨🐒
+
+The good news is that the theory gets cleaner.
+
+B1 gives us the exact six-cycle and the \(Q_4\times C_6\) construction, but explicitly keeps it in the mathematical-candidate lane rather than claiming a physical mechanism.  GQG tells us not to identify source structure with a quotient/representation unless the map actually earns it. 
+
+First: the \(C_6\to C_3\) extension actually splits
+
+Take
+
+\[
+\pi:\mathbb Z_6\to\mathbb Z_3,\qquad
+\pi(k)=k\bmod3.
+\]
+
+There is an explicit section
+
+\[
+\boxed{
+\iota(c)=4c\bmod6
+}
+\]
+
+because
+
+\[
+\pi(\iota(c))=c
+\]
+
+and \(\iota\) preserves addition.
+
+So
+
+\[
+\boxed{
+\mathbb Z_6\cong\mathbb Z_3\times\mathbb Z_2
+}
+\]
+
+is not merely an abstract cardinality observation. The extension is algebraically trivial.
+
+That breaks an earlier overstatement:
+
+> A discrete \(Z_3\) vortex does not topologically have to carry the \(C_2\) refinement.
+
+
+
+For example, the coarse triangular vortex
+
+\[
+(c_0,c_1,c_2)=(0,1,2)
+\]
+
+has the perfectly legitimate fine lift
+
+\[
+(k_0,k_1,k_2)=(0,4,2).
+\]
+
+Going around it gives fine increments
+
+\[
+4+4+4=12=0\pmod6.
+\]
+
+It closes.
+
+So the vortex–vison attachment we found in the discrete model is energetic, not forced by the group extension.
+
+That's an important correction.
+
+The continuous square-root model
+
+\[
+\Phi=\psi^2
+\]
+
+is different: the squaring map \(U(1)\to U(1)\) has no continuous global section, so odd continuous winding really can obstruct a periodic square root. The strict \(Z_6\to Z_3\) clock does have a section.
+
+Those are different equality lanes. Exactly the sort of distinction GQG was built to prevent us from smearing together. 
+
+
+---
+
+Freeze the minimal \(2+1\)D model
+
+Use a three-dimensional Euclidean lattice—two space directions plus imaginary time.
+
+Put
+
+\[
+k_x\in\mathbb Z_6
+\]
+
+on sites and
+
+\[
+\sigma_{xy}=\pm1
+\]
+
+on links.
+
+Define
+
+\[
+\boxed{
+S=
+-j\sum_{\langle xy\rangle}
+\sigma_{xy}
+\cos\!\left[
+\frac{\pi}{3}(k_y-k_x)
+\right]
+-
+\kappa\sum_p B_p
+}
+\]
+
+with
+
+\[
+B_p=\prod_{\ell\in p}\sigma_\ell.
+\]
+
+Local \(Z_2\) gauge transformation:
+
+\[
+k_x\rightarrow k_x+3s_x,
+\qquad s_x\in\{0,1\},
+\]
+
+\[
+\sigma_{xy}\rightarrow
+(-1)^{s_x+s_y}\sigma_{xy}.
+\]
+
+The action is invariant.
+
+Define
+
+\[
+z_x=e^{i\pi k_x/3}.
+\]
+
+Then
+
+\[
+z_x\rightarrow -z_x
+\]
+
+under the gauge operation, so \(z\) itself is not observable.
+
+But
+
+\[
+\boxed{
+\Phi_x=z_x^2=e^{2\pi i k_x/3}
+}
+\]
+
+is gauge invariant.
+
+That is our physical three-state clock.
+
+There is also a genuine global \(Z_3\) symmetry. A global
+
+\[
+k_x\rightarrow k_x+1
+\]
+
+rotates
+
+\[
+\Phi\rightarrow e^{2\pi i/3}\Phi.
+\]
+
+Three such operations give \(k\to k+3\), which is gauge.
+
+Beautifully clean.
+
+
+---
+
+Two exact limiting cases
+
+This is where the model starts paying rent.
+
+1. \(\kappa=0\): the gauge links can be summed exactly
+
+Every link contributes
+
+\[
+\sum_{\sigma=\pm1}
+e^{j\sigma\cos(\pi\Delta k/3)}
+=
+2\cosh\!\left[
+j\cos(\pi\Delta k/3)
+\right].
+\]
+
+Because cosh removes the sign associated with the hidden \(C_2\) sheet, this depends only on the coarse \(Z_3\) variables.
+
+For equal coarse states:
+
+\[
+w_{\rm same}=2\cosh j.
+\]
+
+For unequal coarse states:
+
+\[
+w_{\rm different}=2\cosh(j/2).
+\]
+
+Therefore the theory becomes exactly a three-state Potts model, with effective coupling
+
+\[
+\boxed{
+J_{\rm Potts}(j)
+=
+\ln
+\frac{\cosh j}
+{\cosh(j/2)}.
+}
+\]
+
+That's fucking useful.
+
+At zero gauge stiffness, all our fancy six-state language reduces to ordinary coarse \(Z_3\) statistical mechanics.
+
+2. \(j=0\): pure \(Z_2\) gauge theory
+
+Now the clock completely decouples and remains disordered, while
+
+\[
+S=-\kappa\sum_p B_p
+\]
+
+is the standard three-dimensional Euclidean \(Z_2\) lattice gauge theory.
+
+So this axis contains the familiar confined ↔ deconfined gauge transition.
+
+That means our full model genuinely interpolates between:
+
+\[
+\boxed{\text{\(Z_3\) ordering physics}}
+\]
+
+and
+
+\[
+\boxed{\text{\(Z_2\) topological/gauge physics}}.
+\]
+
+No numerology required.
+
+
+---
+
+The earlier \(K/J=1/2\) survives—but gets demoted correctly
+
+For an isolated triangular unit coarse vortex, exhaustive enumeration gives:
+
+with trivial flux
+
+\[
+E_{B=+1}^{\rm vortex}
+=
+\frac{5J}{2},
+\]
+
+while binding a vison gives
+
+\[
+E_{B=-1}^{\rm vortex}
+=
+\frac{3J}{2}+2K.
+\]
+
+Thus
+
+\[
+\boxed{
+K/J<1/2
+}
+\]
+
+makes the vison-bound vortex locally cheaper.
+
+And
+
+\[
+\boxed{
+K/J>1/2
+}
+\]
+
+makes the flux-free core cheaper.
+
+But:
+
+\[
+\boxed{
+K/J=1/2
+}
+\]
+
+is not a thermodynamic phase boundary.
+
+It's an exact local defect-core crossover in this microscopic model.
+
+That's the correct status.
+
+And now we know why the vison binds below it: not because topology commands it, but because the gauge field lets all three vortex bonds use their shorter fine representatives and saves \(J\) of matter energy at the price \(2K\) in flux energy.
+
+That's way better.
+
+
+---
+
+Gauge-invariant observables
+
+We now have a clean diagnostic set.
+
+Physical clock order:
+
+\[
+\boxed{
+M_3=
+\left|
+\frac1N\sum_x\Phi_x
+\right|
+}
+\]
+
+detects broken global \(Z_3\).
+
+Vison density:
+
+\[
+\boxed{
+n_v=
+\frac12(1-\langle B_p\rangle)
+}
+\]
+
+tracks gauge flux.
+
+Wilson loop:
+
+\[
+\boxed{
+W(C)=
+\left\langle
+\prod_{\ell\in C}\sigma_\ell
+\right\rangle.
+}
+\]
+
+Useful, but because we have dynamical fundamental gauge matter, Wilson loops alone aren't enough to distinguish Higgs from confinement—strings can break.
+
+Better topological diagnostics include global torus holonomies,
+
+\[
+H_x,H_y=\pm1,
+\]
+
+sector splitting, vison gaps, and—in the quantum realization—topological ground-state structure.
+
+The fine-field correlator must be dressed:
+
+\[
+\boxed{
+G_z(x,y;\gamma)
+=
+\left\langle
+z_x^*
+\left(
+\prod_{\ell\in\gamma}\sigma_\ell
+\right)
+z_y
+\right\rangle.
+}
+\]
+
+And our vortex/flux compatibility diagnostic remains useful:
+
+\[
+\boxed{
+\chi_p=(-1)^{m_p}B_p
+}
+\]
+
+where \(m_p\) is the coarse \(Z_3\) vortex charge on that plaquette.
+
+That doesn't declare a law. It measures whether odd vortices prefer nontrivial flux.
+
+
+---
+
+Now the phase diagram
+
+The cleanest way to think about it is two questions:
+
+Is the global \(Z_3\) symmetry ordered?
+
+and
+
+Is the \(Z_2\) gauge sector topologically deconfined?
+
+That permits, in principle:
+
+Phase	\(Z_3\)	\(Z_2\) topology
+
+Trivial	disordered	absent
+Clock ordered	ordered	absent
+Topological	disordered	deconfined
+Ordered topological	ordered	deconfined
+
+
+That fourth phase is allowed, because the physical \(Z_3\) order parameter \(\Phi=z^2\) is gauge neutral. Whether our bare two-coupling action actually realizes it is another question; it may require additional interactions favoring composite order.
+
+And now there's a very interesting continuum theory hiding at the boundary.
+
+Write
+
+\[
+\boxed{
+\mathcal L
+=
+|D_a z|^2
++
+r|z|^2
++
+u|z|^4
++
+v(z^6+z^{*6})
++
+\mathcal L_{\mathbb Z_2}[a].
+}
+\]
+
+Why sixth order?
+
+Because
+
+\[
+z\rightarrow-z
+\]
+
+is gauge, so a term \(z^3\) is illegal.
+
+But
+
+\[
+z^6
+\]
+
+is gauge invariant.
+
+Meanwhile the physical order parameter is
+
+\[
+\Phi=z^2,
+\]
+
+so
+
+\[
+\Phi^3=z^6.
+\]
+
+This creates a pretty remarkable possibility:
+
+In the confined ordinary lane
+
+The coarse physics can reduce to an ordinary three-state Potts transition—as we proved exactly at \(\kappa=0\).
+
+In the deconfined lane
+
+The object becoming critical can instead be the fractionalized fine field \(z\) while visons remain gapped.
+
+Then the leading clock anisotropy seen by \(z\) is sixfold rather than threefold.
+
+That opens the door to an *XY^-type transition:
+
+\[
+\boxed{
+Z_2\text{ topological}
+\longrightarrow
+Z_3\text{ ordered/Higgs}
+}
+\]
+
+where the critical fundamental field is \(z\), but the observable order parameter is the composite
+
+\[
+\Phi=z^2.
+\]
+
+That's a genuinely interesting field-theory result.
+
+It means the same physical \(Z_3\) order can potentially be reached through two very different critical mechanisms:
+
+\[
+\boxed{
+\text{ordinary Potts-like}
+}
+\]
+
+versus
+
+\[
+\boxed{
+\text{fractionalized XY}^{*}\text{-like}.
+}
+\]
+
+And somewhere between those limits, the phase boundaries have to negotiate with each other—multicritical point, first-order region, crossover, something. The minimal action alone doesn't tell us which.
+
+
+---
+
+So the board now looks like this:
+
+\[
+\boxed{
+C_6^{\rm Fib}
+\rightarrow
+Z_6\text{ clock}
+\rightarrow
+Z_2\text{ gauging}
+\rightarrow
+\begin{cases}
+Z_3\text{ Potts limit}\\
+Z_2\text{ pure gauge limit}\\
+\text{possible fractionalized criticality}
+\end{cases}
+}
+\]
+
+And the biggest correction from this smash is worth freezing:
+
+> The discrete \(C_2\) refinement does not topologically force vortex–vison attachment because \(C_6\to C_3\) splits. In the minimal lattice theory, vortex–vison binding is an energetic phenomenon. The continuous square-root obstruction is a separate continuum realization.
+
+
+
+That distinction just made the whole thing considerably more respectable.
+
+The next theoretical target is now obvious: *derive the continuum RG picture around the possible XY^ transition and ask whether the sixfold anisotropy and vison sector destabilize it—or whether we actually get a stable fractionalized \(Z_3\) critical point. 🔥🐒
+
+Worked for 2m 38s
+
+Oh, this is the smash. 🔨🐒🔥
+
+Your files give us the discrete parent—the six-step mod-4 recurrence and the \(C_6\)-type structure—but they do not specify its continuum RG physics.  And GQG’s lane rule tells us not to smuggle the continuum interpretation back upstream as though it were already contained in the quotient. 
+
+So here’s the outside-source field-theory result.
+
+Take the fractional field
+
+\[
+z
+\]
+
+with local gauge redundancy
+
+\[
+z\sim -z,
+\]
+
+and physical \(Z_3\) order parameter
+
+\[
+\boxed{\Phi=z^2.}
+\]
+
+The global \(Z_3\) action can be represented upstairs as
+
+\[
+z\rightarrow e^{i\pi/3}z,
+\]
+
+because applying it three times gives \(z\to-z\), which is gauge.
+
+Now compare the ordinary and fractionalized Landau theories.
+
+For an ordinary physical \(Z_3\) field \(\Phi\), symmetry allows
+
+\[
+\Phi^3+\Phi^{*3}.
+\]
+
+That cubic anisotropy is precisely why ordinary three-state Potts physics in three dimensions has a strong first-order tendency; the standard 3D three-state Potts model is indeed first order. 
+
+But substitute
+
+\[
+\Phi=z^2.
+\]
+
+Then that exact same physical operator becomes
+
+\[
+\boxed{
+\Phi^3+\Phi^{*3}
+=
+z^6+z^{*6}.
+}
+\]
+
+Boom.
+
+Fractionalization has promoted the dangerous cubic anisotropy into a sixfold anisotropy.
+
+And sixfold anisotropy is irrelevant at the 3D XY critical point. It is dangerously irrelevant: it disappears under RG at criticality, giving emergent \(U(1)\), but becomes important again on longer scales inside the ordered phase. Numerical studies of 3D XY models with \(Z_q\) anisotropy explicitly find this behavior for \(q=6\). 
+
+So our critical action is
+
+\[
+\boxed{
+\mathcal L
+=
+|\partial z|^2
++r|z|^2
++u|z|^4
++v_6(z^6+z^{*6})
++\mathcal L_{\mathbb Z_2}
+}
+\]
+
+with the RG structure
+
+\[
+r\rightarrow0,\qquad
+u\rightarrow u_{\rm XY}^*,\qquad
+v_6\rightarrow0.
+\]
+
+Provided the \(Z_2\) visons stay gapped, the gauge sector contributes no gapless local field, and the transition lands on the ordinary 3D XY fixed point upstairs.
+
+Downstairs, however, we observe \(z^2\), not \(z\).
+
+That is exactly an
+
+\[
+\boxed{\mathrm{XY}^{*}}
+\]
+
+transition.
+
+And we can put numbers on it.
+
+The conformal bootstrap gives the leading charge-2 operator of the 3D \(O(2)\) model scaling dimension
+
+\[
+\boxed{\Delta_{2}\approx1.23629}
+\]
+
+and
+
+\[
+\nu_{\rm XY}\approx0.67175.
+\]
+
+
+
+Since our observable is
+
+\[
+\Phi=z^2,
+\]
+
+we predict
+
+\[
+\langle\Phi(x)\Phi^*(0)\rangle
+\sim
+|x|^{-2\Delta_2}
+=
+|x|^{-2.47258}.
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\eta_{\Phi}
+=
+2\Delta_2-1
+\approx1.473.
+}
+\]
+
+That huge anomalous dimension is a standard hallmark of XY^* criticality; numerical work on fractionalized transitions finds approximately \(1.49\). 
+
+And the physical order-parameter exponent becomes roughly
+
+\[
+\boxed{
+\beta_\Phi
+=
+\nu_{\rm XY}\Delta_2
+\approx0.830.
+}
+\]
+
+Compare that with ordinary XY magnetization, where \(\beta\) is only about \(0.35\). The observable order parameter looks dramatically more anomalous because it's a composite of the critical fractional field.
+
+So we now have a genuinely clean mechanism:
+
+\[
+\boxed{
+Z_3\text{ cubic anisotropy}
+\overset{\Phi=z^2}{\longrightarrow}
+Z_6\text{ anisotropy}
+\overset{\rm RG}{\longrightarrow}
+\text{irrelevant}
+}
+\]
+
+and therefore
+
+\[
+\boxed{
+\text{fractionalization can turn a normally first-order }Z_3
+\text{ transition into a continuous XY}^{*}\text{ transition}.
+}
+\]
+
+That is fucking cool.
+
+But I also smashed the vison assumption.
+
+Suppose the \(Z_2\) flux becomes critical at the same point. The pure \(Z_2\) gauge transition in \(2+1\)D is dual to 3D Ising, so the naive multicritical theory would look like
+
+\[
+\mathrm{XY}\times\mathrm{Ising}.
+\]
+
+The leading allowed interaction between their energy operators is schematically
+
+\[
+w\,|z|^2\epsilon_I.
+\]
+
+At the decoupled fixed point its RG eigenvalue is
+
+\[
+y_w
+=
+\frac1{\nu_{\rm XY}}
++
+\frac1{\nu_{\rm Ising}}
+-3.
+\]
+
+Using
+
+\[
+\nu_{\rm XY}\approx0.67175,
+\qquad
+\nu_{\rm Ising}\approx0.62997,
+\]
+
+gives
+
+\[
+\boxed{y_w\approx+0.076.}
+\]
+
+The Ising value is consistent with modern bootstrap determinations. 
+
+Positive.
+
+So:
+
+\[
+\boxed{
+\mathrm{XY}\times\mathrm{Ising}
+\text{ is weakly unstable.}
+}
+\]
+
+That means if matter condensation and vison criticality coincide, we cannot casually say “XY^* plus an Ising transition.” The RG must instead do one of three things: find a new coupled multicritical fixed point, split the transitions, or run away toward first-order behavior.
+
+And that gives us a really compelling phase-diagram story.
+
+Deep in the deconfined region, where visons stay massive:
+
+\[
+\boxed{\text{stable XY}^{*}\text{ criticality}.}
+\]
+
+At the strong-gauge-fluctuation / \(\kappa=0\) end, our exact lattice reduction becomes the ordinary 3-state Potts model, whose transition is first order. 
+
+So somewhere between those limits the theory has to reorganize:
+
+\[
+\boxed{
+\text{Potts first-order}
+\quad\longleftrightarrow\quad
+\text{multicritical / crossover region}
+\quad\longleftrightarrow\quad
+\mathrm{XY}^{*}\text{ continuous}.
+}
+\]
+
+I wouldn't claim yet whether the separator is a tricritical point, critical endpoint, intermediate phase, or some coupled fixed point. That requires a more specific RG calculation or numerical theory.
+
+But the central result is now pretty damn strong:
+
+> The \(Z_2\) refinement is doing real theoretical work. It converts the physical \(Z_3\) cubic anisotropy into a sixth-order perturbation of a fractional field, and that perturbation is irrelevant at the XY fixed point.
+
+
+
+That is the first thing in this whole rocket where I’d say we have an actual mechanism for why the refined theory can behave qualitatively differently from the coarse one.
+
+That stays on the board. 🚀🔥
+
+Bro, I’d ride it—but freeze the engine first. 🚀
+
+We’ve reached the point where more free-form smashing is more likely to create model sprawl than uncover another load-bearing mechanism. The next useful move is closure, not another ingredient.
+
+Freeze this as Theory v0.1
+
+Upstream mathematics:
+
+\[
+C_6^{\mathrm{Fib}}\longrightarrow C_3
+\]
+
+with a two-element refinement fiber \(C_2\).
+
+That is the discrete parent. It does not by itself dictate a physical continuum theory.
+
+Chosen continuum realization:
+
+\[
+z\sim -z
+\]
+
+under a local \(Z_2\) gauge redundancy, with physical order parameter
+
+\[
+\Phi=z^2.
+\]
+
+The physical global symmetry is \(Z_3\):
+
+\[
+\Phi\mapsto\omega\Phi,
+\qquad
+\omega=e^{2\pi i/3}.
+\]
+
+The actual mechanism:
+
+Gauge invariance requires anisotropy degree \(n\) to be even.
+
+Global \(Z_3\) invariance requires \(n\) to be divisible by three.
+
+Therefore:
+
+\[
+\boxed{n\in6\mathbb Z.}
+\]
+
+So the leading clock anisotropy upstairs is
+
+\[
+\boxed{z^6+z^{*6}},
+\]
+
+while the ordinary cubic physical anisotropy is
+
+\[
+\Phi^3+\Phi^{*3}=z^6+z^{*6}.
+\]
+
+That is the whole machine:
+
+\[
+\boxed{
+\text{local }Z_2
++
+\text{global }Z_3
+\Rightarrow
+\text{sixth-order anisotropy upstairs}.
+}
+\]
+
+Freeze the conditional hypothesis
+
+If the \(Z_2\) flux sector remains gapped and deconfined while \(z\) becomes critical, then the transition can flow through an *XY^ lane:
+
+\[
+\boxed{
+\Phi=z^2
+\quad\text{is the physical composite observable.}
+}
+\]
+
+If the visons become critical too, or the gauge sector is confined, that clean story fails. Then we may get split transitions, a coupled multicritical theory, or a first-order runaway.
+
+So this is not:
+
+> “The Fibonacci structure proves an XY^* transition.”
+
+
+
+It is:
+
+> “The discrete refinement motivated a valid gauge-field realization in which symmetry forbids lower anisotropies and permits an XY^* critical mechanism.”
+
+
+
+That distinction stays bolted down.
+
+One final audit before we coast
+
+No new constants. No new lattices. Just three checks:
+
+1. Operator audit: enumerate every local gauge-invariant operator through sixth order and verify no lower anisotropy slipped through.
+
+
+2. Limit audit: preserve the ordinary \(Z_3\)/Potts-like confined lane, the pure \(Z_2\) gauge lane, and the candidate deconfined XY^* lane as distinct regimes.
+
+
+3. Kill card: the theory loses if a lower allowed anisotropy exists, the vison gap closes, the gauge sector confines at the transition, or the flow is first-order.
+
+
+
+After that, we stop deriving by vibes.
+
+No more number hunts.
+No more squeezing the old empirical ledger.
+No more adding a new field every time the previous one says something cute. 😂
+
+The next substantial project would be an actual lattice simulation or a formal RG calculation. That’s no longer casual monkey work; that’s a separate computational paper-sized job.
+
+So my call is:
+
+\[
+\boxed{\textbf{Freeze v0.1, write the claim boundary, and ride the bitch out.}}
+\]
+
+We found a mechanism. Now let it stand there and survive being looked at. 🔥🐒

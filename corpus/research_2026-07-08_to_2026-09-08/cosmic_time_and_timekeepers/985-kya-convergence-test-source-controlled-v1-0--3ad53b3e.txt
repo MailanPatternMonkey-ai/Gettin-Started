@@ -1,0 +1,289 @@
+,985-kya convergence test — method,Unnamed: 1,Unnamed: 2,Unnamed: 3
+0,"A source-controlled test of a temporal coordinate, not a proof machine. Update the window cells below and the evidence classifications recalculate.",,,
+1,,,,
+2,Parameter,kya,,Interpretive rules
+3,Target point T0,985.5,,1. Hypothesis = the claim being tested. It is never copied into the finding column.
+4,Tight core — younger bound,885.5,,2. Range overlap = arithmetic compatibility only. It is not causal evidence and not proof.
+5,Tight core — older bound,1085.5,,3. Finding = the observation or inference the cited source actually licenses.
+6,Context — younger bound,735.5,,4. Broad or approximate dates have low temporal specificity even when they touch T0.
+7,Context — older bound,1235.5,,"5. Contradictory models, redatings, and non-overlap controls stay visible."
+8,Broad context — younger bound,400,,"6. Two analyses of one specimen, site, or model family do not become two independent hits."
+9,Broad context — older bound,1500,,7. 'Not demonstrated' is not 'impossible'. Rows can be revised when stronger evidence appears.
+10,,,,"8. The table asks whether independent lanes converge on a unique event, not whether a story can be made to fit."
+11,,,,
+12,Decision rule,,,
+13,"A lane contributes to convergence only when it supplies a dated, source-backed finding that is specific enough to discriminate the 985.5-kya target from ordinary deep-time background.",,,
+14,"The overall hypothesis strengthens only if at least two independent empirical lanes meet that standard without depending on the same fossil, site, model, or myth-derived selection rule.",,,
+15,Failure to meet the rule leaves the hypothesis open but unsupported at the claimed resolution; it does not prohibit future revision.,,,
+16,,,,
+17,"Coordinate provenance: 13,500 × 73 = 985,500 years. This arithmetic defines T0; it is not an archaeological or genetic observation.",,,
+18,Tight core: ±100 kyr. Context: ±250 kyr. Broad context: the 0.4–1.5 Ma interval reported by the 2022 chromosome-2 timing model.,,,
+19,Source Doc remains untouched: https://docs.google.com/document/d/10cw3q5iBapCv89O0WLqY7iE3TOXT0CTCbDzTPywHtQ4/edit,,,
+,985-kya convergence table,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20
+0,"Sort and filter freely. Columns E, J–N, and P are deliberately separate: proposed claim, interval arithmetic, and licensed finding.",,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+2,Evidence ID,Lane,Evidence item,Independent-selection role,Hypothesis being tested,Younger bound (kya),Central / point (kya),Older bound (kya),Date basis,Contains T0?,Overlaps tight core?,Overlaps context?,Overlaps broad context?,Window class,Published range / observation,Finding allowed,Independence / discriminating power,Effect on 985-kya hypothesis,Caveat / contradiction,Source ID,Source URL
+3,C2-01,Chromosome 2,Relic telomere–telomere fusion site at 2q13,Structural anchor,H4: chromosome-2 fusion reflects intervention,,,,Undated molecular structure,,,,,Undated / structural,Head-to-head degenerate telomeric repeats occur at the predicted fusion point.,Fusion is established as a biological event; this row does not date it.,Independent structural evidence; no specificity for 985.5 kya,Neutral on timing; contradicts neither natural nor intervention mechanisms,"No observation of engineering, agent, or causal mechanism.",S02,https://pubmed.ncbi.nlm.nih.gov/1924367/
+4,C2-02,Chromosome 2,UBCS-based fusion timing model,Affirmative timing test,H5: fusion occurred around 985 kya,400,900,1500,Model estimate; 95% interval,True,True,True,True,Contains target,Estimated fusion age ~0.9 Ma; reported 95% interval 0.4–1.5 Ma.,"The published interval contains T0. That is a range overlap, not proof of a 985.5-kya event.","Independent model, but very broad interval and strong assumptions; weak temporal discrimination",Supports compatibility only,"Assumes substitution behavior near the fusion site, a fixed human–chimp split, and sequence rescaling; bonobo comparison is also broad.",S03,https://link.springer.com/article/10.1186/s12864-022-08828-7
+5,C2-03,Chromosome 2,Segmental-duplication / ILS timing model,Alternative-model control,H5: fusion occurred around 985 kya,5000,6000,7000,Model range tied to African great-ape speciation,False,False,False,False,Non-overlap control,"Fusion-site segmental duplications and incomplete lineage sorting are interpreted as placing the event early in African great-ape speciation, ~5–7 Ma.",A current alternative model places the fusion far outside every 985-kya window.,Independent data/model family; high relevance to timing,Strong tension with the recent-fusion timing claim,Still model-based rather than direct observation of the fusion event.,S04,https://pubmed.ncbi.nlm.nih.gov/41338219/
+6,C2-04,Chromosome 2,Shared centromere organization in archaic genomes,Phylogenetic lower-bound control,H5: fusion occurred around 985 kya,,,,Phylogenetic bound; no single event date,,,,,Undated / structural,Denisovan and Neanderthal centromeric organization supplies a lower bound: fusion predates their common ancestry.,The event predates the sampled archaic lineages; this row does not identify 985.5 kya.,"Independent phylogenetic constraint; moderate relevance, no exact date",Neutral / underdetermined,A lower bound is not a point estimate.,S05,https://pubmed.ncbi.nlm.nih.gov/27423248/
+7,C2-05,Chromosome 2,Resolved complex fusion-site architecture,Structural replication,H4/H5: fusion mechanism and timing,,,,Assembly of segmental duplications,,,,,Undated / structural,Targeted assembly resolves complex segmental-duplication-rich architecture around the fusion site.,Improves the structural map; supplies no 985-kya date and no intervention evidence.,Independent method for structure; no target-date discrimination,Neutral on 985.5-kya timing,Complexity is not evidence of design.,S06,https://pmc.ncbi.nlm.nih.gov/articles/PMC10496407/
+8,DEM-01,Demography,FitCoal severe ancestral bottleneck,Affirmative demographic timing test,H1/P5: a crisis or bottleneck converges near 985 kya,813,871.5,930,Inferred interval; ~117 kyr duration,False,True,True,True,Tight overlap,"Model infers a bottleneck from ~930 to 813 ka, with an effective breeding population around 1,280.",The inferred interval overlaps the tight core but does not contain T0; the bottleneck begins ~55.5 kyr after T0.,"Independent empirical lane, but inference is method-sensitive and currently disputed",Near-date context only,"Population structure, mutation model, and SFS identifiability affect the inference.",S07,https://www.science.org/doi/10.1126/science.abq7487
+9,DEM-02,Demography,Alternative demographic-model comparison,Adversarial method control,H1/P5: a severe bottleneck converges near 985 kya,,,,Model comparison; no new dated event,,,,,Undated / structural,A panmictic model without the severe bottleneck fits better in the authors' tests; other methods do not recover the event.,The severe bottleneck is not a stable cross-method finding.,Independent critique; directly discriminating,Tension with bottleneck anchor,A critique of the model does not establish that no demographic contraction occurred.,S08,https://academic.oup.com/mbe/article/42/2/msaf041/8005733
+10,DEM-03,Demography,SFS non-identifiability / artifact analysis,Adversarial method control,H1/P5: a severe bottleneck converges near 985 kya,,,,Methodological analysis; no new dated event,,,,,Undated / structural,Authors argue the ~900-ka signal can arise from model misspecification and is inconsistent across population subsets.,The exact severe-bottleneck interpretation may be a statistical artifact.,Independent critique; directly discriminating,Tension with bottleneck anchor,Does not rule out all population-size change in the period.,S09,https://academic.oup.com/genetics/article/229/1/iyae192/7925576
+11,DEM-04,Demography,FitCoal benchmark and fossil-context response,Proponent response control,H1/P5: a severe bottleneck converges near 985 kya,,,,Simulation benchmark / response,,,,,Undated / structural,The original model family reports simulation recovery and argues that fossil and paleoclimate evidence are consistent with the bottleneck.,"The dispute remains live; this is a defense, not independent replication.",Same model family as DEM-01; do not double-count,Restores plausibility but not independent convergence,Simulation performance depends on the generative scenarios tested.,S10,https://academic.oup.com/mbe/article/43/7/msag157/8723835
+12,HOM-01,Hominin populations,"Daka Homo erectus cranium, Ethiopia",Near-date fossil context,H1/P1: a distinct hominin population is present near 985 kya,1000,1000,1000,Approximate point age; uncertainty not stated in abstract,False,True,True,True,Tight overlap,A Homo erectus cranium from the Daka Member is reported at approximately 1 Ma.,"Homo erectus was present near the target coordinate; this is occupancy/context, not a discrete 985.5-kya transition.",Independent fossil; low temporal specificity and low discrimination,Compatible background context,"A long-lived, widespread lineage near 1 Ma is not evidence of a cousin dynasty or replacement event.",S11,https://pubmed.ncbi.nlm.nih.gov/11907576/
+13,HOM-02,Hominin populations,"Homo antecessor, Gran Dolina TD6.2",Bracketing fossil context,H1/P1: a distinct hominin population is present near 985 kya,772,860.5,949,Direct ESR range reported for TD6.2,False,True,True,True,Tight overlap,TD6.2 is dated ~772–949 ka; dental proteomics places H. antecessor as a sister lineage to later Middle/Late Pleistocene hominins.,"The fossil range overlaps the tight core but does not contain T0; it documents population diversity, not a single event.","Independent fossil/proteome; moderate lineage relevance, weak target discrimination",Compatible context only,"Phylogenetic placement and archaeological date do not establish governance, engineering, or replacement.",S12/S13,https://pmc.ncbi.nlm.nih.gov/articles/PMC7582224/
+14,HOM-03,Hominin populations,"Thomas Quarry I hominins, Casablanca",Younger context control,H1/P1: an African lineage candidate brackets the target,769,773,777,Magnetostratigraphic nominal age ±4 kyr,False,False,True,True,Context overlap,Hominin fossils near 773 ka are interpreted as basal to the H. sapiens lineage.,An important younger population lies inside the broad context but outside the tight core.,Independent fossil/date; useful regional control,No support for a unique 985.5-kya event,Phylogenetic interpretation remains an inference; the date is far younger than T0.,S14,https://www.nature.com/articles/s41586-025-09914-y
+15,HOM-04,Hominin populations,Yunxian 2 morphology under legacy ~1-Ma chronology,Superseded-input control,H1/P1: Asian lineage divergence near 985 kya,1000,1000,1000,Legacy approximate age used in 2025 analysis,False,True,True,True,Tight overlap,A reconstructed cranium was analyzed as approximately 1 Ma and placed near a Homo longi / Denisovan-related lineage.,The morphology result is conditional on the chronology used; it cannot serve as a current 985-kya anchor after direct redating.,Same specimen set as HOM-05; do not count independently,Withdrawn as timing support,A 2026 burial-date study moves the Yunxian crania to 1.77 ±0.08 Ma.,S15,https://www.science.org/doi/10.1126/science.ado9202
+16,HOM-05,Hominin populations,Direct burial dating of Yunxian crania,Redating / non-overlap control,H1/P1: Asian lineage divergence near 985 kya,1690,1770,1850,Cosmogenic burial age ±1σ,False,False,False,False,Non-overlap control,The Yunxian crania are dated to 1.77 ±0.08 Ma.,The directly dated fossils fall outside the broad 985-kya context and invalidate their use as a near-target timing hit.,Direct chronological control; high discriminating value,Contradicts use of Yunxian as a 985-kya anchor,Morphological interpretation and specimen identity remain separable from the revised date.,S16,https://www.science.org/doi/10.1126/sciadv.ady2270
+17,ARC-01,Archaeology,Wonderwerk Cave Stratum 10 burning,Near-date behavioral context,P3/P4: a behavioral transition occurs near 985 kya,1000,1000,1000,Approximate stratum age,False,True,True,True,Tight overlap,Burned bone and ashed plant remains in an Acheulean stratum are reported at approximately 1.0 Ma.,Secure local burning evidence lies near T0; it does not establish a global transition or a replacement population.,Independent archaeological site; low temporal and causal discrimination,Compatible local context only,Approximate age; fire evidence is local and does not date chromosome fusion or demography.,S17,https://www.pnas.org/doi/10.1073/pnas.1117620109
+18,ARC-02,Archaeology,Wonderwerk Cave Stratum 11 burning,Wide-interval specificity control,P3/P4: fire use converges near 985 kya,1070,1430,1790,Magnetostratigraphic / cosmogenic interval,False,True,True,True,Tight overlap,Deeper burning evidence is placed within a broad 1.07–1.79 Ma interval.,The interval touches the tight window but excludes T0; its width makes it non-specific.,"Same site, different stratum; broad range has weak target discrimination",No target-date support,Overlap at a window edge must not be promoted into a point match.,S18,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347480
+19,ARC-03,Archaeology,Gesher Benot Ya'aqov fire evidence,Younger non-match control,P3/P4: fire-use transition converges near 985 kya,790,790,790,Approximate site age,False,False,True,True,Context overlap,Spatial patterning of burned materials supports hominin fire control at about 790 ka.,A strong local fire-use case is younger than T0 and outside the tight core.,Independent site; useful control against selecting only near dates,No support for unique 985.5-kya timing,"Behavioral capacities can be regional, episodic, and unevenly preserved.",S19,https://www.science.org/doi/10.1126/science.1095443
+20,ARC-04,Archaeology,Earliest dated Acheulean at Kokiselei,Earlier-transition control,P3: a tool-industry replacement begins near 985 kya,1760,1760,1760,Reported earliest age,False,False,False,False,Non-overlap control,Acheulean technology is documented by about 1.76 Ma.,The major industry origin substantially predates T0.,Independent regional control; high discrimination against a 985-kya origin claim,Contradicts a unique 985-kya Acheulean origin,Later regional innovations can still occur without representing the industry's origin.,S20,https://www.nature.com/articles/nature10372
+21,ARC-05,Archaeology,Thomas Quarry I early Acheulean,Earlier regional control,P3/P4: a northwest-African transition occurs near 985 kya,1300,1300,1300,Approximate site age,False,False,False,True,Broad-only overlap,An extensive early Acheulean assemblage at Thomas Quarry I is dated around 1.3 Ma.,The assemblage sits in broad context but outside the ±250-kyr context window.,Independent regional context; moderate discrimination,No support for unique 985.5-kya origin,A single regional assemblage does not date a global behavioral transition.,S14,https://www.nature.com/articles/s41586-025-09914-y
+22,TXT-01,Textual structure,Atrahasis labor–revolt–replacement sequence,"Hypothesis source, not empirical selection",H2/P1–P6: the sequence preserves a prehistoric event,,,,Textual structure; no Pleistocene date,,,,,Undated / structural,The source Doc identifies a sequence: existing order → unequal labor burden → revolt → crisis → replacement labor population → expansion/disturbance → suppression/catastrophe → remnant → revised settlement.,The narrative structure is present. The present evidence table supplies no independent bridge from that structure to a 985.5-kya event.,Not an independent empirical lane for dating; must not select its own matches,Textual structure confirmed; prehistoric identification open,Myth-derived terms and sequence cannot literalize genetics or archaeology without an independent bridge.,S01,https://docs.google.com/document/d/10cw3q5iBapCv89O0WLqY7iE3TOXT0CTCbDzTPywHtQ4/edit
+,Lane-level result,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9
+0,"Counts are descriptive, not a score. The judgment column states whether a lane adds an independent, discriminating result at the target resolution.",,,,,,,,,
+1,,,,,,,,,,
+2,Lane,Evidence rows,Contains T0,Tight overlap,Context overlap,Non-overlap controls,Range-overlap reading,Finding,Effect on H985,Row IDs
+3,Chromosome 2,5,1,1,1,1,One 2022 interval contains T0; a current 5–7 Ma model does not.,Fusion is established. Its date remains model-dependent; intervention is not observed.,Underdetermined; compatibility plus strong alternative-model tension,C2-01–C2-05
+4,Demography,4,0,1,1,0,The 930–813 ka interval overlaps the tight core but excludes T0.,"A severe bottleneck is a live methodological dispute, not a stable cross-method finding.",Near-date context; no independent anchor,DEM-01–DEM-04
+5,Hominin populations,5,0,3,4,1,Several fossils bracket the nested windows; one apparent ~1 Ma hit was redated to 1.77 Ma.,"The record shows occupancy and lineage diversity, not a synchronized 985.5-kya event.","Contextual, not discriminating support",HOM-01–HOM-05
+6,Archaeology,5,0,2,3,1,Local fire evidence sits near ~1 Ma; major Acheulean origins and other fire evidence occur outside the target.,No global or multi-regional behavioral transition is established at 985.5 ka.,Compatible local context only,ARC-01–ARC-05
+7,Textual structure,1,0,0,0,0,No empirical date is supplied by the text itself.,The labor–revolt–replacement sequence is present; its prehistoric identification remains open.,Not an independent dating lane,TXT-01
+8,,,,,,,,,,
+9,,,,,,,,,,
+10,Overall test conclusion,,,,,,,,,
+11,Hypothesis,"A distinctive event near 985.5 kya generated linked chromosome-2, demographic, hominin-population, archaeological, and Atrahasis-pattern signals.",,,,,,,,
+12,Range overlap,"There are genuine overlaps: the 2022 chromosome-2 interval contains T0; the FitCoal interval and several approximate fossil/archaeological dates touch the tight core. These overlaps vary sharply in width, independence, and specificity.",,,,,,,,
+13,Finding,The current rows do not show method-independent convergence on a unique 985.5-kya event. The strongest timing hit is a broad chromosome-2 model interval; demography is disputed; fossil and archaeology rows mainly show heterogeneous background context.,,,,,,,,
+14,Status,"Open but not supported at the claimed resolution. H5 is range-compatible under one model, not proved. H3, H4, and H6 remain unsupported. This status is revisable, not a prohibition on inquiry.",,,,,,,,
+15,,,,,,,,,,
+16,What would materially change the result,,,,,,,,,
+17,• Direct ancient molecular or phylogenetic evidence that brackets the chromosome-2 fusion more tightly than current models.,,,,,,,,,
+18,• Independent demographic methods recovering the same contraction with compatible uncertainty and population subsets.,,,,,,,,,
+19,"• A pre-specified, well-dated multi-regional fossil or archaeological transition centered on the target rather than an approximate local point.",,,,,,,,,
+20,• A text-to-prehistory bridge with independent provenance and predictions that were specified before evidence selection.,,,,,,,,,
+,Hypothesis and prediction register,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
+0,"These claims are not findings. Each row states what would be needed to move it, and what the current table actually says.",,,,,,,,
+1,,,,,,,,,
+2,ID,Type,Hypothesis / prediction,Required observation,Temporal rule,Present finding,Status,Upgrade / falsifier,Source
+3,H1,Core hypothesis,A cousin-hominin dynasty or organized population is centered near 985 kya.,"Independent fossil, demographic, and archaeological signatures that identify one population/event rather than ordinary background diversity.",At least two independent empirical lanes must discriminate T0 within the tight core.,No source-backed row identifies a dynasty or unique organized population at T0.,Open; unsupported at present resolution,"Upgrade with directly dated, linked evidence; weaken if tighter chronologies continue to disperse candidate rows.",S01
+4,H2,Text-to-history hypothesis,The Atrahasis/Igigi revolt sequence preserves a prehistoric hominin event.,"An independently sourced bridge from the text to specific Pleistocene observations, with predictions fixed before matching.",The text itself supplies no Pleistocene date.,Textual structure is present; prehistoric identity is open.,Text confirmed; historical identification open,Upgrade with independent provenance/predictions; weaken if proposed matches require flexible reinterpretation.,S01
+5,H3,Biological intervention,A labor population was biologically engineered.,"Direct molecular, developmental, or archaeological evidence of deliberate biological manipulation.",Temporal overlap alone is insufficient.,No intervention evidence appears in the table.,Unsupported,A reproducible intervention signature would upgrade; natural mechanisms explaining all observations weaken the claim.,S01
+6,H4,Chromosome intervention,Chromosome-2 fusion was an intentional intervention.,Evidence distinguishing deliberate action from natural chromosomal fusion mechanisms.,"A fusion date, even if tight, would not establish agency.",Fusion is established; intent or engineering is not observed.,Fusion confirmed; intervention unsupported,Upgrade only with mechanism-specific evidence of agency.,S01/S02/S06
+7,H5,Timing hypothesis,Chromosome-2 fusion occurred around 985 kya.,"Multiple independent timing methods with substantially narrower, overlapping uncertainty around T0.","A single broad CI containing T0 counts as compatibility, not confirmation.",One 2022 model interval contains T0; a 2026 model places fusion at 5–7 Ma.,Open; model-dependent range overlap,Independent tight dating would upgrade; convergent older bounds would weaken or reject the recent-fusion version.,S03/S04/S05
+8,H6,Causal mechanism,Resonance or recurrence caused chromosome-2 fusion.,A specified mechanism with measurable predictions and evidence connecting it to chromosomal fusion.,Numerical recurrence is not a biological mechanism.,No causal evidence appears in the table.,Unsupported,Upgrade with a testable mechanism and replicated observations.,S01
+9,H7,Formal pattern,A spiral/recurrence model usefully organizes repeated scales or intervals.,"A formal rule that makes risky, prospective predictions better than comparison models.","Treat the 985.5 coordinate as a generated hypothesis, not a discovered date.",The pattern can be formalized; this table does not test its broader predictive performance.,Coherent; not validated here,Pre-register predictions and compare out-of-sample performance.,S01
+10,H8,Memory hypothesis,Literal genomic memory preserves the event.,"A defined heritable substrate carrying event-specific information, with a plausible transmission mechanism.",Shared biology or cultural recurrence is not literal memory.,No event-specific genomic memory evidence appears in the table.,Unsupported; alternatives remain plausible,Upgrade with a specific substrate and discriminating tests.,S01
+11,P1,Atrahasis prediction,A pre-existing order and labor-bearing population precede the candidate crisis.,"Dated evidence of distinct roles/populations before T0, independently defined.",Must precede T0 and link to the same event.,"Population presence is documented, but labor roles/order are not.",Not met,Independent role-specific evidence would upgrade.,S01
+12,P2,Atrahasis prediction,A burden-related disruption or revolt occurs.,Direct archaeological or behavioral evidence of organized disruption linked to the candidate population.,Must be independently dated near T0.,No such finding appears in the table.,Not met,Pre-specified material signatures would be required.,S01
+13,P3,Atrahasis prediction,A replacement labor population appears after the crisis.,A dated population turnover linked causally to the prior disruption.,Before/after ordering must be resolved more tightly than the broad context window.,Fossil diversity and tool change do not establish replacement labor.,Not met,Linked demographic and archaeological turnover could upgrade.,S01
+14,P4,Atrahasis prediction,Expansion is followed by disturbance or suppression.,A defined expansion signal followed by a linked contraction or suppression signal.,Sequence must be resolved and independently sourced.,No linked sequence is demonstrated.,Not met,Independent time-series evidence could upgrade.,S01
+15,P5,Atrahasis prediction,A catastrophe leaves a remnant.,"A robust, independently replicated bottleneck/catastrophe with surviving-lineage evidence.","The interval must include or tightly center on T0, not merely touch a window.",The 930–813 ka bottleneck inference is disputed and excludes T0.,Not met; live dispute,Cross-method replication could upgrade.,S01/S07–S10
+16,P6,Atrahasis prediction,A revised settlement/order follows.,Post-event archaeological or demographic reorganization linked to the same causal sequence.,Must postdate the event and retain provenance to the same population.,No linked post-event settlement finding appears.,Not met,A resolved before/after sequence could upgrade.,S01
+,Source registry,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9
+0,Primary research is preferred. Each source is limited to the claim it can support; the last column records what it cannot establish.,,,,,,,,,
+1,,,,,,,,,,
+2,Source ID,Year,Authors,Title,Venue,DOI,Evidence lane,URL,Supports,Does not establish
+3,S01,2026,Cousin hominid (user source Doc),Cousin hominid,Google Docs,,Hypotheses / textual structure,https://docs.google.com/document/d/10cw3q5iBapCv89O0WLqY7iE3TOXT0CTCbDzTPywHtQ4/edit,"Defines H1–H8, the Atrahasis sequence, and the requested evidence lanes.",Independent empirical confirmation of those hypotheses.
+4,S02,1991,Ijdo et al.,Origin of human chromosome 2: an ancestral telomere-telomere fusion,PNAS,10.1073/pnas.88.20.9051,Chromosome 2,https://pubmed.ncbi.nlm.nih.gov/1924367/,Molecular evidence for a relic telomere–telomere fusion site.,"Fusion date, agency, or engineering."
+5,S03,2022,Poszewiecka et al.,Revised time estimation of the ancestral human chromosome 2 fusion,BMC Genomics,10.1186/s12864-022-08828-7,Chromosome 2,https://link.springer.com/article/10.1186/s12864-022-08828-7,UBCS timing estimate ~0.9 Ma with 95% interval 0.4–1.5 Ma.,Proof of a 985.5-kya event or intervention.
+6,S04,2026,Yang et al.,Incomplete lineage sorting of segmental duplications defines the human chromosome 2 fusion site early during African great ape speciation,Cell Genomics,10.1016/j.xgen.2025.101079,Chromosome 2,https://pubmed.ncbi.nlm.nih.gov/41338219/,Alternative ~5–7 Ma fusion-site timing model and detailed architecture.,Direct observation of the fusion event.
+7,S05,2017,Miga,Chromosome-specific centromere sequences provide an estimate of the ancestral chromosome 2 fusion event,Journal of Heredity,10.1093/jhered/esw039,Chromosome 2,https://pubmed.ncbi.nlm.nih.gov/27423248/,Phylogenetic lower bound from archaic centromere organization.,A point date at 985.5 kya.
+8,S06,2023,Poszewiecka et al.,PhaseDancer: a novel targeted assembler of segmental duplications unravels the complexity of the human chromosome 2 fusion,Genome Biology,10.1186/s13059-023-03022-8,Chromosome 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10496407/,Fusion-site structural resolution.,Event timing or design.
+9,S07,2023,Hu et al.,Genomic inference of a severe human bottleneck during the Early to Middle Pleistocene transition,Science,10.1126/science.abq7487,Demography,https://www.science.org/doi/10.1126/science.abq7487,FitCoal inference of a ~930–813 ka severe bottleneck.,Consensus across demographic methods or a bottleneck containing T0.
+10,S08,2025,Cousins & Durvasula,A severe bottleneck in human evolution is not supported by the data,Molecular Biology and Evolution,10.1093/molbev/msaf041,Demography,https://academic.oup.com/mbe/article/42/2/msaf041/8005733,Alternative-model critique of the severe bottleneck.,Impossibility of any population contraction.
+11,S09,2025,"Deng, Nielsen & Song",A severe bottleneck in human evolution is likely a statistical artifact,Genetics,10.1093/genetics/iyae192,Demography,https://academic.oup.com/genetics/article/229/1/iyae192/7925576,SFS non-identifiability and model-misspecification critique.,A complete demographic history.
+12,S10,2026,Zhou et al.,Severe bottleneck of ancient Homo populations: insights from computational modeling and relevant fossil evidence,Molecular Biology and Evolution,10.1093/molbev/msag157,Demography,https://academic.oup.com/mbe/article/43/7/msag157/8723835,FitCoal simulation benchmark and proponent response.,Independent replication outside the original model family.
+13,S11,2002,Asfaw et al.,"Remains of Homo erectus from Bouri, Middle Awash, Ethiopia",Nature,10.1038/416317a,Hominin populations,https://pubmed.ncbi.nlm.nih.gov/11907576/,Approximate 1-Ma Daka Homo erectus fossil context.,A discrete transition at 985.5 kya.
+14,S12,2020,Welker et al.,The dental proteome of Homo antecessor,Nature,10.1038/s41586-020-2153-8,Hominin populations,https://pmc.ncbi.nlm.nih.gov/articles/PMC7582224/,Proteomic relationship of H. antecessor and the TD6.2 context.,"A dynasty, engineered population, or exact target event."
+15,S13,2018,Duval et al.,Dating the Lower Palaeolithic remains of Hominin TD6 at Atapuerca,Quaternary Geochronology,10.1016/j.quageo.2018.05.001,Hominin populations,https://doi.org/10.1016/j.quageo.2018.05.001,Direct ESR age range ~772–949 ka for TD6.2.,A range containing 985.5 kya.
+16,S14,2026,Hublin et al.,Early hominins from Morocco basal to the Homo sapiens lineage,Nature,10.1038/s41586-025-09914-y,Hominin populations / archaeology,https://www.nature.com/articles/s41586-025-09914-y,Thomas Quarry hominins near 773 ±4 ka and regional Acheulean context.,A target-centered event.
+17,S15,2025,Feng et al.,The phylogenetic position of the Yunxian 2 human cranium,Science,10.1126/science.ado9202,Hominin populations,https://www.science.org/doi/10.1126/science.ado9202,Morphological reconstruction under the then-used ~1-Ma chronology.,A current direct date after the 2026 redating.
+18,S16,2026,Tu et al.,The oldest in situ Homo erectus crania in eastern Asia,Science Advances,10.1126/sciadv.ady2270,Hominin populations,https://www.science.org/doi/10.1126/sciadv.ady2270,Cosmogenic burial age 1.77 ±0.08 Ma for Yunxian crania.,Resolution of every morphological/phylogenetic dispute.
+19,S17,2012,Berna et al.,Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave,PNAS,10.1073/pnas.1117620109,Archaeology,https://www.pnas.org/doi/10.1073/pnas.1117620109,Secure local burning evidence at approximately 1.0 Ma.,A global behavioral transition or precise 985.5-kya date.
+20,S18,2026,Marin-Monfort et al.,New evidence for Early Pleistocene use of fire at Wonderwerk Cave,PLOS One,10.1371/journal.pone.0347480,Archaeology,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347480,Deeper burning evidence within a broad 1.07–1.79 Ma interval.,A point match to T0.
+21,S19,2004,Goren-Inbar et al.,"Evidence of hominin control of fire at Gesher Benot Ya'aqov, Israel",Science,10.1126/science.1095443,Archaeology,https://www.science.org/doi/10.1126/science.1095443,Local fire-control evidence around 790 ka.,A 985.5-kya transition.
+22,S20,2011,Lepre et al.,An earlier origin for the Acheulian,Nature,10.1038/nature10372,Archaeology,https://www.nature.com/articles/nature10372,Acheulean technology by about 1.76 Ma.,A unique Acheulean origin at T0.
+,Apex-deletion counterfactual — 985.5 kya,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+0,Additive robustness record. Deleted C2-02 only; HOM-04 remains visible but ineligible. Baseline tabs are unchanged.,,,,,
+1,,,,,,
+2,Graph metrics,,,,,
+3,Metric,Baseline,Apex-deleted,Change,Interpretation,
+4,In-band vertices,9,8,−1,C2-02 removed; all other current eligible in-band vertices retained.,
+5,Direct-overlap edges,13,5,−61.5%,The broad apex supplied most of the graph’s connectivity.,
+6,Cross-lane edges,11,3,−72.7%,Only three cross-lane direct intersections survive.,
+7,Connected components,1,3,+2,"The single star breaks into components of sizes 4, 2, and 2.",
+8,Largest component,9,4,−5,No surviving component spans the in-band evidence set.,
+9,Three-vertex common-intersection simplices,5,0,−5,Every baseline triangle depended on C2-02.,
+10,Target-containing intervals,1,0,−1,C2-02 was the only interval containing T0.,
+11,Shared target edges / higher simplices,0,0,0,No baseline or post-deletion shared simplex contains T0.,
+12,,,,,,
+13,Surviving direct intersections,,,,,
+14,ID A,ID B,Common intersection (kya),Lane relation,Contains T0?,Component
+15,DEM-01,HOM-02,813–930,Cross-lane,No,Younger lobe
+16,HOM-01,ARC-01,1000,Cross-lane,No,Approximate 1-Ma pair
+17,HOM-02,HOM-03,772–777,Same lane,No,Younger lobe
+18,HOM-02,ARC-03,790,Cross-lane,No,Younger lobe
+19,ARC-02,ARC-05,1300,Same lane,No,Older in-band pair
+20,,,,,,
+21,Sliding-window control,,,,,
+22,Measure,At 985.5 kya,Scan comparison,Interpretation,,
+23,Point containment,0 intervals,Open gap 949–1000 kya,T0 lies inside the gap; no surviving interval contains it.,,
+24,Point cross-lane intersections,0,"Present at 790, throughout 813–930, and at 1000 kya",All surviving shared point regions are off target.,,
+25,±100-kyr window hits,5 intervals across 3 lanes,Maximum count; same maximum from 970–1030 kya,"The raw count is a 60-kyr plateau, not a unique center.",,
+26,±100-kyr induced graph,2 edges; largest component 2; 0 triangles,Scan maximum component size is 4,The target window is fragmented despite its raw hit count.,,
+27,±250-kyr window hits,7 intervals across 3 lanes,"Maximum count at 415 of 2,201 grid coordinates (18.9%)",Broad neighborhood density is common across a wide coordinate band.,,
+28,±250-kyr induced graph,4 edges; largest component 4; 0 triangles,No common intersection at T0,Window membership does not become event identity.,,
+29,,,,,,
+30,Verdict,,,,,
+31,Target-specific convergence does not survive apex deletion.,,,,,
+32,"What survives is fragmented off-target context: a younger 769–949-kya lobe, an approximate-1-Ma pair, and a same-lane 1300-kya pair.",,,,,
+33,"Baseline preserved: Method, Convergence Table, Lane Summary, Hypothesis Register, and Sources were not altered.",,,,,
+34,Next gate: run the remaining deletions as separately labeled counterfactuals; do not fold them into this apex-only result.,,,,,
+,Superseded-chronology counterfactual — 985.5 kya,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+0,Completed additive control. HOM-04 deletion was tested independently against the current 9-vertex baseline; baseline tabs are unchanged.,,,,
+1,,,,,
+2,Graph metrics,,,,
+3,Metric,Baseline,Control,Change,Interpretation
+4,In-band vertices,9,9,0,The identified row is not a current eligible vertex.
+5,Direct-overlap edges,13,13,0,No live graph edge is removed.
+6,Cross-lane edges,11,11,0,No live cross-lane edge is removed.
+7,Connected components,1,1,0,The current graph remains one component.
+8,Largest component,9,9,0,No eligible vertex leaves the component.
+9,Three-vertex common-intersection simplices,5,5,0,No live simplex is removed.
+10,Target-containing intervals,1,1,0,C2-02 remains the only interval containing T0.
+11,Shared target edges / higher simplices,0,0,0,No shared simplex contains T0 before or after control.
+12,,,,,
+13,Deletion / dependency record,,,,
+14,Row / cluster,Ledger role,Control treatment,Baseline eligibility,Result
+15,HOM-04,Superseded-input control,Delete as superseded chronology,Already excluded,Zero graph delta; no legacy-date leakage is present.
+16,HOM-05,Redating / non-overlap control,Retain as chronological control,Outside 400–1500-kya scan body,The direct-date row remains visible without becoming an in-band vertex.
+17,Chronology rule,Direct chronology supersedes the legacy timing input,Use HOM-05 for timing; keep morphology questions separate,Applied before graph construction,The current baseline already implements the rule.
+18,,,,,
+19,,,,,
+20,,,,,
+21,Topology / interpretation check,,,,
+22,Measure,Control result,Baseline comparison,Interpretation,
+23,Eligible deletion,0 vertices,No change,HOM-04 was not part of the current graph.,
+24,T0 containment,C2-02 only,1 → 1,Superseded chronology does not create or remove a target hit.,
+25,Shared target intersections,0,0 → 0,No common target edge or simplex appears.,
+26,Leakage audit,Pass,Legacy row absent from graph,The superseded approximately-1-Ma input is not counted.,
+27,Hominin-lane reading,Unchanged,"Contextual, not discriminating support",Redating remains the operative timing control.,
+28,Baseline conclusion,Unchanged,"Open, but not supported at claimed resolution",This is a zero-delta integrity result.,
+29,,,,,
+30,Verdict,,,,
+31,PASS — the frozen graph already excludes the superseded HOM-04 chronology.,,,,
+32,Deleting HOM-04 again leaves every graph metric unchanged; HOM-05 remains the source-controlled redating control outside the declared scan body.,,,,
+33,"Baseline preserved: Method, Convergence Table, Lane Summary, Hypothesis Register, Sources, and Apex Deletion were not altered.",,,,
+34,Control scope is independent and additive; the baseline conclusion remains unchanged.,,,,
+,Same-specimen counterfactual — 985.5 kya,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+0,Completed additive control. The HOM-04/HOM-05 Yunxian specimen dependency was tested independently against the current 9-vertex baseline; baseline tabs are unchanged.,,,,
+1,,,,,
+2,Graph metrics,,,,
+3,Metric,Baseline,Control,Change,Interpretation
+4,In-band vertices,9,9,0,The identified row is not a current eligible vertex.
+5,Direct-overlap edges,13,13,0,No live graph edge is removed.
+6,Cross-lane edges,11,11,0,No live cross-lane edge is removed.
+7,Connected components,1,1,0,The current graph remains one component.
+8,Largest component,9,9,0,No eligible vertex leaves the component.
+9,Three-vertex common-intersection simplices,5,5,0,No live simplex is removed.
+10,Target-containing intervals,1,1,0,C2-02 remains the only interval containing T0.
+11,Shared target edges / higher simplices,0,0,0,No shared simplex contains T0 before or after control.
+12,,,,,
+13,Deletion / dependency record,,,,
+14,Row / cluster,Ledger role,Control treatment,Baseline eligibility,Result
+15,HOM-04 + HOM-05,Same Yunxian specimen set,Count as one specimen cluster; retain HOM-05 for chronology,Neither is a current in-band vertex,No duplicate specimen vertex exists in the graph.
+16,HOM-04,Legacy morphology under superseded timing,Exclude from timing graph,Already excluded,Cannot add an approximately-1-Ma timing hit.
+17,HOM-05,Direct burial dating,Retain as non-overlap chronological control,Outside 400–1500-kya scan body,Preserves the redating without double-counting the specimen.
+18,,,,,
+19,,,,,
+20,,,,,
+21,Topology / interpretation check,,,,
+22,Measure,Control result,Baseline comparison,Interpretation,
+23,Eligible deletion,0 vertices,No change,The specimen cluster contributes no duplicate current vertex.,
+24,T0 containment,C2-02 only,1 → 1,Specimen deduplication does not affect the target hit.,
+25,Shared target intersections,0,0 → 0,No common target edge or simplex appears.,
+26,Duplicate-count audit,Pass,No HOM-04/HOM-05 double count,One specimen does not become two independent timing hits.,
+27,Hominin-lane reading,Unchanged,"Contextual, not discriminating support",The direct redating remains visible as a control.,
+28,Baseline conclusion,Unchanged,"Open, but not supported at claimed resolution",This is a zero-delta integrity result.,
+29,,,,,
+30,Verdict,,,,
+31,PASS — same-specimen dependence is not inflating the frozen graph.,,,,
+32,"HOM-04 is already excluded, while HOM-05 lies outside the declared scan body; treating the pair as one specimen cluster changes no graph metric.",,,,
+33,"Baseline preserved: Method, Convergence Table, Lane Summary, Hypothesis Register, Sources, and Apex Deletion were not altered.",,,,
+34,Control scope is independent and additive; the baseline conclusion remains unchanged.,,,,
+,Same-site counterfactual — 985.5 kya,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+0,"Completed additive control. ARC-02 was deleted and ARC-01 retained, independently against the current 9-vertex baseline; baseline tabs are unchanged.",,,,
+1,,,,,
+2,Graph metrics,,,,
+3,Metric,Baseline,Control,Change,Interpretation
+4,In-band vertices,9,8,−1,ARC-02 is removed; ARC-01 is retained.
+5,Direct-overlap edges,13,11,−2 (−15.4%),The C2-02×ARC-02 and ARC-02×ARC-05 edges are removed.
+6,Cross-lane edges,11,10,−1 (−9.1%),Only the C2-02×ARC-02 cross-lane edge is removed.
+7,Connected components,1,1,0,C2-02 still connects every surviving vertex.
+8,Largest component,9,8,−1,The surviving graph remains connected.
+9,Three-vertex common-intersection simplices,5,4,−1 (−20.0%),The C2-02×ARC-02×ARC-05 simplex at 1300 kya is removed.
+10,Target-containing intervals,1,1,0,C2-02 remains the only interval containing T0.
+11,Shared target edges / higher simplices,0,0,0,No shared simplex contains T0 before or after control.
+12,,,,,
+13,Deletion / dependency record,,,,
+14,Row / interaction,Ledger status,Control treatment,Intersection removed,Relation
+15,ARC-01,Wonderwerk near-date row,Retain higher-specificity site observation,,Retained vertex
+16,ARC-02,"Same site, different stratum; broad range",Delete lower-specificity dependent row,Vertex removed,Deleted vertex
+17,C2-02 × ARC-02,Direct overlap,Removed with ARC-02,1070–1500 kya,Cross-lane edge
+18,ARC-02 × ARC-05,Direct overlap,Removed with ARC-02,1300 kya,Same-lane edge
+19,C2-02 × ARC-02 × ARC-05,Common three-way intersection,Removed with ARC-02,1300 kya,Three-vertex simplex
+20,,,,,
+21,Topology / interpretation check,,,,
+22,Measure,Control result,Baseline comparison,Interpretation,
+23,Surviving vertices,8,9 → 8,All current eligible rows except ARC-02 remain.,
+24,T0 containment,C2-02 only,1 → 1,The sole target-containing interval is unchanged.,
+25,Shared target intersections,0,0 → 0,No common target edge or simplex appears.,
+26,Connectivity,One component of size 8,Size 9 → 8,The broad chromosome interval remains the apex.,
+27,Removed structure,2 edges; 1 triangle,13 → 11 edges; 5 → 4 triangles,Only off-target connectivity is removed.,
+28,Baseline conclusion,Unchanged,"Open, but not supported at claimed resolution",Site dependence does not create target-specific convergence.,
+29,,,,,
+30,Verdict,,,,
+31,Same-site deletion modestly reduces off-target connectivity and leaves the target result unchanged.,,,,
+32,"After ARC-02 is removed, the graph has 8 vertices, 11 edges, 10 cross-lane edges, one component of size 8, and 4 triangles; no shared target simplex exists.",,,,
+33,"Baseline preserved: Method, Convergence Table, Lane Summary, Hypothesis Register, Sources, and Apex Deletion were not altered.",,,,
+34,Control scope is independent and additive; the baseline conclusion remains unchanged.,,,,
+,Same-model-family response counterfactual — 985.5 kya,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+0,"Completed additive control. DEM-04 was deleted as a same-model-family response, independently against the current 9-vertex baseline; baseline tabs are unchanged.",,,,
+1,,,,,
+2,Graph metrics,,,,
+3,Metric,Baseline,Control,Change,Interpretation
+4,In-band vertices,9,9,0,The identified row is not a current eligible vertex.
+5,Direct-overlap edges,13,13,0,No live graph edge is removed.
+6,Cross-lane edges,11,11,0,No live cross-lane edge is removed.
+7,Connected components,1,1,0,The current graph remains one component.
+8,Largest component,9,9,0,No eligible vertex leaves the component.
+9,Three-vertex common-intersection simplices,5,5,0,No live simplex is removed.
+10,Target-containing intervals,1,1,0,C2-02 remains the only interval containing T0.
+11,Shared target edges / higher simplices,0,0,0,No shared simplex contains T0 before or after control.
+12,,,,,
+13,Deletion / dependency record,,,,
+14,Row / cluster,Ledger role,Control treatment,Baseline eligibility,Result
+15,DEM-01,Dated FitCoal bottleneck inference,Retain as the model-family's single dated vertex,Eligible,The disputed 813–930-kya interval remains one vertex.
+16,DEM-04,Proponent response control,Delete as independent support,Undated / non-vertex,No graph delta; the response is not replication.
+17,DEM-02 + DEM-03,Independent adversarial method controls,"Retain as critiques, not dated vertices",Undated / non-vertices,The demographic dispute remains visible.
+18,,,,,
+19,,,,,
+20,,,,,
+21,Topology / interpretation check,,,,
+22,Measure,Control result,Baseline comparison,Interpretation,
+23,Eligible deletion,0 vertices,No change,DEM-04 was never a dated graph vertex.,
+24,T0 containment,C2-02 only,1 → 1,The DEM-01 interval still excludes T0.,
+25,Shared target intersections,0,0 → 0,No common target edge or simplex appears.,
+26,Replication audit,Pass,DEM-04 not double-counted,A same-family response is not promoted to independent confirmation.,
+27,Demography-lane reading,Unchanged,Near-date context; live methodological dispute,DEM-01 remains disputed rather than replicated.,
+28,Baseline conclusion,Unchanged,"Open, but not supported at claimed resolution",This is a zero-delta integrity result.,
+29,,,,,
+30,Verdict,,,,
+31,PASS — the same-model-family response is not inflating the frozen graph.,,,,
+32,DEM-04 is an undated proponent response rather than an independent dated vertex; deleting it leaves every graph metric and the disputed demography reading unchanged.,,,,
+33,"Baseline preserved: Method, Convergence Table, Lane Summary, Hypothesis Register, Sources, and Apex Deletion were not altered.",,,,
+34,Control scope is independent and additive; the baseline conclusion remains unchanged.,,,,

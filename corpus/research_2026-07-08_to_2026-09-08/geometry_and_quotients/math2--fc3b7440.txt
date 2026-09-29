@@ -1,0 +1,1706 @@
+This is the math cleanup pass on the same stack — not a new religion and not a completed experiment.
+
+**Geometry Maximization v1.2** (6 September 2026) is a successor paper. It keeps the v1.1 golden 39-screen work and folds in 39 later files (S01–S39): field-theory updates, simulation-protocol drafts, toroidal throat notes, Pell/silver clocks, Unified Return, checksums. It says what it is doing out loud: integrate definitions, repair overclaims, prove what can be proved, leave unrun work unrun. It does not adopt a simulation protocol and does not treat a hash match as physics.
+
+The companion **source and change register** is the ledger: which file contributed what, which texts are duplicates, which equations were damaged in the sources, what the new verifier actually ran.
+
+## What it actually establishes
+
+The load-bearing object is still the **predictive quotient**. If you keep an observation \(B\) and want an autonomous next-step map on labels, you need
+
+\[
+R(x)=R(y)\implies R(Ux)=R(Uy)
+\]
+
+on the declared domain. A finite trace can *fail* that with one pair. It cannot *prove* closure for unseen representatives. That is the same descent test as Hidden Quotient / GQG, written as a compiler rather than a vibe.
+
+On the 39-screen with
+
+\[
+\alpha=\frac{3-\sqrt5}{2},\qquad
+\sigma=\mathbf{1}_{[0,\tau)}(\rho),\qquad
+\tau=15-39\alpha,
+\]
+
+the paper keeps the exact facts:
+
+- slip rate \(\tau\approx 10.33\%\), not the reversed figure
+- coboundary \(\sigma-\tau=\rho\circ T-\rho\), so \(|S_{N}-N\tau|<1\)
+- coarsest phases: full bin needs \(\theta\); strand/slip needs \(z=\{13\theta\}\); slip alone needs \(\rho=\{39\theta\}\)
+- those are **circle factors**, not 13 or 39 finite states
+- a one-step kernel for the slip bit exists and still fails as a Markov process because \(101\) is forbidden
+
+That is the 13/39 motif as rotation geometry, not as a throne.
+
+## What v1.2 adds
+
+| Addition | Status in the paper |
+|---|---|
+| Integer winding / mod-six class at charge-six anisotropy | Exact on the stated domain; integer-average parity rejected outside it |
+| Diamond sheet bit | Exists only when both lattice periods are even; odd grids have no such quotient |
+| Work-stopping bias / lumpability | Counterexamples; strong vs stationary-special-case distinguished |
+| Circular-torus throat field | Exact divergence-free kinematics; flux identities; **not** a measured throat |
+| Pell \(\leftrightarrow\) silver unit \((3+\sqrt8)=(1+\sqrt2)^2\) | Algebra; \((577,204)\) is not a measured pair |
+| Three clocks / relative phase | Relative phase can close while the three source oscillators never jointly return |
+
+The verifier list in §24 is finite algebra, BFS on grids, Pell steps, numerical divergence/flux checks. All listed checks passed. None of them is Q2 production, a human residual ledger, or a platform.
+
+## How to read it next to the rest of your room
+
+This file is doing the job the constitutional layer kept asking for: **do not let a construction, a hash, or a 39-count become an adopted physics.**
+
+- Drive IDs and GQG/OMNIBUS/Hidden Quotient names are cited as sources, not as proof of a hidden machine.
+- S20–S22 stay “recommended, not governing.”
+- Rotating-lattice 22-call and 40-call banks stay **reported nulls**.
+- Unified Return with no repeated-successor groups stays **insufficient coverage**, not “unresolved magic.”
+- Source files with replacement characters and private-use glyphs are hashed *as damaged*. A matching hash of broken math is still just a matching hash.
+
+So: v1.2 is the cleanest statement yet of “exact quotient here, experiment still missing there.” If the next repo is meant to be the tidy door, this belongs in `core/` as math, with the 39 source snapshots in `archive/`, and with the last table in §24 left on the wall so nobody promotes the torus field into a measured throat.
+Denjoy–Koksma is a discrepancy bound for averaging a rough function along a circle orbit. It is not a conjugacy theorem by itself. Denjoy’s theorem *uses* it.
+
+## The inequality
+
+Let \(f:S^1\to S^1\) be an orientation-preserving homeomorphism with **irrational** rotation number \(\alpha\). Let \(p/q\) be a rational with
+\[
+\bigl|\alpha-p/q\bigr|<1/q^2
+\]
+(the usual continued-fraction quality). Let \(\varphi:S^1\to\mathbb R\) have bounded variation \(\operatorname{Var}(\varphi)\), and let \(\mu\) be any \(f\)-invariant probability. Then for **every** starting point \(x\),
+
+\[
+\Biggl|\sum_{i=0}^{q-1}\varphi(f^i(x))-q\int_{S^1}\varphi\,d\mu\Biggr|
+\le\operatorname{Var}(\varphi).
+\]
+
+The sum is over one return-time block of length \(q\), not over every \(N\). The error stays \(\le\operatorname{Var}(\varphi)\) no matter how large \(q\) is. Divide by \(q\) and you get uniform convergence of Birkhoff averages along those special times, which is why unique ergodicity of irrational-rotation-number circle maps falls out as a corollary.
+
+Why it works: the \(q\) orbit points sit one in each of the \(q\) intervals cut by a \(q\)-cycle. On each interval you pay at most the variation of \(\varphi\) there; those pieces add to at most total variation.
+
+**Do not confuse three nearby names:**
+
+| Name | What it is |
+|---|---|
+| Denjoy–Koksma | Bound on orbit sums of a BV observable at good return times \(q\) |
+| Koksma–Hlawka | Integration error \(\le V(f)\,D_N^*\) for low-discrepancy points in the cube |
+| Denjoy’s theorem (1932) | If \(f\) is \(C^1\) and \(\log Df\) is BV (e.g. \(C^2\)), irrational rotation number \(\Rightarrow\) \(f\) is topologically conjugate to rigid rotation. \(C^1\) alone is not enough; Denjoy built counterexamples with wandering intervals. |
+
+Herman packaged the inequality in 1979 from Denjoy’s orbit combinatorics plus Koksma-type variation bounds.
+
+## What it gives you, and what it does not
+
+For a BV observable, along denominators \(q_n\) of \(\alpha\),
+
+\[
+\bigl|S_{q_n}-q_n\bar\varphi\bigr|\le\operatorname{Var}(\varphi).
+\]
+
+It does **not** automatically give \(|S_N-N\bar\varphi|<C\) for every \(N\). That stronger all-\(N\) bound needs more structure (coboundary, special observable, or better discrepancy).
+
+It also does not make the process mixing. Irrational rotation is uniquely ergodic and not mixing. Covariances can return. Your v1.2 already recorded that for the slip bit: \(\operatorname{Cov}(\sigma_0,\sigma_k)=\max\{0,\tau-\|k\tau\|\}-\tau^2\) comes back toward \(\tau(1-\tau)\) along good returns.
+
+## Why v1.2 said “stronger than Denjoy–Koksma”
+
+On the 39-screen the slip is the indicator of an interval,
+
+\[
+\sigma=\mathbf{1}_{[0,\tau)}(\rho),\qquad
+\tau=15-39\alpha.
+\]
+
+An interval indicator has \(\operatorname{Var}(\sigma)=2\) (two jumps). Denjoy–Koksma would say: at good \(q\),
+
+\[
+\bigl|S_q-q\tau\bigr|\le 2.
+\]
+
+The paper has more. The phase update is an exact coboundary
+
+\[
+\sigma-\tau=\rho\circ T-\rho,
+\]
+
+so for **every** start, **every** index \(n\), **every** length \(N\),
+
+\[
+S_{n,N}=N\tau+\rho_{n+N}-\rho_n,
+\qquad
+|S_{n,N}-N\tau|<1.
+\]
+
+That is tighter (constant \(1\) not \(2\)) and holds for all \(N\), not only continued-fraction \(q\). At \(\theta_0=0\) it even pins the integer:
+
+\[
+S_{0,N}=\lceil N\tau\rceil
+\]
+
+which is why 39, 507, and 10,000 departures reproduce 5, 53, and 1,034 slips exactly.
+
+The special fact is the **endpoint identity** of this observable under this rotation, not “every BV function on a golden orbit has bounded discrepancy.” The paper is right to refuse that upgrade.
+
+## How it sits in your stack
+
+Denjoy–Koksma is the general circle tool: BV observation + irrational rotation \(\Rightarrow\) controlled error at good returns.
+
+Your 39-screen is a **rigid special case**: the observation is a coboundary for the within-bin phase, so the error is a telescoping difference of two numbers in \((0,1)\). That is why finite-state Markov replacement still fails (the bit is not memoryless) while the count law is sharper than the general theorem.
+
+Same moral as the rest of Geometry Maximization: use the general name for the general bound; keep the exact identity for the exact screen; do not let “stronger than Denjoy–Koksma” mean “the 39-count is a platform.”
+Herman’s circle theory is the step after Denjoy: not just “looks like a rotation topologically,” but “is a rotation in a smooth coordinate.” The price of that upgrade is arithmetic. Irrational is not enough. You need how *badly* the rotation number is approximated by rationals.
+
+## The ladder
+
+Poincaré assigned every orientation-preserving circle homeomorphism a **rotation number** \(\rho(f)\in\mathbb R/\mathbb Z\). If \(\rho\) is rational there are periodic points. If \(\rho\) is irrational, Denjoy (1932) says: if \(f\) is \(C^1\) and \(\log Df\) has bounded variation (so \(C^2\) is enough), then \(f\) is topologically conjugate to the rigid rotation \(R_\rho\). Every orbit is dense. That conjugacy \(h\) is only a homeomorphism. It can be singular.
+
+Arnold (1961) asked the local analytic question: a small analytic perturbation of a rotation, with Diophantine \(\rho\), should be analytically conjugate to the rotation. He proved a local theorem and conjectured a global one.
+
+**Herman (1979)** proved the first global smooth linearization theorem, in the 228-page IHÉS paper that also wrote down Denjoy–Koksma in the form used today. For a full-measure set of Diophantine rotation numbers, a \(C^\infty\) (resp. analytic) diffeomorphism is \(C^\infty\) (resp. analytic) conjugate to \(R_\rho\). No smallness. That is the non-perturbative step.
+
+**Yoccoz (1984)** extended the \(C^\infty\) result from Herman’s full-measure class to **all Diophantine** numbers. That pair is now called Herman–Yoccoz. The Diophantine condition is sharp already in the local problem: Liouville \(\rho\) admits analytic maps arbitrarily close to rotation that do not linearize.
+
+Later finite-regularity sharpenings (Katznelson–Ornstein, Khanin–Sinai, Khanin–Teplinsky) track how much smoothness of \(f\) and how much Diophantine \(\delta\) buy you in the conjugacy. One clean modern form: if \(f\) is \(C^{2+\alpha}\) and \(\rho\in D_\delta\) with \(0<\delta<\alpha\le 1\), the conjugacy is \(C^{1+\alpha-\delta}\).
+
+## What “Diophantine” is doing
+
+\(\rho\in D_\delta\) means there is \(C>0\) such that
+\[
+\bigl|\rho-p/q\bigr|\ge C\,q^{-2-\delta}
+\]
+for all integers \(q>0\). Golden-ratio type numbers are the best behaved (\(\delta=0\) in the usual continued-fraction sense: bounded partial quotients). Liouville numbers are approximated too well; small-divisor sums blow up and the conjugacy can fail to be even \(C^1\).
+
+Herman’s analytic idea, which Yoccoz isolated cleanly: first get Denjoy-type bounds on \((f^{q_n})'\) at the return times \(q_n\), *without* using arithmetic; then feed Diophantine control so those bounds concatenate into a \(C^r\) estimate on the conjugacy. Arithmetic is the glue, not the first derivative bound.
+
+## Two other Herman objects that get mixed in
+
+**Annulus / last geometric theorem.** Herman conjectured, and Fayad–Krikorian later proved, that a smooth annulus map with the intersection property, given one smooth invariant curve with Diophantine rotation number, has a positive-measure family of nearby invariant curves on which the map is smoothly conjugate to rotation. No twist hypothesis. That is KAM without the usual twist. It is about persistence of circles, not about your 39-screen.
+
+**Unique ergodicity versus smooth conjugacy.** Denjoy–Koksma already gives unique ergodicity for any homeomorphism with irrational rotation number. Smooth conjugacy is much stronger: it means the unique invariant measure is equivalent to Lebesgue with a smooth density (the derivative of \(h^{-1}\)). A map can be uniquely ergodic and still have a singular conjugacy.
+
+## Where this touches Geometry Maximization
+
+Your 39-screen is a **rigid rotation**
+\[
+\theta\mapsto\{\theta+\alpha\},\qquad
+\alpha=\frac{3-\sqrt5}{2}=\varphi^{-2}.
+\]
+That \(\alpha\) is the best Diophantine type there is. Herman–Yoccoz is automatic and uninteresting here: the map *is already* \(R_\alpha\). There is nothing to conjugate.
+
+What you used from this neighborhood of theorems is only the **Denjoy–Koksma / coboundary** layer, and you beat it with an exact identity
+\[
+\sigma-\tau=\rho\circ T-\rho.
+\]
+Herman’s theory would matter if the update were a *perturbed* circle diffeomorphism with the same rotation number — a nonlinear screen, a state-dependent jump, a \(C^r\) warp of the golden rotation — and you wanted the conjugacy to be \(C^1\) so that bin indicators pull back with controlled distortion. That is a possible next math question. It is not what v1.2 proved, and it is not evidence of a physical torus.
+
+Short map:
+
+| Layer | Statement | Your 39-screen |
+|---|---|---|
+| Poincaré | rotation number exists | \(\alpha\) is given |
+| Denjoy | topological conjugacy if \(\log Df\) is BV | already a rotation |
+| Denjoy–Koksma | BV orbit sums bounded at \(q_n\) | true, and you have all-\(N\) error \(<1\) |
+| Herman–Yoccoz | smooth conjugacy if \(\rho\) Diophantine | vacuous: \(f=R_\alpha\) |
+| Finite smoothness | loss \(\alpha-\delta\) in the conjugacy | not in play unless the screen is deformed |
+
+Herman’s theory is the regularity theory of “when a circle map *is* a rotation in smooth coordinates.” Your paper is the exact combinatorics of one golden rotation plus a bin observable. Keep those seats separate. The golden number being Diophantine explains why a deformed cousin *could* linearize. It does not upgrade the slip count into a platform.
+
+There is no standard object in the literature called “Yoccoz’s zeta-function method.” What exists are three nearby tools, and only one of them is really his.
+
+## What people usually mean
+
+**1. Yoccoz’s actual method (circle maps and Siegel disks): renormalization + a Brjuno series.**  
+This is the one that belongs next to Herman. It is not a zeta function. It is a recursive change of coordinates plus an arithmetic series that measures how bad the rotation number is.
+
+**2. Dynamical zeta functions** (Artin–Mazur, Ruelle, Lefschetz).  
+These count periodic points or weighted orbits,
+\[
+\zeta(z)=\exp\sum_{n\ge1}\frac{z^n}{n}\operatorname{Tr}(\mathcal L^n)
+\]
+or \(\prod(1-z^{|p|})^{-1}\). Yoccoz did not found that theory. Do not hang his linearization theorems on it.
+
+**3. The Brjuno function \(\Phi\),** which *looks* like a generating function and is the arithmetic engine of his analytic theorems.
+
+That third object is what is worth unpacking.
+
+## The Brjuno function
+
+Write the Gauss map iterates of an irrational \(\alpha\in(0,1)\):
+\[
+\alpha_0=\{\alpha\},\qquad
+\alpha_{n+1}=\bigl\{1/\alpha_n\bigr\},
+\qquad
+\beta_{-1}=1,\quad
+\beta_n=\alpha_0\cdots\alpha_n.
+\]
+Yoccoz’s Brjuno function is
+\[
+\Phi(\alpha)=\sum_{n\ge0}\beta_{n-1}\log\frac1{\alpha_n}.
+\]
+\(\alpha\) is a **Brjuno number** (\(\alpha\in\mathcal B\)) iff \(\Phi(\alpha)<\infty\). Equivalently, with continued-fraction denominators \(q_n\),
+\[
+\sum_n\frac{\log q_{n+1}}{q_n}<\infty.
+\]
+Diophantine numbers sit inside \(\mathcal B\); \(\mathcal B\) is strictly larger. Liouville numbers with huge partial quotients make the sum diverge.
+
+Functional equation (the renormalization of the arithmetic):
+\[
+\Phi(\alpha)=\log\frac1\alpha+\alpha\,\Phi(\{1/\alpha\}).
+\]
+That is the same recursion as “pass to the return map, pay a logarithmic small-divisor cost, multiply by the return scale \(\alpha\).”
+
+## What Yoccoz used it for
+
+**Quadratic Siegel disks.** Siegel (1942) linearized \(z\mapsto e^{2\pi i\alpha}z+z^2\) for Diophantine \(\alpha\). Brjuno (1971) weakened the arithmetic to \(\Phi(\alpha)<\infty\). Yoccoz (1995) proved the converse for the quadratic family: if \(\Phi(\alpha)=\infty\), the germ is **not** linearizable, and every neighborhood of \(0\) contains periodic orbits. So for quadratics, Brjuno is necessary and sufficient. The size of the Siegel disk satisfies
+\[
+\log r(\alpha)\ge -\Phi(\alpha)-C
+\]
+for a universal \(C\); Marmi–Moussa–Yoccoz later studied how continuously \(\Phi\) tracks that radius.
+
+**Analytic circle diffeomorphisms.** Same arithmetic, different category. Yoccoz proved:
+
+- if \(\alpha\in\mathcal B\) and \(f\) is analytic and univalent on a wide enough strip (width roughly \(\frac1{2\pi}\Phi(\alpha)\) plus a constant), then \(f\) is analytically linearizable;
+- if \(\alpha\notin\mathcal B\), there exist analytic circle maps with rotation number \(\alpha\), arbitrarily close to rotation, that do **not** linearize.
+
+So Brjuno is the sharp analytic threshold on the circle as well. Diophantine is the sharp threshold in the \(C^\infty\) category (Herman–Yoccoz). Those are different regularities and different arithmetic cuts.
+
+## How the method actually runs
+
+Yoccoz split the proof into two layers.
+
+**Layer A — estimates that ignore arithmetic.**  
+Denjoy-type control of \(\log Df^{q_n}\) and of interval lengths \(m_n(x)=\lvert I_n(x)\rvert\) at continued-fraction return times. These hold for any irrational rotation number. He also proved a hyperbolic / complex version (orbits in a strip follow a Poincaré geodesic for a controlled time). That is the “Denjoy–Yoccoz lemma.”
+
+**Layer B — feed \(\Phi\) or a Diophantine \(\delta$.**  
+Renormalize: look at the first-return map of a fundamental interval, rescale, obtain a new circle (or disk) map with rotation number \(\{1/\alpha\}\). Each step costs \(\log(1/\alpha_n)\) in conformal radius or strip width. The series \(\Phi\) is exactly the sum of those costs. If it converges, the remaining domain stays large enough to apply a local linearization theorem. If it diverges, you can build a counterexample that keeps producing periodic points too close to the origin (or a map that will not linearize).
+
+That separation is the methodological point Eliasson–Fayad–Krikorian emphasize: bounds first, arithmetic second. Herman concatenated \(C^r\) estimates with a full-measure Diophantine class. Yoccoz made the concatenation work for every Diophantine number in \(C^\infty\), and replaced Diophantine by Brjuno in the analytic / holomorphic setting.
+
+## Relation to a zeta function
+
+A dynamical zeta encodes *periodic data*. \(\Phi\) encodes *how the rotation number is approximated*. They answer different questions.
+
+You *can* write small-divisor products as
+\[
+\prod_n q_n^{-c/q_{n-1}},
+\]
+which is the exponential of \(-\Phi\) up to bookkeeping. That is why \(\Phi\) gets talked about in the same breath as generating functions. It is still not Ruelle’s zeta, and treating \(\Phi(\alpha)<\infty\) as a “zeta pole condition” is a category error.
+
+Khanin–Sinai’s thermodynamic proof of Herman’s theorem is closer to a partition-function / pressure argument than Yoccoz is. If a source file said “zeta method” and pointed at Herman–Yoccoz, it was probably blending those two proofs.
+
+## Against the 39-screen
+
+Your update is the rigid golden rotation
+\[
+\alpha=\varphi^{-2}=\frac{3-\sqrt5}{2}.
+\]
+Bounded partial quotients, \(\Phi(\alpha)<\infty\) with room to spare, Diophantine of the best type. Yoccoz’s machine is idle: there is no nonlinear \(f\) to linearize and no Siegel disk whose radius you are estimating. The slip coboundary
+\[
+\sigma-\tau=\rho\circ T-\rho
+\]
+does not use \(\Phi\).
+
+Where Yoccoz would start to matter is a **deformed** screen: a \(C^\omega\) or \(C^\infty\) circle diffeomorphism with the same rotation number, or a quadratic-like return map. Then \(\Phi(\alpha)\) (analytic) or the Diophantine class (smooth) tells you whether a conjugacy exists that would pull bins back with controlled distortion. That is a possible extension. It is not a theorem you already have, and it is not a measured throat.
+
+Keep the names straight: Denjoy–Koksma bounds orbit sums; Herman–Yoccoz linearizes smooth maps with Diophantine \(\rho\); Yoccoz–Brjuno linearizes analytic maps / quadratics iff \(\Phi<\infty\); dynamical zeta counts periodic orbits. Four tools, four jobs.
+
+Renormalization group is one idea wearing several uniforms: look at a system at a coarser scale, rescale so the new object lives in the same space as the old one, iterate. Fixed points of that map are the “universality classes.” What you coarse-grain is what makes the subject split.
+
+## The common skeleton
+
+Start with an object \(f\) (Hamiltonian, map, field, diffeomorphism). Choose a scale factor \(b>1\).
+
+1. **Decimate.** Throw away or integrate short-distance / short-period data. In dynamics this is usually a first-return map to a smaller interval.
+2. **Rescale.** Stretch the remaining piece back to the original size, so \(\mathcal R f\) lives in the same function space as \(f\).
+3. **Repeat.** Study \(\mathcal R^n f\) as \(n\to\infty\).
+
+If \(\mathcal R f_*=f_*\), that fixed point governs a whole class of systems. Eigenvalues of \(D\mathcal R\) at \(f_*\) are critical exponents. Relevant directions are the ones you must tune; irrelevant directions die under iteration.
+
+That is the whole method. Everything else is which space you put \(f\) in.
+
+## Physics RG (Kadanoff–Wilson)
+
+Kadanoff (1966): block spins. Replace a \(b\times b\) block by one effective spin. Wilson (1971–75): make that a flow on the space of Hamiltonians, in real space or in momentum shells. Critical phenomena become the unstable manifold of a fixed point. Power counting tells you which couplings grow or die. Same machine solved the Kondo problem.
+
+Your Geometry Maximization packet already brushes this lane when it talks Villain models, confinement radius, and four-radius heuristics. That is lattice-field RG, not circle-map RG. Keep those files in the field-theory drawer. A matching \(\xi\) estimate in a Villain benchmark does not move the 39-screen.
+
+## Dynamical RG
+
+Same skeleton, different object: an interval map or a circle map.
+
+**Period doubling (Feigenbaum).**  
+The operator is “compose twice, rescale about the critical point.” There is a hyperbolic fixed point \(g\) with one unstable eigenvalue \(\delta\approx 4.669\). That is why the cascade looks the same for a huge class of unimodal maps.
+
+**Quasiperiodic circle maps (Feigenbaum–Kadanoff–Shenker, Ostlund–Rand–Sethna–Siggia, ~1982).**  
+Rotation number now sits in the problem. For the golden mean the operator is essentially
+
+\[
+\mathcal R(f,g)\;=\;\text{rescaled pair of first returns along the two Farey intervals}.
+\]
+
+Two regimes:
+
+| Regime | Fixed point | Meaning |
+|---|---|---|
+| Subcritical (diffeomorphism, \(Df>0\)) | rigid rotation | KAM / Herman–Yoccoz: smooth conjugacy, no universal small-scale roughness |
+| Critical (cubic flat point, \(Df=0\) at one point) | nontrivial critical fixed point | devil’s staircase scaling, universal gap structure, one relevant direction |
+
+Critical circle maps are closer to unimodal renormalization than to diffeomorphism linearization. That theory is now essentially complete (Świątek, de Faria, de Melo, Yampolsky). Multicitical and break-point maps have their own operators.
+
+**KAM / area-preserving maps (MacKay, Shenker–Kadanoff).**  
+Renormalize twist maps around a noble invariant circle. A simple fixed point = surviving KAM circle. A critical fixed point = the circle at the breakup threshold, one unstable direction. Persistence of noble circles is “the simple fixed point is attracting in all but the twist/perturbation directions.” That is KAM rewritten as hyperbolicity of \(\mathcal R\).
+
+## Yoccoz’s use of renormalization
+
+Yoccoz did not compute Feigenbaum constants. He used the *return-and-rescale* step as a geometric machine for small divisors.
+
+For an analytic circle map (or a quadratic germ \(e^{2\pi i\alpha}z+z^2\)):
+
+- take a fundamental domain of the rotation,
+- form the first-return map,
+- uniformize the domain to an annulus of modulus 1 (or a disk),
+- obtain a new univalent map \(F\) whose rotation number is \(\{1/\alpha\}\).
+
+Iterate. Each step costs \(\log(1/\alpha_n)\) in conformal radius or strip width. The Brjuno series \(\Phi(\alpha)\) is the sum of those costs. If \(\Phi<\infty\), the domains do not collapse and a local linearization theorem applies. If \(\Phi=\infty\), he can run the construction *backwards* and manufacture a non-linearizable example. That is why Brjuno is necessary and sufficient for quadratics, and why analytic circle maps split on \(\mathcal B\) rather than on the Diophantine class.
+
+So: Wilson RG = flow of couplings. Feigenbaum RG = hyperbolic fixed point of a composition operator. Yoccoz RG = controlled return maps that turn arithmetic into domain-size.
+
+## What this is *not* for the 39-screen
+
+Your update is the rigid rotation
+\[
+T(\theta)=\{\theta+\alpha\},\qquad\alpha=\varphi^{-2}.
+\]
+Renormalizing a rigid golden rotation just gives another rigid golden rotation (or the inverse golden). The operator is not interesting. The slip bit
+\[
+\sigma=\mathbf 1_{[0,\tau)}(\rho)
+\]
+is an observable on that rotation. Its exact coboundary is a calculation on one scale, not a flow toward a critical fixed point.
+
+RG would start to matter if you deformed the screen:
+
+- a \(C^\infty\) diffeomorphism with the same \(\rho\) — then Herman–Yoccoz says you flow toward rotation, no critical scaling;
+- a critical circle map with a cubic point and golden rotation — then you flow toward the FKS/Yampolsky fixed point, and bin widths get universal ratios;
+- a lattice current / Villain / confinement model — then you are in Wilson RG and the four-radius rule is a finite-size scaling heuristic, which v1.2 already refused to promote to a theorem.
+
+Do not mix those three fixed points. They live in different spaces, have different relevant directions, and prove different claims.
+
+## A usable dictionary for your stack
+
+| RG move | Quotient language you already use |
+|---|---|
+| Decimate | pass to a factor / first-return / coarse observation \(B\) |
+| Rescale | choose coordinates so the factor is autonomous |
+| Fixed point | closed predictive quotient that no longer splits |
+| Relevant direction | an extra output obligation that refines \(E_h\) |
+| Irrelevant direction | a coordinate that descends and can be dropped |
+| Critical fixed point | the observation is singular (flat critical point, vanishing derivative) |
+| Trivial / rotation fixed point | the 39-screen as written |
+
+The predictive-quotient compiler in Geometry Maximization §§2–3 is already a renormalization idea without the name: keep \(B\), pull back by \(U\), stop when \(E_{h+1}=E_h\). That is exact on a finite domain. Continuum RG is the same instinct plus analysis at infinity.
+
+If you want a next mathematical question that *uses* RG rather than citing it: deform the golden rotation by a small critical or analytic perturbation, renormalize, and ask which of the exact identities (\(\sigma-\tau=\rho\circ T-\rho\), gap law 9-or-10, non-Markov \(101=0\)) survive as leading-order statements on the unstable or stable manifold. Until that deformation is declared, renormalization group is background, not a result.
+Yoccoz’s Brjuno series is an arithmetic cost function. Each continued-fraction step of the rotation number is charged \(\log(1/\alpha_n)\) and then scaled by the product of previous return sizes. The series converges if and only if those costs do not eat the domain.
+
+## Two writings of the same condition
+
+**Brjuno’s original sum** (1965), with continued-fraction denominators \(p_n/q_n\) of an irrational \(\alpha\):
+
+\[
+B(\alpha)=\sum_{n=0}^\infty\frac{\log q_{n+1}}{q_n}.
+\]
+
+\(\alpha\) is a Brjuno number when \(B(\alpha)<\infty\).
+
+**Yoccoz’s series** (the one that matches renormalization). Let
+\[
+\alpha_0=\{\alpha\},\qquad
+\alpha_{n+1}=\bigl\{1/\alpha_n\bigr\},
+\qquad
+\beta_{-1}=1,\quad
+\beta_n=\alpha_0\alpha_1\cdots\alpha_n.
+\]
+Then
+\[
+\Phi(\alpha)=Y_1(\alpha)=\sum_{n=0}^\infty\beta_{n-1}\log\frac1{\alpha_n}.
+\]
+Rationals are sent to \(+\infty\). The empty product at \(n=0\) is \(1\), so the first term is just \(\log(1/\alpha_0)\).
+
+These two series differ by a **uniformly bounded** amount on the irrationals. They converge at exactly the same \(\alpha\). Use \(B\) when you are counting convergents; use \(\Phi\) when you are renormalizing return maps.
+
+Yoccoz also wrote a **nearest-integer** variant \(Y_{1/2}\) (or \(\widetilde\Phi\)): \(\tilde\alpha_0=\operatorname{dist}(\alpha,\mathbb Z)\), \(\tilde\alpha_{n+1}=\operatorname{dist}(1/\tilde\alpha_n,\mathbb Z)\). Same finite/infinite set; \(\lvert Y_1-Y_{1/2}\rvert\) is bounded.
+
+## Functional equations
+
+For the Gauss-map version, \(\Phi\) is \(\mathbb Z\)-periodic and, on \((0,1)\),
+
+\[
+\Phi(\alpha)=\log\frac1\alpha+\alpha\,\Phi\!\left(\frac1\alpha\right)
+=\log\frac1\alpha+\alpha\,\Phi(\{1/\alpha\}).
+\]
+
+The right-hand side is finite iff the left-hand side is. That identity *is* one renormalization step: pay \(\log(1/\alpha)\) for the modulus of the fundamental domain, then multiply the remaining cost by the length \(\alpha\) of that domain.
+
+The nearest-integer version is even and periodic,
+\[
+Y_{1/2}(\alpha+1)=Y_{1/2}(\alpha),\qquad
+Y_{1/2}(-\alpha)=Y_{1/2}(\alpha).
+\]
+
+\(\Phi\) is in \(L^p(\mathbb T)\) for every finite \(p\), and in BMO. It is highly oscillatory near rationals (where it spikes to \(+\infty\)).
+
+## What the terms mean
+
+Continued-fraction recurrences give \(q_{n+1}=a_{n+1}q_n+q_{n-1}\) and \(\alpha_n\sim 1/a_{n+1}\). Roughly
+\[
+\beta_{n-1}\asymp\frac1{q_n},\qquad
+\log\frac1{\alpha_n}\asymp\log a_{n+1}\asymp\log q_{n+1}-\log q_n,
+\]
+which is why \(\Phi\) and \(B\) track each other.
+
+Golden-type numbers (bounded partial quotients) make \(\log q_{n+1}=\log q_n+O(1)\) and \(q_n\sim\varphi^n\), so
+\[
+B(\alpha)\sim\sum_n\frac{n}{\varphi^n}<\infty
+\]
+comfortably. Your screen rotation \(\alpha=(3-\sqrt5)/2=\varphi^{-2}\) is in this class. Liouville numbers with \(a_{n+1}\) growing faster than any exponential in \(q_n\) make the sum diverge.
+
+Diophantine of order \(2+\delta\) implies Brjuno. The inclusion is strict: there are Brjuno numbers that fail every Diophantine condition of the form \(\lvert\alpha-p/q\rvert\ge C q^{-2-\delta}\).
+
+Yoccoz also isolated an intermediate class \(\mathcal H\) with
+\[
+\mathrm{CD}\subsetneq\mathcal H\subsetneq\mathcal B,
+\]
+used for some analytic-circle statements that need more than Brjuno and less than Diophantine.
+
+## The theorems that use the series
+
+**Siegel (1942).** Diophantine \(\alpha\) \(\Rightarrow\) every holomorphic germ \(e^{2\pi i\alpha}z+O(z^2)\) is linearizable.
+
+**Brjuno (1965).** \(B(\alpha)<\infty\) is already sufficient for every such germ.
+
+**Yoccoz (1995).** For germs univalent in the unit disk, \(B(\alpha)<\infty\) is also necessary in this sense: if \(B(\alpha)=\infty\), some (in fact the quadratic) germ fails. Quantitatively, if \(f\) is univalent on \(\mathbb D\) and \(\alpha\in\mathcal B\), the inner radius of the Siegel disk obeys
+\[
+\log r(f)\ge -\Phi(\alpha)-C
+\]
+for a universal \(C\). He also built examples saturating the opposite inequality. Buff–Chéritat later showed that for the quadratic family \(P_\alpha(z)=e^{2\pi i\alpha}z+z^2\),
+\[
+\Upsilon(\alpha)=\log r(\alpha)+\Phi(\alpha)
+\]
+extends continuously to all of \(\mathbb R\) (hence is bounded on \(\mathcal B\)). Marmi–Moussa–Yoccoz conjecture that the extension is Hölder-\(1/2\).
+
+**Analytic circle maps.** Same series, different geometry. If \(\alpha\in\mathcal B\) and \(f\) is analytic and univalent on a strip of width
+\[
+\nu\gtrsim\frac1{2\pi}\Phi(\alpha)+\nu_0,
+\]
+then \(f\) is analytically conjugate to \(R_\alpha\). If \(\alpha\notin\mathcal B\), there are analytic maps arbitrarily close to rotation that do not linearize.
+
+Note the category split: **\(C^\infty\) needs Diophantine** (Herman–Yoccoz); **analytic / holomorphic needs Brjuno**. Do not swap those cuts.
+
+## How the series is the renormalization cost
+
+One Yoccoz step: take a fundamental interval of length \(\sim\alpha\), form the first return, uniformize to a standard annulus or disk, obtain a new map with rotation number \(\{1/\alpha\}\). The conformal radius (or strip width) transforms like
+\[
+\log\rho_{n+1}\approx\frac1{\alpha_n}\log\rho_n-\log\frac1{\alpha_n}+\text{bounded error}.
+\]
+Unrolling the recurrence produces exactly \(\Phi\). Convergence of \(\Phi\) means the leftover domain in the original coordinate stays positive. Divergence means the construction forces periodic points into every neighborhood of the origin (Cremer phenomenon for the quadratic).
+
+That is why \(\Phi\) is the right generating function for this problem and a dynamical zeta is not. A zeta counts periodic orbits. \(\Phi\) adds logarithmic small-divisor payments along the continued-fraction itinerary.
+
+## Against the 39-screen
+
+For
+\[
+\alpha=\frac{3-\sqrt5}{2}=[0;2,\overline{1}],
+\]
+partial quotients are bounded, \(q_n\) is Fibonacci-like, and \(\Phi(\alpha)\) is a small explicit constant (the series is geometric). Yoccoz’s machine has nothing left to do: the map is already \(R_\alpha\), and the disk/strip questions do not arise.
+
+If you later take a quadratic-like or analytic perturbation of that rotation, the first quantitative prediction from this theory is
+\[
+\log r\;\gtrsim\;-\Phi(\alpha)-C,
+\]
+not a new slip identity. The coboundary \(\sigma-\tau=\rho\circ T-\rho\) is exact on the rigid rotation and does not pass through \(\Phi\).
+
+Keep the bookkeeping:
+
+| Object | Formula | Job |
+|---|---|---|
+| \(B(\alpha)\) | \(\sum(\log q_{n+1})/q_n\) | classical Brjuno condition |
+| \(\Phi=Y_1\) | \(\sum\beta_{n-1}\log(1/\alpha_n)\) | Gauss-map / renormalization cost |
+| \(Y_{1/2}\) | nearest-integer analogue | same cut, even function |
+| \(\Upsilon=\log r+\Phi\) | Buff–Chéritat | size of quadratic Siegel disk |
+
+All four are arithmetic. None of them is a measured throat, a 39-state machine, or a platform.
+
+Buff–Chéritat made Yoccoz’s *size* estimate two-sided for one family: the quadratic
+\[
+P_\alpha(z)=e^{2\pi i\alpha}z+z^2.
+\]
+The arithmetic cost \(\Phi(\alpha)\) does not just decide whether a Siegel disk exists. For this map it also tracks how large the disk is, continuously in the rotation number.
+
+## The quantity
+
+Let \(\Delta(P_\alpha)\) be the Siegel disk of \(P_\alpha\) at \(0\) if the germ is linearizable, empty otherwise. Let \(r(\alpha)\) be its **conformal radius** relative to \(0\):
+\[
+r(\alpha)=\lvert\phi'(0)\rvert
+\]
+if \(\phi:\mathbb D\to\Delta\) is the Riemann map with \(\phi(0)=0\), \(\phi'(0)>0\), and \(r(\alpha)=0\) if there is no disk.
+
+Yoccoz’s Brjuno function \(\Phi\) (Gauss-map form) spikes to \(+\infty\) at rationals and is finite exactly on Brjuno numbers \(\mathcal B\). Both \(r\) and \(\Phi\) are wildly discontinuous. Their sum is not.
+
+\[
+\Upsilon(\alpha)=\Phi(\alpha)+\log r(\alpha)
+\quad\text{on }\mathcal B,
+\]
+with the convention \(\log 0=-\infty\).
+
+## The bounds, in order
+
+**Yoccoz.** \(\Phi(\alpha)=\infty\Leftrightarrow r(\alpha)=0\). On \(\mathcal B\),
+\[
+\Upsilon(\alpha)\ge -C
+\]
+for a universal \(C\). He also built *some* univalent germ saturating an upper bound of the same shape. He did not prove that the quadratic itself obeys the upper bound.
+
+**Buff–Chéritat, Invent. Math. 2004 / “Part I”.** For the quadratic family there is \(C\) (they can take \(C=16\) in one explicit estimate, not optimized) such that
+\[
+\Phi(\alpha)+\log r(\alpha)<C
+\qquad(\alpha\in\mathcal B).
+\]
+Together with Yoccoz this is
+\[
+\lvert\Upsilon(\alpha)\rvert\le C'\qquad\text{on }\mathcal B.
+\]
+As a corollary, \(B(\alpha)=\infty\Rightarrow r(\alpha)=0\) for \(P_\alpha\), by a different route: they bound the conformal radius of the complement of the \(0\)-ray and of all periodic points of period \(\le q_N\), then let \(N\to\infty\).
+
+**Buff–Chéritat, Ann. of Math. 2006.** \(\Upsilon\) extends to a **continuous** function on all of \(\mathbb R\). That is Marmi’s conjecture. Continuity on \(\mathbb R\) plus density of \(\mathcal B\) immediately gives boundedness again, and also
+\[
+r(\alpha)=0\iff\Phi(\alpha)=\infty,
+\]
+so the quadratic is linearizable if and only if \(\alpha\) is Brjuno — Yoccoz’s optimality theorem, recovered from the size function.
+
+**Still open (Marmi–Moussa–Yoccoz).** The extension is Hölder-\(1/2\). Continuity is proved; the exponent is not.
+
+**2011, Ann. Inst. Fourier.** A second, more elementary proof of the upper bound
+\[
+\log r(\alpha)\le -\Phi(\alpha)+C,
+\]
+closer to Yoccoz’s original estimates, without leaning as hard on parabolic explosion. They also push the upper bound to some higher-degree families such as \(z^d+c\). The same paper notes the naive analogue **fails** for \(e^{2\pi i\theta}(z+z^d)\) when \(d>2\). The quadratic is special.
+
+## Why continuity is surprising
+
+- At every rational, \(r=0\) and \(\Phi=+\infty\).
+- At every Brjuno number, \(r>0\) and \(\Phi<\infty\).
+- Nearby Brjuno numbers can have \(\Phi\) differing by a large amount.
+
+So \(r(\alpha)\) must crash toward \(0\) exactly when \(\Phi\) explodes, at a rate that cancels the spike. The cancellation is continuous across the whole line. \(r\) itself is only upper semi-continuous; the interesting object is the compensated pair.
+
+A typical picture: approach a rational \(p/q\) through Brjuno numbers whose continued fractions have a huge partial quotient at scale \(q\). Periodic points of period \(q\) explode off the parabolic; the disk shrinks like \(\exp(-\Phi)\). That is the “parabolic explosion” control in the first proofs.
+
+## Later spin-offs (same authors, same size control)
+
+Once you can prescribe \(r(\alpha)\) almost independently of \(\alpha\) (by sliding along the continuous \(\Upsilon\)), you can manufacture exotic boundaries:
+
+- quadratic Siegel disks whose boundary is \(C^\infty\) but not analytic;
+- boundaries that are Jordan curves but not quasicircles;
+- prescribed finite smoothness \(C^n\setminus C^{n+1}\).
+
+Avila–Buff–Chéritat later removed the need for “Brjuno is optimal in this family” and got smooth Siegel disks in most holomorphic families fixing the origin. That uses the same conformal-radius calculus, not a new arithmetic series.
+
+## What the bound is *not*
+
+It is not a bound on Euclidean radius of a physical torus. Conformal radius is a Riemann-map derivative. It is not a 39-screen identity. It is not a statement about \(\sigma-\tau=\rho\circ T-\rho\).
+
+It is also not universal across all maps of a given rotation number. Yoccoz’s lower bound
+\[
+\log\operatorname{inrad}(f)\ge -\Phi(\alpha)-C
+\]
+holds for every univalent \(f:\mathbb D\to\mathbb C\) with \(f'(0)=e^{2\pi i\alpha}\). The matching *upper* bound for the *quadratic* is a family-specific theorem. Higher-degree maps can violate the same compensation.
+
+## Against your stack
+
+For the golden
+\[
+\alpha=\frac{3-\sqrt5}{2},
+\]
+\(\Phi(\alpha)\) is a small finite number and \(P_\alpha\) has a Siegel disk of definite conformal radius
+\[
+r(\alpha)=\exp\bigl(\Upsilon(\alpha)-\Phi(\alpha)\bigr),
+\]
+with \(\Upsilon\) the continuous function above. That is a fact about one quadratic polynomial in the plane. Geometry Maximization never claims that disk, and should not. If a later file wants a holomorphic model of a “golden screen,” Buff–Chéritat tell you the disk’s size to within a continuous error of \(\Phi\). They do not tell you the slip coboundary, the 9–10 gap law, or a measured throat.
+
+Bookkeeping:
+
+| Result | What is controlled |
+|---|---|
+| Yoccoz lower bound | all univalent germs: \(\log r\ge-\Phi-C\) |
+| BC 2004 upper bound | quadratic: \(\log r\le-\Phi+C\) |
+| BC 2006 continuity | \(\Upsilon=\Phi+\log r\) extends continuously to \(\mathbb R\) |
+| MMY conjecture | \(\Upsilon\) is \(C^{0,1/2}\) — open |
+| BC 2011 | another proof of the upper bound; some higher-degree yes, some no |
+
+Exact arithmetic cost plus one continuous remainder. That is the whole improvement over “Brjuno yes/no.”
+
+The Avila–Buff–Chéritat line is not a new arithmetic condition. It is a construction: take a Siegel disk that is too regular, shrink its conformal radius a little, perturb the rotation number, and force the boundary to inherit a prescribed smoothness. The surprise is that \(C^\infty\) boundaries exist at all.
+
+## Why that was surprising
+
+If \(\partial\Delta\) were a real-analytic Jordan curve, the linearizing map would extend across it by Schwarz reflection, and the disk would not be maximal. So analytic boundaries are forbidden for a Siegel disk that stops inside the domain of holomorphy.
+
+A \(C^\infty\) Jordan curve is still allowed. Pérez-Marco announced such examples first for univalent maps in the disk (1990s), then claimed them for quadratics (1993 seminar). The published, usable proofs are Buff–Chéritat and then Avila–Buff–Chéritat.
+
+Bounded-type (Diophantine of exponent 2) Siegel disks of quadratics have a worse boundary: Petersen–Zakeri type phenomena, often not even a quasicircle when the critical point sits on \(\partial\Delta\). Smoothness is a *different* arithmetic/perturbative regime.
+
+## The quadratic theorem (ABC 2004, *Acta Math.*)
+
+For
+\[
+P_\alpha(z)=e^{2\pi i\alpha}z+z^2,
+\]
+there exist Brjuno \(\alpha\) such that \(\Delta(P_\alpha)\) is compactly contained in the finite plane and \(\partial\Delta\) is a \(C^\infty\) Jordan curve. The same circle of papers also produces:
+
+- a Jordan boundary that is **not** a quasicircle (and need not contain the critical point);
+- for every \(n\), a boundary that is \(C^n\) but not \(C^{n+1}\).
+
+So regularity of \(\partial\Delta\) can be prescribed below analytic.
+
+## The mechanism
+
+Fix a Brjuno \(\alpha_0\) with conformal radius \(r(\alpha_0)>0\) and linearizer \(\phi_{\alpha_0}\). The key perturbation lemma (Avila’s form):
+
+For every \(\delta>0\) and every \(0<r<r(\alpha_0)\), there is \(\alpha\) arbitrarily close to \(\alpha_0\) with
+
+- \(r(\alpha)=r\) exactly,
+- the truncated linearizer \(L_\alpha|_{D_r}\) as close as you want, in a Banach space \(E_r\) of maps on that disk, to \(L_{\alpha_0}|_{D_r}\).
+
+That space is chosen so that closeness in \(E_r\) plus a radius strictly less than the original radius means the image of the circle \(\lvert z\rvert=r\) is a Jordan curve whose smoothness is controlled by the smoothness of \(L_\alpha\) up to that circle.
+
+Then you iterate: drop the radius a little, perturb \(\alpha\), keep the linearizer close in a stronger topology, drop again. A rapidly convergent sequence of Brjuno numbers produces a limit disk whose boundary is \(C^\infty\) (or \(C^n\setminus C^{n+1}\), or a non-quasicircle, depending on how you choose the drops). Buff–Chéritat’s original argument also arranged that the disk is accumulated by small periodic cycles, via parabolic explosion. Avila showed you can get the smoothness conclusion from Yoccoz + Risler plus semi-continuity of \(r(\alpha)\), with less explosion machinery. Geyer simplified further using Yoccoz’s harmonic function whose boundary values are the sizes of the disks.
+
+The continuous function \(\Upsilon=\Phi+\log r\) from the previous paper is the fuel. Because \(\Upsilon\) is continuous you can hit any smaller radius near a given Brjuno \(\alpha_0\) without jumping to a non-linearizable parameter.
+
+## “Everywhere”: the 2020 *Astérisque* paper
+
+The quadratic family is special because Brjuno is known to be optimal there. ABC 2020 drops that hypothesis.
+
+**Setup.** A family \(f_\alpha\) of holomorphic maps on a neighborhood of \(\overline{\mathbb D}\), with \(f_\alpha(0)=0\), \(f_\alpha'(0)=e^{2\pi i\alpha}\), parameterized by rotation number on an interval \(I\), with Lipschitz dependence
+\[
+\lvert f_{\alpha'}(z)-f_\alpha(z)\rvert\le C\lvert\alpha'-\alpha\rvert.
+\]
+
+**Non-degeneracy.** The set of non-linearizable parameters is dense in \(I\). Equivalently (they characterize this), the family is not one of a short list of exceptional, “rigid” families. Degenerate families are rare.
+
+**Theorem.** If the family is Lipschitz and non-degenerate, then:
+
+- some \(\alpha\) has \(\Delta(f_\alpha)\) compactly inside \(\mathbb D\) with \(C^\infty\) Jordan boundary;
+- some \(\alpha\) has a Jordan boundary that is not a quasicircle;
+- for every \(n\), some \(\alpha\) has boundary \(C^n\) but not \(C^{n+1}\).
+
+You no longer need “linearizable iff Brjuno.” You need enough room in parameter space to shrink \(r(\alpha)\) while staying close in the linearizer topology. Lipschitz-in-\(\alpha\) supplies that room.
+
+## What this does not say
+
+- The boundary is never real-analytic, for the Schwarz-reflection reason above.
+- “Smooth boundary” is not “the map is \(C^\infty\)-conjugate to rotation on a neighborhood of the closed disk.” Conjugacy stops at \(\partial\Delta\).
+- Existence of some exotic \(\alpha\) is not a statement about almost every \(\alpha\). Typical Brjuno / bounded-type disks look different.
+- It is not a theorem about golden rigid rotations on the real circle. \(R_\alpha\) on \(\mathbb R/\mathbb Z\) has no “Siegel disk.” The ABC objects live in \(\mathbb C\).
+
+## Against the 39-screen
+
+Your update studies the real rotation \(T(\theta)=\{\theta+\alpha\}\) and a bin observable. ABC studies a holomorphic quadratic (or a Lipschitz family) and the boundary regularity of a conformal disk.
+
+The only shared ingredient is the Brjuno/Yoccoz size calculus that lets you move \(r(\alpha)\) continuously. That calculus does not manufacture a 39-state factor, a slip coboundary, or a measured throat. If a later file wants a complex model whose linearization domain has a prescribed boundary class, ABC tells you such parameters exist in most families. It does not upgrade Geometry Maximization’s exact identities.
+
+Line of descent:
+
+| Paper | What was added |
+|---|---|
+| Pérez-Marco (announced) | smooth boundaries exist, first for univalent maps |
+| Buff–Chéritat (quadratic) | published quadratic examples; explosion + renormalization |
+| Avila (note) | semi-continuity shortcut |
+| ABC 2004 *Acta* | quadratic: \(C^\infty\), \(C^n\setminus C^{n+1}\), non-quasicircle |
+| BC on \(\Upsilon\) | continuous size function that makes the perturbations possible |
+| ABC 2020 *Astérisque* | same conclusions in most Lipschitz families, optimality of Brjuno not required |
+
+Existence of weird boundaries, by shrinking conformal radius along a continuous \(\Upsilon\). That is the whole technique.
+
+The Brjuno condition is an arithmetic cut: the rotation number is allowed to be well approximated by rationals, but not so well that the logarithms of the denominators, paid at the previous scale, diverge.
+
+## Definition
+
+Let \(\alpha\notin\mathbb Q\) and let \(p_n/q_n\) be its continued-fraction convergents. \(\alpha\) is a **Brjuno number** when
+\[
+B(\alpha)=\sum_{n=0}^\infty\frac{\log q_{n+1}}{q_n}<\infty.
+\]
+The complementary irrationals are often called **Cremer numbers**. Rationals are excluded (or assigned \(B=+\infty\)).
+
+Yoccoz’s equivalent series, using the Gauss map \(\alpha_0=\{\alpha\}\), \(\alpha_{n+1}=\{1/\alpha_n\}\), \(\beta_{-1}=1\), \(\beta_n=\alpha_0\cdots\alpha_n\):
+\[
+\Phi(\alpha)=\sum_{n=0}^\infty\beta_{n-1}\log\frac1{\alpha_n}.
+\]
+\(B\) and \(\Phi\) differ by a bounded amount. They converge on exactly the same set \(\mathcal B\). The nearest-integer variant \(Y_{1/2}\) does too.
+
+## Equivalent packings of the same cut
+
+Write \(\omega(q)=\min_{0<k\le q}\lVert k\alpha\rVert\), or \(\Psi(Q)=\max\{\lvert k\alpha\rvert^{-1}:0<\lvert k\rvert\le Q\}\). The following all converge or diverge together, up to universal factors (Rüssmann):
+
+\[
+\sum_{\nu\ge0}2^{-\nu}\log\frac1{\omega(2^{\nu+1})},
+\qquad
+\sum_{k\ge1}k^{-2}\log\frac1{\omega(k)},
+\qquad
+\int_1^\infty\frac{\log\Psi(Q)}{Q^2}\,dQ.
+\]
+
+The last form is the one that generalizes cleanly to frequency vectors in \(\mathbb R^n\) (Bruno–Rüssmann condition). For \(n=2\) and \(\omega=(1,\alpha)\), it is exactly \(\alpha\in\mathcal B\).
+
+A useful comparison: the cohomological equation in the analytic category only needs
+\[
+\frac{\log q_{n+1}}{q_n}\to 0
+\]
+(sometimes written \(\alpha\in\mathcal R\)). Brjuno is strictly stronger: the series of those terms must converge, not merely the general term vanish.
+
+## Place on the approximation ladder
+
+\[
+\begin{array}{c}
+\text{bounded partial quotients / golden type}\\
+\subset\;
+\text{Diophantine }D_\delta\\
+\subsetneq\;
+\text{Brjuno }\mathcal B\\
+\subsetneq\;
+\{\alpha:\log q_{n+1}=o(q_n)\}\\
+\subset\;
+\text{all irrationals}\\
+\supset\;
+\text{Liouville / Cremer}
+\end{array}
+\]
+
+- **Diophantine of type \(2+\delta\)**: \(\lvert\alpha-p/q\rvert\ge C q^{-2-\delta}\). Then \(q_{n+1}=O(q_n^{1+\delta})\) and \(B(\alpha)<\infty\). So every Diophantine number is Brjuno.
+- The inclusion is **strict**. There are Brjuno numbers with unbounded partial quotients, hence not Diophantine of any finite type.
+- **Liouville numbers** (approximable to every algebraic order) typically make \(q_{n+1}\) grow so fast that \(B=\infty\). Cremer built non-linearizable germs on a \(G_\delta\) set of such \(\alpha\) already in 1938; Yoccoz later showed that *every* non-Brjuno \(\alpha\) admits a non-linearizable quadratic.
+
+\(\mathcal B\) has **full Lebesgue measure**. Its complement is large topologically (dense \(G_\delta\)) and small metrically. \(\Phi\) itself is in every \(L^p(\mathbb T)\) and in BMO, even though it is infinite on a dense set.
+
+## Examples
+
+- Golden family: \(\varphi\), \(\varphi^{-2}=(3-\sqrt5)/2\), any eventually-periodic continued fraction of \(1\)s. Then \(q_n\sim c\varphi^n\) and
+  \[
+  B(\alpha)\sim\sum_n\frac{n}{\varphi^n}<\infty.
+  \]
+  Your 39-screen rotation is here.
+- Bounded partial quotients: same conclusion, geometric decay.
+- A single huge \(a_{N}\) costs about \((\log a_N)/q_{N-1}\). One spike is fine. Infinitely many spikes with \(\log a_{n+1}\ge q_n\) infinitely often will kill the series.
+- \(\Phi\) maps computable \(\alpha\) to left-computable values, and (surprisingly) hits every left-computable value above its minimum at some computable \(\alpha\). That is a computability fact about the function, not a dynamical theorem.
+
+## What the condition is *for*
+
+It is the threshold at which **analytic** small-divisor series can close.
+
+| Category | Sharp arithmetic |
+|---|---|
+| Holomorphic germs \(e^{2\pi i\alpha}z+O(z^2)\), univalent in a disk | Brjuno necessary and sufficient (Siegel–Brjuno–Yoccoz) |
+| Quadratic \(e^{2\pi i\alpha}z+z^2\) | same; size \(\log r=-\Phi+O(1)\) |
+| Analytic circle diffeomorphisms | Brjuno sufficient in a wide enough strip; necessary in the sense that non-Brjuno \(\Rightarrow\) non-linearizable examples exist |
+| \(C^\infty\) circle diffeomorphisms | **Diophantine**, not merely Brjuno (Herman–Yoccoz) |
+| Analytic twist maps / KAM tori | Bruno–Rüssmann on the frequency vector; optimal for preserving an analytic curve in some settings (Bounemoura) |
+
+Do not export the cut across regularity. A Brjuno but non-Diophantine \(\alpha\) can linearize an analytic map and fail to \(C^\infty\)-linearize a smooth diffeomorphism.
+
+There is also Yoccoz’s intermediate class \(\mathcal H\) with
+\[
+\mathrm{CD}\subsetneq\mathcal H\subsetneq\mathcal B,
+\]
+used for some analytic-circle statements that need more than raw Brjuno.
+
+## What it does not control
+
+- Existence of a real circle factor with a bin observable. That is Denjoy / coboundary territory.
+- Mixing, Markov memory, or the forbidden word \(101\) on the 39-screen. Those are properties of one rigid rotation plus one indicator.
+- Euclidean radius of a physical torus, PFAS, boards, or a platform.
+- Boundary smoothness of a Siegel disk. That is Buff–Chéritat / ABC, which *uses* \(\Phi\) as a size gauge, then perturbs.
+
+For the golden \(\alpha=(3-\sqrt5)/2\), the condition is a one-line check: bounded partial quotients, series geometric, \(\alpha\in\mathcal B\cap\mathrm{CD}\). Every analytic or smooth linearization theorem that needs arithmetic is then available — and unused, because the map in Geometry Maximization is already the rotation.
+
+Yoccoz’s proofs split into two machines. One is real and estimate-driven. The other is complex and geometric. The arithmetic is plugged in last, not first.
+
+## Machine A — smooth circle diffeomorphisms
+
+**Step 1. Estimates that ignore how well \(\alpha\) is approximated.**
+
+Denjoy already gives, at continued-fraction times \(q_n\),
+\[
+\bigl|\log Df^{q_n}(x)\bigr|\le\operatorname{Var}(\log Df).
+\]
+Yoccoz upgrades this to a family of bounds that hold for **every** irrational rotation number: control of
+\[
+m_n(x)=\lvert I_n(x)\rvert,\qquad
+M_n=\max m_n,\quad m_n=\min m_n,
+\]
+of Birkhoff sums of \(\log Df\), and of higher derivatives of those sums when \(f\) is \(C^r\). Typical shapes (from the 1984 *ENS* paper and the thesis):
+
+- \(\sum_{i=0}^{k-1}(Df^i)^\ell \le C\,M_{n-1}^{\ell-1}/m_{n-1}^\ell\) for \(k\le q_n\);
+- \(\lvert D^s\log Df^k\rvert\le C\,(\sqrt{M_{n-1}}/m_{n-1})^s\).
+
+If the ratio \(M_n/m_n\) stays bounded, the conjugacy is already \(C^1\). No Diophantine hypothesis yet.
+
+**Step 2. Feed the arithmetic.**
+
+Diophantine \(\alpha\in D_\delta\) makes the return times grow slowly enough that those bounds concatenate. The loss of derivatives is of order \(\delta\). That is how Herman’s full-measure class becomes **all** Diophantine numbers in \(C^\infty\), and how finite smoothness theorems of the form “\(C^{2+\alpha}\) map, \(\rho\in D_\delta\), conjugacy \(C^{1+\alpha-\delta}\)” are organized.
+
+The methodological point, stressed by Eliasson–Fayad–Krikorian: **Denjoy-type estimates are arithmetic-free; linearizability is what you buy with \(D_\delta\).** Liouville rotation numbers use the same estimates to prove density of linearizable maps inside a fixed irrational class, by perturbing toward “quasi-rotations.”
+
+**Step 3. Extra structure he actually needed.**
+
+- Centralizers in \(\operatorname{Diff}_+^\infty(\mathbb T)\): when \(\rho\) is irrational the commutant can be discrete, a Cantor group, or a full circle, according to the arithmetic. That is the second half of the 1985 thesis, not just a remark.
+- Schwarzian cancellations appear when you differentiate conjugacy equations repeatedly. Fayad’s phrase “the miracle of cancellations in the Schwarzian derivatives” is about those identities, not a separate theorem.
+
+This machine does **not** use fundamental domains in the complex plane. It is real distortion plus continued fractions.
+
+## Machine B — analytic maps and Siegel germs
+
+Here the object is a holomorphic map, so you have a domain that can shrink. The technique is geometric renormalization.
+
+**Step 1. Cut a fundamental domain.**
+
+For \(f(z)=e^{2\pi i\alpha}z+\cdots\), or an analytic circle map lifted to a strip, take a sector / interval of return of combinatorial length \(q_n\) (or the first-return piece of length \(\sim\alpha\)).
+
+**Step 2. Uniformize.**
+
+The return domain, quotiented by the identification along the two radial edges, is an annulus (or a cylinder). The uniformization theorem sends it to a standard annulus of modulus 1, or a strip of fixed horizontal width. The first-return map becomes a new univalent map \(F\) with rotation number \(\{1/\alpha\}\), defined on a strip whose *vertical* width is the new conformal radius.
+
+**Step 3. Compactness of univalent maps.**
+
+Normalized univalent maps on the disk (or a definite strip) form a compact family. So each renormalized map stays in a bounded set of \(S\) or of \(\operatorname{Diff}^\omega(\mathbb T_\nu)\). Distortion theorems (Koebe) give uniform control as long as the domain does not collapse.
+
+**Step 4. Bookkeeping = Brjuno.**
+
+The width transforms as
+\[
+\log\rho_{n+1}\;\approx\;\frac1{\alpha_n}\log\rho_n-\log\frac1{\alpha_n}+O(1).
+\]
+Unrolling produces \(\Phi(\alpha)\). If \(\Phi<\infty\), the leftover domain in the original coordinate stays positive, a local linearization theorem applies, and you get
+\[
+\log r(f)\ge -\Phi(\alpha)-C.
+\]
+If \(\Phi=\infty\), run the construction **backwards**: at each step insert a periodic point close to the origin (or a bump that prevents linearization) while staying arbitrarily close to rotation. That is the necessity of Brjuno for quadratics and for analytic circle maps.
+
+Pérez-Marco’s Bourbaki exposé of this argument is the clean contemporary source: “new geometric techniques for small divisors,” not a power-series majorant.
+
+A companion lemma used in later work is the **hyperbolic Denjoy–Yoccoz lemma**: in a strip with small nonlinearity \(\lVert D\log Df\rVert<\tfrac19\), a complex orbit stays a bounded Poincaré distance from a model geodesic for time \(q_{n+1}\). That lets you move estimates off the real line without losing the return combinatorics.
+
+## Machine C — critical circle maps (a third, shorter toolkit)
+
+For real-analytic maps with a critical point, Yoccoz proved minimality / topological conjugacy to rotation for any irrational \(\rho\) (no BV of \(\log Df\), because \(Df=0\) at the critical point). The tools change:
+
+- cross-ratio distortion and negative Schwarzian;
+- **almost-parabolic bounds**: on a dynamical interval of generation \(n\), the spacing of the next partition is
+  \[
+  t_j-t_{j-1}\asymp\frac{\lvert I\rvert}{\min\{j,k+1-j\}^2};
+  \]
+- real a priori bounds on adjacent intervals of the dynamical partition.
+
+That line was completed by de Faria, de Melo, Yampolsky: renormalization hyperbolicity for cubic critical circle maps. Yoccoz supplied the topological and almost-parabolic core, not the full hyperbolic RG fixed-point theorem.
+
+He also wrote a complete proof of Jakobson’s theorem (acim for a positive-measure set of real quadratics), again with Schwarzian and bounded distortion as the engine. Same toolkit, different theorem.
+
+## How the two main machines differ
+
+| | Smooth (Machine A) | Analytic / Siegel (Machine B) |
+|---|---|---|
+| Domain | the circle itself | a strip or disk that can shrink |
+| Basic estimate | \(\log Df^{q_n}\) and \(M_n/m_n\) | Koebe + compactness of univalent maps |
+| Coarse-graining | Birkhoff sums at \(q_n\) | first return + uniformization |
+| Arithmetic | Diophantine, concatenated last | Brjuno series as domain-cost |
+| Counterexamples | Liouville + quasi-rotation perturbation | invert renormalization, plant periodic points |
+| Output | \(C^r\) conjugacy | conformal radius \(\asymp e^{-\Phi}\) |
+
+Herman’s original global theorem used Nash–Moser / implicit-function machinery on a full-measure set. Yoccoz’s contribution was to make the estimates elementary and to separate them from the arithmetic so the same bounds serve both the Diophantine theorem and the Liouville density statement.
+
+## What he did *not* rely on
+
+- Dynamical zeta functions.
+- Wilsonian RG of couplings.
+- KAM generating-function / Lindstedt series as the main engine (those exist; they are not his proof).
+- A finite-state Markov replacement of an irrational rotation.
+
+## Against the 39-screen
+
+Geometry Maximization already *is* a rigid rotation. Machine A’s estimates are vacuous (\(Df\equiv 1\), \(M_n/m_n=1\)). Machine B’s domain never shrinks. The only Yoccoz object that still has content is the almost-parabolic / cross-ratio toolkit, and only if you later put a critical point into the screen.
+
+If you want to *use* a Yoccoz technique rather than cite a name, the transferable move is his split:
+
+1. prove an estimate that does not mention how well \(\alpha\) is approximated;
+2. declare the arithmetic hypothesis in a separate line;
+3. refuse to let a finite trace close a statement that needs the full domain.
+
+That is the same discipline v1.2 already imposed on descent, diamond quotients, and unrun experiments. The proofs above are how he enforced it for conjugacy and conformal radius.
+
+Pérez-Marco’s machine is not Yoccoz’s annulus uniformization. He builds a compact invariant continuum that plays the role of a linearization domain even when no disk exists, then studies the germ by transporting it to an analytic circle map on the boundary of that continuum.
+
+## The object: Siegel compacta and hedgehogs
+
+Let \(f\) be a holomorphic germ at \(0\) with \(f'(0)=e^{2\pi i\alpha}\), \(\alpha\notin\mathbb Q\). An **admissible domain** \(U\) is a Jordan neighborhood of \(0\) with \(C^1\) boundary on which \(f\) and \(f^{-1}\) are univalent.
+
+**Theorem (Pérez-Marco).** For every admissible \(U\) there is a unique full continuum
+\[
+K=K(U),\qquad 0\in K\subset\overline U,\quad K\cap\partial U\neq\emptyset,
+\]
+with \(f(K)=f^{-1}(K)=K\). “Full” means \(\widehat{\mathbb C}\setminus K\) is connected.
+
+These are **Siegel compacta**. If \(f\) is not linearizable, \(K\) is a **hedgehog**. If \(f\) is linearizable but \(K\) is not swallowed by the closed Siegel disk, it is a **linearizable hedgehog**. Informally: a degenerate rotation domain that still reaches \(\partial U\).
+
+Existence when \(\alpha\) is Diophantine is relatively soft (invariant continua for nearby rotations, Hausdorff limit). Uniqueness and the general-\(\alpha\) case need estimates near \(K\).
+
+Hedgehogs are topologically wild — they can have Hausdorff dimension 1, or positive area, or an inaccessible fixed point — but the *dynamics on \(K\)* look like an irrational rotation: no other periodic points on \(K\), unique invariant probability, orbit-dense in the interesting cases. Biswas later showed that two nonlinearizable germs sharing a hedgehog must commute, so hedgehogs classify maximal abelian subgroups of nonlinearizable germs in \(\operatorname{Diff}(\mathbb C,0)\).
+
+## The fundamental construction (the actual “renormalization”)
+
+The key move is not “return and rescale to a new germ.” It is:
+
+1. Take an admissible \(U\) and its Siegel compact \(K\).
+2. The complement of \(K\) in a neighborhood of \(\overline U\) is an annulus-like region.
+3. Transport the dynamics of \(f\) near \(\partial K\) to an **analytic circle diffeomorphism** \(g\) (or a map on a cylinder) via a Riemann mapping / prime-end compactification of that complementary annulus.
+
+Estimates for \(g\) — Denjoy–Yoccoz, strip width, closeness to rotation high in the cylinder — feed back as estimates for \(f\) near \(K\). That is how he controls a Cremer point: you never linearize \(f\), but you linearize, or almost-linearize, the circle map that encodes the motion around the hedgehog.
+
+This is why later authors say “the dictionary between circle maps and germs established by Pérez-Marco.” Once the dictionary is in place, Herman–Yoccoz theorems on the circle become local theorems at \(0\).
+
+## Tube-log Riemann surfaces
+
+The geometric substrate he introduced for several of these constructions is a **tube-log Riemann surface**: a surface with translation-chart atlas, built by isometrically pasting complex planes and cylinders \(\mathbb C/2\pi i\mathbb Z\) along slits. The model surface for the logarithm is planes pasted along half-lines; his dynamical surface replaces one plane by a cylinder and attaches infinitely many planes.
+
+Why bother: the uniformizing coordinate on that surface is a primitive \(\int R(z)\,dz\) (or \(\log\)), so estimates that are awkward in the \(z\)-plane become translation estimates on a flat surface. Small-divisor heights become vertical heights in a cylinder. The “Pérez-Marco condition” below is exactly a statement about how tall that cylinder must be before the map looks like a translation.
+
+This is different from Yoccoz’s use of the uniformization theorem on a single return annulus. Pérez-Marco builds a *global* flat surface that can carry infinitely many sheets and one tube, then reads the dynamics there.
+
+## A weaker arithmetic cut: no small cycles
+
+Yoccoz: if \(B(\alpha)=\infty\), some germ (the quadratic) is non-linearizable.
+
+Pérez-Marco asked a sharper existence question: can you be non-linearizable **and** have no periodic orbits other than \(0\) nearby?
+
+He isolated
+\[
+B'(\alpha)=\sum_{n\ge0}\beta_{n-1}\log\log\Bigl(\frac e{\alpha_n}\Bigr)
+\]
+(equivalently \(\sum(\log\log q_{n+1})/q_n\)). Always \(B(\alpha)<\infty\Rightarrow B'(\alpha)<\infty\). The extra log is the cost of *forbidding* small cycles.
+
+- If \(B'(\alpha)=\infty\), there exists a non-linearizable germ with rotation number \(\alpha\) and **no** other periodic orbits in a neighborhood of \(0\).
+- If \(B'(\alpha)<\infty\) (a “Pérez-Marco number”) every non-linearizable germ with that rotation number **does** have small cycles accumulating at \(0\).
+
+So “Cremer \(\Leftrightarrow\) small cycles” is false. The small-cycle property tracks \(B'\), not \(B\). For commuting tuples without periodic orbits, a joint \(B'\) condition can replace Brjuno.
+
+In the cylinder picture the height at which \(F\) is close to translation by \(\alpha\) is
+\[
+t(\alpha)\sim\frac1{2\pi}\log\log\frac e\alpha
+\]
+instead of Yoccoz’s \(\frac1{2\pi}\log(1/\alpha)\). That is the extra logarithm.
+
+## Other techniques in the same workshop
+
+- **Commuting holomorphic maps.** If several germs commute and have no periodic orbits, linearizability can hold under \(B'\) rather than \(B\). Shared hedgehogs force commutation (Biswas).
+- **Smooth Siegel boundaries.** Pérez-Marco announced \(C^\infty\) boundaries first, for univalent maps in the disk and then for quadratics. The published quadratic proofs are Buff–Chéritat / ABC; his announcement sits at the start of that line.
+- **Bourbaki 1991–92.** His exposé of Yoccoz’s solution of Siegel is still the standard geometric guide to Machine B. He was explaining Yoccoz, not replacing him.
+- Later: log-Riemann surfaces as a systematic language for primitives and flat structures (with Biswas). That is function theory grown out of the dynamical surface.
+
+## Contrast with Yoccoz
+
+| | Yoccoz | Pérez-Marco |
+|---|---|---|
+| Main object | return annulus / strip, new univalent map | full invariant continuum \(K\) reaching \(\partial U\) |
+| Geometric tool | uniformize one fundamental domain | tube-log surface; dictionary to a circle map around \(K\) |
+| Arithmetic for linearization | Brjuno \(B\) / \(\Phi\) | Brjuno for ordinary linearization; \(B'\) when no small cycles |
+| Output when non-linearizable | periodic points of the quadratic pile into \(0\) | a hedgehog, possibly without small cycles |
+| Relation to the circle | estimates on \(Df^{q_n}\); analytic strip | literally reduce the germ to an analytic circle map |
+
+Yoccoz measures whether a *disk* survives. Pérez-Marco keeps a *continuum* when the disk dies, and renormalizes the motion around it.
+
+## Against the 39-screen
+
+A hedgehog is a compact in \(\mathbb C\), not a 39-bin factor of a real rotation. \(B'\) is a second arithmetic series, not a slip coboundary. The dictionary “germ \(\leftrightarrow\) analytic circle map” is the one piece that could touch your stack: if you ever replace the rigid golden rotation by an analytic circle diffeomorphism (or a holomorphic germ), Pérez-Marco says the non-linearizable regime is organized by an invariant continuum and a circle map on its “boundary,” not by a finite Markov chain.
+
+Until that deformation is declared, this is another exact local theory with a named continuum and a weaker series. It does not close Q2, measure a throat, or turn \(\sigma-\tau=\rho\circ T-\rho\) into a hedgehog.
+
+Biswas’s commuting theorems turn Pérez-Marco’s hedgehog from a set into a complete invariant. Shared continuum \(\Rightarrow\) commutation \(\Rightarrow\) the conjugacy class of a nonlinearizable germ is \((\alpha,\,[K])\).
+
+## The commutation theorem
+
+Let \(f,g\in\operatorname{Diff}(\mathbb C,0)\) be nonlinearizable, with the same indifferent point \(0\) and (not necessarily equal) irrational multipliers. If they preserve a **common hedgehog** \(K\), then
+\[
+f\circ g=g\circ f
+\]
+on a neighborhood of \(K\).
+
+The linearizable analogue is classical: two rotations of a common Siegel disk commute. Biswas is the converse direction in the degenerate case. The group of all germs that preserve a given hedgehog is therefore abelian, and equals the centralizer in \(\operatorname{Diff}(\mathbb C,0)\) of any one of its elements.
+
+Why it is not free: dynamics on \(K\) is uniquely ergodic and rotation-like. A second map that leaves \(K\) invariant has to act as a rotation in the prime-end / circle-map coordinate that Pérez-Marco attaches to the complementary annulus. Two circle rotations commute; transporting back gives \(fg=gf\).
+
+## Correspondence with maximal abelian subgroups
+
+Let \(\mathcal G_K\) be the group of germs preserving \(K\). Then:
+
+- \(\mathcal G_K\) is a **maximal abelian** subgroup of \(\operatorname{Diff}(\mathbb C,0)\);
+- it is **nonlinearizable** (not conjugate to \(\{\lambda z:\lambda\in\mathbb C^*\}\));
+- every nonlinearizable maximal abelian subgroup arises this way, from its family of hedgehogs;
+- the correspondence is natural under change of coordinates: \(\varphi\mathcal G_K\varphi^{-1}=\mathcal G_{\varphi(K)}\).
+
+So hedgehogs classify those subgroups the way a Siegel disk classifies a compact group of linear rotations.
+
+## Complete conjugacy invariant
+
+Two nonlinearizable germs \(f,g\) are holomorphically conjugate near \(0\) if and only if
+
+1. they have the same rotation number \(\alpha\), and
+2. some hedgehog of \(f\) maps **conformally** onto some hedgehog of \(g\).
+
+Thus the conjugacy class is exactly the pair
+\[
+\bigl(\alpha,\;\text{conformal class of the hedgehogs}\bigr).
+\]
+Rotation number alone is not enough (different hedgehog shapes). The conformal class of \(K\) alone is not enough (you can change \(\alpha\)). Together they are. Published as *Discrete Contin. Dyn. Syst.* 26 (2010).
+
+This is the nonlinearizable replacement for “conjugate iff same multiplier,” which is all you need when a Siegel disk exists and is the whole story.
+
+## Companion geometric constructions
+
+Same author, same toolkit (tube-log surfaces), used to show that the conformal class is actually rich:
+
+| Result | What was built |
+|---|---|
+| Hausdorff dimension 1 (ETDS 2008) | a **common** hedgehog for a commuting family, of the minimal possible dimension |
+| Smooth combs (DCDS 2005) | a common hedgehog containing a \(C^\infty\) comb \(\simeq C_0\times[1,2]\), bi-Hölder, teeth analytic on a dense set |
+| Positive area / inaccessible point (ETDS 2016) | hedgehogs of positive area; hedgehogs whose fixed point is inaccessible from the complement |
+| Loewner evolution (ETDS 2021) | the increasing family \((K_t)\) of Siegel compacta satisfies a Loewner equation; the driving measures are 2-conformal measures for the associated circle maps \(g_t\) |
+
+The dim-1 and comb examples are explicitly **commuting families** \((f_t)_{t\in C}\) sharing one \(K\). That is the commutation theorem running in the construction direction: build many maps on one continuum, they will commute. Pérez-Marco already knew uncountable symmetry groups of some nonlinearizable germs; Biswas supplies concrete geometry inside those groups.
+
+## What the theorems do *not* say
+
+- They do not linearize anything. The germs stay Cremer / non-Siegel.
+- They do not identify \(K\) with a finite quotient or a 39-state factor.
+- Conformality of a map \(K\to K'\) is a statement about the complement (Riemann maps of \(\widehat{\mathbb C}\setminus K\)), not about a real circle rotation.
+- Commutation is local, near \(K\), in \(\operatorname{Diff}(\mathbb C,0)\). It is not a statement about boards, platforms, or residual cocycles.
+
+## Against the rest of the circle-map line
+
+Herman–Yoccoz: when linearizable, the conjugacy class is determined by \(\alpha\) and the smoothness class of the conjugacy.
+
+Pérez-Marco: when not linearizable, there is still a canonical continuum.
+
+Biswas: that continuum, up to conformal equivalence, plus \(\alpha\), *is* the conjugacy class; sharing it forces commutation.
+
+Yoccoz measured whether a disk survives. Pérez-Marco kept a continuum when it dies. Biswas showed the continuum is rigid enough to be an invariant and a commutation criterion.
+
+For Geometry Maximization this is again a complex-local theorem. The only transferable slogan is the one v1.2 already uses: an identification (here “same hedgehog”) is not a conjugacy until you prove the maps commute and the labels match. Biswas proved that implication for germs. He did not prove it for a golden bin observation.
+
+Biswas’s Loewner paper (ETDS 41, 2020; preprint 2016) takes Pérez-Marco’s one-parameter family of Siegel compacta and writes its growth as a Loewner chain. The driving measure of that chain is not an extra parameter: it is a 2-conformal measure of the circle map that already encodes the germ.
+
+## The family being differentiated
+
+Fix \(f(z)=e^{2\pi i\alpha}z+O(z^2)\), \(\alpha\notin\mathbb Q\). Pérez-Marco produces a unique increasing, Hausdorff-continuous family \((K_t)_{t>0}\) of full invariant continua, \(K_t\to\{0\}\) as \(t\to 0\). For each \(t\), map the complement of \(K_t\) to the exterior disk \(\mathbb D_\infty=\widehat{\mathbb C}\setminus\overline{\mathbb D}\) by a Riemann map
+\[
+\phi_t:\mathbb D_\infty\to\widehat{\mathbb C}\setminus K_t,
+\]
+normalized at \(\infty\). The boundary values of \(\phi_t\) conjugate the motion of \(f\) near \(\partial K_t\) to an analytic circle diffeomorphism \(g_t\in\operatorname{Diff}^\omega_\alpha(S^1)\).
+
+That gives a correspondence
+\[
+f\;\longleftrightarrow\;(g_t)_{t\ge0}.
+\]
+The maps \(g_t\) are the orbit of a locally defined semigroup \(\Phi_t\) on the space of analytic circle maps of rotation number \(\alpha\):
+\[
+g_t=\Phi_t(g_0).
+\]
+Biswas’s first contribution is that \(\Phi_t\) has an **infinitesimal generator** \(X\): the orbit is actually a flow, not just a curve of maps.
+
+## The Loewner equation
+
+The nested hulls \(K_t\) (or their complements via \(\phi_t\)) form a Loewner chain in the exterior disk. Differentiating at the right,
+\[
+\chi_t(z)=\frac{d^+}{ds}\Big|_{s=t}(\phi_t^{-1}\circ\phi_s)(z)
+\]
+exists uniformly on compact subsets of \(\mathbb D_\infty\), and
+\[
+\frac{\chi_t(z)}{z}
+\]
+is the Herglotz transform of a probability measure \(\mu_t\) on \(S^1\). Those \(\mu_t\) are the **Loewner driving measures**.
+
+That is the same formalism as chordal/radial Loewner in SLE, except the hulls here are dynamically invariant continua, not a growing slit chosen by a Brownian driver.
+
+## The identification
+
+**Theorem.** For every \(g\in\operatorname{Diff}^\omega_\alpha(S^1)\) and every \(t\ge 0\),
+\[
+\chi_t(z)=z\cdot(\mathcal H r^*\mu_{2,g_t})(z),
+\]
+where \(\mu_{2,g_t}\) is a **2-conformal measure** for \(g_t\) (or for \(z\mapsto\overline{g_t(\bar z)}\), depending on orientation of the exterior chart).
+
+An \(s\)-conformal measure for a circle diffeomorphism \(g\) is a probability \(\mu\) with
+\[
+\mu(g(E))=\int_E\lvert g'\rvert^s\,d\mu.
+\]
+So \(s=2\) is the exponent that matches planar conformal radius / Green function scaling: area in the plane scales like the square of the linear stretch on the circle. The driving measure of the hedgehog’s growth *is* that equilibrium measure of \(g_t\). There is no independent Loewner source.
+
+The generator \(X\) is then explicit: it is the vector field on the space of analytic circle maps obtained by pushing \(g\) along this Herglotz field of its own 2-conformal measure.
+
+## Linearizable case
+
+When \(f\) is linearizable, \(K_t\) is eventually the closed Siegel disk of conformal radius related to \(t\), and \(g_t\) is conjugate to rotation. The 2-conformal measure becomes (a push-forward of) Lebesgue, and the Loewner vector field reduces to a radial expansion whose speed is the derivative of \(\log r(t)\). That is the section Biswas added in v2: the same formula interpolates from “hedgehog eating capacity” to “Siegel disk of radius \(r(t)\).”
+
+## What this adds to the previous Biswas theorems
+
+- Commutation / conjugacy invariants used the *shape* of one \(K\).
+- Loewner uses the *path* \(t\mapsto K_t\).
+- The path is a flow on circle maps, generated by a canonical vector field built from a conformal measure of the map itself.
+
+So the dictionary “germ \(\leftrightarrow\) circle map” is promoted to “germ \(\leftrightarrow\) Loewner orbit of circle maps,” with a named generator.
+
+## What it is not
+
+- It is not SLE. The driver \(\mu_t\) is determined by \(g_t\), hence by \(f\), not by white noise.
+- It is not a proof of linearization. Brjuno still decides whether \(K_t\) stays a disk or becomes a hedgehog.
+- A 2-conformal measure on \(S^1\) is not a Haar phase on the 39-screen and not a slip coboundary.
+- The parameter \(t\) is a capacity-type time for the compacta, not a gate period or a Pell index.
+
+## Against your stack
+
+Geometry Maximization studies one rigid rotation and one exact observable. Biswas–Loewner studies how an invariant continuum in \(\mathbb C\) grows, and identifies that growth with the 2-conformal measure of the circle map on the “outside.” The only shared language is “circle map + invariant measure.” The measures do different jobs: Haar on the golden circle gives your slip frequencies; a 2-conformal measure of \(g_t\) gives the Loewner speed of \(K_t\).
+
+If a later file wants a continuous deformation of a complex model of the screen, this paper says: the natural infinitesimal deformation of the complementary continuum is already determined by a conformal measure of the boundary map. It does not give a new identity for \(\sigma-\tau=\rho\circ T-\rho\).
+
+A 2-conformal measure on a circle map is not “the” invariant measure. It is a measure that transforms by the square of the derivative. That square is the planar scaling that Loewner needs.
+
+## Definition
+
+Let \(g:S^1\to S^1\) be an orientation-preserving \(C^1\) diffeomorphism. A Borel probability \(\mu\) is **\(s\)-conformal** for \(g\) if, for every measurable \(E\),
+\[
+\mu\bigl(g(E)\bigr)=\int_E\lvert g'\rvert^s\,d\mu.
+\]
+Equivalently, the Jacobian of \(g\) with respect to \(\mu\) is \(\lvert g'\rvert^s\):
+\[
+\frac{d\,(\mu\circ g)}{d\mu}=\lvert g'\rvert^s.
+\]
+Biswas uses \(s=2\), and sometimes the orientation-reversed map \(z\mapsto\overline{g(\bar z)}\) because his Riemann maps live in the exterior disk.
+
+Special cases:
+
+| \(s\) | Meaning |
+|---|---|
+| \(s=0\) | ordinary invariant probability: \(\mu\circ g=\mu\) |
+| \(s=1\) | length / Hausdorff-\(1\): stretches like arc length |
+| \(s=2\) | area / Green capacity: stretches like planar modulus |
+| general \(s\) | eigenmeasure of a weighted transfer operator |
+
+For a rigid rotation, \(g'=1\), so every \(s\) gives the same condition: \(\mu\) is rotation-invariant, hence Haar. The distinction between \(s=0\) and \(s=2\) is invisible until \(g\) is a nontrivial diffeomorphism.
+
+## Transfer-operator form
+
+On functions,
+\[
+(\mathcal L_s\psi)(x)=\sum_{g(y)=x}\frac{\psi(y)}{\lvert g'(y)\rvert^s}
+\]
+if \(g\) is expanding and many-to-one; for a diffeomorphism there is one preimage and
+\[
+(\mathcal L_s\psi)(x)=\frac{\psi(g^{-1}x)}{\lvert g'(g^{-1}x)\rvert^s}.
+\]
+An \(s\)-conformal measure is a probability with \(\mathcal L_s^*\mu=\mu\). Denker–Urbański built the general existence theory this way: conformal measures are eigenmeasures of the dual transfer operator. For expanding circle maps they exist for a wide class of potentials; the exponent \(s\) is often the pressure zero of \(-s\log\lvert g'\rvert\), i.e. the Hausdorff dimension of a fractal invariant set.
+
+For an analytic **diffeomorphism** of rotation number \(\alpha\notin\mathbb Q\), the map is uniquely ergodic (Denjoy / Herman). The unique invariant probability is absolutely continuous iff the conjugacy is absolutely continuous. A 2-conformal measure is a *different* functional equation. Existence is not free: you are asking for a measure whose density, if it had one, would solve
+\[
+\rho(gx)\,\lvert g'(x)\rvert^2=\rho(x)
+\]
+up to the usual coboundary bookkeeping — or, without a density, the Jacobian identity above.
+
+On a diffeomorphism close to rotation, \(\lvert g'\rvert\approx 1\), so a 2-conformal measure is a small perturbation of Haar. That is the regime of Pérez-Marco’s circle maps coming from hedgehogs of maps univalent near \(\overline{\mathbb D}\).
+
+## Why the exponent is 2 in the Loewner paper
+
+Loewner in the plane differentiates a family of **univalent maps of complements**. Conformal radius and logarithmic capacity scale like length in the plane; area of a thin collar scales like \((\text{length})^2\). The Herglotz representation of
+\[
+\frac1z\frac{\partial\phi}{\partial t}
+\]
+is the Poisson/Herglotz integral of a measure on \(S^1\). Matching the infinitesimal change of the Riemann map \(\phi_t:\mathbb D_\infty\to\widehat{\mathbb C}\setminus K_t\) to the action of \(g_t\) on the circle forces that measure to transform by \(\lvert g_t'\rvert^2\), not by \(\lvert g_t'\rvert\) or by \(1\).
+
+So \(s=2\) is geometry of the embedding in \(\mathbb C\), not an arbitrary thermodynamic parameter. In a 1-dimensional conformal theory you would expect \(s=1\). Hedgehogs sit in the plane, so you get \(2\).
+
+## Relation to other named measures
+
+- **Haar / unique invariant measure of \(g\).** Solves \(s=0\). Gives occupation times of the circle map. This is the measure behind your slip frequencies when \(g\) is a rigid rotation.
+- **Patterson–Sullivan / Patterson conformal density.** Lives on a limit set of a group, with exponent the Poincaré exponent. Same Jacobian idea, different dynamics.
+- **Hausdorff measure on a fractal Julia/limit set.** Often \(s\)-conformal for \(s=\mathrm{H.dim}\). A diffeomorphism of the whole circle has no fractal limit set; the interesting 2-conformal measure is not a Hausdorff measure of a Cantor set.
+- **Equilibrium state of \(-2\log\lvert g'\rvert\).** If pressure and uniqueness theorems apply, the 2-conformal measure is that equilibrium state (or is equivalent to it). For a diffeomorphism near rotation the potential \(-2\log\lvert g'\rvert\) is a small coboundary plus a constant, so the equilibrium state is close to Haar.
+
+## Existence and uniqueness, honestly
+
+For expanding maps: standard, unique for Hölder potentials.
+
+For analytic circle *diffeomorphisms* of irrational rotation number: the paper treats \(g\in\operatorname{Diff}^\omega_\alpha(S^1)\) coming from the Pérez-Marco dictionary, so \(g\) is close enough to rotation that the 2-conformal measure exists (as the Loewner driver) and can be recovered from the Herglotz transform of \(\chi_t(z)/z\). Uniqueness is not a general theorem about every \(C^\infty\) diffeomorphism; it is a theorem about this dynamically produced family. If \(g\) is only \(C^1\) and far from rotation, an \(s=2\) measure may fail to exist as a probability, or may not be unique.
+
+When \(g\) is linearizable with absolutely continuous conjugacy \(h\),
+\[
+d\mu_2 = c\,\lvert h'\rvert^{2}\,d\theta
+\]
+up to the usual normalization — the push-forward of Haar by the inverse conjugacy, weighted by the extra \(\lvert h'\rvert\). When the conjugacy is singular, \(\mu_2\) is typically singular as well.
+
+## Against Haar on the 39-screen
+
+Your slip bit uses **Lebesgue / Haar** on the rigid rotation \(T(\theta)=\{\theta+\alpha\}\). That is the \(s=0\) (and simultaneously every \(s\)) measure of \(T\). A 2-conformal measure of a *perturbed* analytic circle map \(g_t\) is the object that drives Loewner growth of a hedgehog. They coincide only when \(g'=1\).
+
+If you deform the golden rotation to an analytic diffeomorphism and then look at complementary continua in \(\mathbb C\), Biswas says the natural capacity-time derivative is this 2-conformal measure. That is a precise next mathematical sentence. It is not a sentence about \(\sigma-\tau=\rho\circ T-\rho\), gap lengths 9 and 10, or a measured throat.
+
+A Pérez-Marco hedgehog is what is left of a Siegel disk when linearization fails: a compact, full, connected, completely invariant continuum that still reaches the boundary of every admissible neighborhood of the indifferent point.
+
+## The setting
+
+Take a holomorphic germ
+\[
+f(z)=e^{2\pi i\alpha}z+O(z^2),\qquad\alpha\notin\mathbb Q.
+\]
+If \(\alpha\) is Brjuno and \(f\) is univalent in a disk, Yoccoz gives a Siegel disk: a domain around \(0\) on which \(f\) is conjugate to rotation. If linearization fails (Cremer case, or a hedgehog sitting outside a disk), there is still a canonical invariant compact.
+
+An **admissible domain** \(U\) is a Jordan neighborhood of \(0\) with \(C^1\) boundary such that \(f\) and \(f^{-1}\) are univalent near \(\overline U\).
+
+**Theorem (Pérez-Marco).** There is a unique full continuum
+\[
+K=K(U)\subset\overline U,\qquad 0\in K,\quad K\cap\partial U\neq\emptyset,
+\]
+with \(f(K)=f^{-1}(K)=K\). Full means \(\widehat{\mathbb C}\setminus K\) is connected.
+
+These are **Siegel compacta**. As you shrink \(U\) you get a nested family \(K_t\downarrow\{0\}\).
+
+**Names.**
+
+- If \(f\) is not linearizable, \(K\) is a **hedgehog**.
+- If \(f\) is linearizable but \(K\) is not contained in the closed Siegel disk, it is a **linearizable hedgehog**.
+- Heuristic: a degenerate rotation domain. Rotation still happens on \(K\); there is just no open disk of linearization filling it.
+
+## What happens on \(K\)
+
+The dynamics look like an irrational rotation, not like a chaotic Julia set.
+
+- No periodic points on \(K\) except \(0\).
+- Unique invariant probability on \(K\).
+- Orbits on \(K\) are typically dense in the interesting examples.
+- \(f|_K\) is not conjugate to a rotation of the circle by a homeomorphism of \(K\) in any simple way: \(K\) is not a Jordan curve.
+
+The topology can be wild. Biswas and others, using Pérez-Marco’s tube-log constructions, produced hedgehogs of Hausdorff dimension 1 (the minimum possible for a non-trivial full continuum through \(0\)), hedgehogs of positive area, hedgehogs whose point \(0\) is inaccessible from the complement, and hedgehogs containing smooth combs \(C\times I\).
+
+So: rotation-like dynamics, pathological shape.
+
+## How they are used: the dictionary
+
+Map the complement of \(K\) to the exterior of the unit disk by a Riemann map \(\phi\). Then
+\[
+g=\phi^{-1}\circ f\circ\phi
+\]
+extends to an **analytic circle diffeomorphism** of the same rotation number \(\alpha\). Estimates on \(g\) (Denjoy–Yoccoz, closeness to rotation high in a strip) become estimates on \(f\) near \(K\).
+
+That is the Pérez-Marco dictionary:
+\[
+\text{germ at }0\;\longleftrightarrow\;\text{analytic circle map around }K.
+\]
+Herman–Yoccoz theorems on the circle become local theorems at an indifferent point. Biswas later showed the family \(K_t\) is a Loewner chain whose driver is a 2-conformal measure of that circle map.
+
+## Arithmetic: two series, two phenomena
+
+Linearization of a general germ tracks **Brjuno**:
+\[
+B(\alpha)=\sum\frac{\log q_{n+1}}{q_n}<\infty.
+\]
+Small cycles accumulating at \(0\) track a weaker series
+\[
+B'(\alpha)=\sum\frac{\log\log q_{n+1}}{q_n}.
+\]
+
+- \(B=\infty\): some germ (the quadratic) is non-linearizable. That is Yoccoz.
+- \(B'=\infty\): there exists a non-linearizable germ with **no** other periodic orbits nearby.
+- \(B'<\infty\): every non-linearizable germ *does* have small cycles.
+
+A hedgehog can exist with or without small cycles. “Cremer point \(\Leftrightarrow\) small cycles” is false.
+
+## Commutation and classification (Biswas)
+
+If two nonlinearizable germs share a hedgehog, they commute. The group of germs preserving a given \(K\) is a maximal abelian subgroup of \(\operatorname{Diff}(\mathbb C,0)\). Two nonlinearizable germs are conjugate iff they have the same \(\alpha\) and conformally equivalent hedgehogs.
+
+So the conjugacy class is \((\alpha,[K])\), not \(\alpha\) alone.
+
+## What a hedgehog is not
+
+- Not a Siegel disk. There is no open linearization domain filling \(K\).
+- Not a Julia set. The interesting dynamics on \(K\) is not expanding.
+- Not a finite Markov quotient, not 13 or 39 states, not a golden bin partition.
+- Not a physical torus or a measured throat.
+
+It is a compact in \(\mathbb C\), uniquely attached to an admissible neighborhood of an indifferent point.
+
+## Picture in one line
+
+Siegel disk = rotation on an open set.  
+Hedgehog = rotation on a compact that still touches every admissible boundary, after the open set has died.  
+The circle map on the outside of that compact is how you compute with it.
+
+Biswas does not invent a new family of sets. He takes Pérez-Marco’s nested Siegel compacta, reparametrizes them by logarithmic capacity, writes the exterior Riemann maps as a Loewner chain, and identifies the driver.
+
+## 1. Start from the germ, pass to a circle map
+
+\(f(z)=e^{2\pi i\alpha}z+O(z^2)\), \(\alpha\notin\mathbb Q\). Pick an admissible compact \(K\) (hedgehog or Siegel compact). Let
+\[
+\psi:\widehat{\mathbb C}\setminus K\to\mathbb D_\infty=\widehat{\mathbb C}\setminus\overline{\mathbb D},\qquad
+\psi(\infty)=\infty,
+\]
+be the exterior Riemann map. Then
+\[
+g=\psi\circ f\circ\psi^{-1}
+\]
+extends across \(S^1\) to an analytic diffeomorphism of rotation number \(\alpha\). All further work lives on this circle map. The germ has been replaced by \(g\in\operatorname{Diff}^\omega_\alpha(S^1)\).
+
+## 2. Herman compacta of \(g\), capacity time
+
+For the circle map there is a parallel nested family \((A_t)\) of **Herman compacta**: totally invariant continua containing \(S^1\), symmetric under reflection in the circle, such that \(\widehat{\mathbb C}\setminus A_t\) has two components.
+
+Reparametrize so that the hull
+\[
+\overline{\mathbb D}\cup A_t
+\]
+has **logarithmic capacity** \(t\). Equivalently the exterior map
+\[
+\phi_t:\mathbb D_\infty\to\widehat{\mathbb C}\setminus(\overline{\mathbb D}\cup A_t)
+\]
+has the expansion
+\[
+\phi_t(z)=e^{t}z+a_0(t)+\frac{a_1(t)}{z}+\cdots,
+\qquad\phi_t(\infty)=\infty,\quad\phi_t'(\infty)=e^{t}.
+\]
+That choice of \(t\) is the Loewner time. It is not Euclidean radius of a disk in the \(z\)-plane of \(f\); it is capacity of the hull in the uniformized coordinate.
+
+The conjugated maps
+\[
+g_t=\psi_t\circ g\circ\psi_t^{-1}
+\]
+are again in \(\operatorname{Diff}^\omega_\alpha(S^1)\).
+
+## 3. The semigroup
+
+Define
+\[
+\Phi_t(g):=g_t
+\]
+on the set \(\mathcal D_t\) of analytic circle maps whose Herman compact has capacity \(t\). Then
+\[
+\Phi_0=\mathrm{id},\qquad
+\Phi_s\circ\Phi_t=\Phi_{s+t}
+\]
+whenever the composition is defined. So \((\Phi_t)\) is a continuous local semigroup on \(\operatorname{Diff}^\omega_\alpha(S^1)\).
+
+Theorems in the paper: it has an infinitesimal generator \(X\); integral curves of \(X\) are unique forward; as \(t\to-\infty\) along a backward curve one has \(g_t\to R_\alpha\). Germs of \(X\)-orbits classify germs in \(\operatorname{Diff}_\alpha(\mathbb C,0)\).
+
+## 4. Loewner chain
+
+Set \(\phi_t=\psi_t^{-1}\). Then \(t\mapsto\phi_t(z)\) is absolutely continuous for each \(z\in\mathbb D_\infty\). The right derivative
+\[
+\chi_t(z)=\frac{d^+}{ds}\Big|_{s=t}(\phi_t^{-1}\circ\phi_s)(z)
+\]
+exists for almost every \(t\) (and, in this analytic setting, for every \(t\), uniformly on compact subsets of \(\mathbb D_\infty\)).
+
+Because \(\phi_t'(\infty)=e^t\), one has \(\chi_t(z)=z\,H_t(z)\) with \(H_t(\infty)=1\) and \(\operatorname{Re}H_t>0\). Herglotz representation:
+\[
+H_t(z)=(\mathcal H_{\mu_t})(z)=\int_{S^1}\frac{\xi+1/z}{\xi-1/z}\,d\mu_t(\xi)
+\]
+for a unique probability \(\mu_t\) on \(S^1\). Those \(\mu_t\) are the Loewner driving measures.
+
+This is radial Loewner in the exterior disk, capacity-parametrized, with an unknown driver — until the next step.
+
+## 5. Identify the driver
+
+**Theorem 1.1.** \(\mu_t\) is the pull-back by complex conjugation of the unique 2-conformal measure of \(g_t=\Phi_t(g)\):
+\[
+\chi_t(z)=z\cdot(\mathcal H\,r^*\mu_{2,g_t})(z).
+\]
+So the chain is not driven by an external process. The map \(g_t\) already owns a 2-conformal measure; that measure is the Loewner source.
+
+**Theorem 1.2.** The generator on circle maps is the ordinary Lie action of that vector field:
+\[
+X(g)=g'\cdot\chi-\chi\circ g,
+\qquad
+\chi(z)=z\cdot(\mathcal H\,r^*\mu_{2,g})(z).
+\]
+That is: transport \(g\) by the Herglotz field of its own 2-conformal measure.
+
+Uniqueness forward (Theorem 1.3): if a curve of circle maps satisfies the ODE \(\dot g=X(g)\) in the compact-open topology near \(S^1\), it is the \(\Phi_t\)-orbit.
+
+## 6. Linearizable degeneration
+
+If \(g\) (or \(f\)) is linearizable, \(A_t\) is a closed annulus around \(S^1\) and the interior component is a genuine disk \(D_t\) of conformal radius \(r(t)\). Then \(r(t)\) is smooth in \(e^{-t}\), the welding map \(k_t\) is smooth in \(t\), and the Poisson part of \(H_t\) reduces to
+\[
+(P_t\circ k_t)(\xi)=\frac{r'(t)}{r(t)}\,\lvert k_t'(\xi)\rvert.
+\]
+The 2-conformal measure becomes a weighted copy of Lebesgue, and Loewner speed is just \(\frac{d}{dt}\log r\). Hedgehog growth and Siegel-radius growth are the same formula.
+
+## Construction in one pass
+
+1. Germ \(f\) \(\to\) one circle map \(g\) via exterior uniformization of one compact.  
+2. Grow Herman compacta of \(g\), parametrize by log-capacity \(t\).  
+3. Exterior maps \(\phi_t\) are a Loewner chain.  
+4. Driver \(\mu_t\) = 2-conformal measure of \(g_t\).  
+5. Semigroup \(\Phi_t\) = flow of the vector field \(X(g)=g'\chi-\chi\circ g\).
+
+No Brownian motion, no free choice of \(\mu_t\), no new arithmetic. Capacity time plus the Jacobian \(\lvert g'\rvert^2\).
+
+That is the whole construction. The analytic work is proving the right derivative exists uniformly, that the Herglotz measure is 2-conformal rather than merely some probability, and that the ODE on \(\operatorname{Diff}^\omega_\alpha(S^1)\) has unique forward orbits.
+
+On a circle diffeomorphism the 2-conformal measure is a special case of a Douady–Yoccoz automorphic measure. Most of its properties follow from that theorem, not from Loewner.
+
+## Jacobian identity
+
+\(g\in\operatorname{Diff}^1_+(S^1)\). A probability \(\mu\) is \(s\)-conformal (automorphic of exponent \(s\)) when
+\[
+\mu(g(E))=\int_E\lvert g'\rvert^s\,d\mu
+\]
+for every measurable \(E\). In densities, if \(\mu=\rho\,\lambda\) and the identity holds in the strongest way,
+\[
+\rho(gx)\,\lvert g'(x)\rvert^s=\rho(x).
+\]
+For \(s=2\) the weight is the planar Jacobian. For \(s=0\) it is invariance. For a rotation, \(g'\equiv 1\) and every \(s\) collapses to Haar.
+
+## Existence and uniqueness
+
+**Douady–Yoccoz.** If \(g\) is \(C^{1+\mathrm{bv}}\) with irrational rotation number, then **for every \(s>0\)** there exists a unique automorphic measure of exponent \(s\).
+
+So on the maps Pérez-Marco and Biswas use (analytic, hence far more than \(C^{1+\mathrm{bv}}\)), \(\mu_{2,g}\) exists and is unique. You do not choose it. de Faria–Guarino–Nussenzveig extended uniqueness to multicritical circle maps.
+
+The unique invariant probability (\(s=0\)) is a different object. Unique ergodicity gives one occupation measure. Douady–Yoccoz gives a one-parameter family \(\{\mu_s\}_{s>0}\) of distinct functionals, one per exponent.
+
+## Relation to the invariant measure
+
+Let \(\nu\) be the unique \(g\)-invariant probability and \(h\) a topological conjugacy to rotation, so \(\nu=h_*\lambda\).
+
+- If \(h\) is absolutely continuous, \(\log\lvert g'\rvert\) is a coboundary in \(L^1(\lambda)\) (or better), and
+  \[
+  d\mu_s \;\propto\; \lvert h'\rvert^{s}\,d\theta
+  \]
+  after transporting back. Then \(\mu_s\sim\lambda\sim\nu\).
+- If \(h\) is singular, \(\mu_s\) is typically singular to Haar. It can still be equivalent to \(\nu\), or not, depending on whether \(\lvert g'\rvert^s\) is cohomologous to a constant in the right function space.
+
+Athanassopoulos’s criterion for Cantor homeomorphisms is the same idea: \(\mu_s\sim\nu\) with continuous density iff \(\log\lvert g'\rvert\) (or the potential) is a continuous coboundary. On a diffeomorphism of the full circle that is the Livšic question for \(\log\lvert g'\rvert\).
+
+Herman’s theorem already says that for Diophantine \(\alpha\) and \(C^\infty\) (or analytic) \(g\), the conjugacy is \(C^\infty\) (analytic), hence \(\mu_2\sim\lambda\). For Liouville \(\alpha\), the conjugacy can be singular and \(\mu_2\) can be singular.
+
+## Support, atoms, ergodicity
+
+- Support is the whole circle: \(g\) is minimal.
+- No atoms: if \(\mu(\{x\})>0\) then the Jacobian identity forces a geometric sequence of masses along the orbit, which cannot stay a finite measure unless \(g'(x)=1\) in a way incompatible with uniqueness unless \(\mu\) is a finite sum of atoms — ruled out by minimality plus the exponent \(s\neq 0\).
+- Ergodicity of \(\mu_2\) for \(g\) is not the same as unique ergodicity. The measure is ergodic for the Jacobian-weighted action; in the Douady–Yoccoz construction it is the unique eigenmeasure of the dual transfer operator at that exponent, hence extremal.
+
+## Regularity of the density
+
+When \(\mu_2=\rho\lambda\):
+
+- \(\rho\) solves \(\rho\circ g\cdot\lvert g'\rvert^2=\rho\).
+- Smoothness of \(\rho\) tracks smoothness of the conjugacy. Analytic \(g\) with Diophantine \(\alpha\) \(\Rightarrow\) analytic \(\rho\).
+- \(\rho\) is determined up to scale; Biswas normalizes \(\mu_2\) as a probability so that the Herglotz field satisfies \(H(\infty)=1\).
+
+When \(\mu_2\) is singular, it is still determined by its Poisson integral: that is exactly the Herglotz transform Biswas feeds into Loewner.
+
+## Scaling and conjugation
+
+If \(\varphi\) conjugates \(g\) to \(\tilde g=\varphi\circ g\circ\varphi^{-1}\), then
+\[
+\tilde\mu_s \;=\; \lvert\varphi'\rvert^{s}\,(\varphi_*\mu_s)
+\]
+in the absolutely continuous case, and the corresponding Jacobian identity in general. Exponent \(s\) is not invariant under arbitrary \(C^1\) changes of coordinate — it is the weight that makes the identity match a chosen metric (here, Euclidean area in the plane). That is why Loewner wants \(s=2\) and a 1-dimensional length theory would want \(s=1\).
+
+Under rigid rotation conjugacy, \(\mu_s\) is just Haar for every \(s\).
+
+## What uniqueness does *not* give
+
+- It does not make \(\mu_2\) equal to Haar.
+- It does not make \(\mu_2\) the measure of maximal entropy (the circle diffeomorphism already has topological entropy 0).
+- It does not produce a finite-state factor or a 39-bin occupation law.
+- It does not exist automatically for a mere homeomorphism: you need enough variation of \(\log\lvert g'\rvert\) (BV of the derivative, or a critical-point theory) for Douady–Yoccoz to apply.
+
+## Properties that Loewner actually uses
+
+Only these:
+
+1. \(\mu_2\) exists and is unique on \(g_t\in\operatorname{Diff}^\omega_\alpha(S^1)\).  
+2. Its Herglotz transform \(H\) satisfies \(\operatorname{Re}H>0\), \(H(\infty)=1\).  
+3. The vector field \(\chi(z)=z H(z)\) differentiates the exterior Riemann maps at capacity time.  
+4. The Lie action \(X(g)=g'\chi-\chi\circ g\) generates the semigroup \(\Phi_t\).
+
+Everything else — singularity versus absolute continuity, coboundary of \(\log\lvert g'\rvert\), comparison with \(\nu\) — is optional commentary unless you are classifying whether the hedgehog is “round” (linearizable, \(\mu_2\sim\lambda\)) or “thin” (singular \(\mu_2\)).
+
+For the golden rigid rotation those distinctions collapse: one measure, Haar, every exponent. A 2-conformal measure becomes interesting only after you deform \(T\) to a nontrivial analytic diffeomorphism.
+
+Douady–Yoccoz is the existence-and-uniqueness theorem for weighted invariant measures of a circle diffeomorphism. The published paper is late — *Regul. Chaotic Dyn.* **4** (1999) — but the result is from the 1980s. Biswas’s 2-conformal measure is the case \(s=2\).
+
+## Statement
+
+Let \(f\in\operatorname{Diff}^{1+\mathrm{bv}}_+(S^1)\) (often stated \(C^2\)) with \(\rho(f)\notin\mathbb Q\). For **every real** \(s\) there exists a unique Borel probability \(\mu_s\) such that
+\[
+\int\phi\,d\mu_s=\int(\phi\circ f)\,(Df)^s\,d\mu_s
+\qquad\text{for all }\phi\in C^0(S^1).
+\]
+Equivalently \(f^*\mu_s\sim\mu_s\) with
+\[
+\frac{d(f^*\mu_s)}{d\mu_s}=(Df)^s.
+\]
+These are **automorphic measures of exponent \(s\)**, also called \(s\)-measures or \(s\)-conformal measures.
+
+Goncharuk–Yampolsky record the \(C^2\) form: unique \(s\)-measure for every real \(s\), including negative exponents. de Faria–Guarino–Nussenzveig extend uniqueness to multicritical circle maps for \(s\ge 0\); Goncharuk–Yampolsky do \(s<0\) in the critical case.
+
+No Diophantine hypothesis. Irrational rotation number plus enough smoothness that Denjoy applies (\(C^{1+\mathrm{bv}}\) or \(C^2\)) is the whole assumption.
+
+## Construction (existence)
+
+The unique invariant probability \(\mu=\mu_0\) is already there by unique ergodicity. For \(s\neq 0\) one builds \(\mu_s\) from Birkhoff weights along continued-fraction times.
+
+A standard route, as rewritten by de Faria–Guarino–Nussenzveig:
+
+1. Consider \(\Sigma(x)=\sum_{n\ge 0}(Df^n(x))^s\). For \(s>0\), \(\int(Df^n)^s\,d\mu\ge 1\) along a subsequence or by Jensen / Denjoy control of \(\log Df\), so \(\Sigma=\infty\) on a set of positive \(\mu\)-measure, hence (by ergodicity) almost everywhere.
+2. At such an \(x\), form the atomic measures sitting on the orbit segment of length \(q_n\),
+   \[
+   \mu_{s,x,n}=\frac{\sum_{k=0}^{q_n-1}(Df^k(x))^s\,\delta_{f^k(x)}}{\sum_{k=0}^{q_n-1}(Df^k(x))^s}.
+   \]
+3. Weak-\(*\) limits as \(n\to\infty\) satisfy the automorphic equation because the missing tail of \(\Sigma\) is infinite, so the boundary terms vanish.
+4. Denjoy–Koksma and the ordering of returns keep the masses from concentrating on atoms.
+
+Negative \(s\) uses the inverse map (\(D(f^{-1})=(Df\circ f^{-1})^{-1}\)) and the same argument with exponent \(-s\).
+
+This is not a transfer-operator fixed-point argument in the expanding-map style. The map is not expanding. The \(q_n\)-returns replace the branches.
+
+## Uniqueness
+
+The set \(\mathcal A_s\) of automorphic probabilities of exponent \(s\) is convex and weak-\(*\) closed. If \(\mu_s,\nu\in\mathcal A_s\), their average \(\rho\) is too. Then \(d\mu_s/d\rho\) is \(f\)-invariant \(\rho\)-a.e., because both measures share the same Jacobian \((Df)^s\). Ergodicity of any automorphic measure (proved along the way: the Jacobian identity plus minimality) forces the density to be constant, hence \(\mu_s=\nu\).
+
+Once uniqueness of probabilities is known, any distribution \(L\) satisfying the same pairing
+\[
+\langle L,\phi\rangle=\langle L,(\phi\circ f)(Df)^s\rangle
+\]
+is a multiple of \(\mu_s\), by Riesz.
+
+## Basic properties that follow
+
+- **No atoms**, support the whole circle (minimality).
+- **Ergodic** for the weighted action.
+- **\(s=0\)** recovers Haar-pushforward, the unique invariant measure.
+- **\(s\mapsto\mu_s\)** is a continuous path of measures in the weak topology, at least away from pathologies of \(\log Df\).
+- If the conjugacy \(h\) to rotation is absolutely continuous, then
+  \[
+  d\mu_s \propto \lvert h'\rvert^s\,d\theta
+  \]
+  in the appropriate chart. Diophantine \(\alpha\) plus high smoothness of \(f\) gives this by Herman–Yoccoz. Liouville \(\alpha\) can make every \(\mu_s\) singular to Lebesgue.
+- For a rigid rotation, \(\mu_s\) is Haar for every \(s\).
+
+## Why the theorem exists
+
+Sullivan conformal measures for rational maps, and Patterson–Sullivan densities for Kleinian groups, are the same Jacobian idea on a limit set. Douady–Yoccoz is the version on the whole circle, for a **diffeomorphism**, where there is no expanding Julia set to carry the measure. The exponent is free because there is no Bowen equation to solve: the map is invertible, pressure is not selecting a dimension.
+
+Applications they and later authors actually use:
+
+- \(s=-1\) is adapted to describing conjugacy classes (Goncharuk–Yampolsky).
+- \(s=1\) is the length Jacobian; it is the natural partner of \(C^1\) coboundaries.
+- \(s=2\) is the area Jacobian; that is what Loewner in the plane wants (Biswas).
+- Invariant distributions of order 1 are spanned by \(\mu_0\) once automorphic uniqueness is known (de Faria–Guarino–Nussenzveig).
+- A sharpened Denjoy–Koksma for absolutely continuous observables on critical circle maps.
+
+## What it is not
+
+- Not a linearization theorem. No arithmetic cut on \(\alpha\) beyond irrationality.
+- Not uniqueness of the invariant measure — that is Poincaré–Denjoy unique ergodicity, the case \(s=0\).
+- Not a finite-state equilibrium measure. Entropy is zero.
+- Not a construction of a hedgehog. Pérez-Marco builds \(K\); Douady–Yoccoz equips the circle map around \(K\) with a canonical family of measures.
+
+## Against the 39-screen
+
+Your slip observable is integrated against Haar on a rigid rotation. That is \(\mu_s\) for every \(s\) at once, because \(Df\equiv 1\). Douady–Yoccoz becomes contentful only after \(Df\) varies. Then there is a genuine one-parameter family of measures, and \(s=2\) is the one whose Herglotz field grows complementary continua in \(\mathbb C\).
+
+The theorem you would quote, if you deform the golden rotation to an analytic diffeomorphism, is: *there is exactly one 2-conformal probability, and it is the Loewner driver.* Until that deformation is declared, the statement is “Haar is the only measure, at every exponent.”
+
+Goncharuk–Yampolsky close the remaining half of Douady–Yoccoz for maps that are no longer diffeomorphisms: unique automorphic measures of **negative** exponent on multicritical circle maps. The paper that matters is arXiv:2404.03780, published *DCDS* 45 (2025).
+
+## What was missing
+
+Douady–Yoccoz: unique \(s\)-measure for every real \(s\), but only for \(C^2\) diffeomorphisms.
+
+de Faria–Guarino–Nussenzveig (2023): unique \(s\)-measure for **\(s>0\)** on multicritical circle maps (finitely many non-flat critical points, \(C^3\)).
+
+Negative \(s\) is the case you want for conjugacy classes. At a critical point \(Df=0\), the original pairing
+\[
+\int\phi\,d\mu=\int(\phi\circ f)\,(Df)^s\,d\mu
+\]
+is meaningless for \(s<0\). You have to write the identity on the inverse branch.
+
+## The rewritten equation
+
+For \(s<0\), \(\mu\) is an \(s\)-measure if
+\[
+\int\phi\,d\mu=\int\bigl(f'\big|_{f^{-1}(x)}\bigr)^{-s}\phi\big|_{f^{-1}(x)}\,d\mu.
+\]
+Iterating,
+\[
+\int\phi\,d\mu=\int\bigl((f^k)'\big|_{f^{-k}(x)}\bigr)^{-s}\phi\big|_{f^{-k}(x)}\,d\mu.
+\]
+The weight is now a positive power of the derivative of the inverse, which is infinite at critical values but integrable once you know there are no atoms.
+
+A multicritical circle map is \(C^3\), strictly increasing, with finitely many critical points of finite odd order \(d_n\ge 3\),
+\[
+f(x)=f(c_n)+\psi_n(x)\lvert\psi_n(x)\rvert^{d_n-1}.
+\]
+
+## Main theorems
+
+**Theorem 2.** Every multicritical circle map with irrational rotation number has a unique \(s\)-measure for each \(s<0\).
+
+Together with dFGN and an approximation argument (Theorem 10), every real \(s\) is covered.
+
+**Atomless (Lemma 11).** For \(s<0\), \(\mu(\{p\})=0\) at every point. If \(p\) is not a preimage of a critical point the series \(\sum_k((f^k)'(p))^s\) diverges (because \((f^{q_n})'\) stays bounded, a real a priori bound), so an atom would produce infinite mass. Critical preimages are killed directly.
+
+**Ergodicity (Theorem 15)** \(\Rightarrow\) uniqueness. The argument is a distortion-plus-commensurability comparison on the dynamical partitions \(\mathcal P_n\): if an invariant set \(B\) had intermediate measure, the densities \(\omega_B(I)=\mu(I\cap B)\lvert I\rvert^{-s}\) on long versus short intervals of generation \(n\) would contradict the real bounds.
+
+Existence for \(s<0\) is not reconstructed from Birkhoff weights. They approximate \(f\) by diffeomorphisms \(f_n\to f\) with the same rotation number and \(f_n'\to f'\) uniformly, take Douady–Yoccoz measures \(\mu_n\), and pass to a weak limit. The negative-exponent identity survives the limit because of the rewritten form.
+
+## Why \(s=-1\) is the useful exponent
+
+A vector field \(v\) tangent to the conjugacy class of \(f\) comes from an infinitesimal conjugacy \(w\):
+\[
+(\mathrm{id}+tw)\circ f\circ(\mathrm{id}+tw)^{-1}=f+tv+o(t),
+\]
+which is the cohomological equation
+\[
+v(x)=w(f(x))-f'(x)\,w(x).
+\]
+Pairing against \(\mu_{-1}\) gives the obstruction
+\[
+\int v\big|_{f^{-1}(x)}\,d\mu_{-1}=0.
+\]
+That is the equation of the tangent space to
+\[
+\mathcal M_\alpha=\{g:\rho(g)=\alpha\}
+\]
+at \(f\). Douady–Yoccoz already had this for diffeomorphisms. Goncharuk–Yampolsky prove the same description remains valid at multicritical points, in the Fréchet topology of the Banach manifold of such maps, and that the tangent space varies continuously in the weak topology of \(\mu_{-1}\) (Theorems 19–20).
+
+## Application: smoothness of irrational Arnold tongues
+
+Take a monotone \(C^1\) family of \(C^3\) multicritical maps, the model being the Arnold family past the critical value,
+\[
+f_\lambda(x)=x+\lambda_1+\Bigl(\tfrac1{2\pi}+\lambda_2\Bigr)\sin 2\pi x.
+\]
+The level set \(A_\alpha=\{\lambda:\rho(f_\lambda)=\alpha\}\) for irrational \(\alpha\) is a \(C^1\) curve (Corollary 21). The derivative of the graph is given by the pairing against \(\mu_{-1}\). That extends earlier tongue-smoothness results of Świątek and of Goncharuk–Yampolsky from the diffeomorphism side of the family onto the multicritical side.
+
+## Place in the line
+
+| Paper | Maps | Exponents |
+|---|---|---|
+| Douady–Yoccoz 1999 | \(C^2\) diffeomorphisms | all real \(s\) |
+| dFGN 2023 | multicritical | \(s>0\) |
+| Goncharuk–Yampolsky 2024 | multicritical | \(s<0\) (hence all \(s\)) |
+
+Negative exponents are not a Loewner input. Biswas wants \(s=2>0\). The GY theorem matters if you study **how conjugacy classes sit in a family** — tongues, unfolding of a critical circle map, tangent space to \(\{\rho=\alpha\}\).
+
+## What it does not do
+
+- It does not linearize. No Brjuno or Diophantine cut.
+- It does not build hedgehogs or Loewner chains.
+- \(\mu_{-1}\) is not Haar and not the unique invariant measure \(\mu_0\), except when \(Df\equiv 1\).
+- A golden rigid rotation has no critical point, so GY is vacuous there: every \(s\)-measure is Haar.
+
+If you later put a critical point on the 39-screen (a multimodal observation, not a bin of a rigid rotation), GY says the conjugacy class of that map still has a unique \(s=-1\) measure, and that measure cuts out the tangent to constant rotation number. Until then it is the missing half of Douady–Yoccoz, now available on the critical side.
+
+

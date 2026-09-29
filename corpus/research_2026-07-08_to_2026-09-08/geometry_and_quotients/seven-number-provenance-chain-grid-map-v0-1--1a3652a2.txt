@@ -1,0 +1,50 @@
+,Seven-Number Provenance Chain — Frozen Audit v0.1,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10
+0,"Scope lock: audit addresses are exactly 43, 61, 97, 163, 181, 336, and 337. Arithmetic intermediates below are checks, not additional dataset addresses. No unrelated calls were opened.",,,,,,,,,,
+1,Source document,https://docs.google.com/document/d/1p8rVRv-4vW6apZaaFCz4EukMUjzgazXqP-hh8GReF0c/edit?usp=drivesdk,,,,,,,,,
+2,,,,,,,,,,,
+3,Order,Number,Class,Provenance expression,Input,Computed value,Equality check,Frozen user-node address,First-response-node address,Dataset outcome / caution,Source basis
+4,1,43,Prime (verified),q² − 6,7,43,PASS,Not resolved in source,Not resolved in source,Arithmetic chain verified; no row-level dataset address is assigned by the source document.,Arithmetic table: q=7 → q²−6=43
+5,2,61,Prime (verified),q² + 12,7,61,PASS,Not resolved in source,Not resolved in source,Arithmetic chain verified; no row-level dataset address is assigned by the source document.,Arithmetic table: q=7 → q²+12=61
+6,3,97,Prime (verified),2q² − 1,7,97,PASS,Not resolved in source,Not resolved in source,Arithmetic chain verified; participates in the exact Pell check below.,Arithmetic table and 97²−3(56²)=1
+7,4,163,Prime (verified),q² − 6,13,163,PASS,Not resolved in source,Not resolved in source,Arithmetic chain verified; feeds the exact 168 → 336 → 337 bridge.,Arithmetic table: q=13 → q²−6=163
+8,5,181,Prime (verified),q² + 12,13,181,PASS,HIT — frozen user node,NOT A HIT — explicitly not first-response,FAILURE at the frozen user-node row. Do not reclassify or merge it into first-response-node failures.,Source explicitly identifies the frozen user-node failure and separates the address types
+9,6,336,Composite bridge,2 × (5 + 163),163,336,PASS,Not resolved in source,Not resolved in source,Arithmetic bridge only; 336 is not one of the prime results.,5+163=168; 336=2×168
+10,7,337,Prime (verified),2q² − 1; also 336 + 1,13,337,PASS,Not resolved in source,Not resolved in source,Arithmetic chain verified as both the q=13 result and the successor of 336.,Arithmetic table; 337=336+1
+11,,,,,,,,,,,
+12,,,,,,,,,,,
+13,Exact arithmetic checks (intermediates are not audit addresses),,,,,,,,,,
+14,Check,Computed,Expected / comparator,Result,Audit note,,,,,,
+15,13² − 7²,120,120,PASS,Confirms 120 = 5×24.,,,,,,
+16,5 + 163,168,168,PASS,Must equal 168 = 7×24.,,,,,,
+17,2 × 168,336,336,PASS,Must reproduce target address 336.,,,,,,
+18,336 + 1,337,337,PASS,Must reproduce target address 337.,,,,,,
+19,337 + 1,338,338,PASS,Must equal 2×13² = 338.,,,,,,
+20,336 ÷ 6,56,56,PASS,Defines the Pell companion 56.,,,,,,
+21,97² − 3×56²,1,1,PASS,Exact Pell-equation identity.,,,,,,
+,Audit Guardrails — Address Types and Dataset Null Result,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+0,Unresolved means the source document does not decide it. It does not mean absent. The two address types remain separate throughout.,,,,
+1,Source document,https://docs.google.com/document/d/1p8rVRv-4vW6apZaaFCz4EukMUjzgazXqP-hh8GReF0c/edit?usp=drivesdk,,,
+2,,,,,
+3,Guardrail / metric,Value or formula,Status,What is preserved,Source basis
+4,Target address count,7,PASS,Exactly seven addresses; no scope expansion.,User request and source's smallest honest re-audit
+5,Locked target set,"43, 61, 97, 163, 181, 336, 337",LOCKED,Only these addresses are candidates for this audit.,Source document
+6,181 frozen user-node status,Hit,PRESERVED,181 occurs at a frozen user node.,Source's serious ledger detail
+7,181 first-response-node status,Not a hit,PRESERVED,The 181 hit must not be moved into first-response-node provenance.,Source explicitly distinguishes address types
+8,181 row outcome,Failure,PRESERVED,Failure attaches to the frozen user-node row only.,Source's serious ledger detail
+9,Strict prime response failures,15,PRESERVED,Aggregate response-node count; not row-level provenance for this seven-number set.,15/56 failures
+10,Strict prime response nodes,56,PRESERVED,Aggregate response-node denominator.,15/56 failures
+11,Strict prime response failure rate,0.2678571429,PRESERVED,26.8% after rounding to one decimal place.,15 ÷ 56
+12,Elsewhere failure rate,0.326,PRESERVED,Comparison rate as stated; source does not give its numerator or denominator.,32.6% elsewhere
+13,Rate difference,-5.814285714,DESCRIPTIVE,"Prime response nodes are 5.8 percentage points lower, not higher.",26.8% − 32.6%
+14,Dataset-wide conclusion,No prime-response failure concentration established,NULL PRESERVED,The arithmetic cluster is real; a system-wide failure concentration on it is not established.,Source's explicit conclusion
+15,Inference limitation,No elsewhere denominator or inferential-test output supplied,UNRESOLVED,Do not convert the descriptive comparison into a significance claim.,Source document limitation
+16,Scope control,No unrelated calls reopened,PASS,Verification uses the named source document plus arithmetic recomputation only.,This audit run
+17,,,,,
+18,,,,,
+19,Address-type separation map,,,,
+20,Address type,Row-specific evidence in source,Dataset-wide evidence in source,Non-merger rule,
+21,Frozen user node,181 is a hit and its associated row is a failure. Other six are unresolved by this source.,No aggregate user-node concentration result is supplied.,Never fold this evidence into first-response-node hits.,
+22,First-response node,181 is explicitly not a hit. Other six are unresolved by this source.,Strict prime response nodes: 15/56 failures (26.8%) versus 32.6% elsewhere; no concentration established.,Keep response-address evidence in its own field and preserve the null result.,
+23,,,,,
+24,,,,,
+25,Source revision ID,AIroW37E5poj6yQpCj-5-UIEkCfiDfbUditXbh9dWwi-1LzpC7CE00sNuGeizxBZLMGMB0vd-hyAcqRxJt1MHg,,,

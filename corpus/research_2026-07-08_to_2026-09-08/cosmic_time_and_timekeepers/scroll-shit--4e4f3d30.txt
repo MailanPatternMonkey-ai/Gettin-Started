@@ -1,0 +1,299 @@
+I’ll pull the primary scholarly descriptions of 4Q321—layout, lists, X/dwqh marks, and any reconstruction of how the scribe compiled or reset the tables—then separate attested protocol from later interpretation.**4Q321** (4QCalendrical Document / Mishmarot B) is a Hebrew parchment roster from Cave 4, copied in a Herodian square hand, usually dated ca. 50–25 BCE. Official edition: Talmon with Ben-Dov, *DJD* XXI, 65–91. A related, earlier, more broken copy is **4Q321a**. The object is a compiled priestly-time table, not a night-by-night observation log.
+
+What follows is the protocol as the manuscript and the main reconstructions actually show it—not the later “compiler fossil / thirteenth function” overlay.
+
+## 1. Physical and scribal facts
+
+- Material: parchment; remains of seven written columns, with at least three more reconstructed (one at the start, two in the middle).
+- Layout: four sheets; first three sheets of three columns each; last sheet a single, narrower column. Columns typically 8–9 lines, height ~8.5 cm; widths vary (one reconstructed column ~17.9 cm).
+- Orthography: full spellings (e.g. בוא, מלאכיה). Ben-Dov called it the most elegant calendrical scroll at Qumran and better supplied than 4Q320. Shirav and Ratzon (2025) add that the copy has a high correction rate and an added final sheet, so “elegant” does not mean error-free luxury production.
+- No title, no preface, no named author. The scribe assumes the reader already knows the 24 courses, the 364-day year, and the two lunar marks.
+- Companion stack: **4Q320** (older, late 2nd c. BCE) carries X plus “days since previous X,” a Creation prologue, month-length notes, *otot*, and a festival list. **4Q321 / 4Q321a** carry X **and** *dwqh*. No single scroll writes X, day-count, and *dwqh* together. That split is itself a scribal protocol: specialized lists, later joined.
+
+## 2. What the scribe is compiling
+
+Two lists on one roll, both addressed in the same grid:
+
+| List | Content | Binding address |
+|---|---|---|
+| I (cols. reconstructed 1–mid 7) | Unnamed mark **X** + named mark **דוקה** (*dwqh*; 4Q321a also דוקו / דוקוה) across six years | weekday of the serving *mishmar* + day-number in the 364-day month |
+| II (mid col. 7 to end) | Head of each solar month + Torah festivals (Passover, Omer, Weeks, 1/VII “Day of Remembrance,” etc.) | same *mishmar* week + solar month |
+
+The join is explicit in column 7. That is the documentary fact behind the later slogan “priestly-course index ⋈ month-boundary series ⋈ lunar-checkpoint table.” The artifact really is a stack of desks, not one continuous sky diary.
+
+Qumran numbering of the courses does **not** follow 1 Chronicles 24’s Jehoiarib-first order. The cycle begins with **Gamul** on day 1 of year 1, which is a Wednesday (creation of the luminaries, Gen 1:14–19). Six years = 24 courses × 13 weeks = 312 weeks = 2,184 days = \(6 \times 364\). After six years Gamul is back on 1/I. Years 1–3 and 4–6 are two copies of the same triennial lunar pattern; only the course names change. Ben-Dov’s stock example is month IX in years 3 and 6: same solar dates for X and *dwqh*, different *mishmarot*.
+
+## 3. Address protocol (how a date is written)
+
+A typical List I entry is not “new moon observed.” It is:
+
+> [X] on the *n*th day in the week of *Course*, which is day *d* of solar month *m*; and *dwqh* on the *k*th day in the week of *Course′*, day *d′* of the same (or next) month.
+
+X is unnamed in the text. Talmon labeled it “X.” *Dwqh* takes a masculine suffix (“its *dwq*”), almost certainly the moon. Etymology is unsettled: דקק “become thin,” דיק “exact,” דבק “cling,” Aramaic דו״ק “watch,” or a calque of Akkadian *maššartu* (waning after full moon). No consensus.
+
+Fixed interval rule used by the table:
+
+- X → *dwqh*: 16 or 17 days (hollow vs full lunar month)
+- *dwqh* → X: **always 13 days**
+- X → next X: 29 or 30 days
+
+X is written first in the formula even when, in part of the cycle, *dwqh* falls earlier in the solar month. Order of mention is a scribal convention, not sky order.
+
+Solar months themselves are schematic: 30 days, except months 3, 6, 9, 12 = 31, giving four 91-day quarters and a 364-day year. Festivals are pinned to that grid, not to first crescent.
+
+## 4. The triennial arithmetic the table actually uses
+
+The working integer protocol (Abegg and the *mishmarot* editors) is:
+
+\[
+3 \times 364 = 1092
+\]
+
+\[
+(6 \times 29) + (6 \times 30) = 354 \quad \text{per lunar year}
+\]
+
+\[
+3 \times 354 = 1062
+\]
+
+\[
+1062 + 30 \text{ (37th, intercalary month)} = 1092
+\]
+
+That 37th month is a **full 30-day** schematic month added at the end of year 3 so the next block can start “clean” on the 364-day grid. 4Q319 names the conjunction at the head of each new triennial block an *ot* (Gen 1:14).
+
+The half-day remainder in the uploaded manifesto is a **modern mean-lunation** rewrite:
+
+\[
+37 \times 29.5 = 1091.5,\qquad 1092 - 1091.5 = 0.5
+\]
+
+The scroll does not write 29.5 and does not record a half-day. It writes integer 29/30 months plus one extra 30. The 0.5-day figure is a correct observation *about* the difference between mean lunation and the 364-day grid. It is not a number the scribe tabulated. Treat it as analysis of the seam, not as a recovered cell in the manuscript.
+
+## 5. The year-3 / year-4 seam (the real reset)
+
+This is the only place where “scribal protocol” and the manifesto’s compiler-seam claim overlap in a testable way.
+
+At the close of year 3 the regular 29–30 alternation of X breaks. Shirav–Ratzon isolate a **29–30–30** stretch across the intercalary joint; after 1/I of year 4 the 29–30 pulse resumes. *Dwqh* does **not** follow the same break: it keeps a 29–30 pulse and, in months 1–2 of year 4, repeats year-1 *dwqh* dates. That is why they argue X and *dwqh* are **not fully interdependent series** glued into one lunar clock. They look like two source lists copied onto one 364-day address grid, then the triennial block was duplicated to fill six years of *mishmarot*.
+
+What the artifact therefore shows, without extra theory:
+
+1. Lunar model (alternating 29/30 + schematic 30-day 37th month)
+2. Lookup table addressed in *mishmar* + solar-month numbers
+3. Reset / duplication at the triennial boundary so year 4 inherits year 1’s lunar date pattern (course names advanced)
+4. A second list that binds those addresses to festival duty
+
+Intent is not recoverable. Mechanical copying of a three-year table into a six-year roster produces the same seam as a deliberate “drop the residual.” The manuscript cannot tell those apart. Ben-Dov already described the sexennial cycle as two matching triennial cycles; 2025 work makes the mismatch between X and *dwqh* at that joint sharper.
+
+## 6. Competing identifications of X and *dwqh*
+
+None is closed.
+
+| Proposal | X | *dwqh* |
+|---|---|---|
+| Talmon / Knohl | last darkness / end of lunation | day after full moon, moon “thins” |
+| Ben-Dov / Horowitz (Lunar Three) | last visibility (Babylonian KUR) | post-full interval (NA / *maššartu*) |
+| Jacobus | schematic phase markers; direct Lunar-Three equation overstated | same; possible Greek as well as Babylonian background |
+| Shirav / Ratzon 2025 | calendrical head of a schematic lunar month (not a raw observation) | separate lunar/astronomical date; not locked to X; symbolic pairing with the festival list |
+
+Jacobus is important for the document you uploaded: she works the 29.53-day mean month and the exact repetition of years 1–3 as years 4–6. She does **not** treat 4Q321 as proof of a hidden institutional compiler across epochs. She treats it as a schematic priestly roster with a possible mixed Near Eastern / Hellenistic technical background.
+
+4Q320’s prologue ties the first X to Creation week, Gamul, 1/I. That is theology of the address, not telemetry.
+
+## 7. What is protocol, what is overlay
+
+**Attested protocol**
+
+- 364-day solar address, Wednesday new year, Gamul-first courses
+- Two lunar checkpoints per lunation, written in solar + *mishmar* coordinates
+- Integer 29/30 months; 30-day intercalation every three years
+- Six-year roster = two stacked three-year tables
+- Festival list compiled onto the same address layer
+- Specialized source lists (X-only in 4Q320; X+*dwqh* in 4Q321/a)
+
+**Not attested in the scribe’s hand**
+
+- The words “compiler,” “binder,” “thirteenth function”
+- A written 0.5-day remainder
+- Continuous lunar integration that year 4 then “erases”
+- A single Timekeeper office
+- Any link from this table to later institutional capture
+
+The honest statement is narrower and stronger than the manifesto’s: **4Q321 is a joined administrative stack**. It maps a living lunation onto a finite address, then restarts that address every three years so the priestly week-count can run for six. The year-4 block is a duplicated table, not a recalculation from leftover phase. That is a real reset rule. Calling the 0.5-day mean-lunation gap a “fossil” is a modern gloss on that rule. It is a fair gloss only if it stays labeled as gloss.
+
+If you want the next cut, the useful one is a month-by-month X/*dwqh* grid for years 3–4 at the intercalary joint, with 4Q320’s X-only column beside it. That is the actual seam.
+
+I’llI’ll pull the 4Q320 lunar list itself—X dates, day-counts, prologue, and the year-3/4 joint—then set it beside 4Q321’s X column so the “X-only” protocol is visible.**4Q320** (4QCalendrical Document / Mishmarot A) is the older, X-only ledger. Paleography: late 2nd c. BCE (ca. 125–100). Official text: Talmon with Ben-Dov, *DJD* XXI, 37–64. It is a **compendium**, not a single table. The lunar column is only one block.
+
+| Block | Location | Job |
+|---|---|---|
+| Creation prologue | 1 i 1–5 | Ties first X to Gamul, 1/I, year 1 |
+| **X-only list** | **1 i 6 – 2 14** | Unnamed mark + days since last X + solar date |
+| *Otot* / literary | 3 i–4 i | Concordance signs at triennial heads |
+| Month lengths + heading courses | 4 ii | 30/31-day solar months |
+| Festival roster | 4 iii–vi | Sexennial *mishmarot* festivals |
+
+Fragments 1–2 of the lunar list **stop at the end of year 3**. 4Q321/4Q321a carry the same X dates through year 6. That is why 4Q320 is the source-shape of the X column and 4Q321 is the joined product.
+
+## Line protocol (the X-only column)
+
+Each data line has three fields. No *dwqh*. No name for the event.
+
+1. Weekday inside the serving course 
+2. **ל29** or **ל30** — days since the previous X 
+3. Day-number in the 364-day month 
+
+Example, 4Q320 2 6 (year 2, month II):
+
+> ב4 בישוע ל30 ב20 בשני 
+> On day 4 of Yeshua; for 30 (days); on day 20 in the second (month).
+
+That solar date is the same unnamed date 4Q321 writes as X. The middle field exists **only** in 4Q320. 4Q321 dropped it when it added *dwqh*.
+
+Ben-Dov and Horowitz treat the three Qumran lunar data as a split set that never sits on one manuscript:
+
+- previous-month length (29/30) + X → **4Q320**
+- X + *dwqh* → **4Q321 / 4Q321a**
+
+That split is the scribal fact. Combining them is a modern reconstruction, not a line the Cave 4 copyist wrote.
+
+## Prologue: first X is not in the number column
+
+4Q320 1 i 1–5 (sense of the broken Hebrew):
+
+> …to its being seen from the east 
+> …to shine in the middle of the heavens at the foundation of 
+> [Creatio]n, from evening until morning, on the 4th (day) in the week of 
+> [Ga]mul, in the first month, in year 
+> [the fir]st. *vacat*
+
+After the *vacat*, line 6 begins the numeric roster. The first X of the cycle is the prologue date itself: **Wednesday, course Gamul, 1/I/year 1**. The next line is already the *second* X in the same solar month.
+
+Reconstructed pair for month I, year 1:
+
+| # | Course / weekday | ל-count | Solar date |
+|---|---|---|---|
+| X₁ | Gamul, day 4 (Wed) | — (written in words) | 1/I |
+| X₂ | Jedaiah, day 5 | ל29 | 30/I |
+
+So the first schematic month contains two X marks, 29 days apart: day 1 and day 30. The *vacat* is layout, not a new cycle. Ben-Dov reads lines 3b–6 as one sequence. The pronoun בו in line 6 (“in it”) points back to “the first month” in the prologue.
+
+What the prologue *means* astronomically is not settled. Milik and several after him: first X = full moon shining “from evening until morning.” Talmon/Knohl: conjunction / darkness. Ben-Dov/Horowitz: last visibility (Babylonian KUR). Shirav–Ratzon (2025): the prologue is too broken to identify X; use the numbers instead. The column does not adjudicate.
+
+## Year 2 sample (best continuous stretch)
+
+4Q320 2 4–10, after the heading השנה השנית:
+
+| Month | Course / weekday | Since last X | X on solar day |
+|---|---|---|---|
+| I | Malkiah, day 2 | ל29 | 20 |
+| II | Yeshua, day 4 | ל30 | 20 |
+| III | Huppah, day 5 | ל29 | 19 |
+| IV | Happisses, Sabbath | ל30 | 18 |
+| V | Gamul, day 1 | ל29 | 17 |
+| VI | Jedaiah, day 3 | ל30 | 17 |
+
+Pattern: X walks backward one day most months against the 30/31-day solar grid, because the lunar step is 29 or 30. 31-day solar months (3, 6, 9, 12) change the step. That recession is why the same phenomenon is not glued to a fixed festival date.
+
+Year 1 opening numeric lines (after the double-X month) follow the same three -field grammar: Jedaiah day 5 / ל29 / 30/I; then Haqqos Sabbath / ל30 / 30/II; Eliashib day 1 / ל29 / 29/III, and so on.
+
+## What ל29 / ל30 is doing
+
+It is not a solar month length. Solar months in this system are 30 or 31. The ל-number is the interval **X → next X**, i.e. the schematic lunation.
+
+- Hollow month: 29 
+- Full month: 30 
+
+Babylonian goal-year / Lunar Three lists write previous-month length as 30 (hollow) or 1 (full). 4Q320 writes 29 or 30. Same information, different convention. Whether that is a direct borrow of the Lunar Three (Ben-Dov/Horowitz) or only a family resemblance (Jacobus) is disputed. The column itself only attests the integer pulse.
+
+Over three years the integer protocol is:
+
+\[
+18 \times 29 + 18 \times 30 = 1062
+\]
+
+then a 37th schematic month of 30 days:
+
+\[
+1062 + 30 = 1092 = 3 \times 364
+\]
+
+4Q320’s surviving X list is the first half of that machine. The 37th month is why X intervals at the year-3/year-4 joint go **29–30–30** instead of strict alternation, then resume 29–30 in year 4. 4Q320 does not preserve year 4; the joint is read from 4Q321 plus this interval rule.
+
+## X-only vs X+*dwqh*
+
+| Feature | 4Q320 X column | 4Q321 List I |
+|---|---|---|
+| Date of manuscript | ca. 125–100 BCE | ca. 50–25 BCE |
+| Names the event | no | X unnamed; *dwqh* named |
+| Days since previous X | yes (ל29/ל30) | no |
+| Second lunar mark | no | yes |
+| Span preserved | years 1–3 | years 1–6 |
+| X dates | match 4Q321 | match 4Q320 |
+| Creation prologue | yes | start lost |
+
+The later scroll did not recalculate X. It copied the X series, stripped the interval field, and interleaved *dwqh*. That is why Shirav–Ratzon can say the two marks need not be one interdependent clock: 4Q320 already ran X alone.
+
+X is also written first in 4Q321 even in months where *dwqh* falls earlier. That priority is inherited from 4Q320, where X is the only subject of the column and the first event of Creation week.
+
+## What this column is not
+
+It is not a night-by-night visibility diary (that is closer to 4Q317). 
+It is not a festival calendar (that is 4Q320 4 iii–vi). 
+It does not write 29.5 or a half-day remainder. 
+It does not survive across the year-4 restart; the restart is inferred from the 4Q321 duplicate of years 1–3 and from the ל29/ל30 rule.
+
+The X-only column is a **carry register**: each line stores the last address of X and the integer to the next one, then maps that onto the 364-day / *mishmar* grid. Year 4, when it appears in the later manuscript, reloads year 1’s X addresses under new course names. 4Q320 is the earlier firmware for that register. 
+
+## Reset joint: X / dwqh by solar month
+
+Window: year 3 months IX–XII and year 4 months I–II, the same six-month slice as Hamernik–Ratzon 2025, fig. 6. Each entry is a placement in the 364-day solar calendar. Brackets and restoration status in the edition are collapsed here for legibility, so this is an edition-supported comparison, not a diplomatic transcription. 4Q320 contributes only X and its ל29/ל30 interval tag; it does not preserve the year-4 side of the joint. An em dash means “not preserved in 4Q320,” not “different.”
+
+
+Solar address	4Q320: X-only	4Q321: X	4Q321: dwqh
+Y3 IX	ל29; X 4/IX	X 4/IX	dwqh 21/IX
+Y3 X	ל30; X 3/X	X 3/X	dwqh 19/X
+Y3 XI	ל29; X 2/XI	X 2/XI	dwqh 19/XI
+Y3 XII	ל30; X 2/XII	X 2/XII	dwqh 18/XII
+Y4 I	—	X 1/I; X 30/I	dwqh 17/I
+Y4 II	—	X 30/II	dwqh 17/II
+
+
+### Mechanical interval read
+
+These day counts are derived from the solar placements above; they are not separate numbers written in 4Q321. The two series expose the reset in different transitions: X takes its second consecutive 30-day gap across year 3 XII → year 4 I, while dwqh takes its second consecutive 30-day gap after the reload, across year 4 I → II.
+
+
+Series	Solar placements	Derived gaps	Mechanical seam
+X	4/IX → 3/X → 2/XI → 2/XII ║ 1/I → 30/I → 30/II	30, 29, 30 ║ 30, 29, 30	second 30 crosses the joint
+dwqh	21/IX → 19/X → 19/XI → 18/XII ║ 17/I → 17/II	29, 30, 29 ║ 30, 30	second 30 follows the reload
+
+
+### Claim-control layer
+
+Use the row labels as the evidentiary fence. The first three rows report manuscript/edition data and arithmetic; the last two contain model-level claims and explicit limits.
+
+
+Evidence layer	What this comparison can claim
+Manuscript protocol	4Q320 preserves an X-only register with ל29/ל30 interval tags and solar addresses through year 3. 4Q321/4Q321a place X and dwqh in the six-month window.
+Edition reconstruction	Several damaged placements are supplied from surviving traces, the parallel copy 4Q321a, and the recurring scheme. The grid normalizes those restorations; it is not a diplomatic transcript.
+Derived arithmetic	The normalized solar placements yield X gaps 30–29–30–30–29–30 and dwqh gaps 29–30–29–30–30.
+Later interpretation	Hamernik–Ratzon read X as a possible schematic lunar-month head and dwqh as a separate astronomical checkpoint; they propose that a six-year roster may reload a triennial source table.
+Not established	No scroll says that 4Q321 copied the surviving copy of 4Q320; the study allows “4Q320 or the like.” No scroll writes 29.5, 0.5, a discarded residual, an institutional office, or deep-time continuity.
+
+
+The seam, stated narrowly: the manuscript apparatus supports a triennial reset/repetition in the table. It does not by itself attest why the reset was chosen, which physical phenomenon X denoted, or any institutional continuity beyond the copying history of these manuscripts.
+
+### Sources for this cut
+
+- Hamernik and Ratzon 2025, fig. 6 and §§4.2–5 — critical grid and interpretation
+- Qumran-Digital 4Q320, frg. 2 ll. 11–14 — X-only year-3 entries
+- Qumran-Digital 4Q321, col. 3 ll. 5–8 — X/dwqh joint
+- Talmon, Ben-Dov, and Glessmer, DJD XXI, 22–23, 37–64, 65–91 — official edition cited by the modern study
+
+
+[Hyperlink targets preserved from native document]
+https://brill.com/view/journals/dsd/32/2/article-p169_2.xml?language=en
+https://qumran.alexschapiro.com/transcriptions/4Q320/2025-08-25/index.html?v=2025-08-25
+https://qumran.alexschapiro.com/transcriptions/4Q321/2025-08-25/index.html?v=2025-08-25

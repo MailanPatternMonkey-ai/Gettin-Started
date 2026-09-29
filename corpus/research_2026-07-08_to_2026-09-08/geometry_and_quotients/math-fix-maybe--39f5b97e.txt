@@ -1,0 +1,86 @@
+
+
+This is headed toward a short expository note—more paper/blog post than lecture notes. The referee comments are strong, but §§7–8 need one further precision.
+
+Take these edits:
+
+Remove the unnecessary \(\cap{|g|\le k}\).
+
+State that \(\pi\) is contractive, so \(\ker\pi\) is a closed self-adjoint ideal and the quotient is a \(C^*\)-algebra.
+
+Replace “injective \(\Rightarrow\) faithful” with “injective/faithful.”
+
+Add the concrete norm identity
+
+
+\[
+  \|M_f\|
+  =
+  \|[f]\|_{B/\ker\pi}
+  =
+  \inf_{h\in\ker\pi}\|f+h\|_\infty
+  =
+  \|f\|_{\infty,\mathrm{loc}},
+\]
+
+\[
+  \|f\|_{\infty,\mathrm{loc}}
+  =
+  \inf\{c\ge0:\{|f|>c\}\text{ is locally null}\}.
+\]
+
+The infinite singleton example is correct, but it makes \(L^2={0}\), introducing a distracting convention about whether the zero algebra is unital. A cleaner example is
+
+\[
+X=[0,1]\sqcup\{p\},
+\]
+
+\[
+L^2(X,\mu)\cong L^2[0,1],
+\]
+
+\[
+M_{\chi_{\{p\}}}=0.
+\]
+
+The deeper correction is this: after quotienting by locally null functions, the relevant general condition is not necessarily localizability of the original nonsemifinite measure. Define its semifinite reduction
+
+\[
+\mu_{\mathrm{sf}}(E)
+=
+\sup\{\mu(F):F\subseteq E,\ F\in\Sigma,\ \mu(F)<\infty\}.
+\]
+
+\[
+\mathcal N_{\mu_{\mathrm{sf}}}
+=
+\mathcal N_{\mathrm{loc}},
+\qquad
+B(X,\Sigma)/\ker\pi
+\cong
+L^\infty(\mu_{\mathrm{sf}}).
+\]
+
+Consequently the precise structural theorem is
+
+\[
+\begin{aligned}
+\mu_{\mathrm{sf}}\text{ is localizable}
+&\iff
+\Sigma/\mathcal N_{\mathrm{loc}}
+\text{ is Dedekind complete}\\
+&\iff
+B/\ker\pi\longrightarrow (L^1(\mu))^*
+\text{ is onto}\\
+&\iff
+\overline\pi(B/\ker\pi)
+\text{ is a von Neumann algebra}\\
+&\iff
+\overline\pi(B/\ker\pi)
+\text{ is a masa in }B(L^2(\mu)).
+\end{aligned}
+\]
+
+Cohn is more than a general literature anchor: he explicitly constructs \(L^\infty\) using bounded measurable functions modulo local-a.e. equality and proves the canonical map into \((L^1)^*\) is always isometric. Cohn, §§3.3 and 3.5. The arbitrary-measure condition above is treated explicitly as semilocalizability by De Pauw. For the modern operator-algebra equivalences, Blecher–Goldstein–Labuschagne, Theorem 5.2 is the clean citation. Under Fremlin’s convention, “localizable” already includes semifiniteness, so “semifinite and localizable” is redundant.
+
+With that adjustment, §§7–8 become the real climax: the representation theorem and the \(L^1\)-duality theorem are literally two manifestations of the same quotient.
