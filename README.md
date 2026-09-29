@@ -6,7 +6,7 @@ This repository is the public, source-controlled home for the individually revie
 
 ## Current release boundary
 
-The expanded publication contains 30 source artifacts selected for public, impersonal research use.
+The publication preserves the 30 source artifacts in the September 2 release and adds a separate TD-COS-FH-001 mathematical companion, with source recovery and fresh supplementary checks.
 
 ### Active orbit-quotient successor stack
 
@@ -36,6 +36,29 @@ The stack manifests remain historical receipts of the return-residual predecesso
 
 The simulation package is deliberately status-labeled. Appendix B is frozen, but A.8 execution and A.10 validation remain pending and the execution root is blocked. The scaffold files say `NOT_RUN`/`SCAFFOLD_ONLY`; publication does not convert them into completed tests or empirical results.
 
+### TD-COS-FH-001 mathematical companion
+
+[Sector process: no finite Markov order](corpus/mathematics/TD-COS-FH-001/README.md)
+adds the audited analytical result for the ideal unbounded-current cosine
+kernel at J=1, t=1/2, h6=0, on each fixed cubic torus L≥2. The stationary
+sector process has no finite Markov order at any fixed positive integer
+microtick spacing, including prescribed sweeps. Equilibrium convergence
+also excludes a time-homogeneous finite-order sector law from any initial
+full-state distribution.
+
+The full state X=(I,M,q) remains Markov. The earlier (q,W) result remains
+an L=2 one-step counterexample; no higher-order theorem for that augmented
+observation is claimed. The companion includes the proof, recovered
+hash-matching verifier, fresh execution output, independent finite rational
+certificates and provenance. These checks do not supply the all-orders
+proof or replay the historical sampler.
+
+Physical Q2 remains `NOT_RUN`, production remains `NOT_AUTHORIZED`, and
+the historical deterministic mismatch remains unresolved. Unobserved global
+shape, empirical connectivity, global holonomy and hidden platform geometry
+remain unestablished. The exact phase evidence boundary and chemistry freeze
+are preserved. Earlier source artifacts and scaffold statuses are retained.
+
 ### Abundance and Corner framework package
 
 - The Abundance Engine v7.0 — the current Abundance successor reference architecture. Its complete text bundle includes the reference architecture, the normative v6→v7 supersession matrix, and the bundle manifest.
@@ -59,6 +82,7 @@ Repository inclusion preserves the status declared by each source. It does not u
 - `corpus/manifests/` — preserved coordinated-stack manifests
 - `corpus/protocols/` — status-labeled protocols and validation scaffolds
 - `corpus/frameworks/` — active and preserved Abundance/Corner framework materials
+- `corpus/mathematics/` — scoped analytical results, supporting checks and provenance
 - `corpus/manifest.json` — machine-readable provenance, source hashes, and publication status
 
 ## License
@@ -72,3 +96,5 @@ No crown. No chains. Tools, not thrones.
 Created by **Ron Swanson**. Published with permission under the existing **CC0 1.0 Universal** dedication. See [ATTRIBUTION.md](ATTRIBUTION.md) for the publication notice and its scope.
 
 Visible document credits and machine-readable attribution identify the creator. The CSV has an accompanying `.license` notice so its data and columns remain intact. Original-source hashes in the manifests remain historical source records; separate `published_sha256` and `published_size_bytes` fields identify the annotated repository copies.
+
+The Ron Swanson creator and publication-permission notice applies to the original 30 corpus entries, the TD-COS-FH-001 companion, and their repository metadata. Historical/source artifacts, including `source_note.md` and `sources/*`, remain byte-identical; their attribution is recorded in metadata without rewriting source evidence. Original-source fingerprints remain unchanged; published fingerprints identify the current repository copies.
