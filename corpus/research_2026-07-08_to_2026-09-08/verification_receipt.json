@@ -6,7 +6,7 @@
   "scope": "integrity of readable source snapshots only",
   "sha256": {
     "verify_archive.py": "fae3f2957150cfa2880b21b3bde54ce161ce69fb6bf5f50bfd1046f78885bc66",
-    "manifest.json": "4c902cc058b4b9e245c20f0c9e69b645a57501d3c44f4222d8cc68c0d1994b2c",
+    "manifest.json": "0c2391e1cd8c5f8bba72ae3f9db4bf2ca67baddcc731ca14325aad9e208d0d23",
     "verification.json": "e321c901c094565df417c14f33629458387302ec4041ae4d2181d056880842df"
   }
 }

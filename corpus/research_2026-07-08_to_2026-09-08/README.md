@@ -1,6 +1,6 @@
 # Geometry, timekeepers and cosmic time: research archive
 
-Anonymous · 8 September 2026
+Created by Ron Swanson. Published with permission. · 8 September 2026
 
 This archive adds **144 unique readable text snapshots** from Drive records modified between **8 July and 8 September 2026**, inclusive. It includes finished documents and substantive research records, including drafts, corrections, protocols, failed tests and unresolved investigations. Publication does not mean that every research question is finished.
 

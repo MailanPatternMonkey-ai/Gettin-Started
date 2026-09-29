@@ -1,7 +1,14 @@
 {
   "schema_version": "1.0",
   "prepared_date_utc": "2026-09-08",
-  "attribution": "Anonymous",
+  "attribution": {
+    "creator": "Ron Swanson",
+    "publication_permission": "Published with permission.",
+    "statement_source": "Repository publisher",
+    "license": "CC0-1.0",
+    "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
   "repository": "MailanPatternMonkey-ai/Gettin-Started",
   "base_commit": "90301d7db659aaf85475dc06e83e8ed57b1677dd",
   "window": {
