@@ -1,6 +1,8 @@
 # TD-COS-FH-001: the sector process has no finite Markov order
 
-Author: Anonymous · 8 September 2026 · CC0-1.0
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+8 September 2026
 
 Reviewed mathematical edition of [the preserved source note](source_note.md), sections 1–7. Mathematical claims are unchanged; display delimiters are adapted for GitHub. See [AUDIT.md](AUDIT.md) for the fresh review and [README.md](README.md) for all evidence boundaries.
 

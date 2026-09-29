@@ -1,6 +1,8 @@
 # TD-COS-FH-001: no finite Markov order for the sector process
 
-Author: Anonymous · 8 September 2026 · CC0-1.0
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+8 September 2026
 
 **Analytical result for a specified ideal stochastic kernel.** At cosine
 weights $J=1$, $t=1/2$, $h_6=0$, in the fixed-reference $Z_{000}$ ensemble
@@ -51,6 +53,10 @@ scaling result, or proof that every finite-dimensional sufficient statistic
 or finite latent-state representation is impossible. A finite recorded
 sequence and a seeded pseudorandom implementation are not the ideal
 infinite stochastic process of the theorem.
+
+## Attribution and source preservation
+
+Created by Ron Swanson. Published with permission under the repository's existing CC0-1.0 scope. The historical `source_note.md`, `sources/*`, recovered `verify.py`, and recorded JSON outputs remain byte-identical. Attribution is recorded in metadata for those preserved artifacts. Original hashes and sizes remain historical records; separate published hashes and sizes identify the current editorial copies.
 
 ## Sources and verification
 

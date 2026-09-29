@@ -627,8 +627,16 @@
       "review_status": "public-impersonal-scoped-mathematical-companion",
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
-      "published_sha256": "221d9a6c361af79b33b3784bc96d6310e8ebf6a0870fd322455a159a35169995",
-      "published_size_bytes": 8245
+      "published_sha256": "8daff83af2e8723ebc141c7a1f846796b1dc333606358ffa12089d29cc6e302e",
+      "published_size_bytes": 8344,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/PROOF.md",
@@ -641,8 +649,16 @@
       "review_status": "public-impersonal-scoped-mathematical-companion",
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
-      "published_sha256": "0102e977491981bb7e8698f9d9c09ffb209dd2c1b58f1e1c14584402313c2d1c",
-      "published_size_bytes": 13600
+      "published_sha256": "aceffda5127aae21181505b1a1c34cc1ce2689ec6ba1b4527164f7546efeaca7",
+      "published_size_bytes": 13699,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/README.md",
@@ -655,8 +671,16 @@
       "review_status": "public-impersonal-scoped-mathematical-companion",
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
-      "published_sha256": "71f1f4394b1d52850a848aed726cbf2f1a5e1bd7d7277c1b1b6315f3dfabe1c7",
-      "published_size_bytes": 5739
+      "published_sha256": "216dbd7e44e04bb2b0f507b791354899a3c48b5bb22dbd2aa7d343530bf20ec8",
+      "published_size_bytes": 6289,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/certificates.json",
@@ -670,7 +694,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "64537b9c55edbcf8c7d9b117b76180ddd02005ec4e1da5ea4fa9b5fd54a39b0f",
-      "published_size_bytes": 14120
+      "published_size_bytes": 14120,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
@@ -683,8 +715,16 @@
       "review_status": "public-impersonal-scoped-mathematical-companion",
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
-      "published_sha256": "f605fe36cc7c62080fc76f29effe5deac84ac9fbabd892acf3dd8aedecb05a4d",
-      "published_size_bytes": 7672
+      "published_sha256": "8d1a4388646a4485bb93ad433f34611cc05bfc220dac1265406c7c5c5aed8445",
+      "published_size_bytes": 14364,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/source_note.md",
@@ -698,7 +738,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7",
-      "published_size_bytes": 25675
+      "published_size_bytes": 25675,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/sources/drive_note_snapshot.txt",
@@ -712,7 +760,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "f819bbb7285c555397a1758fb5f874122d2592dcb3ed3732a0dc8b2ea358e064",
-      "published_size_bytes": 20000
+      "published_size_bytes": 20000,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/sources/kernel_snapshot.txt",
@@ -726,7 +782,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "8cbd8b107fee4a0b6006f49032ec50e1929fe642e2a444be9604e3c1150d4052",
-      "published_size_bytes": 14389
+      "published_size_bytes": 14389,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/sources/review_math_excerpt.md",
@@ -740,7 +804,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "46d2a169691f2dd37dbd2fa7bc22dc9eb1c17bd7f8f9ad095a8737e5029e8089",
-      "published_size_bytes": 5295
+      "published_size_bytes": 5295,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/verification_fresh.json",
@@ -754,7 +826,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
-      "published_size_bytes": 2538
+      "published_size_bytes": 2538,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/verification_original.json",
@@ -768,7 +848,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
-      "published_size_bytes": 2538
+      "published_size_bytes": 2538,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/verify.py",
@@ -782,7 +870,15 @@
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
       "published_sha256": "96c2d72c9e1e0de55e86392cc1f2546633d4a076f5f580e7408990aa13166e8f",
-      "published_size_bytes": 4850
+      "published_size_bytes": 4850,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     },
     {
       "path": "corpus/mathematics/TD-COS-FH-001/verify_certificates.py",
@@ -795,8 +891,16 @@
       "review_status": "public-impersonal-scoped-mathematical-companion",
       "evidence_status": "analytical-proof-or-supplementary-arithmetic-not-empirical-Q2",
       "provenance_path": "corpus/mathematics/TD-COS-FH-001/provenance.json",
-      "published_sha256": "e965b14ea11d1f60dd7103a7b205508c7ca0361df11369e0ca7b3c2fcbbfaa49",
-      "published_size_bytes": 8958
+      "published_sha256": "d1c65e02939e4bf34cc08c364c9f7c3240979d59a8b7311b46e3fdf78c6ed4ab",
+      "published_size_bytes": 8999,
+      "attribution": {
+        "creator": "Ron Swanson",
+        "publication_permission": "Published with permission.",
+        "statement_source": "Repository publisher",
+        "license": "CC0-1.0",
+        "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     }
   ],
   "attribution": {
@@ -807,7 +911,7 @@
     "notice": "Created by Ron Swanson. Published with permission. CC0 1.0 Universal.",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
-  "attribution_updated_date": "2026-09-17",
+  "attribution_updated_date": "2026-09-29",
   "fingerprint_scope": "Existing source_sha256 and source_size_bytes fields identify the original supplied sources; published_sha256 and published_size_bytes identify current repository copies. The original 30 source artifacts retain their 2026-09-02 snapshot; the TD-COS-FH-001 companion is dated 2026-09-08.",
-  "attribution_scope": "The Ron Swanson creator and publication-permission notice applies to the original 30 corpus entries and their repository metadata; TD-COS-FH-001 retains its source-declared Anonymous authorship."
+  "attribution_scope": "The Ron Swanson creator and publication-permission notice applies to the original 30 corpus entries, the TD-COS-FH-001 companion, and their repository metadata. Historical/source artifacts, including source_note.md and sources/*, remain byte-identical; their attribution is recorded in metadata without rewriting source evidence. Original-source fingerprints remain unchanged; published fingerprints identify the current repository copies."
 }

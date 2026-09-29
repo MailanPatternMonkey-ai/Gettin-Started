@@ -1,6 +1,8 @@
 # Proof and reproduction audit
 
-Author: Anonymous · 8 September 2026 · CC0-1.0
+> **Created by Ron Swanson. Published with permission.** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+8 September 2026
 
 **Disposition: the analytical claim survives review under its stated
 ideal-kernel hypotheses.** No mathematical correction to the all-orders

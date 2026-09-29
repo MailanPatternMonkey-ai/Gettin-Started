@@ -1,4 +1,4 @@
-"""CC0-1.0 | Anonymous | Independent supplementary checks, 2026-09-08.
+"""CC0-1.0 | Created by Ron Swanson. Published with permission. | Independent supplementary checks, 2026-09-08.
 
 Exact rational enclosures for local witnesses, with outward rounding to a
 rational grid after operations. No Monte Carlo, current cutoff, or replay.

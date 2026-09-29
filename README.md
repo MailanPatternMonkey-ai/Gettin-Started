@@ -97,4 +97,4 @@ Created by **Ron Swanson**. Published with permission under the existing **CC0 1
 
 Visible document credits and machine-readable attribution identify the creator. The CSV has an accompanying `.license` notice so its data and columns remain intact. Original-source hashes in the manifests remain historical source records; separate `published_sha256` and `published_size_bytes` fields identify the annotated repository copies.
 
-The TD-COS-FH-001 companion retains its source-declared `Anonymous` authorship; the Ron Swanson notice applies to the original 30-item corpus and its metadata.
+The Ron Swanson creator and publication-permission notice applies to the original 30 corpus entries, the TD-COS-FH-001 companion, and their repository metadata. Historical/source artifacts, including `source_note.md` and `sources/*`, remain byte-identical; their attribution is recorded in metadata without rewriting source evidence. Original-source fingerprints remain unchanged; published fingerprints identify the current repository copies.
