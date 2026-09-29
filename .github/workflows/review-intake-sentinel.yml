@@ -52,7 +52,7 @@ jobs:
 
             const detectLocationFromText = (text) => {
               const t = text || '';
-              const file = t.match(/(?:^|[\s'"])((?:corpus\/[^\s'"]+\/)?(?:README|PROOF|AUDIT)\.md)(?=$|[\s'",:;.)])/i);
+              const file = t.match(/(?:^|[\s'"`])((?:corpus\/manifest\.json|(?:corpus\/mathematics\/TD-COS-FH-001\/)?(?:README\.md|PROOF\.md|AUDIT\.md|certificates\.json|provenance\.json|source_note\.md|verification_(?:fresh|original)\.json|verify(?:_certificates)?\.py|(?:sources\/)?(?:drive_note_snapshot\.txt|kernel_snapshot\.txt|review_math_excerpt\.md))|manifest\.json))(?=$|[\s'"`,:;.)])/i);
               const section = t.match(/(?:section|§|heading)\s*[:#-]?\s*([^\n.;]{2,120})/i);
               if (file && section) return file[1] + ' — ' + section[1].trim();
               if (file) return file[1];
